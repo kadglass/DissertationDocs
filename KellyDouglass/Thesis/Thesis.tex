@@ -1,0 +1,72 @@
+\documentclass[final,subfig,blackref]{drexel-thesis}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{tabu}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{rotating}
+\usepackage{xspace}
+
+\usepackage{natbib}
+\bibliographystyle{apj}
+
+\newcommand{\hMpc}{$h^{-1}$Mpc\xspace}
+\newcommand{\OH}{$12 + \log(\text{O}/\text{H})$}
+\newcommand{\NH}{$12 + \log(\text{N}/\text{H})$}
+\newcommand{\NO}{$\log(\text{N}/\text{O})$}
+\newcommand{\RA}[4]{{#1}$^\text{h}${#2}$^\text{m}${#3}$^\text{s}${#4}}
+\newcommand{\dec}[4]{{#1}\textdegree {#2}'{#3}''{#4}}
+
+\makeatletter
+\newcommand{\ion}[2]{{#1} \expandafter\@slowromancap\romannumeral #2@}
+\makeatother
+
+
+\author{Kelly A. Douglass}
+\title{Observational evidence of the large-scale environmental influence on dwarf galaxy evolution}
+\DUTmonth{July}
+\DUTyear{2017}
+\degree{Doctor of Philosophy}
+\advisor{Dr. Michael S. Vogeley}
+\copyrighttext{}
+
+
+\begin{document}
+
+% Preamble
+\include{preamble}
+
+
+\begin{thesis}
+
+% Introduction
+\include{Thesis_sections/Introduction}
+
+% Chapter: Paper #1 (O/H)
+\include{Thesis_sections/Paper1}
+
+% Chapter: Paper #2 (N/O)
+\include{Thesis_sections/Paper2}
+
+% Chapter: Paper #3 (chemical abundances w/ relationship)
+\include{Thesis_sections/Paper3}
+
+% Chapter: Small-scale environment
+\include{Thesis_sections/smallScaleEnvironment}
+
+% Chapter: Green Valley galaxies
+\include{Thesis_sections/GV}
+
+% Conclusion
+\include{Thesis_sections/Conclusion}
+
+\end{thesis}
+
+\bibliography{../../Research/Latex/metallicity_sources}
+
+\appendix
+\include{CV}
+
+\end{document}
