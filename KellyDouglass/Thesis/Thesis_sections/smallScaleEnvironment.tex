@@ -11,6 +11,8 @@ This work was done in collaboration with Daniele Schneider for her senior thesis
 
 \section[Introduction]{Introduction}
 
+Morphology-density relation \cite{Dressler80}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -19,19 +21,83 @@ This work was done in collaboration with Daniele Schneider for her senior thesis
 
 \section[Theory]{Calculating distances}\label{sec:Theory_dist}
 
+We employ two different spatial metrics to determine the best way to locate a 
+galaxy's nearest neighbor.  Within a relative velocity 
+$v_{rel} < 300\text{ km/s}$, we use the physically closest (in units of \hMpc) 
+and the neighbor with the smallest fraction of its virial radius; both these 
+methods are described below in further detail.  The two methods result in 
+different neighboring galaxies for 40\% of our dwarf galaxy sample.
+
 
 \subsection{Peculiar velocity}
 % Finger of God
 
+A galaxy's redshift is composed of both the expansion of the universe and the 
+galaxy's peculiar velocity (its motion relative to its surrounding galaxies and 
+environment).  Known as the ``Finger of God'' effect, the peculiar velocity 
+causes galaxy groups and clusters to appear extended along the line of sight 
+when using redshift as a distance measurement.  When we calculate distances on 
+large scales, the peculiar velocity is negligible.  However, when we study the 
+distance between two objects in the universe on a small scale (within a few 
+\hMpc), the peculiar velocity dominates.  The relative velocity $v_{rel}$ 
+between galaxies $a$ and $b$ is defined as
+\begin{equation}
+    v_{rel} = |z_a - z_b|c
+\end{equation}
+where $z$ is the redshift.  We require all 
+neighbors to have a maximum relative velocity $v_{rel} < 300\text{ km/s}$.  We 
+show in Sec. \ref{sec:selection_effects} that our results are insensitive to 
+this value.
+
 
 \subsection{Sky separation in \hMpc}
+
+The projected distance between two galaxies is found by projecting the two 
+galaxies onto a sphere of radius $\bar{r}$, where $\bar{r}$ is the average 
+distance from Earth of the two galaxies.  This assumes that two galaxies which 
+are gravitationally bound are in a system where the relative velocity between us 
+and it is 0 and that $\bar{r}$ is the distance to the center of the system.  The 
+distance to the system is calculated as
+\begin{equation}
+    \bar{r} = \frac{\bar{z}c}{H_0}
+\end{equation}
+where $\bar{z}$ is the average redshift of the two galaxies, $c$ is the speed of 
+light, and $H_0$ is the Hubble constant.  Each galaxy's right ascension (RA) and 
+declination (dec.) are converted to Cartesian coordinates to find their sky 
+separation.
 
 
 \subsection{Fractional virial radii}
 % Virial radius calculation
 
+From \cite{Hwang10}, we calculate the virial radius of a galaxy to be
+\begin{equation}\label{eqn:r_vir}
+    r_{vir} = (3L\gamma/4\pi/200\rho_c)^{1/3}
+\end{equation}
+where $L$ is the galaxy's luminosity, $\gamma$ is the mass-to-light ratio, and 
+$\rho_c$ is the critical density of the universe.  The critical density is the 
+density at which evenly distributed gas would collapse to form a galaxy.  The 
+mass-to-light ratio depends on the galaxy's morphology type, where 
+$\gamma_{early} = 2\gamma_{late}$.  \cite{Hwang10} defines 
+$200\rho_c = 740\bar{\rho}$, where 
+$\bar{\rho} = (0.0223\pm 0.0005)(\gamma_{late}L_{-20})(\text{\hMpc})^3$.  We can 
+then rewrite Eqn. \ref{eqn:r_vir} as
+\begin{equation}
+    r_{vir} = \left( \frac{3}{4\times 740\times 0.0223\pi} \frac{\gamma}{\gamma_{late}} \frac{L}{L_{-20}} \right)^{1/3}
+\end{equation}
+where $L_{-20}$ is the luminosity of a galaxy with $M_r = -20$.  We can then use 
+the virial radius to scale the distance between two galaxies as a fraction of 
+the neighbor's virial radius.
+
+Rather than using a measure of the virial radius for the group analysis, we 
+scale the distance as a fraction of the group's rms radius.
+
 
 \subsection{Absolute distance to nearest neighbor}
+% Including redshift
+
+We can also calculate the distance between two galaxies by ignoring the effects 
+of their relative velocities.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -41,6 +107,31 @@ This work was done in collaboration with Daniele Schneider for her senior thesis
 \section[Data]{SDSS Data and galaxy selection}
 
 % SDSS
+The Sloan Digital Sky Survey Data Release 7 \citep[SDSS DR7;][]{Abazajian09} is 
+a wide-field multiband imaging and spectroscopic survey which maps approximately 
+one-quarter of the northern sky using a drift scanning technique.  Photometric 
+data in the five-band SDSS system --- $u$, $g$, $r$, $i$, and $z$ --- is taken 
+on a dedicated 2.5m telescope at the Apache Point Observatory in New Mexico 
+\citep{Fukugita96,Gunn98}.  Galaxies with Petrosian $r$-band magnitudes 
+$m_r < 17.77$ are selected for follow-up spectroscopic analysis \citep{Lupton01,
+Strauss02}.  The galaxy colors are taken from the Korean Institute for Advanced 
+Study Value-Added Galaxy Catalog \citep[KIAS-VAGC;][]{Choi10}, which contains 
+galaxies from the SDSS DR7 main sky survey based on the New York University 
+Value-Added Galaxy Catalog Data Release 7 \citep[NYU-VAGC;][]{Blanton05}.  Total 
+star formation rates (SFR) and total specific star formation rates (sSFR) are 
+from the MPA-JHU value-added catalog\footnote{Available at 
+\url{http://www.mpa-garching.mpg.de/SDSS/DR7/}}, calculated using the technique 
+described in \cite{Brinchmann04}.  The gas-phase chemical abundances used are 
+from Douglass \& Vogeley (2017, in prep.), which are calculated using the Direct 
+$T_e$ method.  The galaxies' large-scale environments are based on the void 
+catalog compiled by \cite{Pan12}, which is constructed from SDSS DR7 using the 
+VoidFinder algorithm of \cite{Hoyle02}.  Galaxies which are located within 
+identified voids are labeled as void galaxies, and those which do not fall 
+within a void are designated as a wall galaxy.  The large-scale environment 
+within 5 \hMpc of the edge of the main SDSS DR7 footprint cannot be described 
+using the VoidFinder algorithm because the minimum diameter of a void is 10 
+\hMpc.  Therefore, the large-scale environment for galaxies within 5 \hMpc of 
+the edge of the main footprint in SDSS DR7 is designated as unknown.
 
 % photometry from KIAS-VAGC
 % sSFR from MPA-JHU (Brinchmann04)
@@ -52,14 +143,23 @@ This work was done in collaboration with Daniele Schneider for her senior thesis
 % Spectroscopic sample (those with chemical abundance estimates)
 % Full SDSS dwarf galaxy sample
 
+Two galaxy samples are used in this analysis.  The largest one contains the 
+11,845 dwarf galaxies spectroscopically observed in SDSS DR7.  The second sample 
+contains those star-forming dwarf galaxies from the first set which have 
+gas-phase chemical abundances in Douglass \& Vogeley (2017, in prep.), totaling 
+2506 dwarf galaxies.  While this subset of galaxies contains only star-forming 
+galaxies and is not representative of all dwarf galaxies, we show in Section 
+\ref{sec:selection_effects} that this does not affect our results.
+
 
 \subsection{Group catalog}
 
-\cite{Berlind06}
-
-
-\subsection{Finding the nearest neighbor}
-% Absolute magnitude distribution of neighbors
+In addition to comparing the target galaxies to their nearest neighbor, we also 
+look at the relationship between the dwarf galaxies' properties and their 
+proximity to the nearest galaxy group.  We use the Mr18 Berlind group catalog 
+\cite{Berlind06} as our source of groups, which is built on the galaxies in the 
+NYU-VAGC. The catalog identifies groups using a friends-of-friends algorithm 
+\citep{Huchra82} to connect galaxies with $M_r < -18$.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -360,7 +460,7 @@ abundances.  This analysis does not capture any variations within the range of
 distances for all dwarf galaxies included in this study.
 
 
-\subsection{Selection effects}
+\subsection{Selection effects}\label{sec:selection_effects}
 
 % Peculiar velocity
 \begin{figure}
@@ -417,6 +517,40 @@ color, to understand how our results depend on our sample.  When we compare Fig.
 there is no difference in the correlation between color and distance to the 
 nearest neighbor.  It is clear that our selection bias to star-forming dwarf 
 galaxies does not influence any trends we observe in our analysis.
+
+% Absolute magnitude distribution of nearest neighbors
+\begin{figure}
+    \includegraphics[width=\textwidth]{Images/smallScaleEnvironment/Mr_distribution}
+    \caption[Distribution of absolute magnitudes of nearest neighbors]{The 
+    distributions in absolute magnitude (left panel) and absolute magnitude 
+    relative to the target galaxy (right panel) of the nearest neighbor 
+    galaxies.  The top row includes those nearest neighbors in units of \hMpc, 
+    and the bottom row consists of the nearest neighbors in units of the 
+    neighbor's virial radius.  Comparing the two plots in the right panel, we 
+    see that the closest galaxy to the target dwarf galaxies is often of equal 
+    or fainter magnitude than the target galaxy.  Alternatively, using the 
+    virial radius of the neighbor galaxy as a measure of distance often finds a 
+    brighter galaxy than the target galaxy, as the bottom right plot shows.}
+    \label{fig:Mr_dist}
+\end{figure}
+
+For about 41\% of our dwarf galaxy sample, the two different metrics by which to 
+define the nearest neighbor (minimum in units of \hMpc or virial radius of the 
+nearest neighbor) return different neighboring galaxies.  Fig. \ref{fig:Mr_dist} 
+compares the absolute magnitude distributions of these two nearest neighbor 
+populations.  The left panel shows the distribution of the absolute magnitudes 
+of the nearest neighbor galaxies, while the right panel shows the distribution 
+in absolute magnitude of the nearest neighbor galaxy relative to its target 
+galaxy.  The top row includes those nearest neighbors in units of \hMpc, and the 
+bottom row consists of the nearest neighbors in units of the neighbor's virial 
+radius.  Comparing the two plots in the right panel, we see that the closest 
+galaxy to the target dwarf galaxy is often of equal or fainter magnitude than 
+the target galaxy.  Alternatively, using the virial radius of the neighbor 
+galaxy as a measure of the distance often finds a brighter galaxy than the 
+target galaxy, as the bottom right plot in Fig. \ref{fig:Mr_dist} shows.  By 
+using these two different distance metrics, we are able to probe the 
+relationship between a dwarf galaxy and its nearest neighbor and nearest dark 
+matter halo.
 
 
 \subsection{Including redshift in the distance}
@@ -555,4 +689,9 @@ interacting with their nearest neighbor.  This matches the results of
 \cite{Park09}, who find that late-late type galaxy pairs within 0.05$r_{vir}$ 
 are bluer and have higher star formation rates.  These merging galaxies likely 
 share the same dark matter halo, indicating that the dark matter halo is more 
-influential on a galaxy's evolution than its distance to the nearest neighbor.  
+influential on a galaxy's evolution than its distance to the nearest neighbor.
+
+Further analysis of this study should include comparing the properties of the 
+target galaxies with the nearest neighbors' properties as a function of 
+distance (``galactic conformity'').  The gas-phase chemical abundances between a 
+galaxy and its nearest neighbor could be strongly correlated.

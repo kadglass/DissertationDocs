@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 The style file: aasjournal.bst
@@ -10,46 +10,47 @@ A level-1 auxiliary file: Thesis_sections/Paper3.aux
 A level-1 auxiliary file: Thesis_sections/smallScaleEnvironment.aux
 A level-1 auxiliary file: Thesis_sections/GV.aux
 A level-1 auxiliary file: Thesis_sections/Conclusion.aux
-Database file #1: /Volumes/kellydouglass/Documents/Research/Latex/metallicity_sources.bib
+A level-1 auxiliary file: CV.aux
+Database file #1: /Users/kellydouglass/Documents/Research/Latex/metallicity_sources.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 136 entries,
+You've used 139 entries,
             3183 wiz_defined-function locations,
-            1595 strings with 42431 characters,
-and the built_in function-call counts, 72204 in all, are:
-= -- 5602
-> -- 6217
-< -- 40
-+ -- 2105
-- -- 2256
-* -- 6610
-:= -- 13859
-add.period$ -- 136
-call.type$ -- 136
-change.case$ -- 958
-chr.to.int$ -- 134
-cite$ -- 136
-duplicate$ -- 2583
-empty$ -- 3827
-format.name$ -- 2416
-if$ -- 14029
+            1617 strings with 42823 characters,
+and the built_in function-call counts, 73386 in all, are:
+= -- 5711
+> -- 6273
+< -- 43
++ -- 2123
+- -- 2273
+* -- 6694
+:= -- 14078
+add.period$ -- 139
+call.type$ -- 139
+change.case$ -- 975
+chr.to.int$ -- 137
+cite$ -- 139
+duplicate$ -- 2638
+empty$ -- 3911
+format.name$ -- 2442
+if$ -- 14272
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 133
-newline$ -- 412
-num.names$ -- 546
-pop$ -- 1051
+missing$ -- 136
+newline$ -- 421
+num.names$ -- 558
+pop$ -- 1069
 preamble$ -- 1
-purify$ -- 958
+purify$ -- 975
 quote$ -- 0
-skip$ -- 2113
+skip$ -- 2161
 stack$ -- 0
-substring$ -- 2824
+substring$ -- 2887
 swap$ -- 20
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1221
+type$ -- 1248
 warning$ -- 0
-while$ -- 513
+while$ -- 525
 width$ -- 0
-write$ -- 1363
+write$ -- 1393

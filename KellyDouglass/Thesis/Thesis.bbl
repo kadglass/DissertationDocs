@@ -143,6 +143,9 @@ Cooper, M.~C., Tremonti, C.~A., Newman, J.~A., \& Zabludoff, A.~I. 2008, MNRAS,
 \bibitem[{{Douglass} \& {Vogeley}(2017b)}]{Douglass17b}
 ---. 2017b, ApJ, 837, 42
 
+\bibitem[{{Dressler}(1980)}]{Dressler80}
+{Dressler}, A. 1980, ApJ, 236, 351
+
 \bibitem[{{Ellison} {et~al.}(2009){Ellison}, {Simard}, {Cowan}, {Baldry},
   {Patton}, \& {McConnachie}}]{Ellison09}
 {Ellison}, S.~L., {Simard}, L., {Cowan}, N.~B., {et~al.} 2009, MNRAS, 396, 1257
@@ -232,10 +235,16 @@ Guseva, N., Papaderos, P., Meyer, H., Izotov, Y., \& Fricke, K. 2009, A\&A,
 \bibitem[{{Hoyle} {et~al.}(2012){Hoyle}, {Vogeley}, \& {Pan}}]{Hoyle12}
 {Hoyle}, F., {Vogeley}, M.~S., \& {Pan}, D. 2012, MNRAS, 426, 3041
 
+\bibitem[{{Huchra} \& {Geller}(1982)}]{Huchra82}
+{Huchra}, J.~P., \& {Geller}, M.~J. 1982, ApJ, 257, 423
+
 \bibitem[{{Hughes} {et~al.}(2013){Hughes}, {Cortese}, {Boselli}, {Gavazzi}, \&
   {Davies}}]{Hughes13}
 {Hughes}, T.~M., {Cortese}, L., {Boselli}, A., {Gavazzi}, G., \& {Davies},
   J.~I. 2013, A\&A, 550, A115
+
+\bibitem[{{Hwang} \& {Park}(2010)}]{Hwang10}
+{Hwang}, H.~S., \& {Park}, C. 2010, ApJ, 720, 522
 
 \bibitem[{{Izotov} {et~al.}(2006){Izotov}, {Stasi{\'n}ska}, {Meynet}, {Guseva},
   \& {Thuan}}]{Izotov06}

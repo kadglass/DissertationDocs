@@ -54,43 +54,43 @@
 \contentsline {section}{\numberline {5.1}Introduction}{61}{section.5.1}
 \contentsline {section}{\numberline {5.2}Theory}{61}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Peculiar velocity}{61}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Sky separation in $h^{-1}$Mpc\xspace }{61}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Fractional virial radii}{61}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Absolute distance to nearest neighbor}{61}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Data}{61}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Various samples}{61}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Group catalog}{61}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Finding the nearest neighbor}{61}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Results}{61}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Parameter -- distance relations}{61}{subsection.5.4.1}
-\contentsline {subsubsection}{Color}{62}{section*.39}
-\contentsline {subsubsection}{sSFR}{64}{section*.41}
-\contentsline {subsubsection}{Metallicity}{64}{section*.43}
+\contentsline {subsection}{\numberline {5.2.2}Sky separation in $h^{-1}$Mpc\xspace }{62}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Fractional virial radii}{62}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Absolute distance to nearest neighbor}{63}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Data}{63}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Various samples}{64}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Group catalog}{64}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Results}{64}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Parameter -- distance relations}{64}{subsection.5.4.1}
+\contentsline {subsubsection}{Color}{65}{section*.39}
+\contentsline {subsubsection}{sSFR}{68}{section*.41}
+\contentsline {subsubsection}{Metallicity}{68}{section*.43}
 \contentsline {subsubsection}{Nitrogen abundance}{68}{section*.45}
-\contentsline {subsubsection}{N/O ratio}{68}{section*.47}
-\contentsline {subsection}{\numberline {5.4.2}Linear fit parameters}{68}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Selection effects}{71}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Including redshift in the distance}{71}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Discussion}{75}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Comparison to literature results}{76}{subsection.5.5.1}
-\contentsline {section}{\numberline {5.6}Conclusions}{77}{section.5.6}
-\contentsline {chapter}{\numberline {6}Green valley galaxies}{78}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{78}{section.6.1}
-\contentsline {section}{\numberline {6.2}Theory}{79}{section.6.2}
-\contentsline {section}{\numberline {6.3}Data}{80}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Optical data --- SDSS}{80}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}UV data --- GALEX}{81}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Results}{81}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Properties of the Green Valley Galaxies}{83}{subsection.6.4.1}
-\contentsline {subsubsection}{Stellar mass}{83}{section*.56}
-\contentsline {subsubsection}{Star formation rates}{84}{section*.58}
-\contentsline {subsubsection}{Gas-phase chemical abundances}{85}{section*.60}
-\contentsline {subsubsection}{Large-scale environment}{86}{section*.62}
-\contentsline {section}{\numberline {6.5}Discussion}{86}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{88}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{88}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Conclusions}{89}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{90}{chapter.7}
-\contentsline {chapter}{Bibliography}{91}{section*.65}
+\contentsline {subsubsection}{N/O ratio}{71}{section*.47}
+\contentsline {subsection}{\numberline {5.4.2}Linear fit parameters}{71}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Selection effects}{75}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Including redshift in the distance}{78}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Discussion}{80}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Comparison to literature results}{80}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Conclusions}{81}{section.5.6}
+\contentsline {chapter}{\numberline {6}Green valley galaxies}{83}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{83}{section.6.1}
+\contentsline {section}{\numberline {6.2}Theory}{84}{section.6.2}
+\contentsline {section}{\numberline {6.3}Data}{85}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Optical data --- SDSS}{85}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}UV data --- GALEX}{86}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Results}{86}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Properties of the Green Valley Galaxies}{88}{subsection.6.4.1}
+\contentsline {subsubsection}{Stellar mass}{88}{section*.57}
+\contentsline {subsubsection}{Star formation rates}{89}{section*.59}
+\contentsline {subsubsection}{Gas-phase chemical abundances}{90}{section*.61}
+\contentsline {subsubsection}{Large-scale environment}{91}{section*.63}
+\contentsline {section}{\numberline {6.5}Discussion}{91}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{93}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{93}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Conclusions}{94}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusions}{95}{chapter.7}
+\contentsline {section}{\numberline {7.1}Suggestions for future work}{95}{section.7.1}
+\contentsline {chapter}{Bibliography}{96}{section*.66}
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname \nobreakspace {}} \renewcommand {\cftchapaftersnum }{:}
-\contentsline {chapter}{Vita}{96}{section*.66}
+\contentsline {chapter}{Vita}{101}{section*.67}
