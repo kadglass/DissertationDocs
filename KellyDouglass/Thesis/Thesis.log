@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 JUN 2017 19:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 JUN 2017 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,140 +1824,140 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 53.
 
 [62] [63] [64]
-<Images/smallScaleEnvironment/dwarf_ur_300.png, id=2198, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_ur_300.png, id=2199, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_300.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_300.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_300.png used on 
-input line 215.
+input line 221.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_ur_300_group.png, id=2199, 433.62pt x 867.2
+<Images/smallScaleEnvironment/dwarf_ur_300_group.png, id=2200, 433.62pt x 867.2
 4pt>
 File: Images/smallScaleEnvironment/dwarf_ur_300_group.png Graphic file (type pn
 g)
  <use Images/smallScaleEnvironment/dwarf_ur_300_group.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_300_group.png us
-ed on input line 216.
+ed on input line 222.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
-
-<Images/smallScaleEnvironment/dwarf_sSFR_300.png, id=2212, 433.62pt x 867.24pt>
+ [65] [66 <./Images/smallScaleEnvironment/dwarf_ur_300.png> <./Images/smallScal
+eEnvironment/dwarf_ur_300_group.png>]
+<Images/smallScaleEnvironment/dwarf_sSFR_300.png, id=2226, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_sSFR_300.png Graphic file (type png)
 <use Images/smallScaleEnvironment/dwarf_sSFR_300.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_sSFR_300.png used o
-n input line 257.
+n input line 263.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_sSFR_300_group.png, id=2213, 433.62pt x 867
+<Images/smallScaleEnvironment/dwarf_sSFR_300_group.png, id=2227, 433.62pt x 867
 .24pt>
 File: Images/smallScaleEnvironment/dwarf_sSFR_300_group.png Graphic file (type 
 png)
  <use Images/smallScaleEnvironment/dwarf_sSFR_300_group.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_sSFR_300_group.png 
-used on input line 258.
+used on input line 264.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
- [65]
-[66 <./Images/smallScaleEnvironment/dwarf_ur_300.png> <./Images/smallScaleEnvir
-onment/dwarf_ur_300_group.png>] [67 <./Images/smallScaleEnvironment/dwarf_sSFR_
-300.png> <./Images/smallScaleEnvironment/dwarf_sSFR_300_group.png>]
-<Images/smallScaleEnvironment/dwarf_OH_300.png, id=2244, 433.62pt x 867.24pt>
+
+<Images/smallScaleEnvironment/dwarf_OH_300.png, id=2237, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_OH_300.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_OH_300.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_OH_300.png used on 
-input line 293.
+input line 299.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_OH_300_group.png, id=2245, 433.62pt x 867.2
+<Images/smallScaleEnvironment/dwarf_OH_300_group.png, id=2238, 433.62pt x 867.2
 4pt>
 File: Images/smallScaleEnvironment/dwarf_OH_300_group.png Graphic file (type pn
 g)
  <use Images/smallScaleEnvironment/dwarf_OH_300_group.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_OH_300_group.png us
-ed on input line 294.
+ed on input line 300.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
-
-<Images/smallScaleEnvironment/dwarf_NH_300.png, id=2249, 433.62pt x 867.24pt>
+ [67] [68 <./Images/smallScaleEnvironment/dwarf_sSFR_300.png> <./Images/smallSc
+aleEnvironment/dwarf_sSFR_300_group.png>] [69 <./Images/smallScaleEnvironment/d
+warf_OH_300.png> <./Images/smallScaleEnvironment/dwarf_OH_300_group.png>]
+<Images/smallScaleEnvironment/dwarf_NH_300.png, id=2264, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_NH_300.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_NH_300.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NH_300.png used on 
-input line 333.
+input line 339.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_NH_300_group.png, id=2250, 433.62pt x 867.2
+<Images/smallScaleEnvironment/dwarf_NH_300_group.png, id=2265, 433.62pt x 867.2
 4pt>
 File: Images/smallScaleEnvironment/dwarf_NH_300_group.png Graphic file (type pn
 g)
  <use Images/smallScaleEnvironment/dwarf_NH_300_group.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NH_300_group.png us
-ed on input line 334.
+ed on input line 340.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
- [68] [69 <./Images/smallScaleEnvironment/dwarf_OH_300.png> <./Images/smallScal
-eEnvironment/dwarf_OH_300_group.png>] [70 <./Images/smallScaleEnvironment/dwarf
-_NH_300.png> <./Images/smallScaleEnvironment/dwarf_NH_300_group.png>]
-<Images/smallScaleEnvironment/dwarf_NO_300.png, id=2275, 433.62pt x 867.24pt>
+
+<Images/smallScaleEnvironment/dwarf_NO_300.png, id=2269, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_NO_300.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_NO_300.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NO_300.png used on 
-input line 371.
+input line 377.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_NO_300_group.png, id=2276, 433.62pt x 867.2
+<Images/smallScaleEnvironment/dwarf_NO_300_group.png, id=2270, 433.62pt x 867.2
 4pt>
 File: Images/smallScaleEnvironment/dwarf_NO_300_group.png Graphic file (type pn
 g)
  <use Images/smallScaleEnvironment/dwarf_NO_300_group.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NO_300_group.png us
-ed on input line 372.
+ed on input line 378.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-Overfull \hbox (17.71364pt too wide) in paragraph at lines 405--448
+Overfull \hbox (17.71364pt too wide) in paragraph at lines 411--454
  [][] 
  []
 
-<Images/smallScaleEnvironment/dwarf_ur_150.png, id=2284, 433.62pt x 867.24pt>
+[70] [71 <./Images/smallScaleEnvironment/dwarf_NH_300.png> <./Images/smallScale
+Environment/dwarf_NH_300_group.png>] [72 <./Images/smallScaleEnvironment/dwarf_
+NO_300.png> <./Images/smallScaleEnvironment/dwarf_NO_300_group.png>] [73]
+<Images/smallScaleEnvironment/dwarf_ur_150.png, id=2302, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_150.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_150.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_150.png used on 
-input line 467.
+input line 473.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_ur_600.png, id=2285, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_ur_600.png, id=2303, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_600.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_600.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_600.png used on 
-input line 468.
+input line 474.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
- [71] [72 <./Images/smallScaleEnvironment/dwarf_NO_300.png> <./Images/smallScal
-eEnvironment/dwarf_NO_300_group.png>] [73] [74 <./Images/smallScaleEnvironment/
-dwarf_ur_150.png> <./Images/smallScaleEnvironment/dwarf_ur_600.png>]
-<Images/smallScaleEnvironment/ALLdwarf_ur_300.png, id=2313, 433.62pt x 867.24pt
+
+<Images/smallScaleEnvironment/ALLdwarf_ur_300.png, id=2308, 433.62pt x 867.24pt
 >
 File: Images/smallScaleEnvironment/ALLdwarf_ur_300.png Graphic file (type png)
  <use Images/smallScaleEnvironment/ALLdwarf_ur_300.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/ALLdwarf_ur_300.png used 
-on input line 497.
+on input line 503.
 (pdftex.def)             Requested size: 216.81001pt x 433.61894pt.
 
-<Images/smallScaleEnvironment/Mr_distribution.png, id=2320, 867.24pt x 867.24pt
+<Images/smallScaleEnvironment/Mr_distribution.png, id=2315, 867.24pt x 867.24pt
 >
 File: Images/smallScaleEnvironment/Mr_distribution.png Graphic file (type png)
  <use Images/smallScaleEnvironment/Mr_distribution.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/Mr_distribution.png used 
-on input line 523.
+on input line 529.
 (pdftex.def)             Requested size: 433.62003pt x 433.61894pt.
- [75] [76 <./Images/smallScaleEnvironment/ALLdwarf_ur_300.png>] [77 <./Images/s
-mallScaleEnvironment/Mr_distribution.png>]
-<Images/smallScaleEnvironment/dwarf_ur_xyz.png, id=2339, 433.62pt x 867.24pt>
+ [74] [75 <./Images/smallScaleEnvironment/dwarf_ur_150.png> <./Images/smallScal
+eEnvironment/dwarf_ur_600.png>] [76 <./Images/smallScaleEnvironment/ALLdwarf_ur
+_300.png>] [77 <./Images/smallScaleEnvironment/Mr_distribution.png>]
+<Images/smallScaleEnvironment/dwarf_ur_xyz.png, id=2341, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_xyz.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_xyz.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_xyz.png used on 
-input line 560.
+input line 566.
 (pdftex.def)             Requested size: 216.81001pt x 433.61894pt.
  [78] [79 <./Images/smallScaleEnvironment/dwarf_ur_xyz.png>] [80] [81]) [82]
 \openout2 = `Thesis_sections/GV.aux'.
@@ -1975,7 +1975,7 @@ pdf>
 ps-converted-to.pdf Images/GV/ur_CMD_contour.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<Images/GV/ur_CMD_contour-eps-converted-to.pdf, id=2403, 578.16pt x 433.62pt>
+<Images/GV/ur_CMD_contour-eps-converted-to.pdf, id=2404, 578.16pt x 433.62pt>
 File: Images/GV/ur_CMD_contour-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/ur_CMD_contour-eps-converted-to.pdf>
@@ -1993,7 +1993,7 @@ erted-to.pdf Images/GV/ur_hist.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/ur_hist-eps-converted-to.pdf, id=2404, 492.84125pt x 376.40625pt>
+<Images/GV/ur_hist-eps-converted-to.pdf, id=2405, 492.84125pt x 376.40625pt>
 File: Images/GV/ur_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/ur_hist-eps-converted-to.pdf>
@@ -2023,7 +2023,7 @@ atter-eps-converted-to.pdf Images/GV/NUVr_CMD_3pop_scatter.eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf, id=2492, 578.16pt x 433.
+<Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf, id=2493, 578.16pt x 433.
 62pt>
 File: Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2043,7 +2043,7 @@ cations-eps-converted-to.pdf Images/GV/NUVr_CMDclassifications.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf, id=2495, 562.1pt x 421
+<Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf, id=2496, 562.1pt x 421
 .575pt>
 File: Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2066,7 +2066,7 @@ onverted-to.pdf Images/GV/Mstar_hist.eps>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/Mstar_hist-eps-converted-to.pdf, id=2560, 562.1pt x 421.575pt>
+<Images/GV/Mstar_hist-eps-converted-to.pdf, id=2561, 562.1pt x 421.575pt>
 File: Images/GV/Mstar_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/Mstar_hist-eps-converted-to.pdf>
@@ -2085,7 +2085,7 @@ verted-to.pdf Images/GV/SFR_hist.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/SFR_hist-eps-converted-to.pdf, id=2578, 562.1pt x 421.575pt>
+<Images/GV/SFR_hist-eps-converted-to.pdf, id=2579, 562.1pt x 421.575pt>
 File: Images/GV/SFR_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/SFR_hist-eps-converted-to.pdf>
@@ -2103,7 +2103,7 @@ nverted-to.pdf Images/GV/sSFR_hist.eps>
 (epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/sSFR_hist-eps-converted-to.pdf, id=2579, 562.1pt x 421.575pt>
+<Images/GV/sSFR_hist-eps-converted-to.pdf, id=2580, 562.1pt x 421.575pt>
 File: Images/GV/sSFR_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/sSFR_hist-eps-converted-to.pdf>
@@ -2124,7 +2124,7 @@ tions_t3-eps-converted-to.pdf Images/GV/Z12logOH_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf, id=2607, 562.1pt x 42
+<Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf, id=2608, 562.1pt x 42
 1.575pt>
 File: Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2144,7 +2144,7 @@ tions_t3-eps-converted-to.pdf Images/GV/N12logNH_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf, id=2608, 562.1pt x 42
+<Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf, id=2609, 562.1pt x 42
 1.575pt>
 File: Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2164,7 +2164,7 @@ ns_t3-eps-converted-to.pdf Images/GV/logNO_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/logNO_I06relations_t3-eps-converted-to.pdf, id=2609, 562.1pt x 421.5
+<Images/GV/logNO_I06relations_t3-eps-converted-to.pdf, id=2610, 562.1pt x 421.5
 75pt>
 File: Images/GV/logNO_I06relations_t3-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2187,7 +2187,7 @@ f>
 (epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/voidFrac_CMD-eps-converted-to.pdf, id=2631, 562.1pt x 421.575pt>
+<Images/GV/voidFrac_CMD-eps-converted-to.pdf, id=2632, 562.1pt x 421.575pt>
 File: Images/GV/voidFrac_CMD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/voidFrac_CMD-eps-converted-to.pdf>
@@ -2206,7 +2206,7 @@ f>
 (epstopdf)             \includegraphics on input line 328.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/wallFrac_CMD-eps-converted-to.pdf, id=2632, 562.1pt x 421.575pt>
+<Images/GV/wallFrac_CMD-eps-converted-to.pdf, id=2633, 562.1pt x 421.575pt>
 File: Images/GV/wallFrac_CMD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/wallFrac_CMD-eps-converted-to.pdf>
@@ -2270,8 +2270,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  )
 (\end occurred when \iffalse on line 1066 was incomplete) 
 Here is how much of TeX's memory you used:
- 12606 strings out of 492995
- 200165 string characters out of 6132704
+ 12607 strings out of 492995
+ 200179 string characters out of 6132704
  344205 words of memory out of 5000000
  15390 multiletter control sequences out of 15000+600000
  14123 words of font info for 54 fonts, out of 8000000 for 9000
@@ -2320,10 +2320,10 @@ t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Thesis.pdf (116 pages, 5432479 bytes).
+Output written on Thesis.pdf (116 pages, 5433023 bytes).
 PDF statistics:
- 2895 PDF objects out of 2984 (max. 8388607)
- 2402 compressed objects within 25 object streams
- 445 named destinations out of 1000 (max. 500000)
+ 2896 PDF objects out of 2984 (max. 8388607)
+ 2403 compressed objects within 25 object streams
+ 446 named destinations out of 1000 (max. 500000)
  1039 words of extra memory for PDF output out of 10000 (max. 10000000)
 

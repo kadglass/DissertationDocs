@@ -97,7 +97,13 @@ scale the distance as a fraction of the group's rms radius.
 % Including redshift
 
 We can also calculate the distance between two galaxies by ignoring the effects 
-of their relative velocities.
+of their relative velocities.  Instead of projecting both galaxies onto a sphere 
+with radius $\bar{r}$, we instead project each onto its own sphere of radius 
+\begin{equation}
+    r = \frac{cz}{H_0}
+\end{equation}
+We then convert to Cartesian coordinates and use the three-dimensional 
+Pythagorean theorem to calculate the distance between the two galaxies.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
