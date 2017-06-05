@@ -1,7 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
-The style file: apj.bst
+The style file: aasjournal.bst
 A level-1 auxiliary file: preamble.aux
 A level-1 auxiliary file: Thesis_sections/Introduction.aux
 A level-1 auxiliary file: Thesis_sections/Paper1.aux
@@ -10,47 +10,46 @@ A level-1 auxiliary file: Thesis_sections/Paper3.aux
 A level-1 auxiliary file: Thesis_sections/smallScaleEnvironment.aux
 A level-1 auxiliary file: Thesis_sections/GV.aux
 A level-1 auxiliary file: Thesis_sections/Conclusion.aux
-A level-1 auxiliary file: CV.aux
-Database file #1: ../../Research/Latex/metallicity_sources.bib
+Database file #1: /Volumes/kellydouglass/Documents/Research/Latex/metallicity_sources.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 128 entries,
-            3085 wiz_defined-function locations,
-            1528 strings with 39596 characters,
-and the built_in function-call counts, 67915 in all, are:
-= -- 5299
-> -- 5816
-< -- 38
-+ -- 1975
-- -- 2113
-* -- 6194
-:= -- 13013
-add.period$ -- 128
-call.type$ -- 128
-change.case$ -- 915
-chr.to.int$ -- 126
-cite$ -- 128
-duplicate$ -- 2433
-empty$ -- 3604
-format.name$ -- 2264
-if$ -- 13201
+You've used 136 entries,
+            3183 wiz_defined-function locations,
+            1595 strings with 42431 characters,
+and the built_in function-call counts, 72204 in all, are:
+= -- 5602
+> -- 6217
+< -- 40
++ -- 2105
+- -- 2256
+* -- 6610
+:= -- 13859
+add.period$ -- 136
+call.type$ -- 136
+change.case$ -- 958
+chr.to.int$ -- 134
+cite$ -- 136
+duplicate$ -- 2583
+empty$ -- 3827
+format.name$ -- 2416
+if$ -- 14029
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 125
-newline$ -- 388
-num.names$ -- 514
-pop$ -- 1004
+missing$ -- 133
+newline$ -- 412
+num.names$ -- 546
+pop$ -- 1051
 preamble$ -- 1
-purify$ -- 915
+purify$ -- 958
 quote$ -- 0
-skip$ -- 1990
+skip$ -- 2113
 stack$ -- 0
-substring$ -- 2659
+substring$ -- 2824
 swap$ -- 20
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1149
+type$ -- 1221
 warning$ -- 0
-while$ -- 487
+while$ -- 513
 width$ -- 0
-write$ -- 1283
+write$ -- 1363

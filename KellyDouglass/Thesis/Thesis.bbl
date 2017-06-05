@@ -32,10 +32,6 @@ Abazajian, K.~N., Adelman-McCarthy, J., Agueros, M.~A., {et~al.} 2009, ApJS,
   IveziÄ, Lupton, Nichol, \& Szalay}]{Baldry04}
 Baldry, I.~K., Glazebrook, K., Brinkmann, J., {et~al.} 2004, ApJ, 600, 681
 
-\bibitem[{{Baldwin} {et~al.}(1981){Baldwin}, {Phillips}, \&
-  {Terlevich}}]{Baldwin81}
-{Baldwin}, J.~A., {Phillips}, M.~M., \& {Terlevich}, R. 1981, PASP, 93, 5
-
 \bibitem[{{Bell} \& {de Jong}(2000)}]{Bell00}
 {Bell}, E.~F., \& {de Jong}, R.~S. 2000, MNRAS, 312, 497
 
@@ -59,9 +55,20 @@ Baldry, I.~K., Glazebrook, K., Brinkmann, J., {et~al.} 2004, ApJ, 600, 681
 {Beygu}, B., {Peletier}, R.~F., {Hulst}, J.~M.~v.~d., {et~al.} 2017, MNRAS,
   464, 666
 
+\bibitem[{{Blanton} {et~al.}(2011){Blanton}, {Kazin}, {Muna}, {Weaver}, \&
+  {Price-Whelan}}]{Blanton11}
+{Blanton}, M.~R., {Kazin}, E., {Muna}, D., {Weaver}, B.~A., \& {Price-Whelan},
+  A. 2011, AJ, 142, 31
+
 \bibitem[{{Blanton} {et~al.}(2003){Blanton}, {Lin}, {Lupton}, {Maley}, {Young},
   {Zehavi}, \& {Loveday}}]{Blanton03}
 {Blanton}, M.~R., {Lin}, H., {Lupton}, R.~H., {et~al.} 2003, AJ, 125, 2276
+
+\bibitem[{{Blanton} {et~al.}(2005){Blanton}, {Schlegel}, {Strauss},
+  {Brinkmann}, {Finkbeiner}, {Fukugita}, {Gunn}, {Hogg}, {Ivezi{\'c}}, {Knapp},
+  {Lupton}, {Munn}, {Schneider}, {Tegmark}, \& {Zehavi}}]{Blanton05}
+{Blanton}, M.~R., {Schlegel}, D.~J., {Strauss}, M.~A., {et~al.} 2005, AJ, 129,
+  2562
 
 \bibitem[{{Bond} {et~al.}(1996){Bond}, {Kofman}, \& {Pogosyan}}]{Bond96}
 {Bond}, J.~R., {Kofman}, L., \& {Pogosyan}, D. 1996, Nature, 380, 603
@@ -73,6 +80,12 @@ Baldry, I.~K., Glazebrook, K., Brinkmann, J., {et~al.} 2004, ApJ, 600, 681
 
 \bibitem[{{Brisbin} \& {Harwit}(2012)}]{Brisbin12}
 {Brisbin}, D., \& {Harwit}, M. 2012, ApJ, 750, 142
+
+\bibitem[{{Catinella} {et~al.}(2012){Catinella}, {Schiminovich}, {Kauffmann},
+  {Fabello}, {Hummels}, {Lemonias}, {Moran}, {Wu}, {Cooper}, \&
+  {Wang}}]{Catinella12}
+{Catinella}, B., {Schiminovich}, D., {Kauffmann}, G., {et~al.} 2012, A\&A, 544,
+  A65
 
 \bibitem[{{Cen}(2011)}]{Cen11}
 {Cen}, R. 2011, ApJ, 741, 99
@@ -97,6 +110,11 @@ Cooper, M.~C., Tremonti, C.~A., Newman, J.~A., \& Zabludoff, A.~I. 2008, MNRAS,
   {Madgwick}, {Peterson}, {Sutherland}, \& {Taylor}}]{Croton05}
 {Croton}, D.~J., {Farrar}, G.~R., {Norberg}, P., {et~al.} 2005, MNRAS, 356,
   1155
+
+\bibitem[{{Croton} {et~al.}(2006){Croton}, {Springel}, {White}, {De Lucia},
+  {Frenk}, {Gao}, {Jenkins}, {Kauffmann}, {Navarro}, \& {Yoshida}}]{Croton06}
+{Croton}, D.~J., {Springel}, V., {White}, S.~D.~M., {et~al.} 2006, MNRAS, 365,
+  11
 
 \bibitem[{{Cybulski} {et~al.}(2014){Cybulski}, {Yun}, {Fazio}, \&
   {Gutermuth}}]{Cybulski14}
@@ -373,6 +391,12 @@ Martin, D.~C., Wyder, T.~K., Schiminovich, D., {et~al.} 2007, ApJSS, 173, 342
   {Lemonias}, \& {Wu}}]{Moran12}
 {Moran}, S.~M., {Heckman}, T.~M., {Kauffmann}, G., {et~al.} 2012, ApJ, 745, 66
 
+\bibitem[{{Morrissey} {et~al.}(2007){Morrissey}, {Conrow}, {Barlow}, {Small},
+  {Seibert}, {Wyder}, {Budav{\'a}ri}, {Arnouts}, {Friedman}, {Forster},
+  {Martin}, {Neff}, {Schiminovich}, {Bianchi}, {Donas}, {Heckman}, {Lee},
+  {Madore}, {Milliard}, {Rich}, {Szalay}, {Welsh}, \& {Yi}}]{Morrissey07}
+{Morrissey}, P., {Conrow}, T., {Barlow}, T.~A., {et~al.} 2007, ApJS, 173, 682
+
 \bibitem[{Mouhcine {et~al.}(2007)Mouhcine, Baldry, \& Bamford}]{Mouhcine07}
 Mouhcine, M., Baldry, I., \& Bamford, S. 2007, MNRAS, 382, 801
 
@@ -406,8 +430,11 @@ Osterbrock, D.~E. 1989, Astrophysics of Gaseous Nebulae and Active Galactic
 {Pan}, D.~C., {Vogeley}, M.~S., {Hoyle}, F., {Choi}, Y.-Y., \& {Park}, C. 2012,
   MNRAS, 421, 926
 
+\bibitem[{{Park} \& {Choi}(2005)}]{Park05}
+{Park}, C., \& {Choi}, Y.-Y. 2005, ApJ, 635, L29
+
 \bibitem[{{Park} \& {Choi}(2009)}]{Park09}
-{Park}, C., \& {Choi}, Y.-Y. 2009, ApJ, 691, 1828
+---. 2009, ApJ, 691, 1828
 
 \bibitem[{{Park} {et~al.}(2007){Park}, {Choi}, {Vogeley}, {Gott}, {Blanton}, \&
   {SDSS Collaboration}}]{Park07}
@@ -494,11 +521,20 @@ Pettini, M., \& Pagel, B.~E. 2004, MNRAS, 348, L59
 \bibitem[{Saintonge(2007)}]{Saintonge07}
 Saintonge, A. 2007, PhD thesis, Cornell University
 
+\bibitem[{{Salim}(2014)}]{Salim14a}
+{Salim}, S. 2014, Serbian Astronomical Journal, 189, 1
+
 \bibitem[{{S{\'a}nchez Almeida} {et~al.}(2016){S{\'a}nchez Almeida},
   {P{\'e}rez-Montero}, {Morales-Luis}, {Mu{\~n}oz-Tu{\~n}{\'o}n},
   {Garc{\'{\i}}a-Benito}, {Nuza}, \& {Kitaura}}]{SanchezAlmeida16}
 {S{\'a}nchez Almeida}, J., {P{\'e}rez-Montero}, E., {Morales-Luis}, A.~B.,
   {et~al.} 2016, ApJ, 819, 110
+
+\bibitem[{{Schawinski} {et~al.}(2014){Schawinski}, {Urry}, {Simmons},
+  {Fortson}, {Kaviraj}, {Keel}, {Lintott}, {Masters}, {Nichol}, {Sarzi},
+  {Ramin}, {Skibba}, {Treister}, {Willett}, {Wong}, \& {Yi}}]{Schawinski14}
+{Schawinski}, K., {Urry}, C.~M., {Simmons}, B.~D., {et~al.} 2014, MNRAS, 440,
+  889
 
 \bibitem[{{SDSS Collaboration} {et~al.}(2016){SDSS Collaboration}, {Albareti},
   {Allende Prieto}, {Almeida}, {Anders}, {Anderson}, {Andrews},
@@ -510,6 +546,12 @@ Saintonge, A. 2007, PhD thesis, Cornell University
   {Kennicutt}}]{Shields91}
 {Shields}, G.~A., {Skillman}, E.~D., \& {Kennicutt}, Jr., R.~C. 1991, ApJ, 371,
   82
+
+\bibitem[{{Stasi{\'n}ska} {et~al.}(2008){Stasi{\'n}ska}, {Vale Asari}, {Cid
+  Fernandes}, {Gomes}, {Schlickmann}, {Mateus}, {Schoenell}, {Sodr{\'e}}, \&
+  {Seagal Collaboration}}]{Stasinska08}
+{Stasi{\'n}ska}, G., {Vale Asari}, N., {Cid Fernandes}, R., {et~al.} 2008,
+  MNRAS, 391, L29
 
 \bibitem[{Strateva {et~al.}(2001)Strateva, \v{Z}eljko Ivezi\'{c}, Knapp,
   Narayanan, Strauss, Gunn, Lupton, Schlegel, Bahcall, Brinkmann, Brunner,

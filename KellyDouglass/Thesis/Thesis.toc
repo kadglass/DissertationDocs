@@ -73,19 +73,24 @@
 \contentsline {subsection}{\numberline {5.4.4}Including redshift in the distance}{71}{subsection.5.4.4}
 \contentsline {section}{\numberline {5.5}Discussion}{75}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Comparison to literature results}{76}{subsection.5.5.1}
-\contentsline {section}{\numberline {5.6}Conclusion}{77}{section.5.6}
+\contentsline {section}{\numberline {5.6}Conclusions}{77}{section.5.6}
 \contentsline {chapter}{\numberline {6}Green valley galaxies}{78}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{78}{section.6.1}
-\contentsline {section}{\numberline {6.2}Data}{79}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Optical data --- SDSS}{79}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}UV data --- GALEX}{80}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Results}{80}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Large-scale environmental dependence of dwarf galaxy evolution}{81}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Discussion}{84}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Morphological classification and gas content indicators}{84}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Testing for evidence of AGN feedback}{85}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Conclusion}{85}{section.6.5}
-\contentsline {chapter}{\numberline {7}Conclusion}{86}{chapter.7}
-\contentsline {chapter}{Bibliography}{87}{section*.59}
+\contentsline {section}{\numberline {6.2}Theory}{79}{section.6.2}
+\contentsline {section}{\numberline {6.3}Data}{80}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Optical data --- SDSS}{80}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}UV data --- GALEX}{81}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Results}{81}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Properties of the Green Valley Galaxies}{83}{subsection.6.4.1}
+\contentsline {subsubsection}{Stellar mass}{83}{section*.56}
+\contentsline {subsubsection}{Star formation rates}{84}{section*.58}
+\contentsline {subsubsection}{Gas-phase chemical abundances}{85}{section*.60}
+\contentsline {subsubsection}{Large-scale environment}{86}{section*.62}
+\contentsline {section}{\numberline {6.5}Discussion}{86}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{88}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{88}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Conclusions}{89}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{90}{chapter.7}
+\contentsline {chapter}{Bibliography}{91}{section*.65}
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname \nobreakspace {}} \renewcommand {\cftchapaftersnum }{:}
-\contentsline {chapter}{Vita}{91}{section*.60}
+\contentsline {chapter}{Vita}{96}{section*.66}

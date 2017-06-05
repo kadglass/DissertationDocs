@@ -91,34 +91,79 @@ galaxies have been inconclusive as to why or how this is occurs.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\section[Theory]{Calculating the color of a galaxy}
+
+A galaxy's color is the ratio of the flux emitted by the galaxy in two different 
+bands.  The stellar population of a galaxy will determine its color --- redder 
+galaxies contain much older, cooler stars, while the spectrum of a bluer galaxy 
+is produced by light from much younger, hotter stars.  A galaxy's color is 
+independent of its redshift, so only photometry is needed to calculate the 
+ratio.  While the KIAS-VAGC catalog (described below in Section \ref{sec:SDSS}) 
+provides the $u-r$ color for all galaxies in SDSS, we make use of the Petrosian 
+fluxes in the NSA (described in Section \ref{sec:GALEX}) to calculate the 
+UV--optical color.  The NUV$-r$ color is calculated by
+\begin{equation}
+    \text{NUV}-r = -2.5\log \left( \frac{f_{NUV}}{f_r} \right)
+\end{equation}
+where $f_{NUV}$ is the Petrosian flux in the NUV-band of GALEX, and $f_r$ is the 
+Petrosian flux in the $r$-band of SDSS.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section[Data]{SDSS and GALEX data}
 
-\subsection{Optical data --- SDSS}
-%  - KIAS-VAGC (morphological classification)
-% Should we use NSA for abs. mag. instead?
-SDSS \citep{Abazajian09} (absolute magnitudes courtesy of the MPA-JHU 
-catalog\footnote{http://www.mpa-garching.mpg.de/SDSS/DR7/})
+We use the photometric data from SDSS (optical) and GALEX (ultraviolet) as 
+cross-matched in the NSA.
 
-The KIAS Value-Added Galaxy Catalog 
-\citep[KIAS-VAGC]{Choi10} attempted to calculate a morphological class and type 
-for all galaxies in SDSS DR7 based on the color $u-r$, color gradient 
-$\Delta (g-r)$, and inverse concentration index.  
+\subsection{Optical data --- SDSS}\label{sec:SDSS}
+% Should we use NSA for abs. mag. instead? - yes, but not for the thesis
 
-\subsection{UV data --- GALEX}
-\citep{Martin05}
+The SDSS Data Release 7 \citep[DR7]{Abazajian09} is a wide-field multi-band 
+imaging and spectroscopic survey.  It uses drift scanning to map approximately 
+one-quarter of the northern sky.  A dedicated 2.5-meter telescope at the Apache 
+Point Observatory in New Mexico takes photometric data in the five-band SDSS 
+system --- $u$, $g$, $r$, $i$, and $z$ \citep{Fukugita96,Gunn98}.  Galaxies with 
+a Petrosian $r$-band apparent magnitude $m_r < 17.77$ are selected for 
+spectroscopic analysis \citep{Lupton01,Strauss02}.  Gas-phase chemical 
+abundances are calculated via the Direct $T_e$ method using emission-line fluxes 
+measured by the MPA-JHU catalog\footnote{Available at 
+\url{http://www.mpa-garching.mpg.de/SDSS/DR7}} and published in Douglass \& 
+Vogeley (2017, in prep).  The large-scale environment of the galaxies is based 
+on the void catalog compiled by \cite{Pan12}.  This void catalog is constructed 
+from SDSS DR7 using the VoidFinder algorithm of \cite{Hoyle02}.  Galaxies which 
+are located within the identified voids are labeled as void galaxies; those 
+which do not reside in a void are designated as wall galaxies.  Because the 
+minimum diameter of a void is defined as 10 \hMpc , the large-scale environment 
+of galaxies within 5 \hMpc of the edge of the SDSS DR7 footprint cannot be 
+described, so their environment is labeled as unknown.
+
+% KIAS-VAGC (morphological classification)
+The Korea Institute for Advanced Study Value-Added Galaxy Catalog 
+\citep[KIAS-VAGC]{Choi10} contains galaxies from the SDSS DR7 main sky survey 
+based on the New York University Value-Added Galaxy Catalog Data Release 7 
+\citep[NYU-VAGC]{Blanton05}.  It provides a morphological class and type 
+following the automated morphology classification scheme of \cite{Park05}, using 
+the color $u-r$, color gradient $\Delta (g-r)$, and inverse concentration index.  
+We use the absolute magnitudes as listed in the KIAS-VAGC.
+
+\subsection{UV data --- GALEX}\label{sec:GALEX}
+The Galaxy Evolution Explorer \citep[GALEX]{Martin05} is an orbiting space 
+telescope conducting an extra-galactic ultraviolet all-sky survey.  The 
+instrument allows imaging and spectroscopic observations in two ultraviolet 
+bands --- Far UV (FUV, 1350--1780\AA) and Near UV (NUV, 1770--2730\AA) 
+\citep{Morrissey07}.  The NUV-$r$ colors used in this study are calculated from 
+the azimuthally-averaged SDSS-style Petrosian fluxes provided in the NASA-Sloan 
+Atlas version 0.1.2 \citep[NSA]{Blanton11}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section[Results]{Results}
-
-Combining the results of GALEX with the optical photometry of SDSS, we construct 
-a NUV$-r$ CMD.  Probing light from even younger stars in the galaxies, GALEX is 
-able to increase the separation of the blue sequence and red cloud populations 
-of the optical CMD, revealing a third, smaller population of galaxies 
-\citep{Wyder07}.
+\section[Results]{Classification of galaxies in the color-magnitude diagram}
 
 % CMD in NUV-r, showing where green valley galaxies live
 \begin{figure}
@@ -135,20 +180,11 @@ of the optical CMD, revealing a third, smaller population of galaxies
     \label{fig:NUVr_CMD}
 \end{figure}
 
-Preliminary analysis of mine reveals a population of galaxies that lie in the 
-Green Valley on the NUV$-r$ color-magnitude diagram, identified independent of 
-their location on the diagram.  I find that, rather than being 
-classified based on arbitrary limits placed on the NUV$-r$ values, the galaxies 
-can be easily separated into three distinct populations based on the galaxies' 
-morphological types as calculated in the KIAS-VAGC; this can be seen in Fig. 
-\ref{fig:NUVr_CMD}.  Defined by the $u-r$ color and the color gradient 
-$\Delta (g-i)$, it is novel that an estimate of the morphological type of the 
-galaxies is an adequate classification for the three populations of the NUV$-r$ 
-CMD.  In addition, Fig. \ref{fig:NUVr_hist} shows a histogram of the galaxies 
-which overlap in both GALEX and SDSS, separated by their morphological 
-classification from the KIAS-VAGC.  It shows that the three populations are well 
-fit by three Gaussians --- the new population in the middle is the transient 
-galaxy population originally ``missing'' from the optical CMD.
+Combining the results of GALEX with the optical photometry of SDSS, we construct 
+a NUV$-r$ CMD.  Probing light from even younger stars in the galaxies, GALEX is 
+able to increase the separation of the blue sequence and red cloud populations 
+of the optical CMD, revealing a third, smaller population of galaxies 
+\citep{Wyder07}.
 
 % Histogram of NUV-r, with all, red, blue, green galaxies (aimc values)
 \begin{figure}
@@ -162,73 +198,129 @@ galaxy population originally ``missing'' from the optical CMD.
     \label{fig:NUVr_hist}
 \end{figure}
 
+This analysis reveals a population of galaxies that lie in the Green Valley on 
+the NUV$-r$ color-magnitude diagram, identified independent of their location on 
+the diagram.  Rather than being classified based on arbitrary limits placed on 
+the NUV$-r$ values \citep[as done by][]{Schawinski14,Salim14a}, the galaxies can 
+be easily separated into three distinct populations based on the galaxies' 
+morphological types as calculated in the KIAS-VAGC; this can be seen in Fig. 
+\ref{fig:NUVr_CMD}.  Defined by the $u-r$ color and the color gradient 
+$\Delta (g-i)$, it is novel that an estimate of the morphological type of the 
+galaxies is an adequate classification for the three populations of the NUV$-r$ 
+CMD.  In addition, Fig. \ref{fig:NUVr_hist} shows a histogram of the galaxies 
+which overlap in both GALEX and SDSS, separated by their morphological 
+classification from the KIAS-VAGC.  It shows that the three populations are well 
+fit by three Gaussians --- the new population in the middle is the transient 
+galaxy population originally ``missing'' from the optical CMD.
+
+% classical classification of morphology v. aimc (aimc appaers to be a good indication of the transition in galaxy evolution
+The morphological classification that we use to isolate the green valley 
+population is relatively unique in that it is analytic; morphological 
+classification attempts are often completed in a more subjective manner 
+\citep[such as the GalaxyZoo,][]{Lintott11}.  In particular, the 
+morphological type provided in KIAS-VAGC is a combination of the color $u-r$ and 
+the color gradient $\Delta (g-i)$.  Both these quantities are independent of the 
+NUV$-r$ CMD, which is part of the novelty behind why this measure separates the 
+galaxies into the three evolutionary stages of the CMD so well.
 
 
-\subsection{Large-scale environmental dependence of dwarf galaxy evolution}
+\subsection{Properties of the Green Valley Galaxies}
 
-Estimates of the gas-phase chemical abundances of galaxies probe their 
-integrated star formation histories, which can provide insight into the 
-enrichment of the ISM and CGM.  Dwarf galaxies ($M_r > -17$) have a 
-slightly different evolutionary history than galaxies of large stellar masses, 
-especially when looking at environmental factors.  The lower stellar masses of 
-these galaxies makes them more susceptible to damage from galactic interactions 
-and supernovae feedback, since they have smaller gravitational potential wells.  
-My current work involves studying the large-scale environmental dependence of 
-the chemical evolution of dwarf galaxies \citep{Douglass17a,Douglass17b}.  I estimate gas-phase 
-metallicities (the oxygen abundance of a galaxy relative to hydrogen) with the 
-Direct $T_e$ method, known for its accuracy and unbiased results.  This method 
-``directly'' estimates the temperature of the electrons in an H{\sc ii} 
-region from a ratio of the [O{\sc iii}] $\lambda$4363 aural line and the 
-[O{\sc iii}] $\lambda \lambda$4959,5007 doublet \citep[as discussed in][this ratio 
-is sensitive to the temperature of the ionized gas in an H{\sc ii} 
-region]{Osterbrock89,Douglass17a}; with the temperature and density, abundance estimates can 
-be made based on emission line ratios from the galaxy.  It can be very difficult 
-to use, however, as it relies on a relatively strong detection of the weak [O 
-{\sc iii}] $\lambda 4363$ auroral line --- the uncertainty in the measured flux 
-of this emission line is the greatest source of error when using this method to 
-estimate the chemical abundances.  Consequently, it is used most often on blue, 
-star-forming galaxies.  A detailed description of the Direct $T_e$ method can be 
-found in \cite{Douglass17a}.  We use a BPT diagram \citep{Baldwin81} to determine if a 
-galaxy is star-forming or has traces of an AGN in its spectrum.  BPT diagrams 
-measure the hardness of a galaxy's spectrum based on the relationship between 
-ratios of some of the galaxy's emission lines.  Our star-forming classification 
-is a result of the work done by \cite{Brinchmann04}.
+\subsubsection{Stellar mass}
 
-A few of the galaxies for which I am able to estimate metallicities reside in 
-the green valley.  When compared with the metallicities of galaxies in the blue 
-sequence and red cloud, Fig. \ref{fig:Z_hist} shows that the star-forming green 
-valley galaxies have much lower oxygen abundances than star-forming galaxies in 
-the blue sequence and red cloud.  With nitrogen abundances that fall within the 
-same range as the other two galaxy populations, this shift causes the N/O ratio 
-to be much higher in green valley galaxies than in the others.
+\begin{figure}
+    \includegraphics[width=0.65\textwidth]{Images/GV/Mstar_hist}
+    \caption[Stellar mass distribution by morphological type]{The distribution 
+    of stellar mass for all galaxies in SDSS DR7, separated by their 
+    morphological type.  The galaxies in the green valley have stellar masses 
+    comparable to those in the red cloud.  The stellar masses of those galaxies 
+    in the blue sequence range from the lowest mass objects up through the 
+    stellar masses of the green valley galaxies.}
+    \label{fig:M_hist}
+\end{figure}
+
+If the green valley galaxies represent those galaxies transitioning between the 
+blue sequence and red cloud, then their stellar masses should overlap the masses 
+in both these populations.  The distribution of the stellar masses for the 
+galaxies in SDSS DR7 is shown in Fig. \ref{fig:M_hist}.  We can see that the 
+galaxies in the green valley have stellar masses comparable to those in the red 
+cloud.  The stellar masses of those galaxies in the blue sequence range from the 
+lowest mass objects up through the stellar masses of the green valley galaxies.  
+The distribution of stellar masses of galaxies in the blue sequence should be 
+much broader than the range of masses seen in the red cloud galaxies, since 
+those in the blue sequence are forming stars and slowly building up their mass.  
+Galaxies in the red cloud are fairly stagnant in their star formation, so the 
+range of stellar masses of these galaxies will be more narrow than that of the 
+blue sequence.  If the green valley galaxies are transitioning between the two 
+populations due to a quenching of star formation or a sudden burst of star 
+formation, then we would expect their mass range to cover the high-mass end of 
+the blue sequence and most of the red cloud.  Indeed, this is what we see in 
+Fig. \ref{fig:M_hist}.
+
+
+\subsubsection{Star formation rates}
+
+\begin{figure}
+    \includegraphics[width=0.49\textwidth]{Images/GV/SFR_hist}
+    \includegraphics[width=0.49\textwidth]{Images/GV/sSFR_hist}
+    \caption[(s)SFR distribution by morphological type]{The distribution of SFR 
+    (left panel) and sSFR (right panel) for all galaxies in SDSS DR7, separated 
+    by their morphological type.  The green valley galaxies occupy the 
+    intermediate SFRs, while galaxies in the red cloud have low SFRs and 
+    galaxies in the blue sequence have higher SFRs.  The same ranges exist for 
+    the sSFRs, although the green valley galaxies extend well into the range of 
+    sSFRs occupied by the galaxies in the red cloud.}
+    \label{fig:SFR_hist}
+\end{figure}
+
+Again, if green valley galaxies are transitioning between the blue sequence and 
+red cloud, then they should have intermediate (s)SFRs.  The distribution of SFR 
+and sSFR for the galaxies in SDSS DR7 are shown in Fig. \ref{fig:SFR_hist}, with 
+the galaxies separated by their morphological types.  We see that the 
+distribution of SFRs for galaxies in the green valley peaks around 
+$\log(\text{SFR}) \sim -0.5$, in between the ranges occupied by the red cloud 
+and blue sequence galaxies.  A similar distribution is shown for the sSFRs, 
+although the green valley galaxies extend well into the range of sSFRs occupied 
+by the galaxies in the red cloud.  \cite{Salim14a} describes transitional 
+galaxies (those in the green valley) to have lower sSFRs than galaxies in the 
+blue sequence, specifically $-11.8 < \log(\text{sSFR}) < -10.8$.  While our 
+results do indicate that the green valley galaxies have lower sSFRs than those 
+in the blue sequence, we find that their sSFRs extend well into the red cloud 
+range, or to $\log(\text{sSFR}) \sim -12$.
+
+
+\subsubsection{Gas-phase chemical abundances}
 
 % Histogram of metallicity for red, blue, green galaxies
 \begin{figure}
-    \includegraphics[width=0.49\textwidth]{Images/GV/Z12logOH_I06relations_SF_t3}
-    \includegraphics[width=0.49\textwidth]{Images/GV/N12logNH_I06relations_SF_t3}
-    \includegraphics[width=0.49\textwidth]{Images/GV/logNO_I06relations_SF_t3}
+    \includegraphics[width=0.49\textwidth]{Images/GV/Z12logOH_I06relations_t3}
+    \includegraphics[width=0.49\textwidth]{Images/GV/N12logNH_I06relations_t3}
+    \includegraphics[width=0.49\textwidth]{Images/GV/logNO_I06relations_t3}
     \caption[Distribution of gas-phase chemical abundances in cross-matched SDSS 
     DR7 -- GALEX galaxies]{Histograms of the oxygen abundance (top left), 
     nitrogen abundance (top right), and N/O ratio (bottom center) of the 
-    cross-matched SDSS DR7 -- GALEX galaxies (both dwarf galaxies and brighter 
-    systems), separated into their locations on the NUV$-r$ color-magnitude 
-    diagram according to the morphological type listed in the KIAS-VAGC.  It is 
-    readily apparent that the green valley galaxies have much lower oxygen 
-    abundances than those in the blue sequence or red cloud.  This, therefore, 
-    corresponds to them having the highest N/O values of the three categories.}
+    cross-matched SDSS DR7 -- GALEX galaxies, separated into their locations on 
+    the NUV$-r$ color-magnitude diagram according to the morphological type 
+    listed in the KIAS-VAGC.  It is readily apparent that the green valley 
+    galaxies have higher nitrogen abundances than those in the blue sequence 
+    (and some of the red cloud).  This, therefore, corresponds to them having 
+    high N/O ratios.}
     \label{fig:Z_hist}
 \end{figure}
 
-When we separate the galaxies in each of the three populations by their 
-large-scale environment, we discover a variation in these populations as a 
-function of luminosity.  Galaxies are divided into one of two categories for 
-their large-scale environment: voids or walls (more dense regions) based on the 
-void catalog compiled by \cite{Pan12}.  This void catalog is constructed from 
-SDSS DR7 using the VoidFinder algorithm of \cite{Hoyle02}.  As we see in Fig. 
-\ref{fig:Mr_bin}, the fraction of galaxies in the green valley depends on the 
-large-scale environment, even at fixed stellar mass or luminosity.  A larger 
-fraction of wall dwarf galaxies are found in the green valley than for void 
-dwarf galaxies.
+Estimates of the gas-phase chemical abundances of galaxies probe their 
+integrated star formation histories, which can provide insight into the 
+enrichment of the ISM and CGM.  A few of the galaxies for which Douglass \& 
+Vogeley (2017, in prep) are able to estimate metallicities reside in the green 
+valley.  When compared with the metallicities of galaxies in the blue sequence 
+and red cloud, Fig. \ref{fig:Z_hist} shows that the green valley galaxies have 
+higher nitrogen abundances than star-forming galaxies in the blue sequence (and 
+some of the red cloud).  With oxygen abundances that fall within the same range 
+as the other two galaxy populations, this shift causes the N/O ratio to be much 
+higher in green valley galaxies than in the blue sequence.
+
+
+\subsubsection{Large-scale environment}
 
 % Fraction of red, green, blue galaxies binned by Mr in voids, walls
 \begin{figure}
@@ -244,60 +336,97 @@ dwarf galaxies.
     \label{fig:Mr_bin}
 \end{figure}
 
+When we separate the galaxies in each of the three populations by their 
+large-scale environment, we discover a variation in these populations as a 
+function of luminosity.  As we see in Fig. \ref{fig:Mr_bin}, the fraction of 
+galaxies in the green valley depends on the large-scale environment, even at 
+fixed stellar mass or luminosity.  A larger fraction of faint wall galaxies are 
+found in the green valley than for faint void galaxies.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section[Discussion]{Discussion}
+\section[Discussion]{Understanding green valley galaxies}
+
+Galaxies in the green valley are described to be in a transitional period of the 
+galaxy's life cycle, where they are being quenched in their star formation or 
+are beginning to form stars after being quiescent.  Here, we are able to 
+quantitatively define galaxies in the green valley of the UV-optical CMD.  We 
+find them to be of comparable stellar mass to galaxies in the red cloud, have 
+intermediate SFRs and intermediate-to-low sSFRs, and have higher gas-phase 
+nitrogen abundances and N/O ratios than galaxies in the blue sequence.
+
+The stellar mass range of galaxies in the green valley in Fig. \ref{fig:M_hist} 
+shows us that these galaxies have completed most of their star formation.  They 
+have acquired enough stars to have converted most of their gas into heavier 
+elements.  Combined with the intermediate SFRs and intermediate-to-low sSFRs 
+seen in Fig. \ref{fig:SFR_hist}, this tells us that these galaxies are no longer 
+forming stars at a high rate.  This is most likely due to an extinction of 
+available cool gas from which to form stars.  These galaxies are reaching a 
+natural point in their evolution where they transition from an active star 
+formation period to a quieter, more quiescent lifestyle.
+
+As explained in \cite{Douglass17b}, nitrogen is thought to be produced in both a 
+primary and secondary stage, depending on the presence of other heavy elements.  
+The fact that the galaxies in the green valley have higher nitrogen abundances 
+compared to those in the blue sequence indicate that they are building up a 
+surplus of nitrogen, most likely due to the presence of heavier elements at the 
+later star formation episodes.  The surplus of heavier elements allows the CNO 
+cycle to commence earlier in the stars' lifetimes, producing nitrogen at a 
+higher rate than oxygen.  It is also possible that the higher nitrogen 
+abundances are a sign that the galaxies' intermediate mass stars (those 
+primarily responsible for nitrogen synthesis) have expired.  This surplus of 
+nitrogen results in the high N/O ratios seen for the green valley galaxies in 
+Fig. \ref{fig:Z_hist}.
+
+Fig. \ref{fig:Mr_bin} shows that a higher fraction of faint wall galaxies are in 
+the green valley than faint void galaxies.  This would indicate that void 
+galaxies are slightly behind wall galaxies in their evolution, matching 
+predictions based on the $\Lambda$CDM cosmology.  These results also coincide 
+with the observations of \cite{Douglass17b} and Douglass \& Vogeley (2017, in 
+prep).  They find that, for dwarf galaxies ($M_r > -17$), those which exist in 
+voids may have commenced their star formation at a later time and have not 
+experienced the same cosmic downsizing as dwarf galaxies residing in denser 
+regions.  The higher fraction of wall dwarf galaxies in the green valley might 
+also point to an environmental influence on the reason for transitioning through 
+the green valley, such as ram pressure stripping, which would occur much less 
+frequently in the void environment.  However, the existence of void galaxies in 
+the green valley indicate that galaxy interactions cannot be the only quenching 
+mechanism.
 
 
-\subsection{Morphological classification and gas content indicators}
+\subsection{Gas content indicators}
 
-% classical classification of morphology v. aimc (aimc appaers to be a good indication of the transition in galaxy evolution
-% Are there other markers in the gas content of these galaxies?
-
-The morphological classification that we use to isolate the green valley 
-population is relatively unique in that it is analytic; morphological 
-classification attempts are often completed in a more subjective manner 
-\citep[such as the GalaxyZoo,][]{Lintott11}.  In particular, the 
-morphological type provided in KIAS-VAGC is a combination of the color $u-r$ and 
-the color gradient $\Delta (g-i)$.  Both these quantities are independent of the 
-NUV$-r$ CMD, which is part of the novelty behind why this measure separates the 
-galaxies into the three evolutionary stages of the CMD so well.
-
-%I also plan to search for other markers in the gas content of the galaxies in 
-%the green valley.  
-If a galaxy's star formation is quenched due to a loss of 
-cold gas, then its H{\sc i} content will be lower than other galaxies of a 
-similar stellar mass and large-scale environment.  If it is quenched due to a 
-high gas temperature (from AGN or supernovae feedback), then the temperature of 
-the gas will be higher than others of a similar size.  These factors will also 
-help to determine when and why a galaxy transitions from star-forming to 
-quiescent (and maybe back to star-forming).
+% Are there other markers in the gas content of these galaxies? 
+If a galaxy's star formation is quenched due to a loss of cold gas, then its 
+H{\sc i} content will be lower than other galaxies of a similar stellar mass and 
+large-scale environment.  \cite{Schawinski14} finds that 48\% of the late-type 
+galaxies they define to be in the green valley have \ion{H}{1} detections in the 
+ALFALFA survey, consistent with a high probability of gas resevoir retention.  
+Likewise, \cite{Catinella12} shows that the gas fraction ($M_{\ion{H}{1}}/M_*$) 
+correlates with the NUV$-r$ color, suggesting that the transition of galaxies 
+into the green valley is not due to an abrupt change in the galaxy's neutral gas 
+supply.  If it is quenched due to a high gas temperature (from AGN or supernovae 
+feedback), then the temperature of the gas will be higher than others of a 
+similar size.  These factors will also help to determine when and why a galaxy 
+transitions from star-forming to quiescent (and maybe back to star-forming).
 
 
-\subsection{Testing for evidence of AGN feedback}
+\subsection{Evidence of AGN feedback}
 
 During my estimation of the chemical content of galaxies with $M_r > -20$, I 
 note that the oxygen abundances of galaxies classified as AGN by their 
-emission line ratios in the BPT diagrams exhibit extremely low oxygen abundances 
-(but normal nitrogen abundance values) when compared to star-forming galaxies of 
+emission line ratios in the BPT diagrams exhibit higher nitrogen abundances 
+(but normal oxygen abundance values) when compared to star-forming galaxies of 
 a similar stellar mass and large-scale environment.  The same abundance 
 signature is seen in the the oxygen and nitrogen abundance results seen in Fig. 
 \ref{fig:Z_hist} of the green valley galaxies.  This might indicate a 
-link between some dwarf green valley galaxies and a host AGN.  This 
-would support other studies of the transition of galaxies from the blue sequence 
-to the red cloud, which attribute the quenching of star formation to accretion 
-of a central black hole.
-
-I expect to find a large-scale environmental effect on the star formation 
-quenching mechanism in addition to the AGN effects.  Giving us feedback on the 
-role of the environment in a galaxy's evolution, these results will have great 
-impact on the input parameters of large hydrodynamic simulations.  This project 
-will serve as an example of the possible science that will be able to be done 
-with the future James Webb Space Telescope.
+link between green valley galaxies and a host AGN.  This would support other 
+studies of the transition of galaxies from the blue sequence to the red cloud, 
+which attribute the quenching of star formation to accretion of a central black 
+hole \citep[e.g.,][]{Croton06,Stasinska08}.
 
 
 
@@ -305,4 +434,37 @@ with the future James Webb Space Telescope.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section[Conclusion]{Conclusion}
+\section[Conclusions]{Conclusions}
+
+We can define galaxies which are transitioning through the green valley of the 
+color-magnitude diagram by combining the galaxy's color, color gradient, and 
+inverse concentration index.  Galaxies with a magnitude less than 25 for the 
+morphological type as calculated in the KIAS-VAGC exist in the green valley 
+portion of the UV-optical color magnitude diagram.  Galaxies defined as early 
+types (morphological type values equal to 1 or 2) are in the red cloud, while 
+those with morphological type values greater than 25 are in the blue sequence.  
+With this quantitative definition for galaxies transitioning through the green 
+valley, we can begin to understand the properties of green valley galaxies and 
+the evolution of galaxies.
+
+Based on our analysis, green valley galaxies have stellar masses comparable to 
+those in the red cloud.  They have intermediate SFRs, and low-to-intermediate 
+sSFRs.  Green valley galaxies also have high gas-phase nitrogen abundances (N/H), 
+resulting in high N/O ratios.  While their SFRs show that something has quenched 
+their star formation, their stellar masses inform us that this is not due to any 
+premature quenching mechanism.  The high nitrogen abundances in the green valley 
+galaxies indicates that the galaxies are either no longer forming stars (since 
+nitrogen is produced in lower mass stars than oxygen), or that the galaxies were 
+able to produce both primary and secondary nitrogen (heavy elements were present 
+during the last few star formation episodes to permit the CNO cycle to commence 
+earlier).  This chemical abundance pattern (normal oxygen, high nitrogen, and 
+high N/O ratio) is also seen in galaxies classified as AGN, indicating that the 
+galaxies in the green valley have an AGN.
+
+There is a higher fraction of faint wall galaxies in the green valley than in 
+the void regions.  In conjunction with the conclusions of \cite{Douglass17b} and 
+Douglass \& Vogeley (2017, in prep), this indicates that void dwarf galaxies are 
+less evolved than dwarf galaxies in denser environments.  It would be beneficial 
+to investigate the small-scale ($\sim 1$ \hMpc) environment of galaxies in the 
+green valley, to determine if any interactions are responsible for the 
+transitional state.
