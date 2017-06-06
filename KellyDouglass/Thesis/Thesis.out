@@ -12,9 +12,9 @@
 \BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.2}{Theory}{chapter.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.1}{Overview of Methods}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.2}{[Oiii]}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.3}{[Oii]}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.4}{[Sii]}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.2}{[O III]}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.3}{[O II]}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.4}{[S II]}{section.2.2}% 17
 \BOOKMARK [2][-]{subsection.2.2.5}{Direct Te method}{section.2.2}% 18
 \BOOKMARK [1][-]{section.2.3}{Data}{chapter.2}% 19
 \BOOKMARK [2][-]{subsection.2.3.1}{Spectroscopic selection}{section.2.3}% 20
@@ -35,7 +35,7 @@
 \BOOKMARK [0][-]{chapter.3}{N/O ratio in dwarf galaxies}{Front Matter.-1}% 35
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 36
 \BOOKMARK [1][-]{section.3.2}{Theory}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.2.1}{[Nii]}{section.3.2}% 38
+\BOOKMARK [2][-]{subsection.3.2.1}{[N II]}{section.3.2}% 38
 \BOOKMARK [2][-]{subsection.3.2.2}{Direct Te method}{section.3.2}% 39
 \BOOKMARK [1][-]{section.3.3}{Data}{chapter.3}% 40
 \BOOKMARK [2][-]{subsection.3.3.1}{Spectroscopic selection}{section.3.3}% 41
@@ -87,5 +87,8 @@
 \BOOKMARK [0][-]{chapter.7}{Conclusions}{Front Matter.-1}% 87
 \BOOKMARK [1][-]{section.7.1}{Suggestions for future work}{chapter.7}% 88
 \BOOKMARK [-1][-]{Back Matter.-1}{Back Matter}{}% 89
-\BOOKMARK [0][-]{section*.66}{Bibliography}{Back Matter.-1}% 90
-\BOOKMARK [0][-]{section*.67}{Vita}{Back Matter.-1}% 91
+\BOOKMARK [0][-]{section*.67}{Bibliography}{Back Matter.-1}% 90
+\BOOKMARK [0][-]{appendix.A}{The physics of the Direct Te method}{Back Matter.-1}% 91
+\BOOKMARK [1][-]{section.A.1}{Temperatures from the forbidden emission lines}{appendix.A}% 92
+\BOOKMARK [1][-]{section.A.2}{[S II]}{appendix.A}% 93
+\BOOKMARK [0][-]{section*.68}{Vita}{Back Matter.-1}% 94

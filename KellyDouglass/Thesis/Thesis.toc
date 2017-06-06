@@ -6,9 +6,9 @@
 \contentsline {section}{\numberline {2.1}Introduction}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}Theory}{5}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Overview of Methods}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}[O{\sc iii}]}{6}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}[O{\sc ii}]}{8}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}[S{\sc ii}]}{8}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.2}[{O} III]}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}[{O} II]}{8}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}[{S} II]}{8}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Direct $T_e$ method}{8}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}Data}{10}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Spectroscopic selection}{10}{subsection.2.3.1}
@@ -17,19 +17,19 @@
 \contentsline {subsection}{\numberline {2.4.1}Estimation of uncertainties and confirmation of our method}{12}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Results}{13}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Sources of systematic error}{15}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Comparison to previously published metallicity measurements}{17}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.4}Comparison to previously published metallicity measurements}{16}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Mass-metallicity relation}{18}{subsection.2.4.5}
 \contentsline {subsection}{\numberline {2.4.6}SFR-metallicity relation}{19}{subsection.2.4.6}
-\contentsline {subsection}{\numberline {2.4.7}Color-metallicity relation}{20}{subsection.2.4.7}
+\contentsline {subsection}{\numberline {2.4.7}Color-metallicity relation}{21}{subsection.2.4.7}
 \contentsline {section}{\numberline {2.5}Discussion}{22}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Comparison to literature results}{22}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Large-scale environmental influence}{24}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.2}Large-scale environmental influence}{23}{subsection.2.5.2}
 \contentsline {subsection}{\numberline {2.5.3}Extreme low-metallicity galaxies}{25}{subsection.2.5.3}
 \contentsline {section}{\numberline {2.6}Conclusions}{27}{section.2.6}
 \contentsline {chapter}{\numberline {3}N/O ratio in dwarf galaxies}{28}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{28}{section.3.1}
 \contentsline {section}{\numberline {3.2}Theory}{31}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}[N{\sc ii}]}{31}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}[{N} II]}{31}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Direct $T_e$ method}{32}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Data}{34}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Spectroscopic selection}{35}{subsection.3.3.1}
@@ -88,9 +88,12 @@
 \contentsline {section}{\numberline {6.5}Discussion}{94}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{95}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{95}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Conclusions}{96}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusions}{97}{chapter.7}
-\contentsline {section}{\numberline {7.1}Suggestions for future work}{97}{section.7.1}
-\contentsline {chapter}{Bibliography}{98}{section*.66}
+\contentsline {section}{\numberline {6.6}Conclusions}{97}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusions}{98}{chapter.7}
+\contentsline {section}{\numberline {7.1}Suggestions for future work}{98}{section.7.1}
+\contentsline {chapter}{Bibliography}{99}{section*.67}
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname \nobreakspace {}} \renewcommand {\cftchapaftersnum }{:}
-\contentsline {chapter}{Vita}{103}{section*.67}
+\contentsline {chapter}{\numberline {A}The physics of the Direct $T_e$ method}{104}{appendix.A}
+\contentsline {section}{\numberline {A.1}Temperatures from the forbidden emission lines}{105}{section.A.1}
+\contentsline {section}{\numberline {A.2}[{S} II]}{105}{section.A.2}
+\contentsline {chapter}{Vita}{107}{section*.68}

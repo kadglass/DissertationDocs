@@ -782,9 +782,9 @@
       requirements for the degree\\
       of\\
       \@DUT@degree\\
-      \@DUT@month\ \@DUT@year
+      \@DUT@month\ \@DUT@year\\
     \end{center}\par
-    \if@DUT@pagebreak \vspace*{\fill}
+    \if@DUT@pagebreak \vfill %\vspace*{\fill}
     \centering
     \mbox{\smash{\includegraphics[width=4cm]{drexel-logo}}}
     \fi

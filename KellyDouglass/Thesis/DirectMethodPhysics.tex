@@ -1,0 +1,186 @@
+\chapter{The physics of the Direct $T_e$ method}
+
+UV photons from young stars in an \ion{H}{2} region keep the interstellar gas 
+partially ionized.  In an \ion{H}{2} region, a photon with an energy 
+$E_\gamma \gtrsim 13.6\text{ eV}$ ionizes a hydrogen atom, producing an H$^+$ 
+ion and an electron with some kinetic energy 
+$K_{e^-} = E_\gamma - 13.6\text{ eV}$.  As the free electron moves around in the 
+gas, it loses some of its kinetic energy as it collisionally excites other ions 
+in the gas.  Because we are in a Str\"{o}mgren sphere (an ionized region or an 
+\ion{H}{2} region), the cross-section for this electron scattering is much 
+larger than the photoionization cross section, so the free electrons will 
+thermalize quickly \citep{DeRobertis87}.  Eventually, the free electron 
+recombines with an H$^+$ ion, forming atomic hydrogen again.  The ions that were 
+collisionally excited by the electron before its recombination eventually 
+de-excite via forbidden transitions, emitting radiation that escapes the 
+\ion{H}{2} region.
+
+In equilibrium, the total energy input into the gas via radiation from the star 
+(that ionizes the hydrogen), $E_{photoionization}$, must be equal to the energy 
+required to recombine the electron and the H$^+$ ion, $E_{recombination}$, and 
+the energy radiated away from the \ion{H}{2} region by the forbidden 
+transitions, $E_{radiation}$.  So
+\begin{equation}
+    E_{photoionization} = E_{recombination} + E_{radiation}
+\end{equation}
+For radiative de-excitation to dominate over collisional de-excitation, the 
+electron density $n_e \ll 10^{8-10}\text{ cm}^{-3}$ \citep{DeRobertis87}.  
+Typical \ion{H}{2} regions have an electron density 
+$n_e \approx 100\text{ cm}^{-3}$, so radiative de-excitation dominates; this is 
+why we observe forbidden transitions in outer space but not here on Earth.
+
+
+\section{Temperatures from the forbidden emission lines}
+
+%%%%%%%% All from DeRobertis87
+%Of the ions that dominate radiative cooling (O$^+$, N$^+$, etc.), most have 
+%either p$^2$, p$^3$, or p$^4$ ground-state electron configurations with five 
+%energy levels $\leq 5\text{ eV}$ above the ground state.  For each excitation 
+%level $i$, \cite{DeRobertis87} shows that the equations of statistical 
+%equilibrium are
+%\begin{equation}
+%    \sum_{j \neq i} n_j n_e q_{ij} + \sum_{j > i} n_j A_{ji} = \sum_{j \neq i} n_i n_e q_{ij} + \sum_{j < i} n_i A_{ij}
+%\end{equation}
+%where $n_j$ is the fraction of the ion in level $j$, $q_{ij}$ is the electron 
+%(de)excitation rate coefficient (in units of cm$^{-3}$s$^{-1}$), and $A_{ij}$ is 
+%the radiate transition probability with units of s$^{-1}$.  From left to right, 
+%these terms describe the collisional transitions to $i$, the radiative 
+%transitions down to $i$, the collisional transitions from $i$, and the radiative 
+%transitions down from $i$.  For a given ion X$^i$ with a number density 
+%$N(\text{X}^i)$, the relative populations must must sum to unity:
+%\begin{equation}
+%    \sum_j \frac{n_j}{N(\text{X}^i} = 1
+%\end{equation}
+%
+%$A_{ij}$ are independent of temperature and inversely proportional to the 
+%lifetime of the upper level.  Conversely, the coefficients $q_{ij}$ depend on 
+%temperature since they are a measure of how likely collisions will occur.  These 
+%can be calculated as
+%\begin{equation}
+%    q_{ij} = \frac{8.629\times 10^{-6}}{T_e^{1/2}} \frac{\Omega (i,j)}{\omega_i}
+%\end{equation}
+%where $T_e$ is the electron temperature, $\omega_i$ is the statistical weight of 
+%level $i$, and $\Omega (i,j)$ is the average collisional strength.  While 
+%$\Omega$ is dimensionless, it does depend on the temperature 
+%\cite{DeRobertis87}.  The excitation rate $q_{ij}$ is related to the 
+%de-excitation rate $q_{ji$ by
+%\begin{equation}
+%    q_{ji} = \frac{\omega_i}{\omega_j} q_{ij} \exp{-\Chi_{ij}/kT}
+%\end{equation}
+%where $\Chi_{ij}$ is the excitation energy difference between levels $i$ and 
+%$j$.
+
+
+%%%%%%% From Osterbrock89
+
+%In a pure hydrogen nebula, \cite{Osterbrock89} shows us that the photoionization 
+%energy input (per unit volume per unit time) is equal to 
+%\begin{equation}
+%    G(H) = n_e n_p \alpha_A (H^0, T) \frac{3}{2} kT_i
+%\end{equation}
+%where $n_e$ is the number density of electrons, $n_p$ is the number density of 
+%protons, $\alpha_A$ is the recombination coefficient summed over all energy 
+%levels, and $T_i$ is the photoelectron's initial temperature.  Assuming a 
+%blackbody spectrum, $T_i \approx T_*$ for $kT_* < h\nu_0$.  The gain $G(H)$ 
+%depends on the form of the ionizing radiation field, not its strength.  The rate 
+%of creation of the photoelectrons depends on the strength of the radiation 
+%field, or the recombination rate.
+%
+%Likewise, \cite{Osterbrock89} shows that the rate of energy lost through 
+%recombination per unit volume is equal to
+%\begin{equation}
+%    L_R (H) = n_e n_p kT \beta_A (H^0, T)
+%\end{equation}
+%where $\beta_A$ is the effective recombination coefficient for recombination 
+%energy loss.
+
+Expanding the description in Sec. \ref{sec:O3}, we can define the ratio of the 
+emission line strengths for [\ion{O}{3}] $\lambda$4363 and [\ion{O}{3}] 
+$\lambda \lambda$4959,5007 as
+\begin{equation}
+    \frac{j_{4959} + j_{5007}}{j_{4363}} = \frac{\Omega(^3\text{P}, ^1\text{D})}{\Omega(^3\text{P}, ^1\text{S})} \left[ \frac{A_{^1\text{S}, ^1\text{D}} + A_{^1\text{S}, ^3\text{P}}}{A_{^1\text{S}, ^1\text{D}}} \right] \frac{\bar{\nu}(^3\text{P}, ^1\text{D})}{\nu(^1\text{D}, ^1\text{S})} e^{\Delta E/kT}
+\end{equation}
+where $j_\lambda$ is the emissivity of the emission line, $\Omega (i,j)$ is the 
+collision strength between levels $i$ and $j$, $A_{i,j}$ is the radiative 
+transition probability between an upper level $i$ and a lower level $j$, $\nu$ 
+is the frequency of the transition, $\Delta E$ is the energy difference between 
+the $^1$D$_2$ and $^1$S$_0$ levels, and $T$ is the electron temperature 
+\cite{Osterbrock89}.  The transition probabilities $A_{i,j}$ do not depend on 
+the temperature, but the collision strength $\Omega (i,j)$ is 
+temperature-dependent.  We can define
+\begin{equation}
+    \bar{\nu}(^3\text{P}, ^1\text{D}) = \frac{A_{^1\text{D}_2, ^3\text{P}_2} \nu (5007) + A_{^1\text{D}_2, ^3\text{P}_1} \nu (4959)}{A_{^1\text{D}_2, ^3\text{P}_2} + A_{^1\text{D}_2, ^3\text{P}_1}}
+\end{equation}
+Inserting numerical values for the collision strengths and transition 
+probabilities from \cite{Osterbrock89}, the ratio becomes
+\begin{equation}
+    \frac{j_{4959} + j_{5007}}{j_{4363}} = \frac{7.73 \exp[(3.29\times 10^4)/T]}{1 + 4.5\times 10^{-4} (N_e/T^{1/2})}
+\end{equation}
+By measuring the flux of these emission lines, we can then solve for the 
+temperature of the gas.
+
+
+%\section{[\ion{O}{3}]}
+%
+%There are three significant emission lines for doubly-ionized oxygen.  The 
+%relative excitation rates to the $^1$S and $^1$D energy levels depend very 
+%strongly on the electron temperature, $T_e$; therefore, the relative strengths 
+%of these emitted lines can be used to measure the electron temperature 
+%\citep{Osterbrock89}.  In the low-density limit $(n_e < 10^5 \text{ cm}^{-3})$, 
+%most excitations to the $^1$D level result in an emission of a photon with a 
+%wavelength of either $5007\text{\AA}$ or $4959\text{\AA}$, as shown in Fig. 
+%\ref{fig:transitions_P1}.  Most excitations up to $^1$S produce a photon of 
+%wavelength $4363\text{\AA}$, followed by a photon of either of the two previous 
+%wavelengths (since the electron is now in the $^1$D level).
+%
+%At higher densities, collisional de-excitation begins to influence these 
+%emission rates \citep{Osterbrock89}.  Because the $^1$D level has a longer 
+%lifetime than the $^1$S state, it is collisionally de-excited at lower electron 
+%densities.  This weakens the $\lambda 4959$ and $\lambda 5007$ emission lines.  
+%At the same time, the additional collisional excitations of the $^1$D state 
+%permitted by the higher electron densities strengthen the $\lambda 4363$ 
+%emission line.
+%
+%[\ion{O}{3}] $\lambda 4363$ is a temperature-sensitive forbidden transition line 
+%of doubly-ionized oxygen that is the preferred line to use when measuring the 
+%metallicity of galaxies.  Since the most effective cooling channel in \ion{H}{2} 
+%regions is oxygen line emission, lower metallicity regions have higher 
+%temperatures \citep{Saintonge07}.  Collisional excitations up to this energy 
+%level are more common at higher temperatures, since there are more electrons 
+%with the kinetic energy required to excite the O$^{++}$ ion to this energy 
+%level.  As a result, the line strength of [\ion{O}{3}] $\lambda 4363$ correlates 
+%with the region's temperature and is therefore anticorrelated with the 
+%metallicity of the galaxy.
+
+
+%\section{[\ion{N}{2}]}
+%
+%The energy-level diagram for the various transitions of [\ion{N}{2}] is very 
+%similar to that of [\ion{O}{3}], since they have the same electron ground-state 
+%configuration ((1s)$^2$(2s)$^2$(2p)$^2$).  The similarities can be seen in Fig. 
+%\ref{fig:transitions_P2}.  Therefore, an estimate of the electron temperature can 
+%be made from the [\ion{N}{2}] $\lambda 5755$ emission line.  However, this line 
+%is weaker than the [\ion{O}{3}] $\lambda 4363$ auroral line (since there is less 
+%N than O in galaxies), so we use the [\ion{O}{3}] auroral line for our 
+%temperature estimates, as in Paper I.  After obtaining a temperature and density 
+%estimate, we use the [\ion{N}{2}] $\lambda \lambda 6548, 6584$ doublet to 
+%estimate the abundance of singly ionized nitrogen in a galaxy.
+
+
+\section{[\ion{S}{2}]}
+
+Similar to the sensitivity of the doubly-ionized oxygen ion transitions to the 
+electron temperature of the surrounding gas, the transitions for singly-ionized 
+sulfur are sensitive to electron number density.  The relative excitation rates 
+depend only on the ratio of the collision strengths when two emission lines 
+(from the same ion) with nearly identical excitation energies are compared 
+\citep{Osterbrock89}.  If the two levels have different transition probabilities 
+and/or different collisional de-excitation rates, their ratio depends on the 
+density.
+
+The relative excitation rates of the two lines shown in Fig. 
+\ref{fig:transitions_P1} are proportional to their statistical weights; thus, the 
+ratio of the line intensities is a constant in the low-density limit 
+\citep{Osterbrock89}.  In the high-density regime, this ratio is best accurately 
+described by a Boltzmann population ratio.  There is a critical density for the 
+energy levels which describes the turning point between these two extremes.
