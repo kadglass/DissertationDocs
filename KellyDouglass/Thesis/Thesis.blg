@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 The style file: aasjournal.bst
@@ -11,11 +11,11 @@ A level-1 auxiliary file: Thesis_sections/smallScaleEnvironment.aux
 A level-1 auxiliary file: Thesis_sections/GV.aux
 A level-1 auxiliary file: Thesis_sections/Conclusion.aux
 A level-1 auxiliary file: CV.aux
-Database file #1: /Users/kellydouglass/Documents/Research/Latex/metallicity_sources.bib
+Database file #1: /Volumes/kellydouglass/Documents/Research/Latex/metallicity_sources.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 139 entries,
             3183 wiz_defined-function locations,
-            1617 strings with 42823 characters,
+            1617 strings with 42825 characters,
 and the built_in function-call counts, 73386 in all, are:
 = -- 5711
 > -- 6273
