@@ -129,6 +129,10 @@ Cooper, M.~C., Tremonti, C.~A., Newman, J.~A., \& Zabludoff, A.~I. 2008, MNRAS,
   Hunt}]{DeRobertis87}
 {De Robertis}, M., Dufour, R., \& Hunt, R. 1987, JRASC, 81, 195
 
+\bibitem[{{de Rossi} {et~al.}(2007){de Rossi}, {Tissera}, \&
+  {Scannapieco}}]{deRossi07}
+{de Rossi}, M.~E., {Tissera}, P.~B., \& {Scannapieco}, C. 2007, MNRAS, 374, 323
+
 \bibitem[{{Deng}(2011)}]{Deng11}
 {Deng}, X.-F. 2011, AJ, 141, 162
 
@@ -234,6 +238,11 @@ Guseva, N., Papaderos, P., Meyer, H., Izotov, Y., \& Fricke, K. 2009, A\&A,
 
 \bibitem[{{Hoyle} {et~al.}(2012){Hoyle}, {Vogeley}, \& {Pan}}]{Hoyle12}
 {Hoyle}, F., {Vogeley}, M.~S., \& {Pan}, D. 2012, MNRAS, 426, 3041
+
+\bibitem[{{Hu} {et~al.}(2016){Hu}, {Naab}, {Walch}, {Glover}, \&
+  {Clark}}]{Hu16}
+{Hu}, C.-Y., {Naab}, T., {Walch}, S., {Glover}, S.~C.~O., \& {Clark}, P.~C.
+  2016, MNRAS, 458, 3528
 
 \bibitem[{{Huchra} \& {Geller}(1982)}]{Huchra82}
 {Huchra}, J.~P., \& {Geller}, M.~J. 1982, ApJ, 257, 423
@@ -352,6 +361,10 @@ Kreckel, K., Platen, E., Aragon-Calvo, M., {et~al.} 2012, AJ, 144, 16
 Mannucci, F., Cresci, G., Maiolino, R., Marconi, A., \& Gnerucci, A. 2010,
   MNRAS, 408, 2115
 
+\bibitem[{{Marcolini} {et~al.}(2004){Marcolini}, {Brighenti}, \&
+  {D'Ercole}}]{Marcolini04}
+{Marcolini}, A., {Brighenti}, F., \& {D'Ercole}, A. 2004, MNRAS, 352, 363
+
 \bibitem[{{Marino} {et~al.}(2013){Marino}, {Rosales-Ortega}, {S{\'a}nchez},
   {Gil de Paz}, {V{\'{\i}}lchez}, {Miralles-Caballero}, {Kehrig},
   {P{\'e}rez-Montero}, {Stanishev}, {Iglesias-P{\'a}ramo}, {D{\'{\i}}az},
@@ -378,6 +391,10 @@ Martin, D.~C., Wyder, T.~K., Schiminovich, D., {et~al.} 2007, ApJSS, 173, 342
 
 \bibitem[{{Matteucci}(1986)}]{Matteucci86}
 {Matteucci}, F. 1986, MNRAS, 221, 911
+
+\bibitem[{{Melioli} {et~al.}(2015){Melioli}, {Brighenti}, \&
+  {D'Ercole}}]{Melioli15}
+{Melioli}, C., {Brighenti}, F., \& {D'Ercole}, A. 2015, MNRAS, 446, 299
 
 \bibitem[{{Meurer} {et~al.}(2009){Meurer}, {Wong}, {Kim}, {Hanish}, {Heckman},
   {Werk}, {Bland-Hawthorn}, {Dopita}, {Zwaan}, {Koribalski}, {Seibert},
@@ -409,11 +426,15 @@ Martin, D.~C., Wyder, T.~K., Schiminovich, D., {et~al.} 2007, ApJSS, 173, 342
 \bibitem[{Mouhcine {et~al.}(2007)Mouhcine, Baldry, \& Bamford}]{Mouhcine07}
 Mouhcine, M., Baldry, I., \& Bamford, S. 2007, MNRAS, 382, 801
 
+\bibitem[{{Muratov} {et~al.}(2015){Muratov}, {Kere{\v s}},
+  {Faucher-Gigu{\`e}re}, {Hopkins}, {Quataert}, \& {Murray}}]{Muratov15}
+{Muratov}, A.~L., {Kere{\v s}}, D., {Faucher-Gigu{\`e}re}, C.-A., {et~al.}
+  2015, MNRAS, 454, 2691
+
 \bibitem[{{Muratov} {et~al.}(2017){Muratov}, {Kere{\v s}},
   {Faucher-Gigu{\`e}re}, {Hopkins}, {Ma}, {Angl{\'e}s-Alc{\'a}zar}, {Chan},
   {Torrey}, {Hafen}, {Quataert}, \& {Murray}}]{Muratov17}
-{Muratov}, A.~L., {Kere{\v s}}, D., {Faucher-Gigu{\`e}re}, C.-A., {et~al.}
-  2017, MNRAS, 468, 4170
+---. 2017, MNRAS, 468, 4170
 
 \bibitem[{{Nava} {et~al.}(2006){Nava}, {Casebeer}, {Henry}, \&
   {Jevremovic}}]{Nava06}
@@ -491,6 +512,11 @@ Pettini, M., \& Pagel, B.~E. 2004, MNRAS, 348, L59
   {V{\'{\i}}lchez}}]{Pilyugin06}
 {Pilyugin}, L.~S., {Thuan}, T.~X., \& {V{\'{\i}}lchez}, J.~M. 2006, MNRAS, 367,
   1139
+
+\bibitem[{{Power} {et~al.}(2014){Power}, {Wynn}, {Robotham}, {Lewis}, \&
+  {Wilkinson}}]{Power14}
+{Power}, C., {Wynn}, G.~A., {Robotham}, A.~S.~G., {Lewis}, G.~F., \&
+  {Wilkinson}, M.~I. 2014, ArXiv e-prints, arXiv:1406.7097
 
 \bibitem[{{Pustilnik}(2014)}]{Pustilnik14}
 {Pustilnik}, S.~A. 2014, ArXiv e-prints, 1412.1316
@@ -621,6 +647,9 @@ Strateva, I., \v{Z}eljko Ivezi\'{c}, Knapp, G.~R., {et~al.} 2001, AJ, 122, 1861
   Bianchi, Donas, Heckman, Lee, Madore, Milliard, Rich, Szalay, Welsh, \&
   Yi}]{Wyder07}
 Wyder, T.~K., Martin, D.~C., Schiminovich, D., {et~al.} 2007, ApJSS, 173, 293
+
+\bibitem[{{Xie} {et~al.}(2014){Xie}, {Gao}, \& {Guo}}]{Xie14}
+{Xie}, L., {Gao}, L., \& {Guo}, Q. 2014, MNRAS, 441, 933
 
 \bibitem[{Yin {et~al.}(2007)Yin, Liang, Hammer, Brinchmann, Zhang, Deng, \&
   Flores}]{Yin07}
