@@ -89,14 +89,17 @@
 \contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{95}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{95}{subsection.6.5.2}
 \contentsline {section}{\numberline {6.6}Conclusions}{97}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusions}{98}{chapter.7}
-\contentsline {section}{\numberline {7.1}Suggestions for future work}{98}{section.7.1}
-\contentsline {chapter}{Bibliography}{99}{section*.67}
+\contentsline {chapter}{\numberline {7}Conclusion}{98}{chapter.7}
+\contentsline {section}{\numberline {7.1}Chemical abundances}{98}{section.7.1}
+\contentsline {section}{\numberline {7.2}Small-scale environment}{100}{section.7.2}
+\contentsline {section}{\numberline {7.3}GV galaxies}{101}{section.7.3}
+\contentsline {section}{\numberline {7.4}Future work}{102}{section.7.4}
+\contentsline {chapter}{Bibliography}{104}{section*.67}
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname \nobreakspace {}} \renewcommand {\cftchapaftersnum }{:}
-\contentsline {chapter}{\numberline {A}Direct method physics}{104}{appendix.A}
-\contentsline {section}{\numberline {A.1}Estimating the temperature}{105}{section.A.1}
-\contentsline {section}{\numberline {A.2}[{S} II]}{105}{section.A.2}
-\contentsline {chapter}{\numberline {B}Simulations}{107}{appendix.B}
-\contentsline {section}{\numberline {B.1}General dwarf galaxy formation and evolution}{107}{section.B.1}
-\contentsline {section}{\numberline {B.2}Environmental differences}{108}{section.B.2}
-\contentsline {chapter}{Vita}{110}{section*.68}
+\contentsline {chapter}{\numberline {A}Direct method physics}{109}{appendix.A}
+\contentsline {section}{\numberline {A.1}Estimating the temperature}{110}{section.A.1}
+\contentsline {section}{\numberline {A.2}[{S} II]}{110}{section.A.2}
+\contentsline {chapter}{\numberline {B}Simulations}{112}{appendix.B}
+\contentsline {section}{\numberline {B.1}General dwarf galaxy formation and evolution}{112}{section.B.1}
+\contentsline {section}{\numberline {B.2}Environmental differences}{113}{section.B.2}
+\contentsline {chapter}{Vita}{115}{section*.68}
