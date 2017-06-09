@@ -15,44 +15,44 @@ A level-1 auxiliary file: Simulations.aux
 A level-1 auxiliary file: CV.aux
 Database file #1: /Users/kellydouglass/Documents/Research/Latex/metallicity_sources.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 147 entries,
+You've used 149 entries,
             3183 wiz_defined-function locations,
-            1666 strings with 45720 characters,
-and the built_in function-call counts, 78142 in all, are:
-= -- 6051
-> -- 6754
+            1677 strings with 46281 characters,
+and the built_in function-call counts, 79337 in all, are:
+= -- 6138
+> -- 6870
 < -- 43
-+ -- 2285
-- -- 2449
-* -- 7161
-:= -- 15005
-add.period$ -- 147
-call.type$ -- 147
-change.case$ -- 1036
-chr.to.int$ -- 145
-cite$ -- 147
-duplicate$ -- 2791
-empty$ -- 4134
-format.name$ -- 2621
-if$ -- 15175
++ -- 2324
+- -- 2492
+* -- 7278
+:= -- 15238
+add.period$ -- 149
+call.type$ -- 149
+change.case$ -- 1051
+chr.to.int$ -- 147
+cite$ -- 149
+duplicate$ -- 2829
+empty$ -- 4191
+format.name$ -- 2665
+if$ -- 15404
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 144
-newline$ -- 445
-num.names$ -- 590
-pop$ -- 1138
+missing$ -- 146
+newline$ -- 451
+num.names$ -- 598
+pop$ -- 1155
 preamble$ -- 1
-purify$ -- 1036
+purify$ -- 1051
 quote$ -- 0
-skip$ -- 2279
+skip$ -- 2310
 stack$ -- 0
-substring$ -- 3045
+substring$ -- 3090
 swap$ -- 20
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1320
+type$ -- 1338
 warning$ -- 0
-while$ -- 555
+while$ -- 562
 width$ -- 0
-write$ -- 1473
+write$ -- 1493

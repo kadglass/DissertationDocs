@@ -421,9 +421,14 @@ Martin, D.~C., Wyder, T.~K., Schiminovich, D., {et~al.} 2007, ApJSS, 173, 342
   {Hoyle}, {Giovanelli}, \& {Haynes}}]{Moorman16}
 {Moorman}, C.~M., {Moreno}, J., {White}, A., {et~al.} 2016, ApJ, 831, 118
 
+\bibitem[{{Moorman} {et~al.}(2014){Moorman}, {Vogeley}, {Hoyle}, {Pan},
+  {Haynes}, \& {Giovanelli}}]{Moorman14}
+{Moorman}, C.~M., {Vogeley}, M.~S., {Hoyle}, F., {et~al.} 2014, MNRAS, 444,
+  3559
+
 \bibitem[{{Moorman} {et~al.}(2015){Moorman}, {Vogeley}, {Hoyle}, {Pan},
   {Haynes}, \& {Giovanelli}}]{Moorman15}
-{Moorman}, C.~M., {Vogeley}, M.~S., {Hoyle}, F., {et~al.} 2015, ApJ, 810, 108
+---. 2015, ApJ, 810, 108
 
 \bibitem[{{Moran} {et~al.}(2012){Moran}, {Heckman}, {Kauffmann}, {Dav{\'e}},
   {Catinella}, {Brinchmann}, {Wang}, {Schiminovich}, {Saintonge},
@@ -595,6 +600,12 @@ Saintonge, A. 2007, PhD thesis, Cornell University
   {Kennicutt}}]{Shields91}
 {Shields}, G.~A., {Skillman}, E.~D., \& {Kennicutt}, Jr., R.~C. 1991, ApJ, 371,
   82
+
+\bibitem[{{Springel} {et~al.}(2005){Springel}, {White}, {Jenkins}, {Frenk},
+  {Yoshida}, {Gao}, {Navarro}, {Thacker}, {Croton}, {Helly}, {Peacock}, {Cole},
+  {Thomas}, {Couchman}, {Evrard}, {Colberg}, \& {Pearce}}]{Springel05}
+{Springel}, V., {White}, S.~D.~M., {Jenkins}, A., {et~al.} 2005, Nature, 435,
+  629
 
 \bibitem[{{Stasi{\'n}ska} {et~al.}(2008){Stasi{\'n}ska}, {Vale Asari}, {Cid
   Fernandes}, {Gomes}, {Schlickmann}, {Mateus}, {Schoenell}, {Sodr{\'e}}, \&

@@ -3,11 +3,12 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{textcomp}
-\usepackage{tabu}
-\usepackage{multirow}
+\usepackage{tabu}       % Insert footnotes into table
+\usepackage{multirow}   % Allow column to span multiple rows
 \usepackage{enumitem}
-\usepackage{rotating}
-\usepackage{xspace}
+\usepackage{rotating}   % Rotate tables, figures
+\usepackage{xspace}     % Optional space at end of command
+\usepackage{changepage} % Adjust width of chapter abstracts
 
 \usepackage{natbib}
 \bibliographystyle{aasjournal}
@@ -23,6 +24,13 @@
 \newcommand{\ion}[2]{{#1} \expandafter\@slowromancap\romannumeral #2@}
 \makeatother
 
+\makeatletter
+\newenvironment{chapabstract}{%
+    \begin{center}%    
+        \bfseries Abstract
+    \end{center}}%
+    {\par}
+\makeatother
 
 \author{Kelly A. Douglass}
 \title{Observational evidence of the large-scale environmental influence on dwarf galaxy evolution}
@@ -40,6 +48,7 @@
 
 
 \begin{thesis}
+\pdfbookmark[-1]{Main Matter}{Main Matter}
 
 % Introduction
 \include{Thesis_sections/Introduction}
