@@ -2,104 +2,104 @@
 \contentsline {chapter}{List of Figures}{ix}{section*.5}
 \contentsline {chapter}{Abstract}{xi}{section*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Metallicity of dwarf galaxies}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Theory}{9}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Overview of Methods}{9}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}[{O} III]}{10}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}[{O} II]}{11}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}[{S} II]}{12}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Direct $T_e$ method}{12}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Data}{13}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Spectroscopic selection}{14}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Void classification}{15}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Results}{15}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Estimation of uncertainties and confirmation of our method}{16}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Results}{16}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Sources of systematic error}{20}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Comparison to previously published metallicity measurements}{20}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Mass-metallicity relation}{21}{subsection.2.4.5}
-\contentsline {subsection}{\numberline {2.4.6}SFR-metallicity relation}{23}{subsection.2.4.6}
-\contentsline {subsection}{\numberline {2.4.7}Color-metallicity relation}{24}{subsection.2.4.7}
-\contentsline {section}{\numberline {2.5}Discussion}{27}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Comparison to literature results}{27}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Large-scale environmental influence}{27}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Extreme low-metallicity galaxies}{29}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Conclusions}{31}{section.2.6}
-\contentsline {chapter}{\numberline {3}N/O ratio in dwarf galaxies}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{32}{section.3.1}
-\contentsline {section}{\numberline {3.2}Theory}{36}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}[{N} II]}{36}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Direct $T_e$ method}{36}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Data}{39}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Spectroscopic selection}{39}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Void classification}{40}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Results}{40}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Estimation of uncertainties and comparison of N/O and N$^+$/O$^+$}{41}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Sources of systematic error}{41}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Galaxy abundances}{42}{subsection.3.4.3}
-\contentsline {subsubsection}{Oxygen and nitrogen abundances}{43}{section*.30}
-\contentsline {subsubsection}{Ratio of nitrogen to oxygen}{48}{section*.34}
-\contentsline {subsection}{\numberline {3.4.4}N/O versus O/H}{51}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Mass--N/O relation}{54}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Color--N/O relation}{55}{subsection.3.4.6}
-\contentsline {subsection}{\numberline {3.4.7}(s)SFR--N/O relation}{56}{subsection.3.4.7}
-\contentsline {section}{\numberline {3.5}Discussion}{57}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Higher metallicities in void dwarf galaxies}{58}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Lower N/O ratios in void dwarf galaxies}{59}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}N/O ratio for extremely low metallicity galaxies}{60}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Conclusions}{60}{section.3.6}
-\contentsline {chapter}{\numberline {4}Large-scale environmental dependence of chemical abundances in dwarf galaxies and implications for connecting star formation and halo mass}{64}{chapter.4}
-\contentsline {chapter}{\numberline {5}Small-scale environment}{65}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{65}{section.5.1}
-\contentsline {section}{\numberline {5.2}Theory}{66}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Peculiar velocity}{67}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Sky separation in $h^{-1}$Mpc\xspace }{67}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Fractional virial radii}{68}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Absolute distance to nearest neighbor}{68}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Data}{69}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Various samples}{69}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Group catalog}{70}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Results}{70}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Parameter -- distance relations}{70}{subsection.5.4.1}
-\contentsline {subsubsection}{Color}{71}{section*.45}
-\contentsline {subsubsection}{sSFR}{71}{section*.47}
-\contentsline {subsubsection}{Metallicity}{74}{section*.49}
-\contentsline {subsubsection}{Nitrogen abundance}{74}{section*.51}
-\contentsline {subsubsection}{N/O ratio}{77}{section*.53}
-\contentsline {subsection}{\numberline {5.4.2}Linear fit parameters}{77}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Selection effects}{77}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Including redshift in the distance}{85}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Discussion}{85}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Comparison to literature results}{86}{subsection.5.5.1}
-\contentsline {section}{\numberline {5.6}Conclusions}{87}{section.5.6}
-\contentsline {chapter}{\numberline {6}Green valley galaxies}{89}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{89}{section.6.1}
-\contentsline {section}{\numberline {6.2}Theory}{90}{section.6.2}
-\contentsline {section}{\numberline {6.3}Data}{91}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Optical data --- SDSS}{91}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}UV data --- GALEX}{92}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Results}{92}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Properties of the Green Valley Galaxies}{94}{subsection.6.4.1}
-\contentsline {subsubsection}{Stellar mass}{94}{section*.63}
-\contentsline {subsubsection}{Star formation rates}{95}{section*.65}
-\contentsline {subsubsection}{Gas-phase chemical abundances}{97}{section*.67}
-\contentsline {subsubsection}{Large-scale environment}{97}{section*.69}
-\contentsline {section}{\numberline {6.5}Discussion}{98}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{99}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{99}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Conclusions}{101}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{102}{chapter.7}
-\contentsline {section}{\numberline {7.1}Chemical abundances}{102}{section.7.1}
-\contentsline {section}{\numberline {7.2}Small-scale environment}{104}{section.7.2}
-\contentsline {section}{\numberline {7.3}GV galaxies}{105}{section.7.3}
-\contentsline {section}{\numberline {7.4}Future work}{106}{section.7.4}
-\contentsline {chapter}{Bibliography}{108}{section*.73}
+\contentsline {chapter}{\numberline {2}Metallicity of dwarf galaxies}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Theory}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Overview of Methods}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}[{O} III]}{12}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}[{O} II]}{13}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}[{S} II]}{14}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Direct $T_e$ method}{14}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Data}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Spectroscopic selection}{16}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Void classification}{17}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Results}{17}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Estimation of uncertainties and confirmation of our method}{18}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Results}{18}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Sources of systematic error}{22}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Comparison to previously published metallicity measurements}{22}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Mass-metallicity relation}{23}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}SFR-metallicity relation}{25}{subsection.2.4.6}
+\contentsline {subsection}{\numberline {2.4.7}Color-metallicity relation}{26}{subsection.2.4.7}
+\contentsline {section}{\numberline {2.5}Discussion}{29}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Comparison to literature results}{29}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Large-scale environmental influence}{29}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Extreme low-metallicity galaxies}{31}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Conclusions}{33}{section.2.6}
+\contentsline {chapter}{\numberline {3}N/O ratio in dwarf galaxies}{34}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{34}{section.3.1}
+\contentsline {section}{\numberline {3.2}Theory}{38}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}[{N} II]}{38}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Direct $T_e$ method}{38}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Data}{41}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Spectroscopic selection}{41}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Void classification}{42}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Results}{42}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Estimation of uncertainties and comparison of N/O and N$^+$/O$^+$}{43}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Sources of systematic error}{43}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Galaxy abundances}{44}{subsection.3.4.3}
+\contentsline {subsubsection}{Oxygen and nitrogen abundances}{45}{section*.30}
+\contentsline {subsubsection}{Ratio of nitrogen to oxygen}{50}{section*.34}
+\contentsline {subsection}{\numberline {3.4.4}N/O versus O/H}{53}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Mass--N/O relation}{56}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Color--N/O relation}{57}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}(s)SFR--N/O relation}{58}{subsection.3.4.7}
+\contentsline {section}{\numberline {3.5}Discussion}{59}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Higher metallicities in void dwarf galaxies}{60}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Lower N/O ratios in void dwarf galaxies}{61}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}N/O ratio for extremely low metallicity galaxies}{62}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}Conclusions}{62}{section.3.6}
+\contentsline {chapter}{\numberline {4}Large-scale environmental dependence of chemical abundances in dwarf galaxies and implications for connecting star formation and halo mass}{66}{chapter.4}
+\contentsline {chapter}{\numberline {5}Small-scale environment}{67}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{67}{section.5.1}
+\contentsline {section}{\numberline {5.2}Theory}{68}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Peculiar velocity}{69}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Sky separation in $h^{-1}$Mpc\xspace }{69}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Fractional virial radii}{70}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Absolute distance to nearest neighbor}{70}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Data}{71}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Various samples}{71}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Group catalog}{72}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Results}{72}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Parameter -- distance relations}{72}{subsection.5.4.1}
+\contentsline {subsubsection}{Color}{73}{section*.45}
+\contentsline {subsubsection}{sSFR}{73}{section*.47}
+\contentsline {subsubsection}{Metallicity}{76}{section*.49}
+\contentsline {subsubsection}{Nitrogen abundance}{76}{section*.51}
+\contentsline {subsubsection}{N/O ratio}{79}{section*.53}
+\contentsline {subsection}{\numberline {5.4.2}Linear fit parameters}{79}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Selection effects}{79}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Including redshift in the distance}{87}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Discussion}{87}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Comparison to literature results}{88}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Conclusions}{89}{section.5.6}
+\contentsline {chapter}{\numberline {6}Green valley galaxies}{91}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{91}{section.6.1}
+\contentsline {section}{\numberline {6.2}Theory}{92}{section.6.2}
+\contentsline {section}{\numberline {6.3}Data}{93}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Optical data --- SDSS}{93}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}UV data --- GALEX}{94}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Results}{94}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Properties of the Green Valley Galaxies}{96}{subsection.6.4.1}
+\contentsline {subsubsection}{Stellar mass}{96}{section*.63}
+\contentsline {subsubsection}{Star formation rates}{97}{section*.65}
+\contentsline {subsubsection}{Gas-phase chemical abundances}{99}{section*.67}
+\contentsline {subsubsection}{Large-scale environment}{99}{section*.69}
+\contentsline {section}{\numberline {6.5}Discussion}{100}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{101}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{101}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Conclusions}{103}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{104}{chapter.7}
+\contentsline {section}{\numberline {7.1}Chemical abundances}{104}{section.7.1}
+\contentsline {section}{\numberline {7.2}Small-scale environment}{106}{section.7.2}
+\contentsline {section}{\numberline {7.3}GV galaxies}{107}{section.7.3}
+\contentsline {section}{\numberline {7.4}Future work}{108}{section.7.4}
+\contentsline {chapter}{Bibliography}{110}{section*.73}
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname \nobreakspace {}} \renewcommand {\cftchapaftersnum }{:}
-\contentsline {chapter}{\numberline {A}Direct method physics}{113}{appendix.A}
-\contentsline {section}{\numberline {A.1}Estimating the temperature}{114}{section.A.1}
-\contentsline {section}{\numberline {A.2}[{S} II]}{114}{section.A.2}
-\contentsline {chapter}{\numberline {B}Simulations}{116}{appendix.B}
-\contentsline {section}{\numberline {B.1}General dwarf galaxy formation and evolution}{116}{section.B.1}
-\contentsline {section}{\numberline {B.2}Environmental differences}{117}{section.B.2}
-\contentsline {chapter}{Vita}{119}{section*.74}
+\contentsline {chapter}{\numberline {A}Direct method physics}{115}{appendix.A}
+\contentsline {section}{\numberline {A.1}Estimating the temperature}{116}{section.A.1}
+\contentsline {section}{\numberline {A.2}[{S} II]}{116}{section.A.2}
+\contentsline {chapter}{\numberline {B}Simulations}{118}{appendix.B}
+\contentsline {section}{\numberline {B.1}General dwarf galaxy formation and evolution}{118}{section.B.1}
+\contentsline {section}{\numberline {B.2}Environmental differences}{119}{section.B.2}
+\contentsline {chapter}{Vita}{121}{section*.74}

@@ -81,11 +81,16 @@ of galaxies are drastically altered due to mergers and tidal stripping and/or
 ram-pressure stripping.
 
 % What do we already know about the environmental influence?
-
-
+Observational studies of void galaxies have included investigation of 
+photometric properties such as luminosity \citep{Hoyle05,Croton05,Moorman15}, 
+color and morphological type \citep{Grogin00,Rojas04,Patiri06,Park07,
+vonBendaBeckmann08,Hoyle12}, star formation rates estimated from optical 
+spectroscopy and UV photometry \citep{Rojas05,Moorman15,Beygu16}, and gas 
+content \citep{Kreckel12,Moorman16,Jones16}.  When compared to galaxies in 
+denser regions, void galaxies are fainter, of late morphological types, bluer, 
+forming stars at higher rates per unit stellar mass, and more gas rich.
 
 % Dwarf galaxies
-
 \begin{figure}
     \includegraphics[width=0.65\textwidth]{Images/Intro/1sig_13-23_SDSS_Mr_hist_count_fill}
     \caption[Absolute magnitude distribution of galaxies in SDSS DR7]{Absolute 
@@ -95,10 +100,17 @@ ram-pressure stripping.
     an absolute magnitude $M_r \approx -20$.}
 \end{figure}
 
-
-
-% Galaxy structure
-
+In particular, we are going to study the effects of the large-scale environment 
+on the formation and evolution of dwarf galaxies.  Defined to be galaxies with 
+absolute magnitudes fainter than -17 ($M_r > -17$), the lower stellar masses of 
+these systems correspond to more shallow gravitational potential wells.  This 
+causes any environmental effects to have a more significant influence on dwarf 
+galaxies than on galaxies with larger stellar masses.  In addition, studying 
+void dwarf galaxies will complement previous studies of dwarfs in groups and 
+clusters because the assembly histories of low-mass galaxies are predicted to 
+be very different \citep[e.g.,][]{Gao07,Lackner12}.  Observations to date also 
+show that the properties of dwarf galaxies vary dramatically with the 
+environment \citep[e.g.,][]{Ann08,Geha12}.
 
 
 
@@ -108,6 +120,16 @@ ram-pressure stripping.
 %  - What are forbidden transitions and why are they important?
 %  - How do we get the temperature from the emission line ratio?  (Summary - refer to appendix for more details)
 %  - What is the metallicity?  O/H - Why oxygen?  and once we estimate the abundances of each ion, we add them together to get the total abundance for that element
+
+The first stars that formed are thought to have been composed of only hydrogen 
+(and maybe some trace amount of helium).  As stars burn, nucleosythesis creates 
+heavier elements at the core.  When the stars die and expel some or all of their 
+contents, the heavier elements are distributed between the surrounding 
+interstellar gas and the surrounding circumgalactic medium.  When new stars form 
+from this gas, they include both hydrogen and some of the heavier elements.  By 
+measuring the fraction of elements heavier than helium (``metals'') relative to 
+the hydrogen content (the metallicity), we measure the integrated star formation 
+history of the galaxy.
 
 \begin{figure}
     \includegraphics[width=0.9\textwidth]{Images/Intro/Kirchoff}
@@ -121,7 +143,25 @@ ram-pressure stripping.
     present in the gas).  If observed off the line-of-sight of the star, the 
     light emitted from the cloud of cooler gas is named an emission spectrum, 
     where the gas is re-radiating the light it absorbed from the star.}
+    \label{fig:Kirchoff}
 \end{figure}
+
+We use a galaxy's spectrum to measure various properties of the stellar 
+population and interstellar medium.  A galaxy's spectrum is a superposition of 
+light from the stars and emission lines from the gas.  Depending on our 
+viewpoint of the galaxy's light, we will see a different type of spectrum.  As 
+shown in Fig. \ref{fig:Kirchoff}, if we separate a star's light by its 
+wavelength, we will observe a continuous spectrum, since it is a blackbody.  If 
+instead we observe the starlight after it has passed through a cloud of cooler 
+gas, we will measure an absorption line spectrum; the elements in the gas cloud 
+have absorbed some of the star's light at specific wavelengths corresponding to 
+the particular ions present.  Finally, if we only observe the light emitted from 
+the cool gas cloud, we will measure an emission line spectrum.  The method we 
+employ to estimate the metallicity of a galaxy requires particular emission 
+lines.  We study the gas-phase chemical abundances of \ion{H}{2} regions in a 
+galaxy, where the light is coming from low-density gas partially ionized by UV 
+photons emitted from young, hot stars.  Therefore, we are measuring the 
+abundances of the elements produced in previous generations of stars.
 
 \begin{figure}
 %    \includegraphics[width=0.9\textwidth]{Images/Intro/spectrum}
@@ -130,7 +170,30 @@ ram-pressure stripping.
     above average.  The [\ion{O}{3}] $\lambda$4363 auroral line is circled in 
     red, while the [\ion{O}{3}] $\lambda \lambda$4959,5007 doublet is circled in 
     yellow.}
+    \label{fig:spectrum}
 \end{figure}
+
+The ion transitions observed in the optical part of the spectrum (which is where 
+SDSS DR7 operates) consist of forbidden transitions.  As explained in detail in 
+Section \ref{sec:physics}, forbidden transitions have much longer lifetimes than 
+the allowed electron transitions.  These transitions depend strongly on the 
+temperature and density of the electron gas, because the long lifetimes allow 
+the atoms to easily collisionally de-excite.  By taking the ratio of the 
+[\ion{O}{3}] $\lambda$4363 auroral line to the [\ion{O}{3}] 
+$\lambda \lambda$4959,5007 doublet, we can get an estimate of the temperature of 
+the gas.  These lines are highlighted on the example SDSS DR7 spectrum shown in 
+Fig. \ref{fig:spectrum}.  
+
+Oxygen is used as a proxy to measure the metallicity of an \ion{H}{2} region, 
+because oxygen is the most abundant element in the universe after hydrogen and 
+helium.  It also has strong emission lines in the visible wavelength range, so 
+it is relatively easy to observe.  Oxygen emission is the most effective cooling 
+source in an \ion{H}{2} region, so lower metallicities correspond to higher 
+temperatures.  There are three main factors which determine the strength of an 
+emission line: the temperature, density, and number of ions in the gas.  It is 
+possible to calculate the number ratios for any of the heavy elements with 
+respect to hydrogen once the electron temperature and density of the 
+interstellar gas are estimated.
 
 
 % Outline of Thesis
@@ -140,4 +203,18 @@ what influence it has on a galaxy's star formation.  To do this, we compare the
 properties of galaxies living in voids with galaxies in denser regions in an 
 effort to understand how the properties of the gas and the history of star 
 formation in a galaxy depend on the environment.  We then try to infer what 
-these results tell us about the dark matter structure and history of the galaxy.
+these results tell us about the dark matter structure and history of the galaxy.  
+In Chapter \ref{ch:Paper1}, we calculate and compare the metallicity of 135 
+star-forming dwarf galaxies as a function of their large-scale environment.  We 
+continue studying this galaxy sample in Chapter \ref{ch:Paper2} by estimating 
+their ratios of nitrogen to oxygen and looking at how that depends on the 
+large-scale environment.  To expand our dwarf galaxy sample, we derive an 
+approximation for the amount of singly-ionized oxygen and repeat our analysis of 
+the large-scale environmental influence on the gas-phase chemical abundances of 
+1920 star-forming dwarf galaxies in Chapter \ref{ch:Paper3}.  In Chapter 
+\ref{ch:smallScaleEnvironment}, we investigate how the dwarf galaxies' 
+properties depend on the galaxies' distances to the nearest neighbors and 
+groups.  Finally, in an effort to better understand how galaxies evolve from 
+blue, star-forming systems to ``red and dead,'' we discover a way to classify 
+galaxies into their location on the color-magnitude diagram in Chapter 
+\ref{ch:GV}.
