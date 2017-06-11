@@ -30,6 +30,78 @@ $n_e \approx 100\text{ cm}^{-3}$, so radiative de-excitation dominates; this is
 why we observe forbidden transitions in outer space but not here on Earth.
 
 
+%\section{Forbidden transitions}
+%
+%Similar to a fingerprint, every element has a unique set of wavelengths seen in 
+%its spectrum that corresponds to the atom's different energy levels.  Since 
+%electrons within an atom have discrete energy levels, transitions between levels 
+%result in either the emission (when decreasing in energy) or absorption 
+%(an increase in energy) of a photon of the same energy as the difference between 
+%the two levels.  The separation between energy levels is unique for each 
+%element, so the photon energies either emitted or absorbed by each element are 
+%unique.
+%
+%
+%\subsection{Time-dependent perturbation theory}
+%
+%A time-dependent potential is added to the Schr\"{o}dinger equation in order to 
+%solve for the forbidden transition energies.  We can assume that the time 
+%perturbation is a minor component of the potential and can thus treat it as a 
+%perturbation.  For a simplified two-level system, the time-dependent wave 
+%function is
+%\begin{equation}
+%    \Psi (t) = c_a (t) \psi_a e^{iE_a t/\hbar} + c_b (t) \psi (b) e^{-iE_b t/\hbar}
+%\end{equation}
+%To solve for the time-dependent coefficients, we substitute $\Psi (t)$ into the 
+%time-dependent Schr\"{o}dinter equation
+%\begin{equation}
+%    H\Psi = i\hbar \frac{\partial \Psi}{\partial t}, \qquad \text{where} H = H^0 + H'(t)
+%\end{equation}
+%We find that
+%\begin{align}
+%    \dot{c}_a &= -\frac{i}{\hbar} H'_{ab} e^{-i\omega_0 t} c_b\\
+%    \dot{c}_b &= -\frac{i}{\hbar} H'_{ba} e^{-i\omega_0 t} c_a
+%\end{align}
+%where
+%\begin{equation}
+%    \omega_0 \equiv \frac{E_b - E_a}{\hbar}
+%\end{equation}
+%and
+%\begin{equation}
+%    H_{ij} \equiv \langle \psi_i | H' | \psi_j \rangle
+%\end{equation}
+%The probability that transmission has occurred is $P_{b\to a} = |c_a (t)|^2$.  
+%The transmission rate $R_{a\to b} = dP/dt$.
+%
+%For an electromagnetic wave, the atom experiences an oscillating electric field.  
+%For visible light, it is safe to assume that the spatial portion of the field 
+%does not change, since the wavelength is much longer than the size of the atom.  
+%This oscillating field corresponds to our perturbing Hamiltonian:
+%\begin{equation}
+%    H' = -qE_0 z\cos (\omega t)
+%\end{equation}
+%where $q$ is the charge on the electron, and the electric field is oscillating 
+%in the $z$ direction.  Thus,
+%\begin{equation}
+%    H'_{ba} = -pE_0 \cos (\omega t), \qquad \text{where} p \equiv q \langle \psi_b |z| \psi_a \rangle
+%\end{equation}
+%
+%
+%\subsection{Selection rules}
+%
+%The transmission rates depend on a matrix element of the form 
+%$\langle \psi_b |\vec{r}| \psi_a \rangle$.  Denoting the states by the quantum 
+%numbers $n$, $l$, and $m$, the matrix elements can be written as
+%\begin{equation}
+%    \langle n'l'm' |\vec{r}| nlm \rangle
+%\end{equation}
+%By applying the various angular momentum commutators \citep[as shown in][]
+%{Griffiths05}, we can develop a set of selection rules for allowed transitions 
+%of the electron in an atom.
+
+
+
+
 \section[Estimating the temperature]{Temperatures from the forbidden emission lines}
 
 %%%%%%%% All from DeRobertis87
