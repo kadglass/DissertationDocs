@@ -30,52 +30,64 @@ $n_e \approx 100\text{ cm}^{-3}$, so radiative de-excitation dominates; this is
 why we observe forbidden transitions in outer space but not here on Earth.
 
 
-%\section{Forbidden transitions}
-%
-%Similar to a fingerprint, every element has a unique set of wavelengths seen in 
-%its spectrum that corresponds to the atom's different energy levels.  Since 
-%electrons within an atom have discrete energy levels, transitions between levels 
-%result in either the emission (when decreasing in energy) or absorption 
-%(an increase in energy) of a photon of the same energy as the difference between 
-%the two levels.  The separation between energy levels is unique for each 
-%element, so the photon energies either emitted or absorbed by each element are 
-%unique.
-%
-%
-%\subsection{Time-dependent perturbation theory}
-%
-%A time-dependent potential is added to the Schr\"{o}dinger equation in order to 
-%solve for the forbidden transition energies.  We can assume that the time 
-%perturbation is a minor component of the potential and can thus treat it as a 
-%perturbation.  For a simplified two-level system, the time-dependent wave 
-%function is
-%\begin{equation}
-%    \Psi (t) = c_a (t) \psi_a e^{iE_a t/\hbar} + c_b (t) \psi (b) e^{-iE_b t/\hbar}
-%\end{equation}
-%To solve for the time-dependent coefficients, we substitute $\Psi (t)$ into the 
-%time-dependent Schr\"{o}dinter equation
-%\begin{equation}
-%    H\Psi = i\hbar \frac{\partial \Psi}{\partial t}, \qquad \text{where} H = H^0 + H'(t)
-%\end{equation}
-%We find that
-%\begin{align}
-%    \dot{c}_a &= -\frac{i}{\hbar} H'_{ab} e^{-i\omega_0 t} c_b\\
-%    \dot{c}_b &= -\frac{i}{\hbar} H'_{ba} e^{-i\omega_0 t} c_a
-%\end{align}
-%where
-%\begin{equation}
-%    \omega_0 \equiv \frac{E_b - E_a}{\hbar}
-%\end{equation}
-%and
-%\begin{equation}
-%    H_{ij} \equiv \langle \psi_i | H' | \psi_j \rangle
-%\end{equation}
-%The probability that transmission has occurred is $P_{b\to a} = |c_a (t)|^2$.  
-%The transmission rate $R_{a\to b} = dP/dt$.
-%
-%For an electromagnetic wave, the atom experiences an oscillating electric field.  
-%For visible light, it is safe to assume that the spatial portion of the field 
-%does not change, since the wavelength is much longer than the size of the atom.  
+\section{Forbidden transitions}
+
+Similar to a fingerprint, every element has a unique set of wavelengths seen in 
+its spectrum that corresponds to the atom's different energy levels.  Since 
+electrons within an atom have discrete energy levels, transitions between levels 
+result in either the emission (when decreasing in energy) or absorption 
+(an increase in energy) of a photon of the same energy as the difference between 
+the two levels.  The separation between energy levels is unique for each 
+element, so the photon energies either emitted or absorbed by each element are 
+unique.
+
+
+\subsection{Time-dependent perturbation theory}
+
+A time-dependent potential is added to the Schr\"{o}dinger equation in order to 
+solve for the forbidden transition energies.  We can assume that the time 
+perturbation is a minor component of the potential and can thus treat it as a 
+perturbation.  For a simplified two-level system, the time-dependent wave 
+function is
+\begin{equation}
+    \Psi (t) = c_a (t) \psi_a e^{iE_a t/\hbar} + c_b (t) \psi (b) e^{-iE_b t/\hbar}
+\end{equation}
+To solve for the time-dependent coefficients, we substitute $\Psi (t)$ into the 
+time-dependent Schr\"{o}dinter equation
+\begin{equation}
+    H\Psi = i\hbar \frac{\partial \Psi}{\partial t}, \qquad \text{where } H = H^0 + H'(t)
+\end{equation}
+We find that
+\begin{align}
+    \dot{c}_a &= -\frac{i}{\hbar} H'_{ab} e^{-i\omega_0 t} c_b\\
+    \dot{c}_b &= -\frac{i}{\hbar} H'_{ba} e^{-i\omega_0 t} c_a
+\end{align}
+where
+\begin{equation}
+    \omega_0 \equiv \frac{E_b - E_a}{\hbar}
+\end{equation}
+and
+\begin{equation}
+    H_{ij} \equiv \langle \psi_i | H' | \psi_j \rangle
+\end{equation}
+The probability that transmission has occurred is $P_{b\to a} = |c_a (t)|^2$.  
+The transmission rate $R_{a\to b} = dP/dt$.
+
+For an electromagnetic wave, the atom experiences an oscillating electric field.  
+For visible light, it is typically safe to assume that the spatial portion of 
+the field does not change, since the wavelength is much longer than the size of 
+the atom.  However, if we consider a spatial variation of the field, we find 
+that the true electric field is
+\begin{equation}
+    \vec{E}(\vec{r},t) = \vec{E}_0 \cos (\vec{k}\cdot \vec{r} - \omega t)
+\end{equation}
+Expanding this to first order, we find that
+\begin{equation}
+    \vec{E}(\vec{r},t) = \vec{E}_0 [\cos (\omega t) + (\vec{k} \cdot \vec{r} \sin (\omega t)]
+\end{equation}
+The first term in this approximation represents the electric dipole transitions 
+(the canonical electron transitions).  The second term leads to forbidden 
+transitions (magnetic dipole and electric quadrupole).
 %This oscillating field corresponds to our perturbing Hamiltonian:
 %\begin{equation}
 %    H' = -qE_0 z\cos (\omega t)
@@ -83,21 +95,57 @@ why we observe forbidden transitions in outer space but not here on Earth.
 %where $q$ is the charge on the electron, and the electric field is oscillating 
 %in the $z$ direction.  Thus,
 %\begin{equation}
-%    H'_{ba} = -pE_0 \cos (\omega t), \qquad \text{where} p \equiv q \langle \psi_b |z| \psi_a \rangle
+%    H'_{ba} = -pE_0 \cos (\omega t), \qquad \text{where } p \equiv q \langle \psi_b |z| \psi_a \rangle
 %\end{equation}
-%
-%
+
+
+%\subsection{Forbidden transitions --- metastable energy levels}
+
+
+
+
 %\subsection{Selection rules}
 %
 %The transmission rates depend on a matrix element of the form 
 %$\langle \psi_b |\vec{r}| \psi_a \rangle$.  Denoting the states by the quantum 
 %numbers $n$, $l$, and $m$, the matrix elements can be written as
-%\begin{equation}
+%\begin{equation}\label{eq:matrix_elements}
 %    \langle n'l'm' |\vec{r}| nlm \rangle
 %\end{equation}
 %By applying the various angular momentum commutators \citep[as shown in][]
 %{Griffiths05}, we can develop a set of selection rules for allowed transitions 
 %of the electron in an atom.
+%
+%Inserting the commutation relation $[L_z, z] = 0$ into Eqn. 
+%\ref{eq:matrix_elements}, we find that
+%\begin{align}
+%    0 &= \langle n'l'm'|[L_z, z]|nlm \rangle\\
+%    &= \langle n'l'm'|(L_z z - zL_z)|nlm \rangle\\
+%    &= \langle n'l'm'|(m'\hbar)z - z(m\hbar)|nlm \rangle\\
+%    0 &= (m' - m)\hbar \langle n'l'm'|z|nlm \rangle
+%\end{align}
+%$\langle n'l'm'|z|nlm \rangle = 0$ is a boring result, so we find that
+%\begin{equation}\label{eq:m'=m}
+%    m' = m
+%\end{equation}
+%
+%Likewise, by employing the relation $[L_z, x] = i\hbar y$, we find that
+%\begin{equation}\label{eq:Lz_x}
+%    (m' - m)\hbar \langle n'l'm'|x|nlm \rangle = i\hbar \langle n'l'm'|y|nlm \rangle
+%\end{equation}
+%With the relation $[L_z, y] = -i\hbar x$, we find that
+%\begin{equation}\label{eq:Lz_y}
+%    (m' - m)\hbar \langle n'l'm'|y|nlm \rangle = -i\hbar \langle n'l'm'|x|nlm \rangle
+%\end{equation}
+%Combining Eqns. \ref{eq:Lz_x} and \ref{eq:Lz_y} (and again, ignoring the boring 
+%result), we find that
+%\begin{equation}\label{eq:m'=+/-m}
+%    (m' - m)^2 = 1
+%\end{equation}
+%Eqns. \ref{eq:m'=m} and \ref{eq:m'=+/-m} show that transitions will only occur 
+%if $\Delta m = \pm 1,0$.
+
+
 
 
 
@@ -172,7 +220,11 @@ $\lambda \lambda$4959,5007 as
 \begin{equation}
     \frac{j_{4959} + j_{5007}}{j_{4363}} = \frac{\Omega(^3\text{P}, ^1\text{D})}{\Omega(^3\text{P}, ^1\text{S})} \left[ \frac{A_{^1\text{S}, ^1\text{D}} + A_{^1\text{S}, ^3\text{P}}}{A_{^1\text{S}, ^1\text{D}}} \right] \frac{\bar{\nu}(^3\text{P}, ^1\text{D})}{\nu(^1\text{D}, ^1\text{S})} e^{\Delta E/kT}
 \end{equation}
-where $j_\lambda$ is the emissivity of the emission line, $\Omega (i,j)$ is the 
+where
+\begin{equation}
+    \bar{\nu}(^3\text{P}, ^1\text{D}) = \frac{A_{^1\text{D}_2, ^3\text{P}_2}\nu (\lambda 5007) + A_{^1\text{D}_2, ^3\text{P}_1}\nu (\lambda 4959)}{A_{^1\text{D}_2, ^3\text{P}_2} + A_{^1\text{D}_2, ^3\text{P}_1}}
+\end{equation}
+and $j_\lambda$ is the emissivity of the emission line, $\Omega (i,j)$ is the 
 collision strength between levels $i$ and $j$, $A_{i,j}$ is the radiative 
 transition probability between an upper level $i$ and a lower level $j$, $\nu$ 
 is the frequency of the transition, $\Delta E$ is the energy difference between 
@@ -188,55 +240,18 @@ probabilities from \cite{Osterbrock89}, the ratio becomes
 \begin{equation}
     \frac{j_{4959} + j_{5007}}{j_{4363}} = \frac{7.73 \exp[(3.29\times 10^4)/T]}{1 + 4.5\times 10^{-4} (N_e/T^{1/2})}
 \end{equation}
-By measuring the flux of these emission lines, we can then solve for the 
+Fig. \ref{fig:OIII_temp} shows how this ratio depends on the temperature.  By 
+measuring the flux of these emission lines, we can then solve for the 
 temperature of the gas.
 
-
-%\section{[\ion{O}{3}]}
-%
-%There are three significant emission lines for doubly-ionized oxygen.  The 
-%relative excitation rates to the $^1$S and $^1$D energy levels depend very 
-%strongly on the electron temperature, $T_e$; therefore, the relative strengths 
-%of these emitted lines can be used to measure the electron temperature 
-%\citep{Osterbrock89}.  In the low-density limit $(n_e < 10^5 \text{ cm}^{-3})$, 
-%most excitations to the $^1$D level result in an emission of a photon with a 
-%wavelength of either $5007\text{\AA}$ or $4959\text{\AA}$, as shown in Fig. 
-%\ref{fig:transitions_P1}.  Most excitations up to $^1$S produce a photon of 
-%wavelength $4363\text{\AA}$, followed by a photon of either of the two previous 
-%wavelengths (since the electron is now in the $^1$D level).
-%
-%At higher densities, collisional de-excitation begins to influence these 
-%emission rates \citep{Osterbrock89}.  Because the $^1$D level has a longer 
-%lifetime than the $^1$S state, it is collisionally de-excited at lower electron 
-%densities.  This weakens the $\lambda 4959$ and $\lambda 5007$ emission lines.  
-%At the same time, the additional collisional excitations of the $^1$D state 
-%permitted by the higher electron densities strengthen the $\lambda 4363$ 
-%emission line.
-%
-%[\ion{O}{3}] $\lambda 4363$ is a temperature-sensitive forbidden transition line 
-%of doubly-ionized oxygen that is the preferred line to use when measuring the 
-%metallicity of galaxies.  Since the most effective cooling channel in \ion{H}{2} 
-%regions is oxygen line emission, lower metallicity regions have higher 
-%temperatures \citep{Saintonge07}.  Collisional excitations up to this energy 
-%level are more common at higher temperatures, since there are more electrons 
-%with the kinetic energy required to excite the O$^{++}$ ion to this energy 
-%level.  As a result, the line strength of [\ion{O}{3}] $\lambda 4363$ correlates 
-%with the region's temperature and is therefore anticorrelated with the 
-%metallicity of the galaxy.
-
-
-%\section{[\ion{N}{2}]}
-%
-%The energy-level diagram for the various transitions of [\ion{N}{2}] is very 
-%similar to that of [\ion{O}{3}], since they have the same electron ground-state 
-%configuration ((1s)$^2$(2s)$^2$(2p)$^2$).  The similarities can be seen in Fig. 
-%\ref{fig:transitions_P2}.  Therefore, an estimate of the electron temperature can 
-%be made from the [\ion{N}{2}] $\lambda 5755$ emission line.  However, this line 
-%is weaker than the [\ion{O}{3}] $\lambda 4363$ auroral line (since there is less 
-%N than O in galaxies), so we use the [\ion{O}{3}] auroral line for our 
-%temperature estimates, as in Paper I.  After obtaining a temperature and density 
-%estimate, we use the [\ion{N}{2}] $\lambda \lambda 6548, 6584$ doublet to 
-%estimate the abundance of singly ionized nitrogen in a galaxy.
+\begin{figure}
+    \includegraphics[width=0.75\textwidth]{Images/Appendix/[OIII]}
+    \caption[{[\ion{O}{3}] ratio as a function of temperature}]{The [\ion{O}{3}] 
+    $\lambda$4363/($\lambda$4959 + $\lambda$5007) ratio as a function of 
+    temperature for various densities \citep{Luridiana15}.  Typical electron 
+    densities in \ion{H}{2} regions are $\sim$100 cm$^{-3}$.}
+    \label{fig:OIII_temp}
+\end{figure}
 
 
 \section{[\ion{S}{2}]}
@@ -255,4 +270,15 @@ The relative excitation rates of the two lines shown in Fig.
 ratio of the line intensities is a constant in the low-density limit 
 \citep{Osterbrock89}.  In the high-density regime, this ratio is best accurately 
 described by a Boltzmann population ratio.  There is a critical density for the 
-energy levels which describes the turning point between these two extremes.
+energy levels which describes the turning point between these two extremes.  A 
+graphical representation of this ratio as a function of density can be seen in 
+Fig. \ref{fig:SII_den}.
+
+\begin{figure}
+    \includegraphics[width=0.75\textwidth]{Images/Appendix/[SII]}
+    \caption[{[\ion{S}{2}] ratio as a function of density}]{The [\ion{S}{2}] 
+    $\lambda$6731/$\lambda$6717 ratio as a function of density for various 
+    temperatures \citep{Luridiana15}.  The gas temperatures of \ion{H}{2} 
+    regions are typically around 10$^4$ K.}
+    \label{fig:SII_den}
+\end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 JUN 2017 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 JUN 2017 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -714,7 +714,7 @@ LaTeX Info: Redefining \nameref on input line 44.
 \openout2 = `preamble.aux'.
 
  (./preamble.tex
-<drexel-logo.png, id=410, 1308.89pt x 1349.04pt>
+<drexel-logo.png, id=418, 1308.89pt x 1349.04pt>
 File: drexel-logo.png Graphic file (type png)
  <use drexel-logo.png>
 Package pdftex.def Info: drexel-logo.png used on input line 1.
@@ -819,14 +819,14 @@ less on input line 132.
 
  (./Thesis_sections/Introduction.tex
 Chapter 0. Introduction
-<Images/Intro/sdss.jpg, id=696, 651.16pt x 654.11725pt>
+<Images/Intro/sdss.jpg, id=710, 651.16pt x 654.11725pt>
 File: Images/Intro/sdss.jpg Graphic file (type jpg)
 
 <use Images/Intro/sdss.jpg>
 Package pdftex.def Info: Images/Intro/sdss.jpg used on input line 9.
 (pdftex.def)             Requested size: 281.85036pt x 283.1214pt.
 
-<Images/Intro/Millenium_simulation.png, id=697, 293.4162pt x 224.037pt>
+<Images/Intro/Millenium_simulation.png, id=711, 293.4162pt x 224.037pt>
 File: Images/Intro/Millenium_simulation.png Graphic file (type png)
 
 <use Images/Intro/Millenium_simulation.png>
@@ -834,7 +834,7 @@ Package pdftex.def Info: Images/Intro/Millenium_simulation.png used on input li
 ne 19.
 (pdftex.def)             Requested size: 390.25537pt x 297.98596pt.
 
-<Images/Intro/VoidFinder.png, id=708, 984.67876pt x 533.995pt>
+<Images/Intro/VoidFinder.png, id=722, 984.67876pt x 533.995pt>
 File: Images/Intro/VoidFinder.png Graphic file (type png)
 
 <use Images/Intro/VoidFinder.png>
@@ -867,7 +867,7 @@ _count_fill.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Intro/1sig_13-23_SDSS_Mr_hist_count_fill-eps-converted-to.pdf, id=780, 
+<Images/Intro/1sig_13-23_SDSS_Mr_hist_count_fill-eps-converted-to.pdf, id=794, 
 562.1pt x 421.575pt>
 File: Images/Intro/1sig_13-23_SDSS_Mr_hist_count_fill-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -878,14 +878,14 @@ nverted-to.pdf used on input line 94.
 (pdftex.def)             Requested size: 281.85036pt x 211.38521pt.
 
 [4 <./Images/Intro/1sig_13-23_SDSS_Mr_hist_count_fill-eps-converted-to.pdf>]
-<Images/Intro/Kirchoff.jpg, id=819, 325.215pt x 179.59094pt>
+<Images/Intro/Kirchoff.jpg, id=833, 325.215pt x 179.59094pt>
 File: Images/Intro/Kirchoff.jpg Graphic file (type jpg)
 
 <use Images/Intro/Kirchoff.jpg>
 Package pdftex.def Info: Images/Intro/Kirchoff.jpg used on input line 136.
 (pdftex.def)             Requested size: 390.25537pt x 215.52449pt.
  [5]
-<Images/Intro/spectrum.png, id=831, 239.57504pt x 198.7425pt>
+<Images/Intro/spectrum.png, id=845, 239.57504pt x 198.7425pt>
 File: Images/Intro/spectrum.png Graphic file (type png)
 
 <use Images/Intro/spectrum.png>
@@ -919,7 +919,7 @@ _diagram-figure0-eps-converted-to.pdf Images/Paper1/energy_level_diagram-figure
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/energy_level_diagram-figure0-eps-converted-to.pdf, id=1040, 258.
+<Images/Paper1/energy_level_diagram-figure0-eps-converted-to.pdf, id=1054, 258.
 9675pt x 212.795pt>
 File: Images/Paper1/energy_level_diagram-figure0-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -956,8 +956,8 @@ _OpOpp_Z12logOH.eps>
 (epstopdf)             \includegraphics on input line 350.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/1sig_I06_dwarf_SF_t3_OpOpp_Z12logOH-eps-converted-to.pdf, id=111
-1, 562.1pt x 421.575pt>
+<Images/Paper1/1sig_I06_dwarf_SF_t3_OpOpp_Z12logOH-eps-converted-to.pdf, id=112
+5, 562.1pt x 421.575pt>
 File: Images/Paper1/1sig_I06_dwarf_SF_t3_OpOpp_Z12logOH-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -980,7 +980,7 @@ ison_fit-eps-converted-to.pdf Images/Paper1/Yin07_comparison_fit.eps>
 (epstopdf)             \includegraphics on input line 514.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/Yin07_comparison_fit-eps-converted-to.pdf, id=1201, 562.1pt x 42
+<Images/Paper1/Yin07_comparison_fit-eps-converted-to.pdf, id=1215, 562.1pt x 42
 1.575pt>
 File: Images/Paper1/Yin07_comparison_fit-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1002,7 +1002,7 @@ ist.eps>
 (epstopdf)             \includegraphics on input line 531.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/1sig_dwarf_SF_t3_12logOH_hist-eps-converted-to.pdf, id=1218, 562
+<Images/Paper1/1sig_dwarf_SF_t3_12logOH_hist-eps-converted-to.pdf, id=1232, 562
 .1pt x 421.575pt>
 File: Images/Paper1/1sig_dwarf_SF_t3_12logOH_hist-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1025,7 +1025,7 @@ F.eps>
 (epstopdf)             \includegraphics on input line 532.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/1sig_dwarf_SF_t3_12logOH_CDF-eps-converted-to.pdf, id=1219, 562.
+<Images/Paper1/1sig_dwarf_SF_t3_12logOH_CDF-eps-converted-to.pdf, id=1233, 562.
 1pt x 421.575pt>
 File: Images/Paper1/1sig_dwarf_SF_t3_12logOH_CDF-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -1053,7 +1053,7 @@ ist.eps>
 (epstopdf)             \includegraphics on input line 579.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/0sig_dwarf_SF_t3_12logOH_hist-eps-converted-to.pdf, id=1275, 562
+<Images/Paper1/0sig_dwarf_SF_t3_12logOH_hist-eps-converted-to.pdf, id=1289, 562
 .1pt x 421.575pt>
 File: Images/Paper1/0sig_dwarf_SF_t3_12logOH_hist-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1076,7 +1076,7 @@ F.eps>
 (epstopdf)             \includegraphics on input line 580.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/0sig_dwarf_SF_t3_12logOH_CDF-eps-converted-to.pdf, id=1276, 562.
+<Images/Paper1/0sig_dwarf_SF_t3_12logOH_CDF-eps-converted-to.pdf, id=1290, 562.
 1pt x 421.575pt>
 File: Images/Paper1/0sig_dwarf_SF_t3_12logOH_CDF-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -1102,7 +1102,7 @@ T04comparison.eps>
 (epstopdf)             \includegraphics on input line 710.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/1sig_dwarf_I06_SF_t3_T04comparison-eps-converted-to.pdf, id=1338
+<Images/Paper1/1sig_dwarf_I06_SF_t3_T04comparison-eps-converted-to.pdf, id=1352
 , 562.1pt x 421.575pt>
 File: Images/Paper1/1sig_dwarf_I06_SF_t3_T04comparison-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1128,7 +1128,7 @@ ython.eps>
 (epstopdf)             \includegraphics on input line 769.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/MZ_1sig_I06_dwarf_SF_t3_python-eps-converted-to.pdf, id=1390, 57
+<Images/Paper1/MZ_1sig_I06_dwarf_SF_t3_python-eps-converted-to.pdf, id=1404, 57
 8.16pt x 433.62pt>
 File: Images/Paper1/MZ_1sig_I06_dwarf_SF_t3_python-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1153,7 +1153,7 @@ eps>
 (epstopdf)             \includegraphics on input line 816.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/SFR_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1477, 562.1
+<Images/Paper1/SFR_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1491, 562.1
 pt x 421.575pt>
 File: Images/Paper1/SFR_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1176,7 +1176,7 @@ _I06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/sSFR_OH_1sig_I06_dwarf_SF_t
 (epstopdf)             \includegraphics on input line 817.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/sSFR_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1478, 562.
+<Images/Paper1/sSFR_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1492, 562.
 1pt x 421.575pt>
 File: Images/Paper1/sSFR_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -1199,7 +1199,7 @@ t3_SFR_scaled-eps-converted-to.pdf Images/Paper1/1sig_I06_SF_t3_SFR_scaled.eps>
 (epstopdf)             \includegraphics on input line 833.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/1sig_I06_SF_t3_SFR_scaled-eps-converted-to.pdf, id=1485, 562.1pt
+<Images/Paper1/1sig_I06_SF_t3_SFR_scaled-eps-converted-to.pdf, id=1499, 562.1pt
  x 421.575pt>
 File: Images/Paper1/1sig_I06_SF_t3_SFR_scaled-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1222,7 +1222,7 @@ s>
 (epstopdf)             \includegraphics on input line 834.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/1sig_I06_SF_t3_sSFR_scaled-eps-converted-to.pdf, id=1486, 562.1p
+<Images/Paper1/1sig_I06_SF_t3_sSFR_scaled-eps-converted-to.pdf, id=1500, 562.1p
 t x 421.575pt>
 File: Images/Paper1/1sig_I06_SF_t3_sSFR_scaled-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1247,7 +1247,7 @@ s>
 (epstopdf)             \includegraphics on input line 880.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/ur_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1526, 562.1p
+<Images/Paper1/ur_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1541, 562.1p
 t x 421.575pt>
 File: Images/Paper1/ur_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1270,7 +1270,7 @@ s>
 (epstopdf)             \includegraphics on input line 881.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/gr_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1527, 562.1p
+<Images/Paper1/gr_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1542, 562.1p
 t x 421.575pt>
 File: Images/Paper1/gr_OH_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1293,7 +1293,7 @@ eps>
 (epstopdf)             \includegraphics on input line 896.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper1/urHist_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1532, 562.1
+<Images/Paper1/urHist_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf, id=1547, 562.1
 pt x 421.575pt>
 File: Images/Paper1/urHist_1sig_I06_dwarf_SF_t3-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1347,7 +1347,7 @@ l_diagram-figure0.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/Paper2/NIIOIII_energy_level_diagram-figure0-eps-converted-to.pdf, id=17
-31, 258.9675pt x 210.7875pt>
+45, 258.9675pt x 210.7875pt>
 File: Images/Paper2/NIIOIII_energy_level_diagram-figure0-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1409,7 +1409,7 @@ rf_0-20_SF_t3_logNpOp_logNO_fit.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/Paper2/1sig_I06_dwarf_0-20_SF_t3_logNpOp_logNO_fit-eps-converted-to.pdf
-, id=1827, 526.96875pt x 435.6275pt>
+, id=1841, 526.96875pt x 435.6275pt>
 File: Images/Paper2/1sig_I06_dwarf_0-20_SF_t3_logNpOp_logNO_fit-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -1434,7 +1434,7 @@ ist.eps>
 (epstopdf)             \includegraphics on input line 517.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/1sig_dwarf_SF_t3_12logNH_hist-eps-converted-to.pdf, id=1869, 562
+<Images/Paper2/1sig_dwarf_SF_t3_12logNH_hist-eps-converted-to.pdf, id=1884, 562
 .1pt x 421.575pt>
 File: Images/Paper2/1sig_dwarf_SF_t3_12logNH_hist-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1457,7 +1457,7 @@ F.eps>
 (epstopdf)             \includegraphics on input line 518.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/1sig_dwarf_SF_t3_12logNH_CDF-eps-converted-to.pdf, id=1870, 562.
+<Images/Paper2/1sig_dwarf_SF_t3_12logNH_CDF-eps-converted-to.pdf, id=1885, 562.
 1pt x 421.575pt>
 File: Images/Paper2/1sig_dwarf_SF_t3_12logNH_CDF-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -1482,7 +1482,7 @@ H_stacked.eps>
 (epstopdf)             \includegraphics on input line 557.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/1sig_17-20_SF_t3_12logOH_stacked-eps-converted-to.pdf, id=1886, 
+<Images/Paper2/1sig_17-20_SF_t3_12logOH_stacked-eps-converted-to.pdf, id=1900, 
 562.1pt x 652.4375pt>
 File: Images/Paper2/1sig_17-20_SF_t3_12logOH_stacked-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1505,7 +1505,7 @@ H_stacked.eps>
 (epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/1sig_17-20_SF_t3_12logNH_stacked-eps-converted-to.pdf, id=1889, 
+<Images/Paper2/1sig_17-20_SF_t3_12logNH_stacked-eps-converted-to.pdf, id=1903, 
 562.1pt x 652.4375pt>
 File: Images/Paper2/1sig_17-20_SF_t3_12logNH_stacked-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1533,7 +1533,7 @@ eps>
 (epstopdf)             \includegraphics on input line 652.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/1sig_dwarf_SF_t3_logNO_hist-eps-converted-to.pdf, id=1942, 562.1
+<Images/Paper2/1sig_dwarf_SF_t3_logNO_hist-eps-converted-to.pdf, id=1956, 562.1
 pt x 421.575pt>
 File: Images/Paper2/1sig_dwarf_SF_t3_logNO_hist-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1556,7 +1556,7 @@ s>
 (epstopdf)             \includegraphics on input line 653.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/1sig_dwarf_SF_t3_logNO_CDF-eps-converted-to.pdf, id=1943, 562.1p
+<Images/Paper2/1sig_dwarf_SF_t3_logNO_CDF-eps-converted-to.pdf, id=1957, 562.1p
 t x 421.575pt>
 File: Images/Paper2/1sig_dwarf_SF_t3_logNO_CDF-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1580,7 +1580,7 @@ acked.eps>
 (epstopdf)             \includegraphics on input line 680.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/1sig_17-20_SF_t3_logNO_stacked-eps-converted-to.pdf, id=1951, 56
+<Images/Paper2/1sig_17-20_SF_t3_logNO_stacked-eps-converted-to.pdf, id=1965, 56
 2.1pt x 652.4375pt>
 File: Images/Paper2/1sig_17-20_SF_t3_logNO_stacked-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -1608,7 +1608,7 @@ rf_0-20_SF_t3_Z12logOH_logNO-eps-converted-to.pdf Images/Paper2/1sig_I06_dwarf_
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/Paper2/1sig_I06_dwarf_0-20_SF_t3_Z12logOH_logNO-eps-converted-to.pdf, i
-d=2063, 562.1pt x 421.575pt>
+d=2077, 562.1pt x 421.575pt>
 File: Images/Paper2/1sig_I06_dwarf_0-20_SF_t3_Z12logOH_logNO-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1634,7 +1634,7 @@ rf_0-20_SF_t3_Z12logOH_N12logNH.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/Paper2/1sig_I06_dwarf_0-20_SF_t3_Z12logOH_N12logNH-eps-converted-to.pdf
-, id=2085, 562.1pt x 421.575pt>
+, id=2099, 562.1pt x 421.575pt>
 File: Images/Paper2/1sig_I06_dwarf_0-20_SF_t3_Z12logOH_N12logNH-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -1659,7 +1659,7 @@ _t3.eps>
 (epstopdf)             \includegraphics on input line 937.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/MNO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2115, 562
+<Images/Paper2/MNO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2129, 562
 .1pt x 421.575pt>
 File: Images/Paper2/MNO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1683,7 +1683,7 @@ _t3-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 969.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/ur_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2142, 5
+<Images/Paper2/ur_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2156, 5
 62.1pt x 421.575pt>
 File: Images/Paper2/ur_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1706,7 +1706,7 @@ _t3-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 970.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/gr_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2143, 5
+<Images/Paper2/gr_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2157, 5
 62.1pt x 421.575pt>
 File: Images/Paper2/gr_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1732,7 +1732,7 @@ rf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/u-r_sSFR_dwarf_0-20_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 999.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/u-r_sSFR_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2177, 562.1pt
+<Images/Paper2/u-r_sSFR_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2191, 562.1pt
  x 421.575pt>
 File: Images/Paper2/u-r_sSFR_dwarf_0-20_SF_t3-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1755,7 +1755,7 @@ rf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/g-r_sSFR_dwarf_0-20_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 1000.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/g-r_sSFR_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2178, 562.1pt
+<Images/Paper2/g-r_sSFR_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2192, 562.1pt
  x 421.575pt>
 File: Images/Paper2/g-r_sSFR_dwarf_0-20_SF_t3-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1778,7 +1778,7 @@ I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/SFR_NO_1sig_I06_dwarf_0
 (epstopdf)             \includegraphics on input line 1026.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/SFR_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2181, 
+<Images/Paper2/SFR_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2195, 
 562.1pt x 421.575pt>
 File: Images/Paper2/SFR_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1801,7 +1801,7 @@ _0-20_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Paper2/sSFR_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2182,
+<Images/Paper2/sSFR_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf, id=2196,
  562.1pt x 421.575pt>
 File: Images/Paper2/sSFR_NO_1sig_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1858,7 +1858,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 107.
 
 [71] [72] [73] [74]
-<Images/smallScaleEnvironment/dwarf_ur_300.png, id=2464, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_ur_300.png, id=2478, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_300.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_300.png>
@@ -1866,7 +1866,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_300.png used on
 input line 274.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_ur_300_group.png, id=2465, 433.62pt x 867.2
+<Images/smallScaleEnvironment/dwarf_ur_300_group.png, id=2479, 433.62pt x 867.2
 4pt>
 File: Images/smallScaleEnvironment/dwarf_ur_300_group.png Graphic file (type pn
 g)
@@ -1875,14 +1875,14 @@ Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_300_group.png us
 ed on input line 275.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_sSFR_300.png, id=2478, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_sSFR_300.png, id=2492, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_sSFR_300.png Graphic file (type png)
 <use Images/smallScaleEnvironment/dwarf_sSFR_300.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_sSFR_300.png used o
 n input line 316.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_sSFR_300_group.png, id=2479, 433.62pt x 867
+<Images/smallScaleEnvironment/dwarf_sSFR_300_group.png, id=2493, 433.62pt x 867
 .24pt>
 File: Images/smallScaleEnvironment/dwarf_sSFR_300_group.png Graphic file (type 
 png)
@@ -1894,7 +1894,7 @@ used on input line 317.
 [76 <./Images/smallScaleEnvironment/dwarf_ur_300.png> <./Images/smallScaleEnvir
 onment/dwarf_ur_300_group.png>] [77 <./Images/smallScaleEnvironment/dwarf_sSFR_
 300.png> <./Images/smallScaleEnvironment/dwarf_sSFR_300_group.png>]
-<Images/smallScaleEnvironment/dwarf_OH_300.png, id=2510, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_OH_300.png, id=2524, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_OH_300.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_OH_300.png>
@@ -1902,7 +1902,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_OH_300.png used on
 input line 352.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_OH_300_group.png, id=2511, 433.62pt x 867.2
+<Images/smallScaleEnvironment/dwarf_OH_300_group.png, id=2525, 433.62pt x 867.2
 4pt>
 File: Images/smallScaleEnvironment/dwarf_OH_300_group.png Graphic file (type pn
 g)
@@ -1911,7 +1911,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_OH_300_group.png us
 ed on input line 353.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_NH_300.png, id=2515, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_NH_300.png, id=2529, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_NH_300.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_NH_300.png>
@@ -1919,7 +1919,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NH_300.png used on
 input line 392.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_NH_300_group.png, id=2516, 433.62pt x 867.2
+<Images/smallScaleEnvironment/dwarf_NH_300_group.png, id=2530, 433.62pt x 867.2
 4pt>
 File: Images/smallScaleEnvironment/dwarf_NH_300_group.png Graphic file (type pn
 g)
@@ -1928,7 +1928,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NH_300_group.png us
 ed on input line 393.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_NO_300.png, id=2520, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_NO_300.png, id=2534, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_NO_300.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_NO_300.png>
@@ -1936,7 +1936,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NO_300.png used on
 input line 430.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_NO_300_group.png, id=2521, 433.62pt x 867.2
+<Images/smallScaleEnvironment/dwarf_NO_300_group.png, id=2535, 433.62pt x 867.2
 4pt>
 File: Images/smallScaleEnvironment/dwarf_NO_300_group.png Graphic file (type pn
 g)
@@ -1951,7 +1951,7 @@ Overfull \hbox (17.71364pt too wide) in paragraph at lines 464--507
  [][] 
  []
 
-<Images/smallScaleEnvironment/dwarf_ur_150.png, id=2549, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_ur_150.png, id=2563, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_150.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_150.png>
@@ -1959,7 +1959,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_150.png used on
 input line 526.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_ur_600.png, id=2550, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_ur_600.png, id=2564, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_600.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_600.png>
@@ -1969,7 +1969,7 @@ input line 527.
  [81] [82 <./Images/smallScaleEnvironment/dwarf_NO_300.png> <./Images/smallScal
 eEnvironment/dwarf_NO_300_group.png>] [83] [84 <./Images/smallScaleEnvironment/
 dwarf_ur_150.png> <./Images/smallScaleEnvironment/dwarf_ur_600.png>]
-<Images/smallScaleEnvironment/ALLdwarf_ur_300.png, id=2578, 433.62pt x 867.24pt
+<Images/smallScaleEnvironment/ALLdwarf_ur_300.png, id=2592, 433.62pt x 867.24pt
 >
 File: Images/smallScaleEnvironment/ALLdwarf_ur_300.png Graphic file (type png)
  <use Images/smallScaleEnvironment/ALLdwarf_ur_300.png>
@@ -1977,7 +1977,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/ALLdwarf_ur_300.png used
 on input line 557.
 (pdftex.def)             Requested size: 216.81001pt x 433.61894pt.
 
-<Images/smallScaleEnvironment/Mr_distribution.png, id=2585, 867.24pt x 867.24pt
+<Images/smallScaleEnvironment/Mr_distribution.png, id=2599, 867.24pt x 867.24pt
 >
 File: Images/smallScaleEnvironment/Mr_distribution.png Graphic file (type png)
  <use Images/smallScaleEnvironment/Mr_distribution.png>
@@ -1985,7 +1985,7 @@ Package pdftex.def Info: Images/smallScaleEnvironment/Mr_distribution.png used
 on input line 583.
 (pdftex.def)             Requested size: 433.62003pt x 433.61894pt.
 
-<Images/smallScaleEnvironment/dwarf_ur_xyz.png, id=2588, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_ur_xyz.png, id=2602, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_xyz.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_xyz.png>
@@ -2011,7 +2011,7 @@ pdf>
 ps-converted-to.pdf Images/GV/ur_CMD_contour.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<Images/GV/ur_CMD_contour-eps-converted-to.pdf, id=2665, 578.16pt x 433.62pt>
+<Images/GV/ur_CMD_contour-eps-converted-to.pdf, id=2679, 578.16pt x 433.62pt>
 File: Images/GV/ur_CMD_contour-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/ur_CMD_contour-eps-converted-to.pdf>
@@ -2029,7 +2029,7 @@ erted-to.pdf Images/GV/ur_hist.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/ur_hist-eps-converted-to.pdf, id=2666, 492.84125pt x 376.40625pt>
+<Images/GV/ur_hist-eps-converted-to.pdf, id=2680, 492.84125pt x 376.40625pt>
 File: Images/GV/ur_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/ur_hist-eps-converted-to.pdf>
@@ -2059,7 +2059,7 @@ atter-eps-converted-to.pdf Images/GV/NUVr_CMD_3pop_scatter.eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf, id=2753, 578.16pt x 433.
+<Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf, id=2767, 578.16pt x 433.
 62pt>
 File: Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2079,7 +2079,7 @@ cations-eps-converted-to.pdf Images/GV/NUVr_CMDclassifications.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf, id=2756, 562.1pt x 421
+<Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf, id=2770, 562.1pt x 421
 .575pt>
 File: Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2102,7 +2102,7 @@ onverted-to.pdf Images/GV/Mstar_hist.eps>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/Mstar_hist-eps-converted-to.pdf, id=2821, 562.1pt x 421.575pt>
+<Images/GV/Mstar_hist-eps-converted-to.pdf, id=2835, 562.1pt x 421.575pt>
 File: Images/GV/Mstar_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/Mstar_hist-eps-converted-to.pdf>
@@ -2121,7 +2121,7 @@ verted-to.pdf Images/GV/SFR_hist.eps>
 (epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/SFR_hist-eps-converted-to.pdf, id=2839, 562.1pt x 421.575pt>
+<Images/GV/SFR_hist-eps-converted-to.pdf, id=2853, 562.1pt x 421.575pt>
 File: Images/GV/SFR_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/SFR_hist-eps-converted-to.pdf>
@@ -2139,7 +2139,7 @@ nverted-to.pdf Images/GV/sSFR_hist.eps>
 (epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/sSFR_hist-eps-converted-to.pdf, id=2840, 562.1pt x 421.575pt>
+<Images/GV/sSFR_hist-eps-converted-to.pdf, id=2854, 562.1pt x 421.575pt>
 File: Images/GV/sSFR_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/sSFR_hist-eps-converted-to.pdf>
@@ -2160,7 +2160,7 @@ tions_t3-eps-converted-to.pdf Images/GV/Z12logOH_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf, id=2869, 562.1pt x 42
+<Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf, id=2883, 562.1pt x 42
 1.575pt>
 File: Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2180,7 +2180,7 @@ tions_t3-eps-converted-to.pdf Images/GV/N12logNH_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf, id=2870, 562.1pt x 42
+<Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf, id=2884, 562.1pt x 42
 1.575pt>
 File: Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2200,7 +2200,7 @@ ns_t3-eps-converted-to.pdf Images/GV/logNO_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/logNO_I06relations_t3-eps-converted-to.pdf, id=2871, 562.1pt x 421.5
+<Images/GV/logNO_I06relations_t3-eps-converted-to.pdf, id=2885, 562.1pt x 421.5
 75pt>
 File: Images/GV/logNO_I06relations_t3-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2223,7 +2223,7 @@ f>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/voidFrac_CMD-eps-converted-to.pdf, id=2892, 562.1pt x 421.575pt>
+<Images/GV/voidFrac_CMD-eps-converted-to.pdf, id=2907, 562.1pt x 421.575pt>
 File: Images/GV/voidFrac_CMD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/voidFrac_CMD-eps-converted-to.pdf>
@@ -2242,7 +2242,7 @@ f>
 (epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/wallFrac_CMD-eps-converted-to.pdf, id=2893, 562.1pt x 421.575pt>
+<Images/GV/wallFrac_CMD-eps-converted-to.pdf, id=2908, 562.1pt x 421.575pt>
 File: Images/GV/wallFrac_CMD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/wallFrac_CMD-eps-converted-to.pdf>
@@ -2267,7 +2267,7 @@ OHrelations_dust_hist.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/GV/1sig_all_BPT_t3_12logOHrelations_dust_hist-eps-converted-to.pdf, id=
-2935, 562.1pt x 421.575pt>
+2949, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_12logOHrelations_dust_hist-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -2290,7 +2290,7 @@ NHrelations_dust_hist.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/GV/1sig_all_BPT_t3_12logNHrelations_dust_hist-eps-converted-to.pdf, id=
-2936, 562.1pt x 421.575pt>
+2950, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_12logNHrelations_dust_hist-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -2313,7 +2313,7 @@ lations_dust_hist.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to.pdf, id=29
-37, 562.1pt x 421.575pt>
+51, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -2359,12 +2359,52 @@ less on input line 161.
 Appendix . Direct method physics
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 174.
+less on input line 43.
 
 [117
 
 
-]) [118] [119]
+] [118] [119]
+Package epstopdf Info: Source file: <Images/Appendix/[OIII].eps>
+(epstopdf)                    date: 2017-06-13 18:38:05
+(epstopdf)                    size: 41891 bytes
+(epstopdf)             Output file: <Images/Appendix/[OIII]-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-06-13 18:39:10
+(epstopdf)                    size: 15305 bytes
+(epstopdf)             Command: <repstopdf --outfile=Images/Appendix/[OIII]-eps
+-converted-to.pdf Images/Appendix/[OIII].eps>
+(epstopdf)             \includegraphics on input line 248.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/Appendix/[OIII]-eps-converted-to.pdf, id=3120, 578.16pt x 433.62pt>
+File: Images/Appendix/[OIII]-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/Appendix/[OIII]-eps-converted-to.pdf>
+Package pdftex.def Info: Images/Appendix/[OIII]-eps-converted-to.pdf used on in
+put line 248.
+(pdftex.def)             Requested size: 325.21501pt x 243.91064pt.
+ [120 <./Images/Appendix/[OIII]-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images/Appendix/[SII].eps>
+(epstopdf)                    date: 2017-06-13 18:38:56
+(epstopdf)                    size: 51822 bytes
+(epstopdf)             Output file: <Images/Appendix/[SII]-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-06-13 18:39:10
+(epstopdf)                    size: 18008 bytes
+(epstopdf)             Command: <repstopdf --outfile=Images/Appendix/[SII]-eps-
+converted-to.pdf Images/Appendix/[SII].eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/Appendix/[SII]-eps-converted-to.pdf, id=3168, 578.16pt x 433.62pt>
+File: Images/Appendix/[SII]-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Images/Appendix/[SII]-eps-converted-to.pdf>
+Package pdftex.def Info: Images/Appendix/[SII]-eps-converted-to.pdf used on inp
+ut line 278.
+(pdftex.def)             Requested size: 325.21501pt x 243.91064pt.
+) [121 <./Images/Appendix/[SII]-eps-converted-to.pdf>]
 \openout2 = `Simulations.aux'.
 
  (./Simulations.tex
@@ -2373,11 +2413,11 @@ Appendix A. Simulations
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 52.
 
-[120
+[122
 
 
 
-]) [121] [122]
+]) [123] [124]
 \openout2 = `CV.aux'.
 
  (./CV.tex
@@ -2387,11 +2427,11 @@ Appendix Vita
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 82.
 
-[123
+[125
 
 
 
-] [124
+] [126
 
 
 ]
@@ -2405,7 +2445,7 @@ sections/Paper1.aux) (./Thesis_sections/Paper2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5D62249F0A49B0C08883DA87A3EE9D56;7164.
+(rerunfilecheck)             Checksum: 51E68D7853C2E024DCF69ADAB25062F8;7323.
 
 
 LaTeX Warning: There were undefined references.
@@ -2414,10 +2454,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  )
 (\end occurred when \iffalse on line 1066 was incomplete) 
 Here is how much of TeX's memory you used:
- 12667 strings out of 492995
- 202000 string characters out of 6132704
- 343255 words of memory out of 5000000
- 15376 multiletter control sequences out of 15000+600000
+ 12697 strings out of 492995
+ 202679 string characters out of 6132704
+ 343410 words of memory out of 5000000
+ 15388 multiletter control sequences out of 15000+600000
  14123 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,17n,94p,1357b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2447,28 +2487,31 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Thesis.pdf (138 pages, 7524763 bytes).
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Thesis.pdf (140 pages, 7573212 bytes).
 PDF statistics:
- 3339 PDF objects out of 3580 (max. 8388607)
- 2792 compressed objects within 28 object streams
- 499 named destinations out of 1000 (max. 500000)
- 1164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3467 PDF objects out of 3580 (max. 8388607)
+ 2856 compressed objects within 29 object streams
+ 514 named destinations out of 1000 (max. 500000)
+ 1190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
