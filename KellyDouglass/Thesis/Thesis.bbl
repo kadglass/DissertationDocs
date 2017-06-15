@@ -32,6 +32,10 @@ Abazajian, K.~N., Adelman-McCarthy, J., Agueros, M.~A., {et~al.} 2009, ApJS,
   IveziÄ, Lupton, Nichol, \& Szalay}]{Baldry04}
 Baldry, I.~K., Glazebrook, K., Brinkmann, J., {et~al.} 2004, ApJ, 600, 681
 
+\bibitem[{{Baldwin} {et~al.}(1981){Baldwin}, {Phillips}, \&
+  {Terlevich}}]{Baldwin81}
+{Baldwin}, J.~A., {Phillips}, M.~M., \& {Terlevich}, R. 1981, PASP, 93, 5
+
 \bibitem[{{Bell} \& {de Jong}(2000)}]{Bell00}
 {Bell}, E.~F., \& {de Jong}, R.~S. 2000, MNRAS, 312, 497
 
@@ -106,6 +110,9 @@ Baldry, I.~K., Glazebrook, K., Brinkmann, J., {et~al.} 2004, ApJ, 600, 681
 
 \bibitem[{{Choi} {et~al.}(2010){Choi}, {Han}, \& {Kim}}]{Choi10}
 {Choi}, Y.-Y., {Han}, D.-H., \& {Kim}, S.~S. 2010, JKAS, 43, 191
+
+\bibitem[{{Choi} {et~al.}(2007){Choi}, {Park}, \& {Vogeley}}]{Choi07}
+{Choi}, Y.-Y., {Park}, C., \& {Vogeley}, M.~S. 2007, ApJ, 658, 884
 
 \bibitem[{{Contini} {et~al.}(2002){Contini}, {Treyer}, {Sullivan}, \&
   {Ellis}}]{Contini02}
@@ -227,6 +234,9 @@ Emsley, J. 2011, Nature's Building Blocks: An A-Z Guide to the Elements (OUP
   {Siegmund}, {Mannery}, {Blouke}, {Heidtman}, {Schneider}, {Lucinio}, \&
   {Brinkman}}]{Gunn98}
 {Gunn}, J.~E., {Carr}, M., {Rockosi}, C., {et~al.} 1998, AJ, 116, 3040
+
+\bibitem[{{Guo} {et~al.}(2011){Guo}, {Cole}, {Eke}, \& {Frenk}}]{Guo11}
+{Guo}, Q., {Cole}, S., {Eke}, V., \& {Frenk}, C. 2011, MNRAS, 417, 370
 
 \bibitem[{Guseva {et~al.}(2009)Guseva, Papaderos, Meyer, Izotov, \&
   Fricke}]{Guseva09}
@@ -666,6 +676,11 @@ Strateva, I., \v{Z}eljko Ivezi\'{c}, Knapp, G.~R., {et~al.} 2001, AJ, 122, 1861
 
 \bibitem[{{von Benda-Beckmann} \& {M{\"u}ller}(2008)}]{vonBendaBeckmann08}
 {von Benda-Beckmann}, A.~M., \& {M{\"u}ller}, V. 2008, MNRAS, 384, 1189
+
+\bibitem[{{Weinmann} {et~al.}(2006){Weinmann}, {van den Bosch}, {Yang}, \&
+  {Mo}}]{Weinmann06}
+{Weinmann}, S.~M., {van den Bosch}, F.~C., {Yang}, X., \& {Mo}, H.~J. 2006,
+  MNRAS, 366, 2
 
 \bibitem[{{Wilkinson} {et~al.}(2015){Wilkinson}, {Maraston}, {Thomas},
   {Coccato}, {Tojeiro}, {Cappellari}, {Belfiore}, {Bershady}, {Blanton},

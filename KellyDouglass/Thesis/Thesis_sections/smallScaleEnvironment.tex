@@ -11,39 +11,39 @@ This work was done in collaboration with Daniele Schneider for her senior thesis
 
 \section[Introduction]{Introduction}
 
-% Large-scale environment influence
-Large galaxy redshift surveys have shown that the large-scale structure of the 
-distribution of galaxies in the universe is similar to that of a 
-three-dimensional cosmic web \citep{Bond96}, where galaxy clusters are connected 
-by thin filaments of galaxies and are separated by voids (large, underdense 
-regions that occupy close to 60\% of space).  Over the last few decades, the 
-Sloan Digital Sky Survey \citep{Abazajian09,Ahn12} has accelerated the research 
-into the influence of the large-scale environment on the formation and evolution 
-of galaxies.
-
-Because gravitational clustering within a void proceeds as if in a very 
-low-density universe, cosmic voids are an important environment for studying 
-galaxy formation \citep[see][for a review]{vandeWeygaert11}.  The $\Lambda$CDM 
-cosmology predicts that galaxies formed in voids have lower masses and are 
-retarded in their star formation when compared to those in more dense 
-environments \citep{Gottlober03,Goldberg05,Cen11}.  The effects of the void 
-environment should be most obvious in dwarf galaxies due to their minimal 
-gravitational potential.  As a result, they are more sensitive to astrophysical 
-effects such as cosmological reionization, internal feedback from supernovae and 
-photoheating from star formation, small-scale details of dark matter halo 
-assembly, and the properties of dark matter.
-
-Observations have shown that the properties of dwarf galaxies vary dramatically 
-with the environment \citep[e.g.,][]{Ann08,Geha12}.  Void galaxies have been 
-found to have lower stellar mass \citep{Hoyle05,Croton05,Moorman15}, be bluer 
-and of a later type \citep{Grogin00,Rojas04,Patiri06,Park07,vonBendaBeckmann08,
-Hoyle12}, have higher star formation rates \citep{Rojas05,Moorman15,Beygu16}, 
-and be more gas rich \citep{Kreckel12,Moorman16,Jones16} than galaxies in denser 
-regions.
+%% Large-scale environment influence
+%Large galaxy redshift surveys have shown that the large-scale structure of the 
+%distribution of galaxies in the universe is similar to that of a 
+%three-dimensional cosmic web \citep{Bond96}, where galaxy clusters are connected 
+%by thin filaments of galaxies and are separated by voids (large, underdense 
+%regions that occupy close to 60\% of space).  Over the last few decades, the 
+%Sloan Digital Sky Survey \citep{Abazajian09,Ahn12} has accelerated the research 
+%into the influence of the large-scale environment on the formation and evolution 
+%of galaxies.
+%
+%Because gravitational clustering within a void proceeds as if in a very 
+%low-density universe, cosmic voids are an important environment for studying 
+%galaxy formation \citep[see][for a review]{vandeWeygaert11}.  The $\Lambda$CDM 
+%cosmology predicts that galaxies formed in voids have lower masses and are 
+%retarded in their star formation when compared to those in more dense 
+%environments \citep{Gottlober03,Goldberg05,Cen11}.  The effects of the void 
+%environment should be most obvious in dwarf galaxies due to their minimal 
+%gravitational potential.  As a result, they are more sensitive to astrophysical 
+%effects such as cosmological reionization, internal feedback from supernovae and 
+%photoheating from star formation, small-scale details of dark matter halo 
+%assembly, and the properties of dark matter.
+%
+%Observations have shown that the properties of dwarf galaxies vary dramatically 
+%with the environment \citep[e.g.,][]{Ann08,Geha12}.  Void galaxies have been 
+%found to have lower stellar mass \citep{Hoyle05,Croton05,Moorman15}, be bluer 
+%and of a later type \citep{Grogin00,Rojas04,Patiri06,Park07,vonBendaBeckmann08,
+%Hoyle12}, have higher star formation rates \citep{Rojas05,Moorman15,Beygu16}, 
+%and be more gas rich \citep{Kreckel12,Moorman16,Jones16} than galaxies in denser 
+%regions.
 
 % Small-scale environment - what has been done so far?
 In conjunction with the large-scale environment, the small-scale environment 
-($\sim 1$ \hMpc) has also been found to influence a galaxy's evolution.  A 
+($\sim$1 \hMpc) has also been found to influence a galaxy's evolution.  A 
 well-established morphology-density relation exists \citep{Dressler80}, where 
 the fraction of late-type galaxies is inversely proportional to the local 
 density.  \cite{Ellison09} determined that a galaxy's local environment 
@@ -52,8 +52,9 @@ Likewise, \cite{Rupke08} concluded that interacting galaxies have suppressed
 metallicities, because interactions induce flows of hydrogen.  \cite{Park09} 
 found that, for galaxies with $M_r < -19$, galaxy interactions out to the virial 
 radius of the nearest neighbor influence the evolution of the target galaxy.  
-They determine that the large-scale environment has a minimal effect on the 
-evolution of a galaxy once the luminosity and morphology are taken into account.
+Along with \cite{Park07}, they determine that the large-scale environment has a 
+minimal effect on the evolution of a galaxy once the luminosity and morphology 
+are taken into account.
 
 We want to understand if the small-scale environment is more influential in a 
 galaxy's evolution than its large-scale environment.  One important question 
@@ -61,10 +62,11 @@ within the small-scale environment asks if tidal influences due to the nearest
 neighbor galaxy or gravitational potentials from the nearest galaxy group are 
 more influential in a galaxy's evolution.  A group consists of multiple galaxies 
 that share the same dark matter halo.  A group member will interact 
-gravitationally with all other group members, not just its nearest neighbor.  
-And a galaxy near a group, but not within it, may also experience strong tidal 
-effects from the group similar to and stronger than those from a neighboring 
-galaxy.
+gravitationally with all other group members, not just its nearest neighbor.  In 
+groups and clusters dense enough to strip and heat the gas, galaxies will also 
+experience ram pressure stripping.  And a galaxy near a group, but not within 
+it, may also experience strong tidal effects from the group similar to and 
+stronger than those from a neighboring galaxy.
 
 
 
@@ -72,15 +74,17 @@ galaxy.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section[Theory]{Calculating distances}\label{sec:Theory_dist}
+\section[Nearest neighbor calculations]{Identifying the nearest neighbor}\label{sec:Theory_dist}
 
 We employ two different spatial metrics to determine the best way to locate a 
-galaxy's nearest neighbor.  Within a relative velocity 
-$v_{rel} < 300\text{ km/s}$, we use either the physically closest galaxy in 
-units of \hMpc or the galaxy within the smallest fraction of its virial radius; 
-both these methods are described below in further detail.  The two methods 
-result in different neighboring galaxies for about 40\% of our dwarf galaxy 
-sample.
+galaxy's nearest neighbor.  We set a maximum velocity separation of 300 km/s 
+between a galaxy and its nearest neighbor to capture the majority of interacting 
+galaxies \citep[according to the distribution in peculiar velocity shown in][]
+{Hwang10}.  Within a relative velocity $v_{rel} < 300\text{ km/s}$, we use 
+either the physically closest galaxy in units of \hMpc or the galaxy within the 
+smallest fraction of its virial radius; both these methods are described below 
+in further detail.  The two methods result in different neighboring galaxies for 
+about 40\% of our dwarf galaxy sample.
 
 
 \subsection{Peculiar velocity}
@@ -99,9 +103,10 @@ between galaxies $a$ and $b$ is defined as
     v_{rel} = |z_a - z_b|c
 \end{equation}
 where $z$ is the redshift.  We require all 
-neighbors to have a maximum relative velocity $v_{rel} < 300\text{ km/s}$.  We 
-show in Sec. \ref{sec:selection_effects} that our results are insensitive to 
-this value.
+neighbors to have a maximum relative velocity $v_{rel} < 300\text{ km/s}$, as we 
+believe those outside this range will have minimal influence on the target 
+galaxy's evolution.  We show in Sec. \ref{sec:selection_effects} that our 
+results are insensitive to this value.
 
 
 \subsection{Sky separation in \hMpc}
@@ -110,8 +115,8 @@ The projected distance between two galaxies is found by projecting the two
 galaxies onto a sphere of radius $\bar{r}$, where $\bar{r}$ is the average 
 distance from Earth of the two galaxies.  This assumes that two galaxies which 
 are gravitationally bound are in a system where the relative velocity between us 
-and it is 0 and that $\bar{r}$ is the distance to the center of the system.  The 
-distance to the system is calculated as
+and it is 0 and that $\bar{r}$ is the distance to the center of the system.  For 
+redshifts $z \ll 1$, we can approximate the distance to the system is as
 \begin{equation}
     \bar{r} = \frac{\bar{z}c}{H_0}
 \end{equation}
@@ -124,16 +129,34 @@ separation.
 \subsection{Fractional virial radii}
 % Virial radius calculation
 
-From \cite{Hwang10}, we calculate the virial radius of a galaxy to be
+The virial radius of a galaxy defines the region within which something is 
+gravitationally bound to the galaxy.  From \cite{Hwang10}, we calculate the 
+virial radius of a galaxy to be
 \begin{equation}\label{eqn:r_vir}
     r_{vir} = (3L\gamma/4\pi/200\rho_c)^{1/3}
 \end{equation}
 where $L$ is the galaxy's luminosity, $\gamma$ is the mass-to-light ratio, and 
 $\rho_c$ is the critical density of the universe.  The critical density is the 
-density at which evenly distributed gas would collapse to form a galaxy.  The 
-mass-to-light ratio depends on the galaxy's morphology type, where 
-$\gamma_{early} = 2\gamma_{late}$.  \cite{Hwang10} defines 
-$200\rho_c = 740\bar{\rho}$, where 
+density at which evenly distributed gas would collapse to form a galaxy.  
+
+\cite{Choi07} find that the velocity dispersion of a galaxy depends on its 
+morphological type, where $\sqrt{2}\sigma_{late} \approx \sigma_{early}$.  In 
+terms of the velocity dispersion, the kinetic energy of a galaxy 
+$K = 3/2 \sigma^2$.  Its gravitational potential energy $U = 3GM/5R$.  
+Therefore, the virial theorem shows us that
+\begin{align}
+    3\sigma^2 \simeq \frac{3}{5} \frac{GM}{R}\nonumber \\
+    M \simeq \frac{5\sigma^2 R}{G}
+\end{align}
+With $\gamma \equiv M/L$, at a fixed luminosity and virial radius we see that
+\begin{equation}
+    \gamma_{late} \simeq \frac{5\sigma_{late}^2 R}{GL} \qquad \gamma_{early} \simeq \frac{5\sigma_{early}^2 R}{GL}
+\end{equation}
+Taking the ratio of the two mass-to-light ratios and using the relation between 
+the velocity dispersions found by \cite{Choi07}, we find that the mass-to-light 
+ratio depends on the galaxy's morphology type: $\gamma_{early} = 2\gamma_{late}$.
+
+\cite{Hwang10} defines $200\rho_c = 740\bar{\rho}$, where 
 $\bar{\rho} = (0.0223\pm 0.0005)(\gamma_{late}L_{-20})(\text{\hMpc})^3$.  We can 
 then rewrite Eqn. \ref{eqn:r_vir} as
 \begin{equation}
@@ -156,8 +179,10 @@ with radius $\bar{r}$, we instead project each onto its own sphere of radius
 \begin{equation}
     r = \frac{cz}{H_0}
 \end{equation}
-We then convert to Cartesian coordinates and use the three-dimensional 
-Pythagorean theorem to calculate the distance between the two galaxies.
+(This approximation for the distance is valid because all our target galaxies 
+are within a redshift $z \leq 0.03$.)  We then convert to Cartesian coordinates 
+and use the three-dimensional Pythagorean theorem to calculate the distance 
+between the two galaxies.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -167,31 +192,32 @@ Pythagorean theorem to calculate the distance between the two galaxies.
 \section[Data]{SDSS Data and galaxy selection}
 
 % SDSS
-The Sloan Digital Sky Survey Data Release 7 \citep[SDSS DR7;][]{Abazajian09} is 
-a wide-field multiband imaging and spectroscopic survey which maps approximately 
-one-quarter of the northern sky using a drift scanning technique.  Photometric 
-data in the five-band SDSS system --- $u$, $g$, $r$, $i$, and $z$ --- is taken 
-on a dedicated 2.5m telescope at the Apache Point Observatory in New Mexico 
-\citep{Fukugita96,Gunn98}.  Galaxies with Petrosian $r$-band magnitudes 
-$m_r < 17.77$ are selected for follow-up spectroscopic analysis \citep{Lupton01,
-Strauss02}.  The galaxy colors are taken from the Korean Institute for Advanced 
-Study Value-Added Galaxy Catalog \citep[KIAS-VAGC;][]{Choi10}, which contains 
-galaxies from the SDSS DR7 main sky survey based on the New York University 
-Value-Added Galaxy Catalog Data Release 7 \citep[NYU-VAGC;][]{Blanton05}.  Total 
-star formation rates (SFR) and total specific star formation rates (sSFR) are 
-from the MPA-JHU value-added catalog\footnote{Available at 
-\url{http://www.mpa-garching.mpg.de/SDSS/DR7/}}, calculated using the technique 
-described in \cite{Brinchmann04}.  The gas-phase chemical abundances used are 
-from Douglass \& Vogeley (2017, in prep.), which are calculated using the Direct 
-$T_e$ method.  The galaxies' large-scale environments are based on the void 
-catalog compiled by \cite{Pan12}, which is constructed from SDSS DR7 using the 
-VoidFinder algorithm of \cite{Hoyle02}.  Galaxies which are located within 
-identified voids are labeled as void galaxies, and those which do not fall 
-within a void are designated as a wall galaxy.  The large-scale environment 
-within 5 \hMpc of the edge of the main SDSS DR7 footprint cannot be described 
-using the VoidFinder algorithm because the minimum diameter of a void is 10 
-\hMpc.  Therefore, the large-scale environment for galaxies within 5 \hMpc of 
-the edge of the main footprint in SDSS DR7 is designated as unknown.
+%The Sloan Digital Sky Survey Data Release 7 \citep[SDSS DR7;][]{Abazajian09} is 
+%a wide-field multiband imaging and spectroscopic survey which maps approximately 
+%one-quarter of the northern sky using a drift scanning technique.  Photometric 
+%data in the five-band SDSS system --- $u$, $g$, $r$, $i$, and $z$ --- is taken 
+%on a dedicated 2.5m telescope at the Apache Point Observatory in New Mexico 
+%\citep{Fukugita96,Gunn98}.  Galaxies with Petrosian $r$-band magnitudes 
+%$m_r < 17.77$ are selected for follow-up spectroscopic analysis \citep{Lupton01,
+%Strauss02}.  The galaxy colors are taken from the Korean Institute for Advanced 
+%Study Value-Added Galaxy Catalog \citep[KIAS-VAGC;][]{Choi10}, which contains 
+%galaxies from the SDSS DR7 main sky survey based on the New York University 
+%Value-Added Galaxy Catalog Data Release 7 \citep[NYU-VAGC;][]{Blanton05}.  Total 
+%star formation rates (SFR) and total specific star formation rates (sSFR) are 
+%from the MPA-JHU value-added catalog\footnote{Available at 
+%\url{http://www.mpa-garching.mpg.de/SDSS/DR7/}}, calculated using the technique 
+%described in \cite{Brinchmann04}.  
+The gas-phase chemical abundances used are from Douglass, Vogeley, and Cen 
+(2017, in prep.), which are calculated using the Direct $T_e$ method.  The 
+galaxies' large-scale environments are based on the void catalog compiled by 
+\cite{Pan12}, which is constructed from SDSS DR7 using the VoidFinder algorithm 
+of \cite{Hoyle02}.  Galaxies that are located within identified voids are 
+labeled as void galaxies, and those that do not fall within a void are 
+designated as a wall galaxy.  The large-scale environment within 5 \hMpc of the 
+edge of the main SDSS DR7 footprint cannot be described using the VoidFinder 
+algorithm because the minimum diameter of a void is 10 \hMpc.  Therefore, the 
+large-scale environment for galaxies within 5 \hMpc of the edge of the main 
+footprint in SDSS DR7 is designated as unknown.
 
 % photometry from KIAS-VAGC
 % sSFR from MPA-JHU (Brinchmann04)
@@ -205,9 +231,9 @@ the edge of the main footprint in SDSS DR7 is designated as unknown.
 
 Two galaxy samples are used in this analysis.  The largest one contains the 
 11,845 dwarf galaxies spectroscopically observed in SDSS DR7.  The second sample 
-contains those star-forming dwarf galaxies from the first set which have 
-gas-phase chemical abundances in Douglass \& Vogeley (2017, in prep.), totaling 
-2506 dwarf galaxies.  While this subset of galaxies contains only star-forming 
+contains those star-forming dwarf galaxies from the first set that have 
+gas-phase chemical abundances in Douglass et al. (2017, in prep.), totaling 2506 
+dwarf galaxies.  While this subset of galaxies contains only star-forming 
 galaxies and is not representative of all dwarf galaxies, we show in Section 
 \ref{sec:selection_effects} that this does not affect our results.
 
@@ -216,10 +242,10 @@ galaxies and is not representative of all dwarf galaxies, we show in Section
 
 In addition to comparing the target galaxies to their nearest neighbor, we also 
 look at the relationship between the dwarf galaxies' properties and their 
-proximity to the nearest galaxy group.  We use the Mr18 Berlind group catalog 
-\cite{Berlind06} as our source of groups, which is built on the galaxies in the 
-NYU-VAGC. The catalog identifies groups using a friends-of-friends algorithm 
-\citep{Huchra82} to connect galaxies with $M_r < -18$.
+proximity to the nearest galaxy group.  We use the \emph{Mr18} Berlind group 
+catalog \cite{Berlind06} as our source of groups, which is built on the galaxies 
+in the NYU-VAGC. The catalog identifies groups using a friends-of-friends 
+algorithm \citep{Huchra82} to connect galaxies with $M_r < -18$.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -239,17 +265,18 @@ The relationships between various physical parameters and the distance to the
 nearest neighbor or group for our sample of star-forming dwarf galaxies are 
 shown in Figs. \ref{fig:ur}--\ref{fig:NO}.  In each of the four plots within 
 each figure, we bin the galaxies in distance-space and show the average 
-parameter value in each bin, to see any overall trends in the data.  We also fit 
-a linear line to the data; the output of these fits are in Table \ref{tab:fits}.  
-Each of these four plots probes this distance relationship from a different 
-angle.  The top left plots in Figs. \ref{fig:ur}--\ref{fig:NO} relate the target 
+parameter value in each bin, to see any overall trends in the data.  We applied 
+a linear regression to the data; the output of these fits are in Table 
+\ref{tab:fits}.  Each of these four plots probes this distance relationship from 
+a different angle.  The top left plots in Figs. \ref{fig:ur}--\ref{fig:NO} 
+relate the target dwarf galaxy's parameter to the distance to its nearest 
+neighbor, as defined by the the closest galaxy on the sky in \hMpc with a 
+velocity difference less than 300 km/s.  The bottom left plots relate the target 
 dwarf galaxy's parameter to the distance to its nearest neighbor, as defined by 
-the the closest galaxy on the sky in \hMpc with a velocity difference less than 
-300 km/s.  The bottom left plots relate the target dwarf galaxy's parameter to 
-the distance to its nearest neighbor, as defined by the closest galaxy on the 
-sky in units of the virial radius of the neighbor galaxy with a velocity 
-difference less than 300 km/s.  The nearest galaxy is not necessarily the same 
-for these two distance measurements, as explained in Sec. \ref{sec:Theory_dist}.
+the closest galaxy on the sky in units of the virial radius of the neighbor 
+galaxy with a velocity difference less than 300 km/s.  The nearest galaxy is not 
+necessarily the same for these two distance measurements, as explained in Sec. 
+\ref{sec:Theory_dist}.
 
 We repeat this same analysis on the nearest groups to the target dwarf galaxy.  
 The top right plots in Figs. \ref{fig:ur}--\ref{fig:NO} relate the target dwarf 
@@ -285,20 +312,21 @@ which do not.
     orange and blue, respectively.  It is clear that the void dwarf galaxies are 
     bluer than the wall dwarf galaxies.  The nearest galaxies appear to only 
     have some affect on the dwarf galaxy's color at separations less than 0.05 
-    \hMpc, or 0.05$r_{vir}$.  The closest group appears to have some 
-    affect on the target dwarf galaxy's color at distances less than 0.1 \hMpc 
-    to the group's center; there appears to be no relationship between a dwarf 
-    galaxy's color and its distance to the nearest group as represented by the 
-    fraction of the group's radius.}
+    \hMpc, or 0.1$r_{vir}$.  The closest group appears to have some affect on 
+    the target dwarf galaxy's color at distances less than 0.1 \hMpc to the 
+    group's center; there appears to be no relationship between a dwarf galaxy's 
+    color and its distance to the nearest group as represented by the fraction 
+    of the group's radius.}
     \label{fig:ur}
 \end{figure}
 
 Because of the known morphology-density relation, we expect to find that a dwarf 
-galaxy's color became more blue as the distance to its nearest neighbor 
-increased.  Fig. \ref{fig:ur} shows very little relationship between the 
-distance and color, except at the smallest distance bin.  The linear fits 
+galaxy's color becomes bluer as the distance to the nearest group increases, but 
+we expect the dwarf galaxy's color to become bluer as the distance to the 
+neighbor decreases.  Fig. \ref{fig:ur} shows very little relationship between 
+the distance and color, except in the smallest distance bin.  The linear fits 
 quantify this observation --- the slopes are on the order of 10$^{-3}$.  
-However, within a distance of 0.05 \hMpc or 0.05$r_{vir}$, dwarf galaxies tend 
+However, within a distance of 0.05 \hMpc or 0.1$r_{vir}$, dwarf galaxies tend 
 to be bluer than at further distances from their nearest neighbor.  At distances 
 less than 0.1 \hMpc from the center of the nearest groups, the dwarf galaxies 
 are redder than average.  However, there does not appear to be any relationship 
@@ -326,24 +354,24 @@ than the wall dwarf galaxies.
     relationships.  Linear fits to the void and wall galaxies are shown in 
     orange and blue, respectively.  It is clear that the void dwarf galaxies 
     have higher sSFRs than the wall dwarf galaxies.  Only the neighbor galaxies 
-    at separations less than 0.05 \hMpc or 0.05$r_{vir}$ appear to have some 
+    at separations less than 0.05 \hMpc or 0.1$r_{vir}$ appear to have some 
     affect on the dwarf galaxies' sSFR.  There appears to be no relationship 
     between a dwarf galaxy's sSFR and its distance to the nearest group.}
     \label{fig:sSFR}
 \end{figure}
 
-Following our prediction for the color-distance relations, we expect that the 
-sSFR to increase with distance from the nearest neighbor.  We also see very 
-little relationship between the distance and sSFR in Fig. \ref{fig:sSFR}, except 
-in the smallest distance bin.  The linear fits quantify this observation --- the 
-slopes are on the order of 10$^{-3}$.  Within a distance of 0.05 \hMpc or 
-0.05$r_{vir}$, dwarf galaxies tend to have higher sSFRs than at further 
-distances from their nearest neighbor.  There does not appear to be any 
-relationship between a dwarf galaxy's sSFR and its distance to the center of the 
-nearest group in either distance metric.  In these distance comparisons, there 
-is a shift towards higher sSFRs in the void dwarf galaxies when compared to the 
-wall dwarf galaxies, as has been observed many times before \citep{Rojas05,
-vonBendaBeckmann08,Moorman15,Beygu16}.  
+Following our prediction for the color-distance relations, we expect the 
+sSFR to decrease with distance from the nearest neighbor and increase with 
+distance from the nearest group.  We also see very little relationship between 
+the distance and sSFR in Fig. \ref{fig:sSFR}, except in the smallest distance 
+bin.  The linear fits quantify this observation --- the slopes are on the order 
+of 10$^{-3}$.  Within a distance of 0.05 \hMpc or 0.1$r_{vir}$, dwarf galaxies 
+tend to have higher sSFRs than at further distances from their nearest neighbor.  
+There does not appear to be any relationship between a dwarf galaxy's sSFR and 
+its distance to the center of the nearest group in either distance metric.  In 
+these distance comparisons, there is a shift towards higher sSFRs in the void 
+dwarf galaxies when compared to the wall dwarf galaxies, as has been observed 
+before \citep{Rojas05,vonBendaBeckmann08,Moorman15,Beygu16}.  
 
 
 \subsubsection{Metallicity}
@@ -363,27 +391,27 @@ vonBendaBeckmann08,Moorman15,Beygu16}.
     galaxies are shown in orange and blue, respectively.  It is clear that the 
     void dwarf galaxies have higher metallicities than the wall dwarf galaxies.  
     Only the neighbor galaxies at separations less than 0.05 \hMpc or 
-    0.05$r_{vir}$ appear to have some affect on the dwarf galaxies' metallicity.  
+    0.1$r_{vir}$ appear to have some affect on the dwarf galaxies' metallicity.  
     When measuring the distance to the nearest group in \hMpc, it appears that 
     the dwarf galaxies have lower metallicities at distances less than 0.1 \hMpc 
     from their nearest group.}
     \label{fig:OH}
 \end{figure}
 
-Based on our hypothesis that galaxies would be redder and have lower sSFRs at 
+Based on our hypothesis that galaxies would be bluer and have higher sSFRs at 
 small distances to their nearest neighbors, we anticipated that the metallicity 
 of the galaxies would decrease with increasing distance.  As before, we only see 
 a relationship between the distance and metallicity in the smallest distance 
 bin in Fig. \ref{fig:OH}.  The linear fits quantify this observation --- the 
 slopes are on the order of 10$^{-2}$.  Within a distance of 0.05 \hMpc or 
-0.05$r_{vir}$, dwarf galaxies tend to have higher metallicities than at further 
+0.1$r_{vir}$, dwarf galaxies tend to have higher metallicities than at further 
 distances from their nearest neighbor.  At distances less than 0.1 \hMpc from 
 the center of the nearest group, dwarf galaxies might have lower than average 
-metallicities.  However, this could be an erroneous conclusion due to low-number 
-statistics.  In these distance comparisons, there is a shift towards higher 
-metallicities in the void dwarf galaxies when compared to the wall dwarf 
-galaxies, as has been observed by \cite{Douglass17b} and Douglass \& Vogeley 
-(2017, in prep).  
+metallicities.  However, this could be an erroneous conclusion due to 
+small-number statistics.  In these distance comparisons, there is a shift 
+towards higher metallicities in the void dwarf galaxies when compared to the 
+wall dwarf galaxies, as has been observed by \cite{Douglass17b} and Douglass et 
+al. (2017, in prep).  
 
 
 \subsubsection{Nitrogen abundance}
@@ -402,7 +430,7 @@ galaxies, as has been observed by \cite{Douglass17b} and Douglass \& Vogeley
     behavior in the relationships.  Linear fits to the void and wall galaxies 
     are shown in orange and blue, respectively.  There is very little difference 
     in N/H between the two large-scale environments.  Only the neighbor galaxies 
-    at separations less than 0.05$r_{vir}$ appear to have some affect on the 
+    at separations less than 0.1$r_{vir}$ appear to have some affect on the 
     dwarf galaxies' nitrogen abundance.  There does not appear to be any 
     relationship between the dwarf galaxies' nitrogen abundance and the distance 
     to their nearest group.}
@@ -414,14 +442,14 @@ trend as the metallicity, to decrease with increasing distance.  As observed
 with the other parameters, Fig. \ref{fig:NH} shows very little relationship 
 between the distance and N/H, except in the smallest distance bin for the 
 closest virial neighbor.  The linear fits quantify this observation --- the 
-slopes are on the order of 10$^{-2}$.  Within a distance of 0.05$r_{vir}$, dwarf 
+slopes are on the order of 10$^{-2}$.  Within a distance of 0.1$r_{vir}$, dwarf 
 galaxies tend to have higher nitrogen abundances than at distances further from 
 their nearest neighbor.  There does not seem to be any relationship between the 
 nitrogen abundance of the star-forming dwarf galaxies and distance to the center 
 of the nearest group.  Unlike the shifts seen with the other parameters and what 
-is observed in \cite{Douglass17b} and Douglass \& Vogeley (2017, in prep), we 
-see no significant difference in the nitrogen abundance resulting from the 
-large-scale environment.
+is observed in \cite{Douglass17b} and Douglass et al. (2017, in prep), we see no 
+significant difference in the nitrogen abundance resulting from the large-scale 
+environment.
 
 
 \subsubsection{N/O ratio}
@@ -447,7 +475,8 @@ large-scale environment.
 \end{figure}
 
 We do not expect any influence on the relative synthesis of oxygen and nitrogen 
-from the proximity to a nearest neighbor.  Unlike the other parameters studied, 
+from the proximity to a nearest neighbor since nucleosynthesis is a physical 
+process unaffected by external influences.  Unlike the other parameters studied, 
 Fig. \ref{fig:NO} shows that the N/O ratio does not have any relationship with 
 the distance to a nearest neighbor at any separation.  This is reflected in the 
 linear fits to the data --- the slopes are on the order of 10$^{-2}$ and 
@@ -455,7 +484,7 @@ smaller.  When looking at the relationship between the N/O ratio and the
 distance to the nearest group, though, the N/O ratio might be higher than 
 average in galaxies within 0.1 \hMpc of the group's center.  The shift towards 
 lower N/O ratios in star-forming void dwarf galaxies is readily apparent, as 
-\cite{Douglass17b} and Douglass \& Vogeley (2017, in prep) find.
+found by \cite{Douglass17b} and Douglass et al. (2017, in prep).
 
 
 \subsection{Linear fit parameters}
@@ -509,7 +538,7 @@ lower N/O ratios in star-forming void dwarf galaxies is readily apparent, as
 \end{table}
 
 To quantify the results shown in Figs. \ref{fig:ur}--\ref{fig:NO}, we calculate 
-the parameters for the best fit linear line.  Any slope of significant magnitude 
+the parameters for the best linear fit.  Any slope of significant magnitude 
 shows an overall correlation between a given physical parameter and the galaxy's 
 distance to its nearest neighbor or group.  The results of this analysis are 
 listed in Table \ref{tab:fits}.  These slopes reflect the observations described 
@@ -544,13 +573,13 @@ discuss is the sensitivity of our results on the maximum peculiar velocity to
 define a match.  Throughout our analysis, we use 300 km/s as the maximum 
 velocity separation allowed between the target galaxy and its nearest neighbor 
 or group.  We look at how this affects our results by repeating the analysis 
-with maximum velocities of 150 km/s and 600 km/s.  The results of this 
-comparison on the color of the galaxies can be seen in Fig. 
-\ref{fig:ur_vpeculiar}.  The nearest neighbors in the left-hand panel are 
-restricted to a maximum peculiar velocity of 150 km/s, while those in the right 
-panel are restricted to 600 km/s.  When compared to each other and to the 
-left-hand panel of Fig. \ref{fig:ur}, it is clear that our choice of maximum 
-peculiar velocity has no affect on the results of the study.
+with maximum velocities of 150 km/s and 600 km/s \citep[the criteria used in][]
+{Hwang10,Guo11}.  The results of this comparison on the color of the galaxies 
+can be seen in Fig. \ref{fig:ur_vpeculiar}.  The nearest neighbors in the 
+left-hand panel are restricted to a maximum peculiar velocity of 150 km/s, while 
+those in the right panel are restricted to 600 km/s.  When compared to each 
+other and to the left-hand panel of Fig. \ref{fig:ur}, it is clear that our 
+choice of maximum peculiar velocity has no affect on the results of the study.
 
 % Spectroscopic sample v. complete sample
 \begin{figure}
@@ -623,13 +652,13 @@ matter halo.
     the bottom) for the star-forming dwarf galaxies.  The redshift is included 
     when calculating the distance to the nearest neighbor.  While there is still 
     no correlation between distance and color, we do note that there is a gap in 
-    the distribution of galaxies around a distance of 0.05 \hMpc or 0.5$r_{vir}$ 
+    the distribution of galaxies around a distance of 0.05 \hMpc or 0.1$r_{vir}$ 
     from the nearest neighbor.}
     \label{fig:ur_xyz}
 \end{figure}
 
 Realizing that the peculiar velocity, which is included in a galaxy's redshift, 
-is not insignificant at the smaller scales, we have been careful to avoid 
+can be significant for galaxies in groups, we have been careful to avoid 
 calculating the distance between objects with the redshift.  However, we are 
 interested to see how the inclusion of redshift in the distance calculations 
 affects the results of our analysis.  Therefore, we repeat the same analysis on 
@@ -641,7 +670,7 @@ galaxies.  When compared to Fig. \ref{fig:ur}, we see that there is no change in
 the correlation between distance and color for the galaxies.  
 
 We note the existence of a gap in the distribution of galaxies around a distance 
-of 0.05 \hMpc or 0.5$r_{vir}$ from the nearest neighbor that is not present in 
+of 0.05 \hMpc or 0.1$r_{vir}$ from the nearest neighbor that is not present in 
 Fig. \ref{fig:ur}.  When we incorporate the redshift into the distance 
 calculations, the resulting distance between galaxies which have small sky 
 separations but larger redshift separations is much larger than those with 
@@ -664,22 +693,22 @@ visual inspection will help to confirm.
 We see no relationship between a dwarf galaxy's color, sSFR, or gas-phase 
 chemical abundances and its distance to the nearest galaxy or group beyond the 
 target galaxy's immediate vicinity, implying that the small-scale environment 
-does not significantly influence a dwarf galaxy's evolution.  This is in 
-contrast to the large-scale environment, which we have seen to influence the 
-formation and evolution of dwarf galaxies.
+($\sim$1 \hMpc) does not significantly influence a dwarf galaxy's evolution.  
+This is in contrast to the large-scale environment, which we have seen to 
+influence the formation and evolution of dwarf galaxies.
 
-Only those galaxies within 0.05 \hMpc and 0.05$r_{vir}$ of a nearest neighbor, 
-or those within 0.1 \hMpc of the nearest group appear to deviate from the 
-average galaxy values.  The target galaxies within this proximity of their 
-nearest neighbor tend to be bluer, have a higher sSFR, and have higher oxygen 
-and nitrogen abundances.  Based on the shift in the distribution of galaxies 
-seen in Fig. \ref{fig:ur_xyz}, these galaxies might be merging or strongly 
-interacting with their nearest neighbor.  If so, this provides evidence that 
-galaxy interactions result in a burst of star formation that increases the 
-gas-phase chemical abundances of the dwarf galaxies.  Because merging galaxies 
-share the same dark matter halo, it appears that the sharing of a dark matter 
-halo has more influence on the evolution of a galaxy than the distance to its 
-nearest neighbor.
+Only those galaxies within 0.05 \hMpc and 0.1$r_{vir}$ of a nearest neighbor, or 
+those within 0.1 \hMpc of the nearest group appear to deviate from the average 
+galaxy values.  The target galaxies within this proximity of their nearest 
+neighbor tend to be bluer, have a higher sSFR, and have higher oxygen and 
+nitrogen abundances.  Based on the shift in the distribution of galaxies seen in 
+Fig. \ref{fig:ur_xyz}, these galaxies might be merging or strongly interacting 
+with their nearest neighbor.  If so, this provides evidence that galaxy 
+interactions result in a burst of star formation that increases the gas-phase 
+chemical abundances of the dwarf galaxies.  Because merging galaxies share the 
+same dark matter halo, it appears that the sharing of a dark matter halo has 
+more influence on the evolution of a galaxy than the distance to its nearest 
+neighbor.
 
 In contrast, dwarf galaxies within 0.1 \hMpc of the center of the nearest group 
 are redder, have lower oxygen abundances (O/H), and have higher N/O ratios than 
@@ -690,10 +719,10 @@ heavy elements as a more isolated galaxy, thereby reducing their gas-phase
 oxygen abundance (and increasing their N/O ratio).
 
 
-\subsection{Comparison to literature results}
+\subsection{Comparison to previous results}
 
 The influence on the gas-phase oxygen abundance within 0.05 \hMpc and 
-0.05$r_{vir}$ agrees with the results of \cite{Shields91,Pustilnik06,Cooper08,
+0.1$r_{vir}$ agrees with the results of \cite{Shields91,Pustilnik06,Cooper08,
 Ellison09,Pustilnik11a,Pustilnik14}, and \cite{SanchezAlmeida16}, which all find 
 that galaxies with higher metallicities preferentially reside in denser regions.  
 Work by \cite{Rupke08} finds that interacting galaxies have suppressed 
@@ -701,22 +730,22 @@ metallicities due to interaction- or merger-induced gas flows into the galaxy
 centers.
 
 A study combining the effects of interactions and the large-scale environment is 
-explained in \cite{Park09}.  They find two characteristic distances within which 
+presented in \cite{Park09}.  They find two characteristic distances within which 
 the behavior of the target galaxy changes: 0.05$r_{vir}$ and $r_{vir}$ of the 
 neighboring galaxy.  Our results seem to confirm the significance of distances 
 out to 0.05$r_{vir}$, while we see no significant change around the virial 
 radius of the neighboring galaxy.  While they only look at galaxies with 
 $M_r < -19$ and limit the neighbors to be at least half a magnitude brighter 
 than the target, \cite{Park09} find that the morphology and luminosity play a 
-significant role in these relationships.  Of particular note is their 
+significant role in these relationships.  Of particular interest is their 
 observation that star formation increases in late type galaxies when their 
 nearest neighbor is also of late type.  This is the same behavior we see in our 
-sample of dwarf galaxies at distances less than 0.05$r_{vir}$.  With all our 
+sample of dwarf galaxies at distances less than 0.1$r_{vir}$.  With all our 
 target galaxies actively forming stars, and more than half of their nearest 
 neighbors also dwarf galaxies, it is most likely that our galaxy pairs are also 
 of the late-late type.  Based on the results of \cite{Park09}, the deviations we 
 see for those galaxies with nearest neighbors within 0.05 \hMpc and 
-0.05$r_{vir}$ warrant further study.
+0.1$r_{vir}$ warrant further study.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -726,17 +755,17 @@ see for those galaxies with nearest neighbors within 0.05 \hMpc and
 \section[Conclusions]{Conclusions}
 
 Using the star-forming dwarf galaxies in the SDSS DR7 sample with gas-phase 
-chemical abundances from Douglass \& Vogeley (2017, in prep), we investigate the 
+chemical abundances from Douglass et al. (2017, in prep), we investigate the 
 influence of the small-scale environment on the evolution of dwarf galaxies.  
 From the $\sim$2000 galaxies in the sample, there only appears to be an effect 
-from a neighboring galaxy within 0.05 \hMpc or 0.05$r_{vir}$.  The proximity of 
-a group seems to only affect the target dwarf galaxy if it is within 0.1 \hMpc.  
+from a neighboring galaxy within 0.05 \hMpc or 0.1$r_{vir}$.  The proximity of a 
+group seems to only affect the target dwarf galaxy if it is within 0.1 \hMpc.  
 Thus, the small-scale ($\sim 1$ \hMpc) environment does not appear to strongly 
 influence the evolution of dwarf galaxies.
 
 We examine the relationship between distance to the nearest neighbor or group 
 and the target galaxy's color, sSFR, and gas-phase chemical abundances.  We find 
-that, for those galaxies with a neighbor within 0.05 \hMpc or 0.05$r_{vir}$, the 
+that, for those galaxies with a neighbor within 0.05 \hMpc or 0.1$r_{vir}$, the 
 dwarf galaxies are bluer, have a higher sSFR, and have higher oxygen and 
 nitrogen abundances than average.  In contrast, dwarf galaxies within 0.1 \hMpc 
 of the center of the closest group are redder, have lower oxygen abundances, and 
@@ -745,7 +774,7 @@ peculiar velocity difference or on the sample (star-forming versus all
 galaxies).
 
 When we incorporate the redshift into the distance calculations, we find that 
-those galaxies within 0.05$r_{vir}$ are most likely mergers or strongly 
+those galaxies within 0.1$r_{vir}$ are most likely mergers or strongly 
 interacting with their nearest neighbor.  This matches the results of 
 \cite{Park09}, who find that late-late type galaxy pairs within 0.05$r_{vir}$ 
 are bluer and have higher star formation rates.  These merging galaxies likely 
@@ -754,5 +783,6 @@ influential on a galaxy's evolution than its distance to the nearest neighbor.
 
 Further analysis of this study should include comparing the properties of the 
 target galaxies with the nearest neighbors' properties as a function of 
-distance (``galactic conformity'').  The gas-phase chemical abundances between a 
-galaxy and its nearest neighbor could be strongly correlated.
+distance \citep[``galactic conformity'';][]{Weinmann06}.  The gas-phase chemical 
+abundances between a galaxy and its nearest neighbor could be strongly 
+correlated.

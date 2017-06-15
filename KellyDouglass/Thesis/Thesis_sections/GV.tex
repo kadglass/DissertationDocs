@@ -5,27 +5,6 @@ This work was done in collaboration with Jinfu Dai for his senior thesis
 
 
 \section{Introduction}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    STATEMENT OF PROBLEM
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{Chemical evolution and the green valley}
-
-The enrichment of the interstellar medium (ISM) and circumgalactic medium (CGM) 
-of a galaxy involves many complicated astrophysical processes, the interplay of 
-which is not yet well understood.  A critical problem in galaxy formation is to 
-understand how galaxies transition from the blue sequence to the red cloud of 
-the optical color-magnitude diagram.  Star formation is thought to be quenching 
-in galaxies moving through the green valley, but the relevant baryonic processes 
-(gas cooling, feedback, etc.) are very complex and heavily interdependent.  
-Investigating the star formation history and chemical evolution of galaxies in 
-the green valley should provide clues as to the evolution of a galaxy through 
-the color-magnitude diagram.
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    BACKGROUND AND RELEVANCE TO PREVIOUS WORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{The color-magnitude diagram: Galaxies in the green valley}
 
 Large galaxy surveys \citep[like the Sloan Digital Sky Survey;][]{York00} 
 revealed the structure of the color-magnitude diagram (CMD).  As seen in Fig. 
@@ -46,6 +25,17 @@ consists of mostly spiral and irregular galaxies which are actively forming star
     ``red cloud'' and the ``blue sequence.''}
     \label{fig:ur_CMD}
 \end{figure}
+
+The enrichment of the interstellar medium (ISM) and circumgalactic medium (CGM) 
+of a galaxy involves many complicated astrophysical processes, the interplay of 
+which is not yet well understood.  A critical problem in galaxy formation is to 
+understand how galaxies transition from the blue sequence to the red cloud of 
+the optical color-magnitude diagram.  Star formation is thought to be quenching 
+in galaxies moving through the green valley, but the relevant baryonic processes 
+(gas cooling, feedback, etc.) are very complex and heavily interdependent.  
+Investigating the star formation history and chemical evolution of galaxies in 
+the green valley should provide clues as to the evolution of a galaxy through 
+the color-magnitude diagram.
 
 % VOGELEY THINKS THIS DESCRIPTION IS TOO SIMPLISTIC
 %The current theory of galactic evolution describes a process in which a small 
@@ -94,15 +84,14 @@ galaxies have been inconclusive as to why or how this is occurs.
 
 \section[Theory]{Calculating the color of a galaxy}
 
-A galaxy's color is the ratio of the flux emitted by the galaxy in two different 
-bands.  The stellar population of a galaxy will determine its color --- redder 
-galaxies contain much older, cooler stars, while the spectrum of a bluer galaxy 
-is produced by light from much younger, hotter stars.  A galaxy's color is 
-independent of its redshift, so only photometry is needed to calculate the 
-ratio.  While the KIAS-VAGC catalog (described below in Section \ref{sec:SDSS}) 
-provides the $u-r$ color for all galaxies in SDSS, we make use of the Petrosian 
-fluxes in the NSA (described in Section \ref{sec:GALEX}) to calculate the 
-UV--optical color.  The NUV$-r$ color is calculated by
+A galaxy's color is a logarithmic ratio of the ratio of the flux emitted by the 
+galaxy in two different bands.  The stellar population of a galaxy will 
+determine its color: redder galaxies contain much older, cooler stars, while the 
+spectrum of a bluer galaxy is produced by light from much younger, hotter stars.  
+While the KIAS-VAGC catalog (described below in Section \ref{sec:SDSS}) provides 
+the $u-r$ color for all galaxies in SDSS, we make use of the Petrosian fluxes in 
+the NSA (described in Section \ref{sec:GALEX}) to calculate the UV--optical 
+color.  The NUV$-r$ color is calculated by
 \begin{equation}
     \text{NUV}-r = -2.5\log \left( \frac{f_{NUV}}{f_r} \right)
 \end{equation}
@@ -121,7 +110,7 @@ cross-matched in the NSA.
 \subsection{Optical data --- SDSS}\label{sec:SDSS}
 % Should we use NSA for abs. mag. instead? - yes, but not for the thesis
 
-The SDSS Data Release 7 \citep[DR7]{Abazajian09} is a wide-field multi-band 
+The SDSS Data Release 7 \citep[DR7;][]{Abazajian09} is a wide-field multi-band 
 imaging and spectroscopic survey that uses drift scanning to map approximately 
 one-quarter of the northern sky.  A dedicated 2.5-meter telescope at the Apache 
 Point Observatory in New Mexico takes photometric data in the five-band SDSS 
@@ -130,30 +119,37 @@ a Petrosian $r$-band apparent magnitude $m_r < 17.77$ are selected for
 spectroscopic analysis \citep{Lupton01,Strauss02}.  Gas-phase chemical 
 abundances are calculated via the Direct $T_e$ method using emission-line fluxes 
 measured by the MPA-JHU catalog\footnote{Available at 
-\url{http://www.mpa-garching.mpg.de/SDSS/DR7}} and published in Douglass \& 
-Vogeley (2017, in prep).  The large-scale environment of the galaxies is based 
-on the void catalog compiled by \cite{Pan12}.  This void catalog is constructed 
-from SDSS DR7 using the VoidFinder algorithm of \cite{Hoyle02}.  Galaxies which 
-are located within the identified voids are labeled as void galaxies; those 
-which do not reside in a void are designated as wall galaxies.  Because the 
-minimum diameter of a void is defined as 10 \hMpc , the large-scale environment 
-of galaxies within 5 \hMpc of the edge of the SDSS DR7 footprint cannot be 
+\url{http://www.mpa-garching.mpg.de/SDSS/DR7}} and published in Douglass et al. 
+(2017, in prep).  The large-scale environment of the galaxies is based on the 
+void catalog compiled by \cite{Pan12}.  This void catalog is constructed from 
+SDSS DR7 using the VoidFinder algorithm of \cite{Hoyle02}.  Galaxies which are 
+located within the identified voids are labeled as void galaxies; those which do 
+not reside in a void are designated as wall galaxies.  Because the minimum 
+diameter of a void is defined as 10 \hMpc , the large-scale environment of 
+galaxies within 5 \hMpc of the edge of the SDSS DR7 footprint cannot be 
 described, so their environment is labeled as unknown.
 
 % KIAS-VAGC (morphological classification)
 The Korea Institute for Advanced Study Value-Added Galaxy Catalog 
-\citep[KIAS-VAGC]{Choi10} contains galaxies from the SDSS DR7 main sky survey 
+\citep[KIAS-VAGC;][]{Choi10} contains galaxies from the SDSS DR7 main sky survey 
 based on the New York University Value-Added Galaxy Catalog Data Release 7 
-\citep[NYU-VAGC]{Blanton05}.  It provides a morphological class and type 
+\citep[NYU-VAGC;][]{Blanton05}.  It provides a morphological class and type 
 following the automated morphology classification scheme of \cite{Park05}, using 
 the color $u-r$, color gradient $\Delta (g-r)$, and inverse concentration index.  
-We use the absolute magnitudes as listed in the KIAS-VAGC.
+With these three quantities, galaxies are separated into one of three different 
+morphological types: normal late type, normal early type, blue early type, and 
+one of two different morphological classes: elliptical or lenticular and spiral 
+or irregular.  For reference, typical star-forming spiral galaxies would be 
+classified as a normal late type spiral or irregular galaxy, star-forming dwarf 
+galaxies are usually normal late type spiral or irregular galaxies, and red 
+elliptical galaxies are typically classified as normal early type elliptical or 
+lenticular galaxies.  We use the absolute magnitudes as listed in the KIAS-VAGC.
 
 \subsection{UV data --- GALEX}\label{sec:GALEX}
 The Galaxy Evolution Explorer \citep[GALEX]{Martin05} is an orbiting space 
 telescope conducting an extra-galactic ultraviolet all-sky survey.  The 
 instrument allows imaging and spectroscopic observations in two ultraviolet 
-bands --- Far UV (FUV, 1350--1780\AA) and Near UV (NUV, 1770--2730\AA) 
+bands: Far UV (FUV, 1350--1780\AA) and Near UV (NUV, 1770--2730\AA) 
 \citep{Morrissey07}.  The NUV-$r$ colors used in this study are calculated from 
 the azimuthally-averaged SDSS-style Petrosian fluxes provided in the NASA-Sloan 
 Atlas version 0.1.2 \citep[NSA]{Blanton11}.
@@ -204,14 +200,17 @@ the diagram.  Rather than being classified based on arbitrary limits placed on
 the NUV$-r$ values \citep[as done by][]{Schawinski14,Salim14a}, the galaxies can 
 be easily separated into three distinct populations based on the galaxies' 
 morphological types as calculated in the KIAS-VAGC; this can be seen in Fig. 
-\ref{fig:NUVr_CMD}.  Defined by the $u-r$ color and the color gradient 
-$\Delta (g-i)$, it is novel that an estimate of the morphological type of the 
-galaxies is an adequate classification for the three populations of the NUV$-r$ 
-CMD.  In addition, Fig. \ref{fig:NUVr_hist} shows a histogram of the galaxies 
-which overlap in both GALEX and SDSS, separated by their morphological 
-classification from the KIAS-VAGC.  It shows that the three populations are well 
-fit by three Gaussians --- the new population in the middle is the transient 
-galaxy population originally ``missing'' from the optical CMD.
+\ref{fig:NUVr_CMD}.  Here, we group together normal late type and blue early 
+type galaxies, and we separate into two groups the normal late type galaxies 
+based on their value of the morphological type quantity calculated in the 
+KIAS-VAGC.  Defined by the $u-r$ color and the color gradient $\Delta (g-i)$, it 
+is novel that an estimate of the morphological type of the galaxies is an 
+adequate classification for the three populations of the NUV$-r$ CMD.  In 
+addition, Fig. \ref{fig:NUVr_hist} shows a histogram of the galaxies which 
+overlap in both GALEX and SDSS, separated by their morphological classification 
+from the KIAS-VAGC.  It shows that the three populations are well fit by three 
+Gaussians --- the new population in the middle is the transient galaxy 
+population originally ``missing'' from the optical CMD.
 
 % classical classification of morphology v. aimc (aimc appaers to be a good indication of the transition in galaxy evolution
 The morphological classification that we use to isolate the green valley 
@@ -282,13 +281,13 @@ of SFRs for galaxies in the green valley peaks around
 $\log(\text{SFR}) \sim -0.5$, in between the ranges occupied by the red cloud 
 and blue sequence galaxies.  A similar distribution is shown for the sSFRs, 
 although the green valley galaxies extend well into the range of sSFRs occupied 
-by the galaxies in the red cloud.  \cite{Salim14a} describes transitional 
-galaxies (those in the green valley) to have lower sSFRs than galaxies in the 
-blue sequence, specifically $-11.8 < \log(\text{sSFR}) < -10.8$.  While our 
-results do indicate that green valley galaxies have lower sSFRs than those in 
-the blue sequence, we find that their range of sSFR is almost double the width 
-of that described in \cite{Salim14a}.  The green valley galaxies have a sSFR 
-within the range $-12 \lesssim \log(\text{sSFR}) \lesssim -10$.
+by the galaxies in the red cloud.  \cite{Salim14a} finds transitional galaxies 
+(those in the green valley) to have lower sSFRs than galaxies in the blue 
+sequence, specifically $-11.8 < \log(\text{sSFR}) < -10.8$.  While our results 
+do indicate that green valley galaxies have lower sSFRs than those in the blue 
+sequence, we find that their range of sSFR is almost double the width of that 
+described in \cite{Salim14a}.  The green valley galaxies have a sSFR within the 
+range $-12 \lesssim \log(\text{sSFR}) \lesssim -10$.
 
 
 \subsubsection{Gas-phase chemical abundances}
@@ -312,14 +311,15 @@ within the range $-12 \lesssim \log(\text{sSFR}) \lesssim -10$.
 
 Estimates of the gas-phase chemical abundances of galaxies probe their 
 integrated star formation histories, which can provide insight into the 
-enrichment of the ISM and CGM.  A few of the galaxies for which Douglass \& 
-Vogeley (2017, in prep) are able to estimate metallicities reside in the green 
-valley.  When compared with the metallicities of galaxies in the blue sequence 
-and red cloud, Fig. \ref{fig:Z_hist} shows that the green valley galaxies have 
-higher nitrogen abundances than star-forming galaxies in the blue sequence (and 
-some of the red cloud).  With oxygen abundances that fall within the same range 
-as the other two galaxy populations, this shift causes the N/O ratio to be much 
-higher in green valley galaxies than in the blue sequence.
+enrichment of the ISM and CGM.  A few of the galaxies for which Douglass et al. 
+(2017, in prep) are able to estimate metallicities reside in the green valley.  
+When compared with the metallicities of galaxies in the blue sequence and red 
+cloud, Fig. \ref{fig:Z_hist} shows that the green valley galaxies have higher 
+nitrogen abundances than star-forming galaxies in the blue sequence (and some of 
+the red cloud).  With oxygen abundances that fall within the same range as the 
+other two galaxy populations, this shift causes the N/O ratio to be much higher 
+in green valley galaxies than in the blue sequence.  Our interpretation of this 
+shift is described in Sec. \ref{sec:discussion_GV}.
 
 
 \subsubsection{Large-scale environment}
@@ -350,7 +350,7 @@ found in the green valley than for faint void galaxies.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section[Discussion]{Understanding green valley galaxies}
+\section[Discussion]{Understanding green valley galaxies}\label{sec:discussion_GV}
 
 Galaxies in the green valley are described to be in a transitional period of the 
 galaxy's life cycle, where they are being quenched in their star formation or 
@@ -374,9 +374,9 @@ As explained in \cite{Douglass17b}, nitrogen is thought to be produced in both a
 primary and secondary stage, depending on the presence of other heavy elements.  
 The fact that the galaxies in the green valley have higher nitrogen abundances 
 compared to those in the blue sequence indicate that they are building up a 
-surplus of nitrogen, most likely due to the presence of heavier elements at the 
-later star formation episodes.  The surplus of heavier elements allows the CNO 
-cycle to commence earlier in the stars' lifetimes, producing nitrogen at a 
+surplus of nitrogen, most likely due to the presence of heavier elements in 
+later episodes of star formation.  The surplus of heavier elements allows the 
+CNO cycle to commence earlier in the stars' lifetimes, producing nitrogen at a 
 higher rate than oxygen.  It is also possible that the higher nitrogen 
 abundances are a sign that the galaxies' intermediate mass stars (those 
 primarily responsible for nitrogen synthesis) have expired.  This surplus of 
@@ -389,14 +389,13 @@ are slightly behind wall galaxies in their evolution, matching predictions based
 on the $\Lambda$CDM cosmology.  These results also coincide with the 
 observations of \cite{Douglass17b} and Douglass \& Vogeley (2017, in prep).  
 They find that, for dwarf galaxies ($M_r > -17$), those which exist in voids may 
-have commenced their star formation at a later time and have not experienced the 
-same cosmic downsizing as dwarf galaxies residing in denser regions.  The higher 
-fraction of wall dwarf galaxies in the green valley might also point to an 
-environmental influence on the reason for transitioning through the green 
-valley, such as ram pressure stripping, which would occur much less frequently 
-in the void environment.  However, the existence of void galaxies in the green 
-valley indicate that galaxy interactions cannot be the only star formation 
-quenching mechanism.
+have commenced their star formation at a later time.  The higher fraction of 
+wall dwarf galaxies in the green valley might also point to an environmental 
+influence on the reason for transitioning through the green valley, such as ram 
+pressure stripping, which would occur much less frequently in the void 
+environment.  However, the existence of void galaxies in the green valley 
+indicate that galaxy interactions cannot be the only star formation quenching 
+mechanism.
 
 
 \subsection{Gas content indicators}
@@ -439,18 +438,23 @@ transitions from star-forming to quiescent (and maybe back to star-forming).
     \label{fig:BPT_abund}
 \end{figure}
 
-To understand the gas-phase chemical abundances of the green valley galaxies, we 
-compare Fig. \ref{fig:Z_hist} with the distribution of the gas-phase chemical 
-abundances of star-forming and composite galaxies and galaxies with an AGN shown 
-in Fig. \ref{fig:BPT_abund}.  We see that the galaxies with an AGN have the most 
-similar distributions in the three abundance ratios as the green valley 
-galaxies: both groups have similar oxygen abundances (O/H) and higher nitrogen 
-abundances (N/H) and N/O ratios than the star-forming galaxies.  This might 
-indicate a link between green valley galaxies and a host AGN.  The presence of 
-an AGN in green valley galaxies would support other studies of the transition of 
-galaxies from the blue sequence to the red cloud, which attribute the quenching 
-of star formation to accretion of a central black hole \citep[e.g.,][]{Croton06,
-Stasinska08}.
+Galaxies can be classified into a number of categories with the use of a BPT 
+diagram \citep{Baldwin81}.  By comparing different emission line ratios to get 
+an idea of the hardness of the spectrum, we can identify if most of the energy 
+in the galaxy's spectrum is coming from a star-forming region, an AGN, or a 
+combination of both (``composite'').  To understand the gas-phase chemical 
+abundances of the green valley galaxies, we compare Fig. \ref{fig:Z_hist} with 
+the distribution of the gas-phase chemical abundances of star-forming and 
+composite galaxies and galaxies with an AGN shown in Fig. \ref{fig:BPT_abund}; 
+the BPT diagram classifications are from \cite{Brinchmann04}.  We see that the 
+galaxies with an AGN have the most similar distributions in the three abundance 
+ratios as the green valley galaxies: both groups have similar oxygen abundances 
+(O/H) and higher nitrogen abundances (N/H) and N/O ratios than the star-forming 
+galaxies.  This might indicate a link between green valley galaxies and a host 
+AGN.  The presence of an AGN in green valley galaxies would support other 
+studies of the transition of galaxies from the blue sequence to the red cloud, 
+which attribute the quenching of star formation to accretion of a central black 
+hole \citep[e.g.,][]{Croton06,Stasinska08}.
 
 
 
@@ -460,9 +464,12 @@ Stasinska08}.
 
 \section[Conclusions]{Conclusions}
 
-We can define galaxies which are transitioning through the green valley of the 
-color-magnitude diagram by combining the galaxy's color, color gradient, and 
-inverse concentration index.  Galaxies with a magnitude less than 25 for the 
+We find a remarkable conformity between galaxies identified by morphological 
+classification and their location in the NUV$-r$ CMD, which clearly identifies 
+the green valley.  We can define galaxies which are transitioning through the 
+green valley of the color-magnitude diagram by combining the galaxy's color, 
+color gradient, and inverse concentration index.  Using these properties for the 
+morphological classification, galaxies with a value less than 25 for the 
 morphological type as calculated in the KIAS-VAGC exist in the green valley 
 portion of the UV-optical color magnitude diagram.  Galaxies defined as early 
 types (morphological type values equal to 1 or 2) are in the red cloud, while 
@@ -487,8 +494,8 @@ galaxies in the green valley have an AGN.
 
 There is a higher fraction of faint wall galaxies than faint void galaxies in 
 the green valley.  In conjunction with the conclusions of \cite{Douglass17b} and 
-Douglass \& Vogeley (2017, in prep), this indicates that void dwarf galaxies are 
+Douglass et al. (2017, in prep), this indicates that void dwarf galaxies are 
 less evolved than dwarf galaxies in denser environments.  It would be beneficial 
-to investigate the small-scale ($\sim 1$ \hMpc) environment of galaxies in the 
+to investigate the small-scale ($\sim$1 \hMpc) environment of galaxies in the 
 green valley, to determine if any interactions are responsible for the 
 transitional state.
