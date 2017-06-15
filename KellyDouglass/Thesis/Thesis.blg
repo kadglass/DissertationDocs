@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Thesis.aux
 The style file: aasjournal.bst
@@ -13,46 +13,46 @@ A level-1 auxiliary file: Thesis_sections/Conclusion.aux
 A level-1 auxiliary file: DirectMethodPhysics.aux
 A level-1 auxiliary file: Simulations.aux
 A level-1 auxiliary file: CV.aux
-Database file #1: /Users/kellydouglass/Documents/Research/Latex/metallicity_sources.bib
+Database file #1: /Volumes/kellydouglass/Documents/Research/Latex/metallicity_sources.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 149 entries,
+You've used 151 entries,
             3183 wiz_defined-function locations,
-            1677 strings with 46281 characters,
-and the built_in function-call counts, 79337 in all, are:
-= -- 6138
-> -- 6870
-< -- 43
-+ -- 2324
-- -- 2492
-* -- 7278
-:= -- 15238
-add.period$ -- 149
-call.type$ -- 149
-change.case$ -- 1051
-chr.to.int$ -- 147
-cite$ -- 149
-duplicate$ -- 2829
-empty$ -- 4191
-format.name$ -- 2665
-if$ -- 15404
+            1689 strings with 46772 characters,
+and the built_in function-call counts, 80263 in all, are:
+= -- 6202
+> -- 6944
+< -- 44
++ -- 2348
+- -- 2517
+* -- 7359
+:= -- 15419
+add.period$ -- 151
+call.type$ -- 151
+change.case$ -- 1061
+chr.to.int$ -- 149
+cite$ -- 151
+duplicate$ -- 2865
+empty$ -- 4257
+format.name$ -- 2692
+if$ -- 15588
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 146
-newline$ -- 451
-num.names$ -- 598
-pop$ -- 1155
+missing$ -- 148
+newline$ -- 457
+num.names$ -- 606
+pop$ -- 1168
 preamble$ -- 1
-purify$ -- 1051
+purify$ -- 1061
 quote$ -- 0
-skip$ -- 2310
+skip$ -- 2343
 stack$ -- 0
-substring$ -- 3090
+substring$ -- 3122
 swap$ -- 20
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1338
+type$ -- 1353
 warning$ -- 0
-while$ -- 562
+while$ -- 568
 width$ -- 0
-write$ -- 1493
+write$ -- 1513

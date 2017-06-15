@@ -97,11 +97,11 @@
 \contentsline {chapter}{Bibliography}{112}{section*.73}
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname \nobreakspace {}} \renewcommand {\cftchapaftersnum }{:}
 \contentsline {chapter}{\numberline {A}Direct method physics}{117}{appendix.A}
-\contentsline {section}{\numberline {A.1}Forbidden transitions}{117}{section.A.1}
+\contentsline {section}{\numberline {A.1}Forbidden transitions}{118}{section.A.1}
 \contentsline {subsection}{\numberline {A.1.1}Time-dependent perturbation theory}{118}{subsection.A.1.1}
 \contentsline {section}{\numberline {A.2}Estimating the temperature}{119}{section.A.2}
-\contentsline {section}{\numberline {A.3}[{S} II]}{120}{section.A.3}
+\contentsline {section}{\numberline {A.3}[{S} II]}{121}{section.A.3}
 \contentsline {chapter}{\numberline {B}Simulations}{122}{appendix.B}
-\contentsline {section}{\numberline {B.1}General dwarf galaxy formation and evolution}{122}{section.B.1}
+\contentsline {section}{\numberline {B.1}Dwarf galaxy formation and evolution}{122}{section.B.1}
 \contentsline {section}{\numberline {B.2}Environmental differences}{123}{section.B.2}
 \contentsline {chapter}{Vita}{125}{section*.76}
