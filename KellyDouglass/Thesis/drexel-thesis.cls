@@ -26,6 +26,7 @@
 \ProvidesClass{drexel-thesis}
  [\filedate\ \fileversion\ Drexel Thesis]
 \RequirePackage{xkeyval}
+%\RequirePackage{bold-extra}
 \newif\if@mainmatter \@mainmattertrue
 \newif\if@DUT@subfigopt
 \newif\if@DUT@pagebreak
@@ -769,8 +770,8 @@
     \fi
     \if@DUT@pagebreak \vspace*{\fill} \fi
     \begin{center}%
-      {\setstretch{\@tsp} \bfseries \@DUT@title \par}%
-      \blanklines{\@tsp}%
+      {\setstretch{\@tsp} \bfseries{ \@DUT@title} \par}%
+      \blanklines{4}%
       \setstretch{\@dsp}%
       A Thesis\\
       Submitted to the Faculty\\
@@ -784,6 +785,7 @@
       \@DUT@degree\\
       \@DUT@month\ \@DUT@year\\
     \end{center}\par
+    \blanklines{8}
     \if@DUT@pagebreak \vfill %\vspace*{\fill}
     \centering
     \mbox{\smash{\includegraphics[width=4cm]{drexel-logo}}}
