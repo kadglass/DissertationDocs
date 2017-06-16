@@ -36,6 +36,12 @@ Baldry, I.~K., Glazebrook, K., Brinkmann, J., {et~al.} 2004, ApJ, 600, 681
   {Terlevich}}]{Baldwin81}
 {Baldwin}, J.~A., {Phillips}, M.~M., \& {Terlevich}, R. 1981, PASP, 93, 5
 
+\bibitem[{{Belfiore} {et~al.}(2017){Belfiore}, {Maiolino}, {Tremonti},
+  {S{\'a}nchez}, {Bundy}, {Bershady}, {Westfall}, {Lin}, {Drory}, {Boquien},
+  {Thomas}, \& {Brinkmann}}]{Belfiore17}
+{Belfiore}, F., {Maiolino}, R., {Tremonti}, C., {et~al.} 2017, ArXiv e-prints,
+  arXiv:1703.03813
+
 \bibitem[{{Bell} \& {de Jong}(2000)}]{Bell00}
 {Bell}, E.~F., \& {de Jong}, R.~S. 2000, MNRAS, 312, 497
 
@@ -77,6 +83,11 @@ Baldry, I.~K., Glazebrook, K., Brinkmann, J., {et~al.} 2004, ApJ, 600, 681
 \bibitem[{{Bond} {et~al.}(1996){Bond}, {Kofman}, \& {Pogosyan}}]{Bond96}
 {Bond}, J.~R., {Kofman}, L., \& {Pogosyan}, D. 1996, Nature, 380, 603
 
+\bibitem[{{Bothwell} {et~al.}(2013){Bothwell}, {Maiolino}, {Kennicutt},
+  {Cresci}, {Mannucci}, {Marconi}, \& {Cicone}}]{Bothwell13}
+{Bothwell}, M.~S., {Maiolino}, R., {Kennicutt}, R., {et~al.} 2013, MNRAS, 433,
+  1425
+
 \bibitem[{{Brinchmann} {et~al.}(2004){Brinchmann}, {Charlot}, {White},
   {Tremonti}, {Kauffmann}, {Heckman}, \& {Brinkmann}}]{Brinchmann04}
 {Brinchmann}, J., {Charlot}, S., {White}, S.~D.~M., {et~al.} 2004, MNRAS, 351,
@@ -98,6 +109,10 @@ Baldry, I.~K., Glazebrook, K., Brinkmann, J., {et~al.} 2004, ApJ, 600, 681
   {Thompson}, {Tinker}, {van den Bosch}, {Westfall}, {Wilkinson}, {Wright},
   {Xiao}, \& {Zhang}}]{MaNGA}
 {Bundy}, K., {Bershady}, M.~A., {Law}, D.~R., {et~al.} 2015, ApJ, 798, 7
+
+\bibitem[{{Cardelli} {et~al.}(1989){Cardelli}, {Clayton}, \&
+  {Mathis}}]{Cardelli89}
+{Cardelli}, J.~A., {Clayton}, G.~C., \& {Mathis}, J.~S. 1989, ApJ, 345, 245
 
 \bibitem[{{Catinella} {et~al.}(2012){Catinella}, {Schiminovich}, {Kauffmann},
   {Fabello}, {Hummels}, {Lemonias}, {Moran}, {Wu}, {Cooper}, \&
@@ -154,6 +169,9 @@ Cooper, M.~C., Tremonti, C.~A., Newman, J.~A., \& Zabludoff, A.~I. 2008, MNRAS,
   {Scannapieco}}]{deRossi07}
 {de Rossi}, M.~E., {Tissera}, P.~B., \& {Scannapieco}, C. 2007, MNRAS, 374, 323
 
+\bibitem[{{Delahaye} \& {Pinsonneault}(2006)}]{Delahaye06}
+{Delahaye}, F., \& {Pinsonneault}, M.~H. 2006, ApJ, 649, 529
+
 \bibitem[{{Deng}(2011)}]{Deng11}
 {Deng}, X.-F. 2011, AJ, 141, 162
 
@@ -170,6 +188,9 @@ Cooper, M.~C., Tremonti, C.~A., Newman, J.~A., \& Zabludoff, A.~I. 2008, MNRAS,
 
 \bibitem[{{Dressler}(1980)}]{Dressler80}
 {Dressler}, A. 1980, ApJ, 236, 351
+
+\bibitem[{{El-Ad} \& {Piran}(1997)}]{ElAd97}
+{El-Ad}, H., \& {Piran}, T. 1997, ApJ, 491, 421
 
 \bibitem[{{Ellison} {et~al.}(2009){Ellison}, {Simard}, {Cowan}, {Baldry},
   {Patton}, \& {McConnachie}}]{Ellison09}
@@ -199,6 +220,16 @@ Emsley, J. 2011, Nature's Building Blocks: An A-Z Guide to the Elements (OUP
 
 \bibitem[{{Geha} {et~al.}(2012){Geha}, {Blanton}, {Yan}, \& {Tinker}}]{Geha12}
 {Geha}, M., {Blanton}, M.~R., {Yan}, R., \& {Tinker}, J.~L. 2012, ApJ, 757, 85
+
+\bibitem[{{Giovanelli} {et~al.}(2005){Giovanelli}, {Haynes}, {Kent},
+  {Perillat}, {Saintonge}, {Brosch}, {Catinella}, {Hoffman}, {Stierwalt},
+  {Spekkens}, {Lerner}, {Masters}, {Momjian}, {Rosenberg}, {Springob},
+  {Boselli}, {Charmandaris}, {Darling}, {Davies}, {Garcia Lambas}, {Gavazzi},
+  {Giovanardi}, {Hardy}, {Hunt}, {Iovino}, {Karachentsev}, {Karachentseva},
+  {Koopmann}, {Marinoni}, {Minchin}, {Muller}, {Putman}, {Pantoja}, {Salzer},
+  {Scodeggio}, {Skillman}, {Solanes}, {Valotto}, {van Driel}, \& {van
+  Zee}}]{Giovanelli05}
+{Giovanelli}, R., {Haynes}, M.~P., {Kent}, B.~R., {et~al.} 2005, AJ, 130, 2598
 
 \bibitem[{{Goldberg} {et~al.}(2005){Goldberg}, {Jones}, {Hoyle}, {Rojas},
   {Vogeley}, \& {Blanton}}]{Goldberg05}
@@ -370,6 +401,12 @@ Kreckel, K., Platen, E., Aragon-Calvo, M., {et~al.} 2012, AJ, 144, 16
 {Lara-Lopez}, M., Hopkins, A., {Lopez-Sanchez}, A., {et~al.} 2013, MNRAS, 434,
   451
 
+\bibitem[{{Lara-L{\'o}pez} {et~al.}(2010){Lara-L{\'o}pez}, {Bongiovanni},
+  {Cepa}, {P{\'e}rez Garc{\'{\i}}a}, {S{\'a}nchez-Portal}, {Casta{\~n}eda},
+  {Fern{\'a}ndez Lorenzo}, \& {Povi{\'c}}}]{LaraLopez10}
+{Lara-L{\'o}pez}, M.~A., {Bongiovanni}, A., {Cepa}, J., {et~al.} 2010, A\&A,
+  519, A31
+
 \bibitem[{{Lee} {et~al.}(2004){Lee}, {Salzer}, \& {Melbourne}}]{Lee04}
 {Lee}, J.~C., {Salzer}, J.~J., \& {Melbourne}, J. 2004, ApJ, 616, 752
 
@@ -535,6 +572,11 @@ Pettini, M., \& Pagel, B.~E. 2004, MNRAS, 348, L59
 {Pilyugin}, L.~S., {Contini}, T., \& {V{\'{\i}}lchez}, J.~M. 2004, A\&A, 423,
   427
 
+\bibitem[{{Pilyugin} {et~al.}(2017){Pilyugin}, {Grebel}, {Zinchenko},
+  {Nefedyev}, \& {Mattsson}}]{Pilyugin17}
+{Pilyugin}, L.~S., {Grebel}, E.~K., {Zinchenko}, I.~A., {Nefedyev}, Y.~A., \&
+  {Mattsson}, L. 2017, MNRAS, 465, 1358
+
 \bibitem[{{Pilyugin} \& {Mattsson}(2011)}]{Pilyugin11}
 {Pilyugin}, L.~S., \& {Mattsson}, L. 2011, MNRAS, 412, 1145
 
@@ -550,6 +592,9 @@ Pettini, M., \& Pagel, B.~E. 2004, MNRAS, 348, L59
   {V{\'{\i}}lchez}}]{Pilyugin06}
 {Pilyugin}, L.~S., {Thuan}, T.~X., \& {V{\'{\i}}lchez}, J.~M. 2006, MNRAS, 367,
   1139
+
+\bibitem[{{Postman} \& {Geller}(1984)}]{Postman84}
+{Postman}, M., \& {Geller}, M.~J. 1984, ApJ, 281, 95
 
 \bibitem[{{Power} {et~al.}(2014){Power}, {Wynn}, {Robotham}, {Lewis}, \&
   {Wilkinson}}]{Power14}

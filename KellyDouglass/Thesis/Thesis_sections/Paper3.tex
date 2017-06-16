@@ -227,11 +227,10 @@ abundances.  It can be difficult to use due to the nature of the [\ion{O}{3}]
 $\lambda$4363 auroral line \citep[for a more detailed discussion, see][]
 {Douglass17a}.  Since the strength of [\ion{O}{3}] $\lambda$4363 is inversely 
 proportional to the metallicity of a galaxy, it is best suited for low-redshift, 
-low-metallicity galaxies.  At metallicities 
-$12 + \log (\text{O}/\text{H}) \gtrsim 8.5$, [\ion{O}{3}] $\lambda$4363 becomes 
-too weak to detect in the SDSS spectra.  With the mass-metallicity (MZ) relation 
-by \cite{Tremonti04}, this metallicity limit corresponds to a maximum stellar 
-mass of
+low-metallicity galaxies.  At metallicities \OH $\gtrsim 8.5$, [\ion{O}{3}] 
+$\lambda$4363 becomes too weak to detect in the SDSS spectra.  With the 
+mass-metallicity (MZ) relation by \cite{Tremonti04}, this metallicity limit 
+corresponds to a maximum stellar mass of
 \begin{align*}
     12 + \log \left( \frac{\text{O}}{\text{H}} \right) &= -1.492 + 1.847(\log M_*) - 0.08026(\log M_*)^2\\
     8.5 &= \\
@@ -273,14 +272,13 @@ For nitrogen, we employ the ICFs used in \cite{Douglass17b}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{Images/Paper3/Zlow_v_Zreal_1sig_I06_BPTclass_fits}
-    \caption{$12 + \log{\text{O}^{++}/\text{H}}$ versus 
-    $12 + \log{\text{O}/\text{H}}$ for those galaxies with $M_r > -20$ as 
-    calculated with the direct method; the galaxies are colored by their 
-    classification in the BPT diagrams (from \cite{Brinchmann04}).  Two linear 
-    models have been fit to three groups in the sample: star-forming and 
-    AGN/composite galaxies; the best fit parameters can be found in Table 
-    \ref{tab:ab}.}
+    \includegraphics[width=0.65\textwidth]{Images/Paper3/Zlow_v_Zreal_1sig_I06_BPTclass_fits}
+    \caption[O$^++$/H versus O/H]{$12 + \log{\text{O}^{++}/\text{H}}$ versus \OH 
+    for those galaxies with $M_r > -20$ as calculated with the direct method; 
+    the galaxies are colored by their classification in the BPT diagrams 
+    \citep[from][]{Brinchmann04}.  Two linear models have been fit to three 
+    groups in the sample: star-forming and AGN/composite galaxies; the best fit 
+    parameters can be found in Table \ref{tab:ab}.}
     \label{fig:lowVreal}
 \end{figure}
 
@@ -288,7 +286,7 @@ We derive an ICF for O$^+$ to overcome some limitations on the observations of
 dwarf galaxies in SDSS to bolster our sample size.  Because we are studying 
 dwarf galaxies, the [\ion{O}{2}] $\lambda 3727$ doublet necessary for estimating 
 the abundance of O$^+$ is only available for objects within the redshift range 
-$0.02 < z < 0.03$ \citep[see Sec. \ref{sec:SDSS_limits} and][for more 
+$0.02 < z < 0.03$ \citep[see Sec. \ref{sec:SDSS_limits_P3} and][for more 
 details]{Douglass17a}.  To be able to study SDSS galaxies at redshifts less than 
 0.02, we need to find an alternate way to estimate the abundance of O$^+$.  
 Ordinarily, we would use an ICF to replace the missing ionization stage, as 
@@ -296,35 +294,43 @@ outlined in Sec. \ref{sec:DirectTe} for the nitrogen abundance.  Because the
 [\ion{O}{2}] $\lambda 3727$ emission line is normally available for analysis, 
 there are no approximations available for the ICF for the amount of 
 singly-ionized oxygen.  To construct an ICF appropriate for our dwarf galaxy 
-sample, we compare $12 + \log{\text{O/H}}$ to 
-$12 + \log{\text{O}^{++}/\text{H}}$ as calculated by the Direct $T_e$ method for 
-all galaxies in SDSS with $M_r > -20$.  Recognizing that the relative amounts of 
-singly- and doubly-ionized oxygen will depend on the hardness of a galaxy's 
-spectrum, we use a Baldwin-Phillips-Terlevich (BPT) diagram \citep{Baldwin81} to 
-classify each galaxy as star-forming, AGN, or composite (containing 
-characteristics of both a star-forming region and an AGN).  Noting a strong 
-separation in the relationship between O$^{++}$/H and O/H with respect to the 
-galaxies' BPT classifications by \cite{Brinchmann04}, we fit two linear models 
-to the sample, seen in Fig. \ref{fig:lowVreal} and defined as 
+sample, we compare \OH to $12 + \log{\text{O}^{++}/\text{H}}$ as calculated by 
+the Direct $T_e$ method for all galaxies in SDSS with $M_r > -20$.  Recognizing 
+that the relative amounts of singly- and doubly-ionized oxygen will depend on 
+the hardness of a galaxy's spectrum, we use a Baldwin-Phillips-Terlevich (BPT) 
+diagram \citep{Baldwin81} to classify each galaxy as star-forming, AGN, or 
+composite (containing characteristics of both a star-forming region and an AGN).  
+Noting a strong separation in the relationship between O$^{++}$/H and O/H with 
+respect to the galaxies' BPT classifications by \cite{Brinchmann04}, we fit two 
+linear models to the sample, seen in Fig. \ref{fig:lowVreal} and defined as 
 \begin{equation}\label{eq:fit}
     12 + \log{\text{O}/\text{H}} = a(12 + \log{\text{O}^{++}/\text{H}}) + b
 \end{equation}
 The values for $a$ and $b$ for the two classes are listed in Table \ref{tab:ab}.
 
-\floattable
-\begin{deluxetable}{L|C|C|C}
-    \tablewidth{0pt}
-    \tablecaption{Coefficients of oxygen abundance fits\label{tab:ab}}
-    \tablehead{\colhead{} & \colhead{SF (dwarf)} & \colhead{SF ($M_r > -20$)} & \colhead{AGN \& Composite}}
-    \startdata
-        a & 0.84 \pm 0.013 & 0.824 \pm 0.0010 & 0.764 \pm 0.0035\\
-        b & 1.61 \pm 0.094 & 1.787 \pm 0.0065 & 2.05 \pm 0.023\\
-    \enddata
-    \tablecomments{Coefficients for the linear trends (Eqn. \ref{eq:fit}) fit to 
-    the SF galaxies (dwarf and those with $M_r > -20$) and AGN and composite 
-    galaxies.  With these trends, we can now calculate the total oxygen 
-    abundance for a galaxy with knowing only the O$^{++}$/H abundance.}
-\end{deluxetable}
+
+
+\begin{table}
+\centering
+
+    \begin{tabular}{l|c|c|c}
+         & SF (dwarf) & SF ($M_r > -20$) & AGN \& Composite\\
+        \hline
+        $a$ & $0.84 \pm 0.013$ & $0.824 \pm 0.0010$ & $0.764 \pm 0.0035$\\
+        $b$ & $1.61 \pm 0.094$ & $1.787 \pm 0.0065$ & $2.05 \pm 0.023$
+    \end{tabular}
+    
+    \caption[Coefficients of oxygen abundance fits]{Coefficients for the linear 
+    trends (Eqn. \ref{eq:fit}) fit to the SF galaxies (dwarf and those with 
+    $M_r > -20$) and AGN and composite galaxies.  With these trends, we can now 
+    calculate the total oxygen abundance for a galaxy with knowing only the 
+    O$^{++}$/H abundance.}
+    
+    \label{tab:ab}
+    
+\end{table}
+
+
 
 As expected, the star-forming galaxies have less doubly ionized oxygen than 
 both the composite and AGN galaxies.  Since the degree of ionization depends on 
@@ -348,7 +354,7 @@ chemical abundances of these galaxies for the reasons outlined in Section
 %    DATA
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{SDSS data and galaxy selection}
+\section[Data]{SDSS data and galaxy selection}
 
 The SDSS Data Release 7 (DR7) \citep{Abazajian09} is a wide-field multiband 
 imaging and spectroscopic survey employing a drift scanning technique to map 
@@ -381,7 +387,7 @@ to remove any galaxy fragments or duplicates.
 
 
 %-------------------------------------------------------------------------------
-\subsection{Spectroscopic selection}\label{sec:SDSS_limits}
+\subsection{Spectroscopic selection}\label{sec:SDSS_limits_P3}
 
 We employ the same requirements for our sample as in 
 \cite{Douglass17a,Douglass17b}: all galaxies must have
@@ -402,25 +408,22 @@ further details on each of these requirements.
 
 %-------------------------------------------------------------------------------
 \subsection{Void classification}
-% Re-write to avoid plagarizing myself :P
 
-Void galaxies are identified using the void catalog compiled by \cite{Pan12}, 
-which was built based on the galaxies in SDSS DR7 catalog.  Starting with 
-galaxies with absolute magnitudes $M_r < -20$, the VoidFinder algorithm of 
-\cite{Hoyle02} \citep[based on the algorithm described by][]{ElAd97} removes all 
-isolated galaxies (defined as having the third nearest neighbor more than 7 
-$h^{-1}$ Mpc away).  After applying a grid to the remaining galaxies, spheres 
-are grown from all empty grid cells (cells containing no galaxies).  A sphere 
-reaches its maximum size when it encounters four galaxies on its surface.  To be 
-classified as a void (or part of one), a sphere must have a minimum 10 Mpc 
-radius.  If two spheres overlap by more than 10\%, they are considered part of 
-the same void.  See \cite{Hoyle02} for a more detailed description of the 
-VoidFinder algorithm.  Those galaxies that fall within these void spheres are 
-classified as voids.  Those galaxies that lie outside the spheres are classified 
-as wall galaxies.  Because we cannot identify any voids within 10 Mpc of the 
-edge of the survey, we do not include the galaxies that fall within this region 
-in either the void or wall sample (throughout this paper, these galaxies are 
-labeled as ``Uncertain'').
+The large-scale environment of the galaxies is determined using the void catalog 
+compiled by \cite{Pan12}, which was constructed with the galaxies in SDSS DR7 
+catalog.  The VoidFinder algorithm of \cite{Hoyle02} \citep[based on the 
+algorithm described by][]{ElAd97} removes all isolated galaxies (defined as 
+having the third nearest neighbor more than 7 \hMpc away) using only galaxies 
+with absolute magnitudes $M_r < -20$.  After applying a grid to the remaining 
+galaxies, spheres are grown from all cells containing no galaxies until it 
+encounters four galaxies on its surface.  A sphere must have a minimum 10 \hMpc 
+radius to be classified as a void (or part of one).  If two spheres overlap by 
+more than 10\%, they are considered part of the same void.  See \cite{Hoyle02} 
+for a more detailed description of the VoidFinder algorithm.  Those galaxies 
+that fall within these void spheres are classified as voids.  Galaxies that lie 
+outside the spheres are classified as wall galaxies.  Because we cannot identify 
+any voids within 5 \hMpc of the edge of the survey, we classify these galaxies 
+as ``Uncertain.''
 
 Of the $\sim$800,000 galaxies with spectra available in SDSS DR7, 9519 are 
 dwarf galaxies.  Applying the spectroscopic cuts, our sample includes 993 void 
@@ -432,31 +435,16 @@ dwarf galaxies and 759 wall dwarf galaxies.
 %    ANALYSIS & RESULTS
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Abundance analysis and results}
+\section[Results]{Abundance analysis and results}
 
 Our primary objective is to perform a relative measurement of gas-phase 
 abundances of dwarf galaxies to discern how their chemical evolution is affected 
 by the large-scale environment.
 
-%Our primary objective is to perform a relative measurement of metallicity of 
-%dwarf galaxies to discern how the large-scale environment affects their chemical 
-%evolution.  As discussed in Section \ref{sec:Theory}, the strength of and 
-%ability to observe different spectral lines between various surveys and 
-%observations require multiple methods to be developed for metallicity 
-%calculations.  In this paper, we use only the Direct $T_e$ method, because no 
-%other method has yet been calibrated using dwarf galaxies.  The results from the 
-%various methods are not directly comparable; while they all return metallicities 
-%within the same range, the same galaxy can have very different metallicity 
-%values depending on which method is used.  Conversions between methods have been 
-%developed \citep[see][]{Kewley08}, but it is not clear that these conversions 
-%would be accurate for dwarf galaxies.  Unfortunately, there are not enough 
-%galaxies available in our sample to calibrate these other methods for dwarf 
-%galaxies.  
-
 All line ratios listed are ratios of the emission-line fluxes.  Galaxies with 
-low metallicities have $Z = 12 + \log (\text{O}/\text{H}) < 7.6$ 
-\citep{Pustilnik06}; galaxies with high metallicities have $Z > 8.2$ 
-\citep{Pilyugin06}.  The solar metallicity $Z_\odot = 8.86$ \citep{Delahaye06}.
+low metallicities have $Z =$ \OH $< 7.6$ \citep{Pustilnik06}; galaxies with high 
+metallicities have $Z > 8.2$ \citep{Pilyugin06}.  The solar metallicity 
+$Z_\odot = 8.86$ \citep{Delahaye06}.
 
 
 %-------------------------------------------------------------------------------
@@ -490,7 +478,7 @@ the results of \cite{Belfiore17}, then our estimates of the gas-phase chemical
 abundances for our sample of dwarf galaxies are independent of the location of 
 the spectral fiber on the galaxies' surfaces.
 
-The selection criteria outlined in Section \ref{sec:SDSS_limits} limit our 
+The selection criteria outlined in Section \ref{sec:SDSS_limits_P3} limit our 
 sample to only star-forming dwarf galaxies.  As a result, this is not a 
 representative sample of the entire dwarf galaxy population.  We are only able 
 to discuss the influence of the large-scale environment on star-forming dwarf 
@@ -503,11 +491,10 @@ the UV photons from young stars are needed to excite the interstellar gas.
 \subsection{Dwarf galaxy abundances}
 
 % Results table (machine-readable)
-\floattable
-\input{results_table_short}
+\input{Tables/Paper3/results_table_short}
 
 The abundances estimated using the direct $T_e$ method for our dwarf galaxy 
-sample are listed in Table \ref{tab:Results}.  Also included are other 
+sample are listed in Table \ref{tab:Results_P3}.  Also included are other 
 significant characteristics and identification for the galaxies, including their 
 large-scale environmental classification.
 
@@ -516,48 +503,48 @@ large-scale environmental classification.
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.49\textwidth]{1sig_dwarf_SF_t3_12logOHrelations_dust_hist}
-    \includegraphics[width=0.49\textwidth]{1sig_dwarf_SF_t3_12logOHrelations_dust_CDF}
-    \caption{Gas-phase metallicity of void dwarf (red solid line) and wall 
-    dwarf (black dashed line) galaxies.  A two-sample K-S test of the two data 
-    sets results in an asymptotic $p$-value of 0.12, indicating a 12\% 
-    probability that a test statistic greater than the observed value of 0.06 
-    will be seen if the void sample is drawn from the wall sample.  This is 
-    reflected visually, as there appears to be a slight but statistically 
-    significant significant large-scale environmental influence on the 
-    metallicity of dwarf galaxies.}
-    \label{fig:met1sig}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/1sig_dwarf_SF_t3_12logOHrelations_dust_hist}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/1sig_dwarf_SF_t3_12logOHrelations_dust_CDF}
+    \caption[O/H distribution for dwarf galaxy sample]{Gas-phase metallicity of 
+    void dwarf (red solid line) and wall dwarf (black dashed line) galaxies.  A 
+    two-sample K-S test of the two data sets results in an asymptotic $p$-value 
+    of 0.12, indicating a 12\% probability that a test statistic greater than 
+    the observed value of 0.06 will be seen if the void sample is drawn from the 
+    wall sample.  This is reflected visually, as there appears to be a slight 
+    but statistically significant significant large-scale environmental 
+    influence on the metallicity of dwarf galaxies.}
+    \label{fig:met1sig_P3}
 \end{figure*}
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.49\textwidth]{1sig_dwarf_SF_t3_12logNHrelations_dust_hist}
-    \includegraphics[width=0.49\textwidth]{1sig_dwarf_SF_t3_12logNHrelations_dust_CDF}
-    \caption{Abundance of nitrogen relative to hydrogen of void dwarf (red solid 
-    line) and wall dwarf (black dashed line) galaxies.  A two-sample K-S test of 
-    the two data sets results in an asymptotic $p$-value of 0.015, indicating a 
-    1.5\% probability that a test statistic greater than the observed value of 
-    0.08 will be seen, if the void sample is drawn from the wall sample.  This 
-    is reflected visually, as the void dwarf galaxies appear to have lower 
-    values of the N/H ratio than the wall dwarf galaxies.  There is a 
-    large-scale environmental dependence of the chemical evolution of dwarf 
-    galaxies.}
-    \label{fig:N_1sig}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/1sig_dwarf_SF_t3_12logNHrelations_dust_hist}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/1sig_dwarf_SF_t3_12logNHrelations_dust_CDF}
+    \caption[N/H distribution for dwarf galaxy sample]{Abundance of nitrogen 
+    relative to hydrogen of void dwarf (red solid line) and wall dwarf (black 
+    dashed line) galaxies.  A two-sample K-S test of the two data sets results 
+    in an asymptotic $p$-value of 0.015, indicating a 1.5\% probability that a 
+    test statistic greater than the observed value of 0.08 will be seen, if the 
+    void sample is drawn from the wall sample.  This is reflected visually, as 
+    the void dwarf galaxies appear to have lower values of the N/H ratio than 
+    the wall dwarf galaxies.  There is a large-scale environmental dependence of 
+    the chemical evolution of dwarf galaxies.}
+    \label{fig:N_1sig_P3}
 \end{figure*}
 
 The distributions of oxygen and nitrogen abundances for dwarf galaxies as a 
-function of large-scale environment are shown in Figures \ref{fig:met1sig} and 
-\ref{fig:N_1sig}, respectively.  Both histograms show a slight shift between 
-voids and walls in the chemical abundances of dwarf galaxies.  A two-sample 
-Kolmogorov-Smirnov (K-S) test quantifies this observation --- a test statistic 
-of 0.06 for oxygen and 0.08 for nitrogen are produced, corresponding to a 
-probability of 12\% and 1.5\%, respectively, that a test statistic greater than 
-or equal that observed will be measured if the void sample were drawn from the 
-wall sample.  The cumulative distribution function (CDF) for each of these 
-elements can be seen on the right in Figures \ref{fig:met1sig} and 
-\ref{fig:N_1sig}; they show that void dwarf galaxies have slightly higher oxygen 
-abundances and slightly lower nitrogen abundances than dwarf galaxies in more 
-dense regions.  The K-S test quantifies the visual interpretation of these 
+function of large-scale environment are shown in Figures \ref{fig:met1sig_P3} 
+and \ref{fig:N_1sig_P3}, respectively.  Both histograms show a slight shift 
+between voids and walls in the chemical abundances of dwarf galaxies.  A 
+two-sample Kolmogorov-Smirnov (K-S) test quantifies this observation --- a test 
+statistic of 0.06 for oxygen and 0.08 for nitrogen are produced, corresponding 
+to a probability of 12\% and 1.5\%, respectively, that a test statistic greater 
+than or equal that observed will be measured if the void sample were drawn from 
+the wall sample.  The cumulative distribution function (CDF) for each of these 
+elements can be seen on the right in Figures \ref{fig:met1sig_P3} and 
+\ref{fig:N_1sig_P3}; they show that void dwarf galaxies have slightly higher 
+oxygen abundances and slightly lower nitrogen abundances than dwarf galaxies in 
+more dense regions.  The K-S test quantifies the visual interpretation of these 
 figures that the distributions of oxygen and nitrogen abundances are slightly 
 different for star-forming dwarf galaxies in voids and walls.
 
@@ -573,30 +560,30 @@ while the wall dwarf galaxies have an average nitrogen abundance of
 $6.58\pm 0.008$ and a median of 6.60.  The void dwarf galaxies have lower 
 nitrogen abundances by about 10\% (an average shift of $0.04\pm 0.011$ and a 
 median shift of 0.02) relative to wall dwarf galaxies.  A tabular version of 
-this analysis can be found in Table \ref{tab:stats}.
+this analysis can be found in Table \ref{tab:stats_p3}.
 
 
 \subsubsection{Ratio of nitrogen to oxygen}
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.49\textwidth]{1sig_dwarf_SF_t3_logNOrelations_dust_hist}
-    \includegraphics[width=0.49\textwidth]{1sig_dwarf_SF_t3_logNOrelations_dust_CDF}
-    \caption{Ratio of nitrogen to oxygen of void dwarf (red solid line) and wall 
-    dwarf (black dashed line) galaxies.  A two-sample K-S test of the two data 
-    sets results in an asymptotic $p$-value of $2.6\times 10^{-4}$, indicating 
-    only a 0.03\% probability that a test statistic greater than the observed 
-    value of 0.10 will be seen.  This is reflected visually, as there is a shift 
-    in the N/O ratio between the two populations of dwarf galaxies --- the void 
-    galaxies have a lower value of N/O than the wall galaxies.  There is a 
-    large-scale influence on the relative chemical abundances of dwarf 
-    galaxies.}
-    \label{fig:NOratio}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/1sig_dwarf_SF_t3_logNOrelations_dust_hist}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/1sig_dwarf_SF_t3_logNOrelations_dust_CDF}
+    \caption[N/O distribution of dwarf galaxy sample]{Ratio of nitrogen to 
+    oxygen of void dwarf (red solid line) and wall dwarf (black dashed line) 
+    galaxies.  A two-sample K-S test of the two data sets results in an 
+    asymptotic $p$-value of $2.6\times 10^{-4}$, indicating only a 0.03\% 
+    probability that a test statistic greater than the observed value of 0.10 
+    will be seen.  This is reflected visually, as there is a shift in the N/O 
+    ratio between the two populations of dwarf galaxies --- the void galaxies 
+    have a lower value of N/O than the wall galaxies.  There is a large-scale 
+    influence on the relative chemical abundances of dwarf galaxies.}
+    \label{fig:NOratio_P3}
 \end{figure*}
 
 The ratio of nitrogen to oxygen is also important to investigate, as it 
 communicates the nucleosynthesis history of the galaxies.  As seen in Fig. 
-\ref{fig:NOratio}, the N/O abundance ratio also indicates a large-scale 
+\ref{fig:NOratio_P3}, the N/O abundance ratio also indicates a large-scale 
 environmental influence on the chemical evolution of dwarf galaxies --- void 
 dwarf galaxies have lower N/O ratios than dwarf galaxies in denser regions.  
 This difference is quantified in the K-S test: the test returned a probability of 
@@ -608,38 +595,45 @@ distribution of N/O ratios in wall dwarf galaxies.
 
 
 % Statistics table
-\floattable
-\begin{deluxetable}{ccccccc}
-    \tablewidth{0pt}
-    \tablecolumns{7}
-    \tablecaption{Abundance statistics\label{tab:stats}}
-    \tablehead{\colhead{Environment} & \colhead{Average} & \colhead{Median} & \colhead{Average Shift\tablenotemark{a}} & \colhead{Median Shift\tablenotemark{a}} & \colhead{$p$-value} & \colhead{K-S Test Statistic}}
-    \startdata
+\begin{table}
+    \centering
+    
+    \begin{tabular}{ccccccc}
+        Environment & Average & Median & Average Shift\footnote{Wall -- Void (Positive shifts indicate that the wall values are greater than the void values; negative shifts indicate that the void values are greater than the wall values.)} & Median Shift & $p$-value & K-S Test Statistic\\
+        \hline
         % Oxygen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        \cutinhead{$12 + \log (\text{O}/\text{H})$}
+        \hline
+        \multicolumn{7}{c}{\OH}\\
+        \hline
         Void & $7.99\pm 0.007$ & 8.06 & \multirow{2}{*}{$-0.03\pm 0.012$} & \multirow{2}{*}{-0.03} & \multirow{2}{*}{0.1197} & \multirow{2}{*}{0.0569}\\
         Wall & $7.96\pm 0.009$ & 8.04 & & & & \\
         % Nitrogen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        \cutinhead{$12 + \log (\text{N}/\text{H})$}
+        \hline
+        \multicolumn{7}{c}{\NH}\\
+        \hline
         Void & $6.55\pm 0.007$ & 6.58 & \multirow{2}{*}{$0.04\pm 0.011$} & \multirow{2}{*}{0.02} & \multirow{2}{*}{0.0149} & \multirow{2}{*}{0.0750}\\
         Wall & $6.58\pm 0.008$ & 6.60 & & & & \\
         % N/O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        \cutinhead{$\log (\text{N}/\text{O})$}
+        \hline
+        \multicolumn{7}{c}{\NO}\\
+        \hline
         Void & $-1.45\pm 0.010$ & -1.43 & \multirow{2}{*}{$0.07\pm 0.016$} & \multirow{2}{*}{0.06} & \multirow{2}{*}{0.0003} & \multirow{2}{*}{0.1013}\\
         Wall & $-1.38\pm 0.012$ & -1.37 & & & & \\
-    \enddata
-    \tablecomments{Statistics on the gas-phase oxygen, nitrogen, and nitrogen 
-    relative to oxygen abundances in dwarf void and wall galaxies.  Combined 
-    with the histograms in Figures \ref{fig:met1sig}--\ref{fig:NOratio}, these 
-    results indicate an influence on the chemical evolution of galaxies by the 
-    large-scale environment, especially on the relative abundance of nitrogen to 
-    oxygen.  Void galaxies have slightly higher oxygen and nitrogen abundances 
-    than wall galaxies, but void galaxies have slightly lower N/O ratios than 
-    wall galaxies.}
-    \tablenotetext{a}{Wall -- Void (Positive shifts indicate that the wall 
-    values are greater than the void values; negative shifts indicate that the 
-    void values are greater than the wall values.)}
-\end{deluxetable}
+    \end{tabular}
+    
+    \caption[Abundance statistics]{Statistics on the gas-phase oxygen, nitrogen, 
+    and nitrogen relative to oxygen abundances in dwarf void and wall galaxies.  
+    Combined with the histograms in Figures 
+    \ref{fig:met1sig_P3}--\ref{fig:NOratio_P3}, these results indicate an 
+    influence on the chemical evolution of galaxies by the large-scale 
+    environment, especially on the relative abundance of nitrogen to oxygen.  
+    Void galaxies have slightly higher oxygen and nitrogen abundances than wall 
+    galaxies, but void galaxies have slightly lower N/O ratios than wall 
+    galaxies.}
+    
+    \label{tab:stats_p3}
+    
+\end{table}
 
 
 %-------------------------------------------------------------------------------
@@ -648,12 +642,13 @@ distribution of N/O ratios in wall dwarf galaxies.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{1sig_dwarf_I06relations_SF_t3_T04comparison_dust}
-    \caption{Oxygen abundance comparison between our calculated estimates with 
-    the O$^+$ approximation and those made by \cite{Tremonti04}.  Error bars 
-    have been omitted for clarity.  While the majority of our abundance 
-    estimates agree reasonably well with the values already published, it is 
-    clear that our estimates are often lower than the previously published 
+    \includegraphics[width=0.65\textwidth]{Images/Paper3/1sig_dwarf_I06relations_SF_t3_T04comparison_dust}
+    \caption[Comparison of O$^+$ approximation metallicities to 
+    \cite{Tremonti04}]{Oxygen abundance comparison between our calculated 
+    estimates with the O$^+$ approximation and those made by \cite{Tremonti04}.  
+    Error bars have been omitted for clarity.  While the majority of our 
+    abundance estimates agree reasonably well with the values already published, 
+    it is clear that our estimates are often lower than the previously published 
     values.  It is well known that the strong-line methods \citep[like those 
     used by][]{Tremonti04} overestimate the oxygen abundance by as much as 0.3 
     dex \citep{Kennicutt03}.  Therefore, it is not surprising that the oxygen 
@@ -688,20 +683,16 @@ correlation between our oxygen abundance estimates and those of
 
 \begin{figure}
     \centering
-%    \includegraphics[width=0.5\textwidth]{1sig_I06relations_dwarf_SF_t3_dust_Z12logOH_logNO}
-%    \includegraphics[width=0.5\textwidth]{1sig_I06relations_dwarf_SF_t3_dust_Z12logOH_logNO_Mbin}
-%    \includegraphics[width=0.5\textwidth]{1sig_I06relations_dwarf_SF_t3_dust_Z12logOH_logNO_scatterMbin}
-    \includegraphics[width=0.5\textwidth]{1sig_I06relations_dwarf_SF_t3_dust_NSA_Z12logOH_logNO_scatterMbin}
-    \caption{Oxygen abundance ($12 + \log \left(\text{O}/\text{H}\right)$) 
-    versus the N/O ratio ($\log \left( \text{N}/\text{O}\right)$) for the dwarf 
-    galaxies in this study; the average values of the galaxies' abundances when 
-    binned by stellar mass in bins of width 0.1 are also shown.  As seen in 
-    \cite{Andrews13} and \cite{Douglass17b}, while most of the mass bins are 
-    scattered together around $\log (\text{N}/\text{O}) \sim$-1.5, there is a 
-    negative correlation between these two abundance ratios.  There is no 
-    evidence of secondary nitrogen production in this sample of star-forming 
-    dwarf galaxies, which would manifest as a positive relationship between 
-    O/H and N/O at high metallicities.}
+    \includegraphics[width=0.65\textwidth]{Images/Paper3/1sig_I06relations_dwarf_SF_t3_dust_NSA_Z12logOH_logNO_scatterMbin}
+    \caption[O/H versus N/O for star-forming dwarf galaxies]{Oxygen abundance 
+    (\OH) versus the N/O ratio (\NO) for the dwarf galaxies in this study; the 
+    average values of the galaxies' abundances when binned by stellar mass in 
+    bins of width 0.1 are also shown.  As seen in \cite{Andrews13} and 
+    \cite{Douglass17b}, while most of the mass bins are scattered together 
+    around \NO $\sim$-1.5, there is a negative correlation between these two 
+    abundance ratios.  There is no evidence of secondary nitrogen production in 
+    this sample of star-forming dwarf galaxies, which would manifest as a 
+    positive relationship between O/H and N/O at high metallicities.}
     \label{fig:NOvOH}
 \end{figure}
 
@@ -730,45 +721,42 @@ a constant value of nitrogen being synthesized in the galaxies independent of
 the amount of oxygen being produced.  A negative correlation similar to this was 
 also observed by \cite{Andrews13} and \cite{Douglass17b}.   \cite{Andrews13} 
 note that they measure a slope of -0.21 for their stellar mass-binned galaxies 
-with metallicities $12 + \log(\text{O}/\text{H}) < 8.5$, while 
-\cite{Douglass17b} finds a slope of $-0.38\pm 0.078$ for dwarf galaxies.  A 
-linear fit to our dwarf galaxy sample has a slope of $-0.52\pm 0.041$, steeper 
-than any previously measured.
+with metallicities \OH $< 8.5$, while \cite{Douglass17b} finds a slope of 
+$-0.38\pm 0.078$ for dwarf galaxies.  A linear fit to our dwarf galaxy sample 
+has a slope of $-0.52\pm 0.041$, steeper than any previously measured.
 
 \begin{figure}
-%    \includegraphics[width=0.5\textwidth]{1sig_I06relations_dwarf_SF_t3_dust_Z12logOH_N12logNH_scatterMbin}
-    \includegraphics[width=0.5\textwidth]{1sig_I06relations_dwarf_SF_t3_dust_NSA_Z12logOH_N12logNH_scatterMbin}
-    \caption{Oxygen abundance ($12 + \log \left(\text{O}/\text{H}\right)$) 
-    versus nitrogen abundance ($12 + \log \left(\text{N}/\text{H}\right)$) for 
-    the dwarf galaxies in this study; the average values of the galaxies' 
-    abundances when binned by their stellar mass in bins of width 0.1 are also 
-    shown.  There is evidence of two evolutionary tracks for the star-forming 
-    dwarf galaxies here, one with a much steeper slope than the other.}
-    \label{fig:OvN}
+    \includegraphics[width=0.65\textwidth]{Images/Paper3/1sig_I06relations_dwarf_SF_t3_dust_NSA_Z12logOH_N12logNH_scatterMbin}
+    \caption[O/H versus N/H for star-forming dwarf galaxies]{Oxygen abundance 
+    (\OH) versus nitrogen abundance (\NH) for the dwarf galaxies in this study; 
+    the average values of the galaxies' abundances when binned by their stellar 
+    mass in bins of width 0.1 are also shown.  There is evidence of two 
+    evolutionary tracks for the star-forming dwarf galaxies here, one with a 
+    much steeper slope than the other.}
+    \label{fig:OvN_P3}
 \end{figure}
 
 Similar evidence of the nitrogen production phases can also be observed when 
 looking at the relationship between the nitrogen and oxygen abundances relative 
-to hydrogen.  Fig. \ref{fig:OvN} depicts a negative relationship between the 
+to hydrogen.  Fig. \ref{fig:OvN_P3} depicts a negative relationship between the 
 nitrogen and oxygen abundances.  A linear fit to the dwarf galaxies results in a 
 slope of $0.48\pm 0.041$, less than the slope of $0.62\pm 0.078$ found by 
 \cite{Douglass17b}.  These slopes both indicate that nitrogen is produced at a 
 slower rate than oxygen in dwarf galaxies.  A nitrogen plateau in Fig. 
 \ref{fig:NOvOH} would manifest itself as a relationship between the N/H and O/H 
-ratios (shown in Fig. \ref{fig:OvN}) with a linear slope of 1.  Secondary 
+ratios (shown in Fig. \ref{fig:OvN_P3}) with a linear slope of 1.  Secondary 
 nitrogen production, a positive relationship in Fig. \ref{fig:NOvOH}, would 
-correspond to a relationship between N/H and O/H in Fig. \ref{fig:OvN} with a 
+correspond to a relationship between N/H and O/H in Fig. \ref{fig:OvN_P3} with a 
 slope greater than 1.  If we split the dwarf galaxies into two populations based 
 on their metallicity, we find that dwarf galaxies with extremely low 
-metallicities ($12 + \log (\text{O}/\text{H}) \leq 7.6$) have a slope of 
-$-1.0\pm 0.21$ in Fig. \ref{fig:NOvOH} and $-0.0\pm 0.21$ in Fig. \ref{fig:OvN}, 
-while the dwarf galaxies with metallicities $12 + \log(\text{O}/\text{H} > 7.6$ 
-have a slope of $-0.41\pm 0.069$ for O/H v. N/O and $0.59\pm 0.069$ for O/H v. 
-N/H.  These slopes indicate that the production of nitrogen is independent of 
-the oxygen abundance in systems with low metallicities, supporting the results 
-found in \cite{Douglass17b}.
+metallicities (\OH $\leq 7.6$) have a slope of $-1.0\pm 0.21$ in Fig. 
+\ref{fig:NOvOH} and $-0.0\pm 0.21$ in Fig. \ref{fig:OvN_P3}, while the dwarf 
+galaxies with metallicities \OH $> 7.6$ have a slope of $-0.41\pm 0.069$ for O/H 
+v. N/O and $0.59\pm 0.069$ for O/H v. N/H.  These slopes indicate that the 
+production of nitrogen is independent of the oxygen abundance in systems with 
+low metallicities, supporting the results found in \cite{Douglass17b}.
 
-Fig. \ref{fig:OvN} shows possible evidence for two evolutionary tracks for 
+Fig. \ref{fig:OvN_P3} shows possible evidence for two evolutionary tracks for 
 star-forming dwarf galaxies, irrespective of the large-scale environment.  The 
 dwarf galaxies with extremely low metallicities appear to have less of a 
 correlation between their oxygen and nitrogen abundances than those dwarf 
@@ -780,9 +768,9 @@ relationship between their N/O ratio and metallicity.  Further study is needed
 to understand why these galaxies have a different relationship between their 
 oxygen and nitrogen abundances.
 
-In both Figs. \ref{fig:NOvOH} and \ref{fig:OvN}, there is no difference in the 
-abundance ratio relationships between void dwarf galaxies and dwarf galaxies in 
-denser regions.  The large-scale environment does not appear to influence the 
+In both Figs. \ref{fig:NOvOH} and \ref{fig:OvN_P3}, there is no difference in 
+the abundance ratio relationships between void dwarf galaxies and dwarf galaxies 
+in denser regions.  The large-scale environment does not appear to influence the 
 nucleosynthesis of nitrogen in dwarf galaxies.
 
 
@@ -791,22 +779,21 @@ nucleosynthesis of nitrogen in dwarf galaxies.
 
 \begin{figure*}
     \centering
-%    \includegraphics[width=0.49\textwidth]{MZ_1sig_I06relations_SF_t3_Mbin}
-    \includegraphics[width=0.49\textwidth]{MZ_1sig_I06relations_dwarf_SF_t3_dust_NSA_python}
-    \includegraphics[width=0.49\textwidth]{MNO_1sig_I06relations_dwarf_SF_t3_dust_NSA_scatterMbin}
-%    \includegraphics[width=0.49\textwidth]{MNO_1sig_I06relations_dwarf_SF_t3_dust}
-    \caption{Stellar mass versus oxygen abundance (left panel) and N/O ratio 
-    (right panel).  We include the metallicity results of \cite{Tremonti04} on 
-    the left to place our dwarf galaxy abundance results in context.  On the 
-    right, we show the average N/O values for the dwarf galaxies binned by 
-    stellar mass plotted over the individual galaxies.  While most of our dwarf 
-    galaxies follow the same trend as already seen in \cite{Tremonti04}, we note 
-    the existence of a number of dwarf galaxies with much lower oxygen abundance 
-    values than what would be predicted based on their stellar mass and the 
-    mass-metallicity relation.  There is no clear difference between void and 
-    wall dwarf galaxies in the mass-metallicity relation.  In the right-hand 
-    panel, though, we see that the turn-off for the N/O plateau occurs at 
-    different masses for the two large-scale environments.}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/MZ_1sig_I06relations_dwarf_SF_t3_dust_NSA_python}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/MNO_1sig_I06relations_dwarf_SF_t3_dust_NSA_scatterMbin}
+    \caption[$M_*$ versus N/O for star-forming dwarf galaxies]{Stellar mass 
+    versus oxygen abundance (left panel) and N/O ratio (right panel).  We 
+    include the metallicity results of \cite{Tremonti04} on the left to place 
+    our dwarf galaxy abundance results in context.  On the right, we show the 
+    average N/O values for the dwarf galaxies binned by stellar mass plotted 
+    over the individual galaxies.  While most of our dwarf galaxies follow the 
+    same trend as already seen in \cite{Tremonti04}, we note the existence of a 
+    number of dwarf galaxies with much lower oxygen abundance values than what 
+    would be predicted based on their stellar mass and the mass-metallicity 
+    relation.  There is no clear difference between void and wall dwarf galaxies 
+    in the mass-metallicity relation.  In the right-hand panel, though, we see 
+    that the turn-off for the N/O plateau occurs at different masses for the two 
+    large-scale environments.}
     \label{fig:M_NO}
 \end{figure*}
 
@@ -834,7 +821,7 @@ environment: the critical mass for void galaxies is around
 $\log(M_*/M_\odot) \sim$7.2, while the galaxies in denser regions exhibit a 
 critical mass of $\sim$7.6.  This difference suggests that void galaxies begin 
 to synthesize secondary nitrogen at lower stellar masses than galaxies in more 
-dense regions, consistent with the results from Fig. \ref{fig:met1sig} where 
+dense regions, consistent with the results from Fig. \ref{fig:met1sig_P3} where 
 void dwarf galaxies have higher oxygen abundances than dwarf galaxies in more 
 dense environments.
 
@@ -844,11 +831,12 @@ dense environments.
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.49\textwidth]{1sig_0-17_I06relations_SF_t3_HI_hist}
-    \includegraphics[width=0.49\textwidth]{1sig_0-17_I06relations_SF_t3_HI_CDF}
-    \caption{The distribution of \ion{H}{1} mass in the sample of dwarf 
-    galaxies, separated by their large-scale environment.  There is an obvious 
-    shift towards higher \ion{H}{1} masses in the void dwarf galaxies.}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/1sig_0-17_I06relations_SF_t3_HI_hist}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/1sig_0-17_I06relations_SF_t3_HI_CDF}
+    \caption[\ion{H}{1} mass distribution]{The distribution of \ion{H}{1} mass 
+    in the sample of dwarf galaxies, separated by their large-scale environment.  
+    There is an obvious shift towards higher \ion{H}{1} masses in the void dwarf 
+    galaxies.}
     \label{fig:HI_hist}
 \end{figure*}
 
@@ -869,20 +857,21 @@ higher \ion{H}{1} masses than for those dwarf galaxies in denser environments.
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.49\textwidth]{HI_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{HI_NO_1sig_I06relations_dwarf_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{HI_OH_M_1sig_I06relations_dwarf_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{HI_NO_M_1sig_I06relations_dwarf_SF_t3_dust}
-    \caption{\ion{H}{1} mass versus metallicity (left) and N/O ratio (right) for 
-    star-forming dwarf galaxies.  The color scheme of the top row emphasizes the 
-    large-scale environment of the star-forming dwarf galaxies, while the bottom 
-    row investigates the relationship between stellar mass, \ion{H}{1} mass, and 
-    chemical abundance.  Error bars have been omitted for clarity.  To place our 
-    oxygen abundance results in context, we show (gray stars) the dwarf galaxies 
-    in SDSS DR7 with metallicity estimates from \cite{Tremonti04}.  From these 
-    plots, there is no significant influence from the large-scale environment on 
-    the relationship between the \ion{H}{1} mass and gas-phase chemical 
-    abundances of star-forming dwarf galaxies.}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/HI_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/HI_NO_1sig_I06relations_dwarf_SF_t3_dust}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/HI_OH_M_1sig_I06relations_dwarf_SF_t3_dust}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/HI_NO_M_1sig_I06relations_dwarf_SF_t3_dust}
+    \caption[\ion{H}{1} mass versus O/H and N/O]{\ion{H}{1} mass versus 
+    metallicity (left) and N/O ratio (right) for star-forming dwarf galaxies.  
+    The color scheme of the top row emphasizes the large-scale environment of 
+    the star-forming dwarf galaxies, while the bottom row investigates the 
+    relationship between stellar mass, \ion{H}{1} mass, and chemical abundance.  
+    Error bars have been omitted for clarity.  To place our oxygen abundance 
+    results in context, we show (gray stars) the dwarf galaxies in SDSS DR7 with 
+    metallicity estimates from \cite{Tremonti04}.  From these plots, there is no 
+    significant influence from the large-scale environment on the relationship 
+    between the \ion{H}{1} mass and gas-phase chemical abundances of 
+    star-forming dwarf galaxies.}
     \label{fig:HI}
 \end{figure*}
 
@@ -918,47 +907,45 @@ fixed stellar mass (indicated by the colors of the points).
 
 \begin{figure*}
     \centering
-%    \includegraphics[width=0.49\textwidth]{ur_OH_1sig_I06relations_dwarf_SF_t3_dust_python}
-%    \includegraphics[width=0.49\textwidth]{ur_OH_1sig_I06relations_dwarf_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{ur_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{ur_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterURbin}
-    \caption{Color ($u-r$) versus the gas-phase oxygen abundance (left) and the 
-    N/O ratio (right) for star-forming dwarf galaxies.  Error bars on individual 
-    points have been omitted for clarity.  For reference, the dwarf galaxies in 
-    SDSS DR7 that have estimated metallicities from \cite{Tremonti04} are shown 
-    in the left panel in gray.  To discern any environmental trends in the 
-    results, we have binned the galaxies by their color (in bins of width 0.1) 
-    on the right.  The large-scale environment does not influence the 
-    relationship between the color and chemical abundances of dwarf galaxies.}
-    \label{fig:ur}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/ur_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/ur_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterURbin}
+    \caption[$u-r$ versus O/H and N/O for star-forming dwarf galaxies]{Color 
+    ($u-r$) versus the gas-phase oxygen abundance (left) and the N/O ratio 
+    (right) for star-forming dwarf galaxies.  Error bars on individual points 
+    have been omitted for clarity.  For reference, the dwarf galaxies in SDSS 
+    DR7 that have estimated metallicities from \cite{Tremonti04} are shown in 
+    the left panel in gray.  To discern any environmental trends in the results, 
+    we have binned the galaxies by their color (in bins of width 0.1) on the 
+    right.  The large-scale environment does not influence the relationship 
+    between the color and chemical abundances of dwarf galaxies.}
+    \label{fig:ur_P3}
 \end{figure*}
 
 The gas-phase chemical abundance is expected to have a positive correlation with 
 a galaxy's color.  Older galaxies have had more time to convert their gas into 
 heavier elements through star formation, increasing their metallicities.  The 
 color-metallicity and color-N/O relations for our sample of star-forming dwarf 
-galaxies can be seen in Figures \ref{fig:ur} and \ref{fig:gr}.  As we see, bluer 
-galaxies have lower O/H and N/O ratios when we look at both the $u-r$ and $g-r$ 
-colors.  While there is a subset of dwarf galaxies with extremely low 
+galaxies can be seen in Figures \ref{fig:ur_P3} and \ref{fig:gr}.  As we see, 
+bluer galaxies have lower O/H and N/O ratios when we look at both the $u-r$ and 
+$g-r$ colors.  While there is a subset of dwarf galaxies with extremely low 
 metallicities that do not follow this trend (seen in the left-hand panels of 
-Figures \ref{fig:ur} and \ref{fig:gr}), this population follows the color-N/O 
+Figures \ref{fig:ur_P3} and \ref{fig:gr}), this population follows the color-N/O 
 trend seen on the right in each of these figures.  While these galaxies have 
 unusually low oxygen abundances, they have normal N/O ratios.
 
 \begin{figure*}
     \centering
-%    \includegraphics[width=0.49\textwidth]{gr_OH_1sig_I06relations_dwarf_SF_t3_dust_python}
-%    \includegraphics[width=0.49\textwidth]{gr_OH_1sig_I06relations_dwarf_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{gr_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{gr_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterGRbin}
-    \caption{Color ($g-r$) versus the gas-phase oxygen abundance (left) and the 
-    N/O ratio (right) for star-forming dwarf galaxies.  Error bars on individual 
-    points have been omitted for clarity.  For reference, the galaxies in SDSS 
-    DR7 that have estimated metallicities from \cite{Tremonti04} are shown in 
-    the left panel in gray.  To discern any environmental trends in the results, 
-    we have binned the galaxies by their color (in bins of width 0.1) on the 
-    right.  The large-scale environment does not influence the relationship 
-    between the color and chemical abundances of dwarf galaxies.}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/gr_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/gr_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterGRbin}
+    \caption[$g-r$ versus O/H and N/O for star-forming dwarf galaxies]{Color 
+    ($g-r$) versus the gas-phase oxygen abundance (left) and the N/O ratio 
+    (right) for star-forming dwarf galaxies.  Error bars on individual points 
+    have been omitted for clarity.  For reference, the galaxies in SDSS DR7 that 
+    have estimated metallicities from \cite{Tremonti04} are shown in the left 
+    panel in gray.  To discern any environmental trends in the results, we have 
+    binned the galaxies by their color (in bins of width 0.1) on the right.  The 
+    large-scale environment does not influence the relationship between the 
+    color and chemical abundances of dwarf galaxies.}
     \label{fig:gr}
 \end{figure*}
 
@@ -970,22 +957,22 @@ given star formation episode (since higher-mass stars turn off the main sequence
 earlier than the intermediate-mass stars that synthesize nitrogen).  Therefore, 
 the amount of nitrogen relative to oxygen should increase as the hotter, more 
 massive stars burn out and the galaxy becomes redder.  This trend can be seen in 
-the star-forming dwarf galaxies on the right of Figures \ref{fig:ur} and 
+the star-forming dwarf galaxies on the right of Figures \ref{fig:ur_P3} and 
 \ref{fig:gr}, matching the trends seen in \cite{Douglass17b,vanZee06a,Berg12}.
 
 There does not appear to be any influence from the large-scale environment on 
 the relationship between the color and chemical abundances for star-forming 
 dwarf galaxies.  There is no obvious difference between the void and wall dwarf 
-galaxies in the left-hand panels of Figures \ref{fig:ur} and \ref{fig:gr}, when 
-we concentrate on the oxygen abundance as a function of color.  To help discern 
-any influence from the environment on the N/O ratio as a function of color, we 
-bin the star-forming dwarf galaxies by their color in bins of width 0.1 --- 
-these results are overlaid on the left-hand plots of Figures \ref{fig:ur} and 
-\ref{fig:gr}.  The shift toward higher N/O ratios seen in the wall bins in both 
-figures is the same shift identified in the histograms in Fig. 
-\ref{fig:NOratio}.  Any variation in the color-abundance relationship between 
-the void and wall populations except a vertical shift would be evidence of the 
-large-scale environment influencing the relationship.  There is a modest 
+galaxies in the left-hand panels of Figures \ref{fig:ur_P3} and \ref{fig:gr}, 
+when we concentrate on the oxygen abundance as a function of color.  To help 
+discern any influence from the environment on the N/O ratio as a function of 
+color, we bin the star-forming dwarf galaxies by their color in bins of width 
+0.1 --- these results are overlaid on the left-hand plots of Figures 
+\ref{fig:ur_P3} and \ref{fig:gr}.  The shift toward higher N/O ratios seen in 
+the wall bins in both figures is the same shift identified in the histograms in 
+Fig. \ref{fig:NOratio_P3}.  Any variation in the color-abundance relationship 
+between the void and wall populations except a vertical shift would be evidence 
+of the large-scale environment influencing the relationship.  There is a modest 
 difference in the slope of these bins in N/O, where the colors of star-forming 
 void dwarf galaxies are more strongly correlated with their N/O ratios than 
 star-forming wall dwarf galaxies.  The Pearson correlation coefficient between 
@@ -1002,16 +989,16 @@ dwarf galaxies.
 
 \begin{figure*}
     \centering
-%    \includegraphics[width=0.49\textwidth]{SFR_OH_1sig_I06relations_dwarf_SF_t3_dust_python}
-    \includegraphics[width=0.49\textwidth]{SFR_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{SFR_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterSFRbin}
-    \caption{SFR versus metallicity (left) and the N/O ratio (right) for 
-    star-forming dwarf galaxies.  Error bars for individual galaxies have been 
-    omitted for clarity.  To place our oxygen abundance results in context, we 
-    show (gray stars) the dwarf galaxies in SDSS DR7 with metallicity estimates 
-    from \cite{Tremonti04}.  To discern any environmental effects on the 
-    relation between SFR and the N/O ratio, we bin the dwarf galaxies by SFR (in 
-    bins of width 0.1).  From these plots, the large-scale environment has no 
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/SFR_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/SFR_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterSFRbin}
+    \caption[SFR versus O/H and N/O for star-forming dwarf galaxies]{SFR versus 
+    metallicity (left) and the N/O ratio (right) for star-forming dwarf 
+    galaxies.  Error bars for individual galaxies have been omitted for clarity.  
+    To place our oxygen abundance results in context, we show (gray stars) the 
+    dwarf galaxies in SDSS DR7 with metallicity estimates from 
+    \cite{Tremonti04}.  To discern any environmental effects on the relation 
+    between SFR and the N/O ratio, we bin the dwarf galaxies by SFR (in bins of 
+    width 0.1).  From these plots, the large-scale environment has no 
     discernible influence on the relationship between the SFR and gas-phase 
     chemical abundances of star-forming dwarf galaxies.}
     \label{fig:SFR}
@@ -1019,19 +1006,19 @@ dwarf galaxies.
 
 \begin{figure*}
     \centering
-%    \includegraphics[width=0.49\textwidth]{sSFR_OH_1sig_I06relations_dwarf_SF_t3_dust_python}
-    \includegraphics[width=0.49\textwidth]{sSFR_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
-    \includegraphics[width=0.49\textwidth]{sSFR_NO_1sig_I06relations_dwarf_SF_t3_dust_scattersSFRbin}
-    \caption{Specific star formation rate (sSFR) versus metallicity (left) and 
-    the N/O ratio (right) for star-forming dwarf galaxies.  Error bars on 
-    individual galaxies have been omitted for clarity.  To place our oxygen 
-    abundance results in context, we show (gray stars) the dwarf galaxies in 
-    SDSS DR7 with metallicity estimates from \cite{Tremonti04}.  To discern any 
-    environmental effects on the relation between sSFR and the N/O ratio, we bin 
-    the dwarf galaxies by sSFR (in bins of width 0.1).  From these figures, 
-    there is no significant influence on the relationship between the sSFR and 
-    gas-phase chemical abundances of star-forming dwarf galaxies.}
-    \label{fig:sSFR}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/sSFR_OH_1sig_I06relations_dwarf+T04_SF_t3_dust}
+    \includegraphics[width=0.49\textwidth]{Images/Paper3/sSFR_NO_1sig_I06relations_dwarf_SF_t3_dust_scattersSFRbin}
+    \caption[sSFR versus O/H and N/O for star-forming dwarf galaxies]{Specific 
+    star formation rate (sSFR) versus metallicity (left) and the N/O ratio 
+    (right) for star-forming dwarf galaxies.  Error bars on individual galaxies 
+    have been omitted for clarity.  To place our oxygen abundance results in 
+    context, we show (gray stars) the dwarf galaxies in SDSS DR7 with 
+    metallicity estimates from \cite{Tremonti04}.  To discern any environmental 
+    effects on the relation between sSFR and the N/O ratio, we bin the dwarf 
+    galaxies by sSFR (in bins of width 0.1).  From these figures, there is no 
+    significant influence on the relationship between the sSFR and gas-phase 
+    chemical abundances of star-forming dwarf galaxies.}
+    \label{fig:sSFR_P3}
 \end{figure*}
 
 There is thought to be a fundamental relationship between the stellar mass, star 
@@ -1048,19 +1035,18 @@ abundances by the large-scale environment.
 
 We also inspect the relationship between the specific star formation rate (sSFR) 
 and the gas-phase chemical abundances in star-forming dwarf galaxies.  As shown 
-in Fig. \ref{fig:sSFR}, there is a stronger correlation between the sSFR of a 
+in Fig. \ref{fig:sSFR_P3}, there is a stronger correlation between the sSFR of a 
 dwarf galaxy and its metallicity and N/O ratio.  The left-hand panel of Fig. 
-\ref{fig:sSFR} shows the relationship between the gas-phase oxygen abundance and 
-the sSFR for star-forming dwarf galaxies; to place our results in context, we 
-also include (gray stars) those dwarf galaxies in SDSS DR7 for which 
+\ref{fig:sSFR_P3} shows the relationship between the gas-phase oxygen abundance 
+and the sSFR for star-forming dwarf galaxies; to place our results in context, 
+we also include (gray stars) those dwarf galaxies in SDSS DR7 for which 
 \cite{Tremonti04} was able to estimate metallicities.  In the metallicity regime 
-we are able to probe ($12 + \log (\text{O}/\text{H}) \leq 8.5$), the 
-star-forming dwarf galaxies display relatively little relationship between their 
-sSFR and metallicity.  The group of extremely low metallicity dwarf galaxies 
-($12 + \log (\text{O}/\text{H}) < 7.6$) in our sample has some of the lowest 
-sSFR of our dwarf galaxies.
+we are able to probe (\OH $\leq 8.5$), the star-forming dwarf galaxies display 
+relatively little relationship between their sSFR and metallicity.  The group of 
+extremely low metallicity dwarf galaxies (\OH $< 7.6$) in our sample has some of 
+the lowest sSFR of our dwarf galaxies.
 
-As we see on the right in Fig. \ref{fig:sSFR}, though, there is a strong 
+As we see on the right in Fig. \ref{fig:sSFR_P3}, though, there is a strong 
 anti-correlation between the sSFR and N/O ratio for the star-forming dwarf 
 galaxies.  Galaxies with higher sSFRs may be producing more massive stars than 
 galaxies with lower sSFRs.  If oxygen is produced in more massive stars than 
@@ -1072,9 +1058,9 @@ sSFR and N/O ratio is further evidence that oxygen is produced in higher mass
 stars than those which synthesize nitrogen.
 
 There is also very little scatter in the right-hand panel of Fig. 
-\ref{fig:sSFR}, indicating a significant relationship between the sSFR and N/O 
-ratio for dwarf galaxies.  The Pearson correlation coefficients for our sample 
-of star-forming void dwarf galaxies is $-0.62\pm 0.020$; the correlation 
+\ref{fig:sSFR_P3}, indicating a significant relationship between the sSFR and 
+N/O ratio for dwarf galaxies.  The Pearson correlation coefficients for our 
+sample of star-forming void dwarf galaxies is $-0.62\pm 0.020$; the correlation 
 coefficient for the star-forming wall dwarf galaxies is $-0.55\pm 0.025$.  It is 
 interesting to note that the void dwarf galaxies exhibit a stronger correlation 
 between their sSFR and N/O ratio than the dwarf galaxies in denser environments.  
@@ -1091,7 +1077,7 @@ on the relationship between the sSFR and the N/O ratio.
 %    DISCUSSION
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Large-scale environmental influence}
+\section[Discussion]{Large-scale environmental influence}
 
 We see small, statistically significant shifts in each of the three gas-phase 
 abundance ratios studied as a function of the large-scale environment, implying 
@@ -1117,7 +1103,7 @@ galaxy, resulting in mixed conclusions.  When a difference in the metallicity
 was attributed to the environment \citep[as in][for example]{Pustilnik06,
 Pustilnik11b,Pustilnik14,SanchezAlmeida16,Cooper08}, it was found that those 
 galaxies with higher metallicities preferentially reside in denser regions.  
-This is the opposite of the trend seen in Fig. \ref{fig:met1sig} in the 
+This is the opposite of the trend seen in Fig. \ref{fig:met1sig_P3} in the 
 star-forming dwarf galaxies, although our results are not a direct comparison 
 with their conclusions (do to our requirement of the [\ion{O}{3}] $\lambda$4363 
 auroral line, we are not able to probe the high-metallicity regime).  We observe 
@@ -1130,10 +1116,10 @@ dwarf galaxies in denser regions.
 % The direction of the shift implies more O in voids
 %  - How do we get more O in void galaxies?  M_DM/M_* |v > M_DM/M_* |w
 We posit that the slightly higher metallicities seen in the star-forming void 
-dwarf galaxies in Fig. \ref{fig:met1sig} is due to a large-scale environmental 
-effect on the ratio of a galaxy's dark matter halo mass to stellar mass 
-($M_{DM}/M_*$).  \cite{Goldberg04} show that gravitational clustering within a 
-void proceeds as if in a very low density universe, where the growth of 
+dwarf galaxies in Fig. \ref{fig:met1sig_P3} is due to a large-scale 
+environmental effect on the ratio of a galaxy's dark matter halo mass to stellar 
+mass ($M_{DM}/M_*$).  \cite{Goldberg04} show that gravitational clustering 
+within a void proceeds as if in a very low density universe, where the growth of 
 gravitationally bound dark matter halos ends relatively early.  Afterwards, 
 there is relatively little interaction between the void galaxies because of the 
 lower density and faster local Hubble expansion.  Simulations by \cite{Jung14} 
@@ -1179,7 +1165,7 @@ between these two environments.
 \subsection{Lower N/O ratios in void dwarf galaxies}
 
 % Shift in N/O due to environmental influence on cosmic downsizing
-As we see in Fig. \ref{fig:NOratio}, star-forming void dwarf galaxies have a 
+As we see in Fig. \ref{fig:NOratio_P3}, star-forming void dwarf galaxies have a 
 lower N/O ratio than wall dwarf galaxies.  This strengthens the preliminary 
 results found in \cite{Douglass17b} and the simulation results of \cite{Cen11}, 
 indicating that void galaxies are retarded in their star formation and that 
@@ -1189,12 +1175,12 @@ will have a higher N/O ratio than a galaxy with a constant SFR (a void galaxy);
 the ongoing star formation in the void galaxies will release more oxygen into 
 the ISM, decreasing their N/O ratio relative to the galaxies with declining 
 SFRs.  This concept is supported by the color-N/O diagram in Figures 
-\ref{fig:ur} and \ref{fig:gr}, where the bluer galaxies have lower N/O ratios.  
-The correlations between color and the N/O ratio found in \cite{vanZee06a}, 
-\cite{Berg12}, \cite{Douglass17b}, and this work are a result of declining SFRs 
-\citep{vanZee06a}.  The average lower N/O ratios we see in star-forming void 
-dwarf galaxies may be observational evidence that cosmic downsizing is 
-environmentally dependent.
+\ref{fig:ur_P3} and \ref{fig:gr}, where the bluer galaxies have lower N/O 
+ratios.  The correlations between color and the N/O ratio found in 
+\cite{vanZee06a}, \cite{Berg12}, \cite{Douglass17b}, and this work are a result 
+of declining SFRs \citep{vanZee06a}.  The average lower N/O ratios we see in 
+star-forming void dwarf galaxies may be observational evidence that cosmic 
+downsizing is environmentally dependent.
 
 
 \subsection{Extremely low metallicity dwarf galaxies}
@@ -1205,26 +1191,27 @@ preferentially reside in low-density environments.  \cite{Douglass17a} find
 that, out of 135 dwarf galaxies studied, there is no difference in the fraction 
 of low-metallicity dwarf galaxies that reside in voids and denser regions.  Of 
 the 1920 dwarf galaxies we analyze, 287 have extremely low metallicity values 
-($12 + \log (\text{O}/\text{H}) \leq 7.6$).  Of these 287 low-metallicity dwarf 
-galaxies, 144 are found in voids (approximately 15\% of the star-forming void 
-dwarf galaxy population studied) and 122 are located in denser regions (16\% of 
-the star-forming wall dwarf galaxy population studied).  These population 
-fractions do not support the existence of a special population of extremely 
-metal-poor dwarf galaxies in voids.
+(\OH $\leq 7.6$).  Of these 287 low-metallicity dwarf galaxies, 144 are found in 
+voids (approximately 15\% of the star-forming void dwarf galaxy population 
+studied) and 122 are located in denser regions (16\% of the star-forming wall 
+dwarf galaxy population studied).  These population fractions do not support the 
+existence of a special population of extremely metal-poor dwarf galaxies in 
+voids.
 
 We find that these 287 extremely metal-poor galaxies are only slightly lower in 
 their nitrogen abundances when compared to the total star-forming dwarf galaxy 
 population studied.  The low oxygen abundances causes these dwarf galaxies to 
 have higher N/O ratios than the total star-forming dwarf galaxy population 
-studied.  From Figures \ref{fig:ur} and \ref{fig:gr}, it is apparent that these 
-extremely metal-poor star-forming dwarf galaxies are redder than their oxygen 
-abundances would typically indicate, although their colors align with their N/O 
-ratios.  Fig. \ref{fig:SFR} also shows that the sSFRs for these low-metallicity 
-dwarf galaxies are lower than expected for their oxygen abundances, though their 
-sSFRs conform with the observed relationship between the N/O ratio and the sSFR.  
-The 287 extremely metal-poor galaxies are isolated from our main sample of 
-star-forming dwarf galaxies only when comparing their gas-phase oxygen 
-abundances to other physical characteristics; their N/O ratios are not unusual.
+studied.  From Figures \ref{fig:ur_P3} and \ref{fig:gr}, it is apparent that 
+these extremely metal-poor star-forming dwarf galaxies are redder than their 
+oxygen abundances would typically indicate, although their colors align with 
+their N/O ratios.  Fig. \ref{fig:SFR} also shows that the sSFRs for these 
+low-metallicity dwarf galaxies are lower than expected for their oxygen 
+abundances, though their sSFRs conform with the observed relationship between 
+the N/O ratio and the sSFR.  The 287 extremely metal-poor galaxies are isolated 
+from our main sample of star-forming dwarf galaxies only when comparing their 
+gas-phase oxygen abundances to other physical characteristics; their N/O ratios 
+are not unusual.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1246,31 +1233,29 @@ $z < 0.02$ in SDSS DR7.  The 1920 dwarf galaxies analyzed indicate that the
 large-scale environment influences their chemical evolution: star-forming void 
 dwarf galaxies have higher oxygen abundances by an average of 7\%, lower 
 nitrogen abundances by an average of 10\%, and 17\% lower N/O ratios than 
-star-forming dwarf galaxies in denser regions.  The large-scale ($\sim$10 
-$h^{-1}$Mpc) environment influences the chemical evolution of star-forming dwarf 
-galaxies.
+star-forming dwarf galaxies in denser regions.  The large-scale ($\sim$10 \hMpc) 
+environment influences the chemical evolution of star-forming dwarf galaxies.
 
 % Summary of comparison with physical characteristics
 In addition, we also look at the relationship between the metallicity and the 
 N/O ratio and other physical characteristics of our star-forming dwarf galaxy 
 sample.  In the relationship between N/O and O/H, all our dwarf galaxies reside 
 on the so-called ``nitrogen plateau,'' where the N/O ratio is predicted to be 
-independent of the gas-phase oxygen abundance for metallicities 
-$12 + \log (\text{O}/\text{H}) < 8.5$.  Instead of a constant value for the N/O 
-ratio, we instead find that the N/O ratio decreases with increasing metallicity.  
-However, we do find a plateau in our relationship between the stellar mass and 
-N/O ratio.  Most of our star-forming dwarf galaxies follow the typical 
-mass-metallicity relation \citep{Tremonti04}.  There is no relationship between 
-the metallicity and \ion{H}{1} mass of the galaxies, but the N/O ratio decreases 
-with increasing \ion{H}{1} mass for fixed stellar mass.  The star-forming dwarf 
-galaxies exhibit an increase in the metallicity (O/H) and N/O ratio with 
-increasing color (both $u-r$ and $g-r$).  We see very little correlation with 
-SFR for either metallicity (O/H) or N/O ratio of dwarf galaxies, but the 
-metallicity and N/O ratio decrease with increasing sSFR.  Beyond the large-scale 
-environmental influence on the chemical abundance distributions in the sample of 
-star-forming dwarf galaxies, we do not observe any significant differences 
-between the star-forming void and wall dwarf galaxies in any of these 
-relationships.
+independent of the gas-phase oxygen abundance for metallicities \OH $< 8.5$.  
+Instead of a constant value for the N/O ratio, we instead find that the N/O 
+ratio decreases with increasing metallicity.  However, we do find a plateau in 
+our relationship between the stellar mass and N/O ratio.  Most of our 
+star-forming dwarf galaxies follow the typical mass-metallicity relation 
+\citep{Tremonti04}.  There is no relationship between the metallicity and 
+\ion{H}{1} mass of the galaxies, but the N/O ratio decreases with increasing 
+\ion{H}{1} mass for fixed stellar mass.  The star-forming dwarf galaxies exhibit 
+an increase in the metallicity (O/H) and N/O ratio with increasing color (both 
+$u-r$ and $g-r$).  We see very little correlation with SFR for either 
+metallicity (O/H) or N/O ratio of dwarf galaxies, but the metallicity and N/O 
+ratio decrease with increasing sSFR.  Beyond the large-scale environmental 
+influence on the chemical abundance distributions in the sample of star-forming 
+dwarf galaxies, we do not observe any significant differences between the 
+star-forming void and wall dwarf galaxies in any of these relationships.
 
 % Physical interpretation for the shift in O/H, N/O
 We surmise that the differences in the distributions of metallicity and the N/O 
