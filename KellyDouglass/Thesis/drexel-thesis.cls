@@ -26,7 +26,6 @@
 \ProvidesClass{drexel-thesis}
  [\filedate\ \fileversion\ Drexel Thesis]
 \RequirePackage{xkeyval}
-%\RequirePackage{bold-extra}
 \newif\if@mainmatter \@mainmattertrue
 \newif\if@DUT@subfigopt
 \newif\if@DUT@pagebreak
@@ -614,6 +613,7 @@
   \gdef\@DUT@title{#1}
   \ifpdf \hypersetup{pdftitle={\@DUT@title}} \fi
 }
+\def\titlepagetitle#1{\gdef\@title@page@title{#1}}
 \let\DUTtitle\title
 \def\@DUT@title{\@latex@error{No \noexpand\title given}\@ehc}
 \renewcommand{\author}[1]{
@@ -770,7 +770,7 @@
     \fi
     \if@DUT@pagebreak \vspace*{\fill} \fi
     \begin{center}%
-      {\setstretch{\@tsp} \bfseries{ \@DUT@title} \par}%
+      {\setstretch{\@tsp} \bfseries{ \@title@page@title} \par}%
       \blanklines{4}%
       \setstretch{\@dsp}%
       A Thesis\\

@@ -9,18 +9,18 @@
 \BOOKMARK [0][-]{section*.6}{Abstract}{Front Matter.-1}% 9
 \BOOKMARK [-1][-]{Main Matter.-1}{Main Matter}{}% 10
 \BOOKMARK [0][-]{chapter.1}{Introduction}{Main Matter.-1}% 11
-\BOOKMARK [0][-]{chapter.2}{Metallicity of dwarf galaxies}{Main Matter.-1}% 12
+\BOOKMARK [0][-]{chapter.2}{Metallicity of Dwarf Galaxies}{Main Matter.-1}% 12
 \BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.2}{Theory}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.2}{Calculating metallicity}{chapter.2}% 14
 \BOOKMARK [2][-]{subsection.2.2.1}{Overview of Methods}{section.2.2}% 15
 \BOOKMARK [2][-]{subsection.2.2.2}{[O III]}{section.2.2}% 16
 \BOOKMARK [2][-]{subsection.2.2.3}{[O II]}{section.2.2}% 17
 \BOOKMARK [2][-]{subsection.2.2.4}{[S II]}{section.2.2}% 18
 \BOOKMARK [2][-]{subsection.2.2.5}{Direct Te method}{section.2.2}% 19
-\BOOKMARK [1][-]{section.2.3}{Data}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.3}{SDSS Data}{chapter.2}% 20
 \BOOKMARK [2][-]{subsection.2.3.1}{Spectroscopic selection}{section.2.3}% 21
 \BOOKMARK [2][-]{subsection.2.3.2}{Void classification}{section.2.3}% 22
-\BOOKMARK [1][-]{section.2.4}{Results}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.4}{Analysis \046 Results}{chapter.2}% 23
 \BOOKMARK [2][-]{subsection.2.4.1}{Estimation of uncertainties and confirmation of our method}{section.2.4}% 24
 \BOOKMARK [2][-]{subsection.2.4.2}{Results}{section.2.4}% 25
 \BOOKMARK [2][-]{subsection.2.4.3}{Sources of systematic error}{section.2.4}% 26
@@ -33,15 +33,15 @@
 \BOOKMARK [2][-]{subsection.2.5.2}{Large-scale environmental influence}{section.2.5}% 33
 \BOOKMARK [2][-]{subsection.2.5.3}{Extreme low-metallicity galaxies}{section.2.5}% 34
 \BOOKMARK [1][-]{section.2.6}{Conclusions}{chapter.2}% 35
-\BOOKMARK [0][-]{chapter.3}{N/O ratio in dwarf galaxies}{Main Matter.-1}% 36
+\BOOKMARK [0][-]{chapter.3}{N/O Ratio in Dwarf Galaxies}{Main Matter.-1}% 36
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 37
-\BOOKMARK [1][-]{section.3.2}{Theory}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.2}{Calculating N/H \046 N/O}{chapter.3}% 38
 \BOOKMARK [2][-]{subsection.3.2.1}{[N II]}{section.3.2}% 39
 \BOOKMARK [2][-]{subsection.3.2.2}{Direct Te method}{section.3.2}% 40
-\BOOKMARK [1][-]{section.3.3}{Data}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.3}{SDSS Data}{chapter.3}% 41
 \BOOKMARK [2][-]{subsection.3.3.1}{Spectroscopic selection}{section.3.3}% 42
 \BOOKMARK [2][-]{subsection.3.3.2}{Void classification}{section.3.3}% 43
-\BOOKMARK [1][-]{section.3.4}{Results}{chapter.3}% 44
+\BOOKMARK [1][-]{section.3.4}{Analysis \046 Results}{chapter.3}% 44
 \BOOKMARK [2][-]{subsection.3.4.1}{Estimation of uncertainties and comparison of N/O and N+/O+}{section.3.4}% 45
 \BOOKMARK [2][-]{subsection.3.4.2}{Sources of systematic error}{section.3.4}% 46
 \BOOKMARK [2][-]{subsection.3.4.3}{Galaxy abundances}{section.3.4}% 47
@@ -49,20 +49,20 @@
 \BOOKMARK [2][-]{subsection.3.4.5}{Mass\205N/O relation}{section.3.4}% 49
 \BOOKMARK [2][-]{subsection.3.4.6}{Color\205N/O relation}{section.3.4}% 50
 \BOOKMARK [2][-]{subsection.3.4.7}{\(s\)SFR\205N/O relation}{section.3.4}% 51
-\BOOKMARK [1][-]{section.3.5}{Discussion}{chapter.3}% 52
+\BOOKMARK [1][-]{section.3.5}{Environmental influence}{chapter.3}% 52
 \BOOKMARK [2][-]{subsection.3.5.1}{Higher metallicities in void dwarf galaxies}{section.3.5}% 53
 \BOOKMARK [2][-]{subsection.3.5.2}{Lower N/O ratios in void dwarf galaxies}{section.3.5}% 54
 \BOOKMARK [2][-]{subsection.3.5.3}{N/O ratio for extremely low metallicity galaxies}{section.3.5}% 55
 \BOOKMARK [1][-]{section.3.6}{Conclusions}{chapter.3}% 56
-\BOOKMARK [0][-]{chapter.4}{O+ approximation}{Main Matter.-1}% 57
+\BOOKMARK [0][-]{chapter.4}{O+ Approximation}{Main Matter.-1}% 57
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 58
-\BOOKMARK [1][-]{section.4.2}{Theory}{chapter.4}% 59
+\BOOKMARK [1][-]{section.4.2}{Abundance calculations}{chapter.4}% 59
 \BOOKMARK [2][-]{subsection.4.2.1}{Direct Te method}{section.4.2}% 60
 \BOOKMARK [2][-]{subsection.4.2.2}{O+ abundance approximation}{section.4.2}% 61
-\BOOKMARK [1][-]{section.4.3}{Data}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.3}{SDSS Data}{chapter.4}% 62
 \BOOKMARK [2][-]{subsection.4.3.1}{Spectroscopic selection}{section.4.3}% 63
 \BOOKMARK [2][-]{subsection.4.3.2}{Void classification}{section.4.3}% 64
-\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.4}{Analysis \046 Results}{chapter.4}% 65
 \BOOKMARK [2][-]{subsection.4.4.1}{Estimation of uncertainties}{section.4.4}% 66
 \BOOKMARK [2][-]{subsection.4.4.2}{Sources of systematic error}{section.4.4}% 67
 \BOOKMARK [2][-]{subsection.4.4.3}{Dwarf galaxy abundances}{section.4.4}% 68
@@ -72,38 +72,38 @@
 \BOOKMARK [2][-]{subsection.4.4.7}{H I mass-abundance relations}{section.4.4}% 72
 \BOOKMARK [2][-]{subsection.4.4.8}{Color-abundance relations}{section.4.4}% 73
 \BOOKMARK [2][-]{subsection.4.4.9}{\(s\)SFR-abundance relations}{section.4.4}% 74
-\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 75
+\BOOKMARK [1][-]{section.4.5}{Environmental influence}{chapter.4}% 75
 \BOOKMARK [2][-]{subsection.4.5.1}{Higher metallicities in void dwarf galaxies}{section.4.5}% 76
 \BOOKMARK [2][-]{subsection.4.5.2}{Lower N/O ratios in void dwarf galaxies}{section.4.5}% 77
 \BOOKMARK [2][-]{subsection.4.5.3}{Extremely low metallicity dwarf galaxies}{section.4.5}% 78
 \BOOKMARK [1][-]{section.4.6}{Conclusions}{chapter.4}% 79
-\BOOKMARK [0][-]{chapter.5}{Small-scale environment}{Main Matter.-1}% 80
+\BOOKMARK [0][-]{chapter.5}{Small-Scale Environment}{Main Matter.-1}% 80
 \BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 81
 \BOOKMARK [1][-]{section.5.2}{Nearest neighbor calculations}{chapter.5}% 82
 \BOOKMARK [2][-]{subsection.5.2.1}{Peculiar velocity}{section.5.2}% 83
 \BOOKMARK [2][-]{subsection.5.2.2}{Sky separation in h-1Mpc}{section.5.2}% 84
 \BOOKMARK [2][-]{subsection.5.2.3}{Fractional virial radii}{section.5.2}% 85
 \BOOKMARK [2][-]{subsection.5.2.4}{Absolute distance to nearest neighbor}{section.5.2}% 86
-\BOOKMARK [1][-]{section.5.3}{Data}{chapter.5}% 87
+\BOOKMARK [1][-]{section.5.3}{SDSS Data}{chapter.5}% 87
 \BOOKMARK [2][-]{subsection.5.3.1}{Various samples}{section.5.3}% 88
 \BOOKMARK [2][-]{subsection.5.3.2}{Group catalog}{section.5.3}% 89
-\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 90
+\BOOKMARK [1][-]{section.5.4}{Analysis \046 Results}{chapter.5}% 90
 \BOOKMARK [2][-]{subsection.5.4.1}{Parameter \205 distance relations}{section.5.4}% 91
 \BOOKMARK [2][-]{subsection.5.4.2}{Linear fit parameters}{section.5.4}% 92
 \BOOKMARK [2][-]{subsection.5.4.3}{Selection effects}{section.5.4}% 93
 \BOOKMARK [2][-]{subsection.5.4.4}{Including redshift in the distance}{section.5.4}% 94
-\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 95
+\BOOKMARK [1][-]{section.5.5}{Environmental influence}{chapter.5}% 95
 \BOOKMARK [2][-]{subsection.5.5.1}{Comparison to previous results}{section.5.5}% 96
 \BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 97
-\BOOKMARK [0][-]{chapter.6}{Green valley galaxies}{Main Matter.-1}% 98
+\BOOKMARK [0][-]{chapter.6}{Green Valley Galaxies}{Main Matter.-1}% 98
 \BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 99
-\BOOKMARK [1][-]{section.6.2}{Theory}{chapter.6}% 100
-\BOOKMARK [1][-]{section.6.3}{Data}{chapter.6}% 101
+\BOOKMARK [1][-]{section.6.2}{Color Calculations}{chapter.6}% 100
+\BOOKMARK [1][-]{section.6.3}{SDSS Data}{chapter.6}% 101
 \BOOKMARK [2][-]{subsection.6.3.1}{Optical data \204 SDSS}{section.6.3}% 102
 \BOOKMARK [2][-]{subsection.6.3.2}{UV data \204 GALEX}{section.6.3}% 103
-\BOOKMARK [1][-]{section.6.4}{Results}{chapter.6}% 104
+\BOOKMARK [1][-]{section.6.4}{Classifying the CMD}{chapter.6}% 104
 \BOOKMARK [2][-]{subsection.6.4.1}{Properties of the Green Valley Galaxies}{section.6.4}% 105
-\BOOKMARK [1][-]{section.6.5}{Discussion}{chapter.6}% 106
+\BOOKMARK [1][-]{section.6.5}{GV galaxy properties}{chapter.6}% 106
 \BOOKMARK [2][-]{subsection.6.5.1}{Gas content indicators}{section.6.5}% 107
 \BOOKMARK [2][-]{subsection.6.5.2}{Evidence of AGN feedback}{section.6.5}% 108
 \BOOKMARK [1][-]{section.6.6}{Conclusions}{chapter.6}% 109
@@ -114,7 +114,7 @@
 \BOOKMARK [1][-]{section.7.4}{Future work}{chapter.7}% 114
 \BOOKMARK [-1][-]{Back Matter.-1}{Back Matter}{}% 115
 \BOOKMARK [0][-]{section*.92}{Bibliography}{Back Matter.-1}% 116
-\BOOKMARK [0][-]{appendix.A}{Direct method physics}{Back Matter.-1}% 117
+\BOOKMARK [0][-]{appendix.A}{Direct Method Physics}{Back Matter.-1}% 117
 \BOOKMARK [1][-]{section.A.1}{Forbidden transitions}{appendix.A}% 118
 \BOOKMARK [2][-]{subsection.A.1.1}{Time-dependent perturbation theory}{section.A.1}% 119
 \BOOKMARK [1][-]{section.A.2}{Estimating the temperature}{appendix.A}% 120
