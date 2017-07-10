@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 JUL 2017 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 JUL 2017 18:14
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **Thesis
 (./Thesis.tex
@@ -855,9 +855,9 @@ _fill.eps>
 _fill-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-09 19:16:34
 (epstopdf)                    size: 55778 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Intro/1sig_13-23_SD
-SS_Mr_hist_count_fill-eps-converted-to.pdf Images/Intro/1sig_13-23_SDSS_Mr_hist
-_count_fill.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Intro/1sig_13-23_SDS
+S_Mr_hist_count_fill-eps-converted-to.pdf Images/Intro/1sig_13-23_SDSS_Mr_hist_
+count_fill.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -908,9 +908,9 @@ Package epstopdf Info: Source file: <Images/Paper1/energy_level_diagram-figure0
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 12:27:28
 (epstopdf)                    size: 13353 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/energy_level
-_diagram-figure0-eps-converted-to.pdf Images/Paper1/energy_level_diagram-figure
-0.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/energy_level_
+diagram-figure0-eps-converted-to.pdf Images/Paper1/energy_level_diagram-figure0
+.eps>
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -945,9 +945,9 @@ Package epstopdf Info: Source file: <Images/Paper1/1sig_I06_dwarf_SF_t3_OpOpp_Z
 12logOH-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 12:27:28
 (epstopdf)                    size: 11226 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/1sig_I06_dwa
-rf_SF_t3_OpOpp_Z12logOH-eps-converted-to.pdf Images/Paper1/1sig_I06_dwarf_SF_t3
-_OpOpp_Z12logOH.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/1sig_I06_dwar
+f_SF_t3_OpOpp_Z12logOH-eps-converted-to.pdf Images/Paper1/1sig_I06_dwarf_SF_t3_
+OpOpp_Z12logOH.eps>
 (epstopdf)             \includegraphics on input line 350.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -970,8 +970,8 @@ Package epstopdf Info: Source file: <Images/Paper1/Yin07_comparison_fit.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2017-05-12 12:27:54
 (epstopdf)                    size: 26273 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/Yin07_compar
-ison_fit-eps-converted-to.pdf Images/Paper1/Yin07_comparison_fit.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/Yin07_compari
+son_fit-eps-converted-to.pdf Images/Paper1/Yin07_comparison_fit.eps>
 (epstopdf)             \includegraphics on input line 514.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -991,9 +991,9 @@ t.eps>
 t-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 12:27:54
 (epstopdf)                    size: 8578 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/1sig_dwarf_S
-F_t3_12logOH_hist-eps-converted-to.pdf Images/Paper1/1sig_dwarf_SF_t3_12logOH_h
-ist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/1sig_dwarf_SF
+_t3_12logOH_hist-eps-converted-to.pdf Images/Paper1/1sig_dwarf_SF_t3_12logOH_hi
+st.eps>
 (epstopdf)             \includegraphics on input line 531.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1014,9 +1014,9 @@ Package epstopdf Info: Source file: <Images/Paper1/1sig_dwarf_SF_t3_12logOH_CDF
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 12:27:54
 (epstopdf)                    size: 9933 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/1sig_dwarf_S
-F_t3_12logOH_CDF-eps-converted-to.pdf Images/Paper1/1sig_dwarf_SF_t3_12logOH_CD
-F.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/1sig_dwarf_SF
+_t3_12logOH_CDF-eps-converted-to.pdf Images/Paper1/1sig_dwarf_SF_t3_12logOH_CDF
+.eps>
 (epstopdf)             \includegraphics on input line 532.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1039,9 +1039,9 @@ t.eps>
 t-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:29:25
 (epstopdf)                    size: 8632 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/0sig_dwarf_S
-F_t3_12logOH_hist-eps-converted-to.pdf Images/Paper1/0sig_dwarf_SF_t3_12logOH_h
-ist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/0sig_dwarf_SF
+_t3_12logOH_hist-eps-converted-to.pdf Images/Paper1/0sig_dwarf_SF_t3_12logOH_hi
+st.eps>
 (epstopdf)             \includegraphics on input line 579.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1062,9 +1062,9 @@ Package epstopdf Info: Source file: <Images/Paper1/0sig_dwarf_SF_t3_12logOH_CDF
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:29:25
 (epstopdf)                    size: 11959 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/0sig_dwarf_S
-F_t3_12logOH_CDF-eps-converted-to.pdf Images/Paper1/0sig_dwarf_SF_t3_12logOH_CD
-F.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/0sig_dwarf_SF
+_t3_12logOH_CDF-eps-converted-to.pdf Images/Paper1/0sig_dwarf_SF_t3_12logOH_CDF
+.eps>
 (epstopdf)             \includegraphics on input line 580.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1089,9 +1089,9 @@ arison.eps>
 arison-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:33:35
 (epstopdf)                    size: 11201 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/1sig_dwarf_I
-06_SF_t3_T04comparison-eps-converted-to.pdf Images/Paper1/1sig_dwarf_I06_SF_t3_
-T04comparison.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/1sig_dwarf_I0
+6_SF_t3_T04comparison-eps-converted-to.pdf Images/Paper1/1sig_dwarf_I06_SF_t3_T
+04comparison.eps>
 (epstopdf)             \includegraphics on input line 710.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1115,9 +1115,9 @@ on.eps>
 on-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:34:07
 (epstopdf)                    size: 50499 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/MZ_1sig_I06_
-dwarf_SF_t3_python-eps-converted-to.pdf Images/Paper1/MZ_1sig_I06_dwarf_SF_t3_p
-ython.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/MZ_1sig_I06_d
+warf_SF_t3_python-eps-converted-to.pdf Images/Paper1/MZ_1sig_I06_dwarf_SF_t3_py
+thon.eps>
 (epstopdf)             \includegraphics on input line 769.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1140,9 +1140,9 @@ eps>
 eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:34:08
 (epstopdf)                    size: 135952 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/SFR_OH_1sig_
-I06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/SFR_OH_1sig_I06_dwarf_SF_t3.
-eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/SFR_OH_1sig_I
+06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/SFR_OH_1sig_I06_dwarf_SF_t3.e
+ps>
 (epstopdf)             \includegraphics on input line 816.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1163,9 +1163,9 @@ Package epstopdf Info: Source file: <Images/Paper1/sSFR_OH_1sig_I06_dwarf_SF_t3
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:34:08
 (epstopdf)                    size: 129966 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/sSFR_OH_1sig
-_I06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/sSFR_OH_1sig_I06_dwarf_SF_t
-3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/sSFR_OH_1sig_
+I06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/sSFR_OH_1sig_I06_dwarf_SF_t3
+.eps>
 (epstopdf)             \includegraphics on input line 817.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1186,9 +1186,8 @@ s>
 s-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:34:08
 (epstopdf)                    size: 7878 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/1sig_I06_SF_
-t3_SFR_scaled-eps-converted-to.pdf Images/Paper1/1sig_I06_SF_t3_SFR_scaled.eps>
-
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/1sig_I06_SF_t
+3_SFR_scaled-eps-converted-to.pdf Images/Paper1/1sig_I06_SF_t3_SFR_scaled.eps>
 (epstopdf)             \includegraphics on input line 833.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1209,9 +1208,9 @@ ps>
 ps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:34:08
 (epstopdf)                    size: 8322 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/1sig_I06_SF_
-t3_sSFR_scaled-eps-converted-to.pdf Images/Paper1/1sig_I06_SF_t3_sSFR_scaled.ep
-s>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/1sig_I06_SF_t
+3_sSFR_scaled-eps-converted-to.pdf Images/Paper1/1sig_I06_SF_t3_sSFR_scaled.eps
+>
 (epstopdf)             \includegraphics on input line 834.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1234,9 +1233,9 @@ ps>
 ps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:34:09
 (epstopdf)                    size: 129364 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/ur_OH_1sig_I
-06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/ur_OH_1sig_I06_dwarf_SF_t3.ep
-s>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/ur_OH_1sig_I0
+6_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/ur_OH_1sig_I06_dwarf_SF_t3.eps
+>
 (epstopdf)             \includegraphics on input line 880.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1257,9 +1256,9 @@ ps>
 ps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:34:09
 (epstopdf)                    size: 114343 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/gr_OH_1sig_I
-06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/gr_OH_1sig_I06_dwarf_SF_t3.ep
-s>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/gr_OH_1sig_I0
+6_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/gr_OH_1sig_I06_dwarf_SF_t3.eps
+>
 (epstopdf)             \includegraphics on input line 881.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1280,9 +1279,9 @@ eps>
 eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 14:34:09
 (epstopdf)                    size: 14038 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper1/urHist_1sig_
-I06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/urHist_1sig_I06_dwarf_SF_t3.
-eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper1/urHist_1sig_I
+06_dwarf_SF_t3-eps-converted-to.pdf Images/Paper1/urHist_1sig_I06_dwarf_SF_t3.e
+ps>
 (epstopdf)             \includegraphics on input line 896.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1333,9 +1332,9 @@ Package epstopdf Info: Source file: <Images/Paper2/NIIOIII_energy_level_diagram
 -figure0-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 15:59:32
 (epstopdf)                    size: 10934 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/NIIOIII_ener
-gy_level_diagram-figure0-eps-converted-to.pdf Images/Paper2/NIIOIII_energy_leve
-l_diagram-figure0.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/NIIOIII_energ
+y_level_diagram-figure0-eps-converted-to.pdf Images/Paper2/NIIOIII_energy_level
+_diagram-figure0.eps>
 (epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1396,9 +1395,9 @@ gNpOp_logNO_fit.eps>
 gNpOp_logNO_fit-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 15:59:32
 (epstopdf)                    size: 65171 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_I06_dwa
-rf_0-20_SF_t3_logNpOp_logNO_fit-eps-converted-to.pdf Images/Paper2/1sig_I06_dwa
-rf_0-20_SF_t3_logNpOp_logNO_fit.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_I06_dwar
+f_0-20_SF_t3_logNpOp_logNO_fit-eps-converted-to.pdf Images/Paper2/1sig_I06_dwar
+f_0-20_SF_t3_logNpOp_logNO_fit.eps>
 (epstopdf)             \includegraphics on input line 410.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1422,9 +1421,9 @@ t.eps>
 t-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:00:14
 (epstopdf)                    size: 8513 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_dwarf_S
-F_t3_12logNH_hist-eps-converted-to.pdf Images/Paper2/1sig_dwarf_SF_t3_12logNH_h
-ist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_dwarf_SF
+_t3_12logNH_hist-eps-converted-to.pdf Images/Paper2/1sig_dwarf_SF_t3_12logNH_hi
+st.eps>
 (epstopdf)             \includegraphics on input line 517.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1445,9 +1444,9 @@ Package epstopdf Info: Source file: <Images/Paper2/1sig_dwarf_SF_t3_12logNH_CDF
 -eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:00:14
 (epstopdf)                    size: 9883 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_dwarf_S
-F_t3_12logNH_CDF-eps-converted-to.pdf Images/Paper2/1sig_dwarf_SF_t3_12logNH_CD
-F.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_dwarf_SF
+_t3_12logNH_CDF-eps-converted-to.pdf Images/Paper2/1sig_dwarf_SF_t3_12logNH_CDF
+.eps>
 (epstopdf)             \includegraphics on input line 518.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1469,9 +1468,9 @@ cked.eps>
 cked-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:00:14
 (epstopdf)                    size: 52866 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_17-20_S
-F_t3_12logOH_stacked-eps-converted-to.pdf Images/Paper2/1sig_17-20_SF_t3_12logO
-H_stacked.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_17-20_SF
+_t3_12logOH_stacked-eps-converted-to.pdf Images/Paper2/1sig_17-20_SF_t3_12logOH
+_stacked.eps>
 (epstopdf)             \includegraphics on input line 557.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1492,9 +1491,9 @@ cked.eps>
 cked-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:00:15
 (epstopdf)                    size: 51662 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_17-20_S
-F_t3_12logNH_stacked-eps-converted-to.pdf Images/Paper2/1sig_17-20_SF_t3_12logN
-H_stacked.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_17-20_SF
+_t3_12logNH_stacked-eps-converted-to.pdf Images/Paper2/1sig_17-20_SF_t3_12logNH
+_stacked.eps>
 (epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1520,9 +1519,9 @@ eps>
 eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:00:15
 (epstopdf)                    size: 8375 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_dwarf_S
-F_t3_logNO_hist-eps-converted-to.pdf Images/Paper2/1sig_dwarf_SF_t3_logNO_hist.
-eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_dwarf_SF
+_t3_logNO_hist-eps-converted-to.pdf Images/Paper2/1sig_dwarf_SF_t3_logNO_hist.e
+ps>
 (epstopdf)             \includegraphics on input line 652.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1543,9 +1542,9 @@ ps>
 ps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:00:15
 (epstopdf)                    size: 9701 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_dwarf_S
-F_t3_logNO_CDF-eps-converted-to.pdf Images/Paper2/1sig_dwarf_SF_t3_logNO_CDF.ep
-s>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_dwarf_SF
+_t3_logNO_CDF-eps-converted-to.pdf Images/Paper2/1sig_dwarf_SF_t3_logNO_CDF.eps
+>
 (epstopdf)             \includegraphics on input line 653.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1566,9 +1565,9 @@ ed.eps>
 ed-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:00:15
 (epstopdf)                    size: 51699 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_17-20_S
-F_t3_logNO_stacked-eps-converted-to.pdf Images/Paper2/1sig_17-20_SF_t3_logNO_st
-acked.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_17-20_SF
+_t3_logNO_stacked-eps-converted-to.pdf Images/Paper2/1sig_17-20_SF_t3_logNO_sta
+cked.eps>
 (epstopdf)             \includegraphics on input line 680.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1593,9 +1592,9 @@ Package epstopdf Info: Source file: <Images/Paper2/1sig_I06_dwarf_0-20_SF_t3_Z1
 2logOH_logNO-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:38
 (epstopdf)                    size: 164788 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_I06_dwa
-rf_0-20_SF_t3_Z12logOH_logNO-eps-converted-to.pdf Images/Paper2/1sig_I06_dwarf_
-0-20_SF_t3_Z12logOH_logNO.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_I06_dwar
+f_0-20_SF_t3_Z12logOH_logNO-eps-converted-to.pdf Images/Paper2/1sig_I06_dwarf_0
+-20_SF_t3_Z12logOH_logNO.eps>
 (epstopdf)             \includegraphics on input line 842.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1619,9 +1618,9 @@ Package epstopdf Info: Source file: <Images/Paper2/1sig_I06_dwarf_0-20_SF_t3_Z1
 2logOH_N12logNH-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:39
 (epstopdf)                    size: 162466 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/1sig_I06_dwa
-rf_0-20_SF_t3_Z12logOH_N12logNH-eps-converted-to.pdf Images/Paper2/1sig_I06_dwa
-rf_0-20_SF_t3_Z12logOH_N12logNH.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/1sig_I06_dwar
+f_0-20_SF_t3_Z12logOH_N12logNH-eps-converted-to.pdf Images/Paper2/1sig_I06_dwar
+f_0-20_SF_t3_Z12logOH_N12logNH.eps>
 (epstopdf)             \includegraphics on input line 888.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1644,9 +1643,9 @@ Package epstopdf Info: Source file: <Images/Paper2/MNO_1sig_I06_dwarf_0-20_SF_t
 3-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:39
 (epstopdf)                    size: 146415 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/MNO_1sig_I06
-_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/MNO_1sig_I06_dwarf_0-20_SF
-_t3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/MNO_1sig_I06_
+dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/MNO_1sig_I06_dwarf_0-20_SF_
+t3.eps>
 (epstopdf)             \includegraphics on input line 937.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1670,9 +1669,9 @@ _t3.eps>
 _t3-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:40
 (epstopdf)                    size: 160901 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/ur_NO_1sig_I
-06_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/ur_NO_1sig_I06_dwarf_0-2
-0_SF_t3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/ur_NO_1sig_I0
+6_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/ur_NO_1sig_I06_dwarf_0-20
+_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 969.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1693,9 +1692,9 @@ _t3.eps>
 _t3-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:40
 (epstopdf)                    size: 153095 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/gr_NO_1sig_I
-06_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/gr_NO_1sig_I06_dwarf_0-2
-0_SF_t3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/gr_NO_1sig_I0
+6_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/gr_NO_1sig_I06_dwarf_0-20
+_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 970.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1716,9 +1715,8 @@ s>
 s-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:40
 (epstopdf)                    size: 120507 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/u-r_sSFR_dwa
-rf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/u-r_sSFR_dwarf_0-20_SF_t3.eps>
-
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/u-r_sSFR_dwar
+f_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/u-r_sSFR_dwarf_0-20_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 999.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1739,9 +1737,8 @@ s>
 s-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:41
 (epstopdf)                    size: 106956 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/g-r_sSFR_dwa
-rf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/g-r_sSFR_dwarf_0-20_SF_t3.eps>
-
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/g-r_sSFR_dwar
+f_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/g-r_sSFR_dwarf_0-20_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 1000.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1764,9 +1761,9 @@ F_t3.eps>
 F_t3-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:41
 (epstopdf)                    size: 168485 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/SFR_NO_1sig_
-I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/SFR_NO_1sig_I06_dwarf_0
--20_SF_t3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/SFR_NO_1sig_I
+06_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/SFR_NO_1sig_I06_dwarf_0-
+20_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 1026.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1787,9 +1784,9 @@ SF_t3.eps>
 SF_t3-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-12 16:22:41
 (epstopdf)                    size: 147131 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper2/sSFR_NO_1sig
-_I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/sSFR_NO_1sig_I06_dwarf
-_0-20_SF_t3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper2/sSFR_NO_1sig_
+I06_dwarf_0-20_SF_t3-eps-converted-to.pdf Images/Paper2/sSFR_NO_1sig_I06_dwarf_
+0-20_SF_t3.eps>
 (epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1873,9 +1870,9 @@ ss_fits.eps>
 ss_fits-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 263707 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/Zlow_v_Zreal
-_1sig_I06_BPTclass_fits-eps-converted-to.pdf Images/Paper3/Zlow_v_Zreal_1sig_I0
-6_BPTclass_fits.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/Zlow_v_Zreal_
+1sig_I06_BPTclass_fits-eps-converted-to.pdf Images/Paper3/Zlow_v_Zreal_1sig_I06
+_BPTclass_fits.eps>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1899,9 +1896,9 @@ tions_dust_hist.eps>
 tions_dust_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 8589 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_dwarf_S
-F_t3_12logOHrelations_dust_hist-eps-converted-to.pdf Images/Paper3/1sig_dwarf_S
-F_t3_12logOHrelations_dust_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_dwarf_SF
+_t3_12logOHrelations_dust_hist-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF
+_t3_12logOHrelations_dust_hist.eps>
 (epstopdf)             \includegraphics on input line 506.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1923,9 +1920,9 @@ tions_dust_CDF.eps>
 tions_dust_CDF-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 22674 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_dwarf_S
-F_t3_12logOHrelations_dust_CDF-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF
-_t3_12logOHrelations_dust_CDF.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_dwarf_SF
+_t3_12logOHrelations_dust_CDF-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF_
+t3_12logOHrelations_dust_CDF.eps>
 (epstopdf)             \includegraphics on input line 507.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1947,9 +1944,9 @@ tions_dust_hist.eps>
 tions_dust_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 8594 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_dwarf_S
-F_t3_12logNHrelations_dust_hist-eps-converted-to.pdf Images/Paper3/1sig_dwarf_S
-F_t3_12logNHrelations_dust_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_dwarf_SF
+_t3_12logNHrelations_dust_hist-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF
+_t3_12logNHrelations_dust_hist.eps>
 (epstopdf)             \includegraphics on input line 521.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1971,9 +1968,9 @@ tions_dust_CDF.eps>
 tions_dust_CDF-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 22420 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_dwarf_S
-F_t3_12logNHrelations_dust_CDF-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF
-_t3_12logNHrelations_dust_CDF.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_dwarf_SF
+_t3_12logNHrelations_dust_CDF-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF_
+t3_12logNHrelations_dust_CDF.eps>
 (epstopdf)             \includegraphics on input line 522.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2000,9 +1997,9 @@ ons_dust_hist.eps>
 ons_dust_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 8406 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_dwarf_S
-F_t3_logNOrelations_dust_hist-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF_
-t3_logNOrelations_dust_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_dwarf_SF
+_t3_logNOrelations_dust_hist-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF_t
+3_logNOrelations_dust_hist.eps>
 (epstopdf)             \includegraphics on input line 570.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2024,9 +2021,9 @@ ons_dust_CDF.eps>
 ons_dust_CDF-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 22591 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_dwarf_S
-F_t3_logNOrelations_dust_CDF-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF_t
-3_logNOrelations_dust_CDF.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_dwarf_SF
+_t3_logNOrelations_dust_CDF-eps-converted-to.pdf Images/Paper3/1sig_dwarf_SF_t3
+_logNOrelations_dust_CDF.eps>
 (epstopdf)             \includegraphics on input line 571.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2055,9 +2052,9 @@ Package epstopdf Info: Source file: <Images/Paper3/1sig_dwarf_I06relations_SF_t
 3_T04comparison_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 46713 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_dwarf_I
-06relations_SF_t3_T04comparison_dust-eps-converted-to.pdf Images/Paper3/1sig_dw
-arf_I06relations_SF_t3_T04comparison_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_dwarf_I0
+6relations_SF_t3_T04comparison_dust-eps-converted-to.pdf Images/Paper3/1sig_dwa
+rf_I06relations_SF_t3_T04comparison_dust.eps>
 (epstopdf)             \includegraphics on input line 645.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2081,10 +2078,10 @@ Package epstopdf Info: Source file: <Images/Paper3/1sig_I06relations_dwarf_SF_t
 3_dust_NSA_Z12logOH_logNO_scatterMbin-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 174259 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_I06rela
-tions_dwarf_SF_t3_dust_NSA_Z12logOH_logNO_scatterMbin-eps-converted-to.pdf Imag
-es/Paper3/1sig_I06relations_dwarf_SF_t3_dust_NSA_Z12logOH_logNO_scatterMbin.eps
->
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_I06relat
+ions_dwarf_SF_t3_dust_NSA_Z12logOH_logNO_scatterMbin-eps-converted-to.pdf Image
+s/Paper3/1sig_I06relations_dwarf_SF_t3_dust_NSA_Z12logOH_logNO_scatterMbin.eps>
+
 (epstopdf)             \includegraphics on input line 686.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2108,10 +2105,10 @@ Package epstopdf Info: Source file: <Images/Paper3/1sig_I06relations_dwarf_SF_t
 3_dust_NSA_Z12logOH_N12logNH_scatterMbin-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 178863 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_I06rela
-tions_dwarf_SF_t3_dust_NSA_Z12logOH_N12logNH_scatterMbin-eps-converted-to.pdf I
-mages/Paper3/1sig_I06relations_dwarf_SF_t3_dust_NSA_Z12logOH_N12logNH_scatterMb
-in.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_I06relat
+ions_dwarf_SF_t3_dust_NSA_Z12logOH_N12logNH_scatterMbin-eps-converted-to.pdf Im
+ages/Paper3/1sig_I06relations_dwarf_SF_t3_dust_NSA_Z12logOH_N12logNH_scatterMbi
+n.eps>
 (epstopdf)             \includegraphics on input line 729.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2135,9 +2132,9 @@ F_t3_dust_NSA_python.eps>
 F_t3_dust_NSA_python-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 192379 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/MZ_1sig_I06r
-elations_dwarf_SF_t3_dust_NSA_python-eps-converted-to.pdf Images/Paper3/MZ_1sig
-_I06relations_dwarf_SF_t3_dust_NSA_python.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/MZ_1sig_I06re
+lations_dwarf_SF_t3_dust_NSA_python-eps-converted-to.pdf Images/Paper3/MZ_1sig_
+I06relations_dwarf_SF_t3_dust_NSA_python.eps>
 (epstopdf)             \includegraphics on input line 782.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2159,9 +2156,9 @@ SF_t3_dust_NSA_scatterMbin.eps>
 SF_t3_dust_NSA_scatterMbin-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 172920 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/MNO_1sig_I06
-relations_dwarf_SF_t3_dust_NSA_scatterMbin-eps-converted-to.pdf Images/Paper3/M
-NO_1sig_I06relations_dwarf_SF_t3_dust_NSA_scatterMbin.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/MNO_1sig_I06r
+elations_dwarf_SF_t3_dust_NSA_scatterMbin-eps-converted-to.pdf Images/Paper3/MN
+O_1sig_I06relations_dwarf_SF_t3_dust_NSA_scatterMbin.eps>
 (epstopdf)             \includegraphics on input line 783.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2186,9 +2183,9 @@ _HI_hist.eps>
 _HI_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 10659 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_0-17_I0
-6relations_SF_t3_HI_hist-eps-converted-to.pdf Images/Paper3/1sig_0-17_I06relati
-ons_SF_t3_HI_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_0-17_I06
+relations_SF_t3_HI_hist-eps-converted-to.pdf Images/Paper3/1sig_0-17_I06relatio
+ns_SF_t3_HI_hist.eps>
 (epstopdf)             \includegraphics on input line 834.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2209,9 +2206,9 @@ _HI_CDF.eps>
 _HI_CDF-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 13302 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/1sig_0-17_I0
-6relations_SF_t3_HI_CDF-eps-converted-to.pdf Images/Paper3/1sig_0-17_I06relatio
-ns_SF_t3_HI_CDF.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/1sig_0-17_I06
+relations_SF_t3_HI_CDF-eps-converted-to.pdf Images/Paper3/1sig_0-17_I06relation
+s_SF_t3_HI_CDF.eps>
 (epstopdf)             \includegraphics on input line 835.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2235,9 +2232,9 @@ f+T04_SF_t3_dust.eps>
 f+T04_SF_t3_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 86154 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/HI_OH_1sig_I
-06relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/HI_OH_1sig_
-I06relations_dwarf+T04_SF_t3_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/HI_OH_1sig_I0
+6relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/HI_OH_1sig_I
+06relations_dwarf+T04_SF_t3_dust.eps>
 (epstopdf)             \includegraphics on input line 860.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2259,9 +2256,9 @@ f_SF_t3_dust.eps>
 f_SF_t3_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 34498 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/HI_NO_1sig_I
-06relations_dwarf_SF_t3_dust-eps-converted-to.pdf Images/Paper3/HI_NO_1sig_I06r
-elations_dwarf_SF_t3_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/HI_NO_1sig_I0
+6relations_dwarf_SF_t3_dust-eps-converted-to.pdf Images/Paper3/HI_NO_1sig_I06re
+lations_dwarf_SF_t3_dust.eps>
 (epstopdf)             \includegraphics on input line 861.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2283,9 +2280,9 @@ arf_SF_t3_dust.eps>
 arf_SF_t3_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 36956 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/HI_OH_M_1sig
-_I06relations_dwarf_SF_t3_dust-eps-converted-to.pdf Images/Paper3/HI_OH_M_1sig_
-I06relations_dwarf_SF_t3_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/HI_OH_M_1sig_
+I06relations_dwarf_SF_t3_dust-eps-converted-to.pdf Images/Paper3/HI_OH_M_1sig_I
+06relations_dwarf_SF_t3_dust.eps>
 (epstopdf)             \includegraphics on input line 862.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2307,9 +2304,9 @@ arf_SF_t3_dust.eps>
 arf_SF_t3_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 37002 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/HI_NO_M_1sig
-_I06relations_dwarf_SF_t3_dust-eps-converted-to.pdf Images/Paper3/HI_NO_M_1sig_
-I06relations_dwarf_SF_t3_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/HI_NO_M_1sig_
+I06relations_dwarf_SF_t3_dust-eps-converted-to.pdf Images/Paper3/HI_NO_M_1sig_I
+06relations_dwarf_SF_t3_dust.eps>
 (epstopdf)             \includegraphics on input line 863.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2336,9 +2333,9 @@ f+T04_SF_t3_dust.eps>
 f+T04_SF_t3_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 169698 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/ur_OH_1sig_I
-06relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/ur_OH_1sig_
-I06relations_dwarf+T04_SF_t3_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/ur_OH_1sig_I0
+6relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/ur_OH_1sig_I
+06relations_dwarf+T04_SF_t3_dust.eps>
 (epstopdf)             \includegraphics on input line 910.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2360,9 +2357,9 @@ f_SF_t3_dust_scatterURbin.eps>
 f_SF_t3_dust_scatterURbin-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 174502 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/ur_NO_1sig_I
-06relations_dwarf_SF_t3_dust_scatterURbin-eps-converted-to.pdf Images/Paper3/ur
-_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterURbin.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/ur_NO_1sig_I0
+6relations_dwarf_SF_t3_dust_scatterURbin-eps-converted-to.pdf Images/Paper3/ur_
+NO_1sig_I06relations_dwarf_SF_t3_dust_scatterURbin.eps>
 (epstopdf)             \includegraphics on input line 911.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2384,9 +2381,9 @@ f+T04_SF_t3_dust.eps>
 f+T04_SF_t3_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 166712 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/gr_OH_1sig_I
-06relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/gr_OH_1sig_
-I06relations_dwarf+T04_SF_t3_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/gr_OH_1sig_I0
+6relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/gr_OH_1sig_I
+06relations_dwarf+T04_SF_t3_dust.eps>
 (epstopdf)             \includegraphics on input line 938.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2408,9 +2405,9 @@ f_SF_t3_dust_scatterGRbin.eps>
 f_SF_t3_dust_scatterGRbin-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 153976 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/gr_NO_1sig_I
-06relations_dwarf_SF_t3_dust_scatterGRbin-eps-converted-to.pdf Images/Paper3/gr
-_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterGRbin.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/gr_NO_1sig_I0
+6relations_dwarf_SF_t3_dust_scatterGRbin-eps-converted-to.pdf Images/Paper3/gr_
+NO_1sig_I06relations_dwarf_SF_t3_dust_scatterGRbin.eps>
 (epstopdf)             \includegraphics on input line 939.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2437,9 +2434,9 @@ rf+T04_SF_t3_dust.eps>
 rf+T04_SF_t3_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 302633 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/SFR_OH_1sig_
-I06relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/SFR_OH_1si
-g_I06relations_dwarf+T04_SF_t3_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/SFR_OH_1sig_I
+06relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/SFR_OH_1sig
+_I06relations_dwarf+T04_SF_t3_dust.eps>
 (epstopdf)             \includegraphics on input line 992.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2461,9 +2458,9 @@ rf_SF_t3_dust_scatterSFRbin.eps>
 rf_SF_t3_dust_scatterSFRbin-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-21 15:55:49
 (epstopdf)                    size: 183234 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/SFR_NO_1sig_
-I06relations_dwarf_SF_t3_dust_scatterSFRbin-eps-converted-to.pdf Images/Paper3/
-SFR_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterSFRbin.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/SFR_NO_1sig_I
+06relations_dwarf_SF_t3_dust_scatterSFRbin-eps-converted-to.pdf Images/Paper3/S
+FR_NO_1sig_I06relations_dwarf_SF_t3_dust_scatterSFRbin.eps>
 (epstopdf)             \includegraphics on input line 993.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2485,9 +2482,9 @@ arf+T04_SF_t3_dust.eps>
 arf+T04_SF_t3_dust-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 173536 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/sSFR_OH_1sig
-_I06relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/sSFR_OH_1
-sig_I06relations_dwarf+T04_SF_t3_dust.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/sSFR_OH_1sig_
+I06relations_dwarf+T04_SF_t3_dust-eps-converted-to.pdf Images/Paper3/sSFR_OH_1s
+ig_I06relations_dwarf+T04_SF_t3_dust.eps>
 (epstopdf)             \includegraphics on input line 1009.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2509,9 +2506,9 @@ arf_SF_t3_dust_scattersSFRbin.eps>
 arf_SF_t3_dust_scattersSFRbin-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-16 11:54:02
 (epstopdf)                    size: 152373 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Paper3/sSFR_NO_1sig
-_I06relations_dwarf_SF_t3_dust_scattersSFRbin-eps-converted-to.pdf Images/Paper
-3/sSFR_NO_1sig_I06relations_dwarf_SF_t3_dust_scattersSFRbin.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Paper3/sSFR_NO_1sig_
+I06relations_dwarf_SF_t3_dust_scattersSFRbin-eps-converted-to.pdf Images/Paper3
+/sSFR_NO_1sig_I06relations_dwarf_SF_t3_dust_scattersSFRbin.eps>
 (epstopdf)             \includegraphics on input line 1010.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2557,141 +2554,556 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 112.
 
 [105] [106] [107] [108]
-<Images/smallScaleEnvironment/dwarf_ur_300.png, id=3490, 433.62pt x 867.24pt>
-File: Images/smallScaleEnvironment/dwarf_ur_300.png Graphic file (type png)
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_ur.eps>
+(epstopdf)                    date: 2017-06-22 12:40:04
+(epstopdf)                    size: 171819 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 16:20:01
+(epstopdf)                    size: 176689 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_absDist_ur-eps-converted-to.pdf Images/smallScaleEnvi
+ronment/1sig_dwarf_I06relations_absDist_ur.eps>
+(epstopdf)             \includegraphics on input line 301.
+Package epstopdf Info: Output file is already uptodate.
 
-<use Images/smallScaleEnvironment/dwarf_ur_300.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_300.png used on 
-input line 301.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_ur-eps-converted-
+to.pdf, id=3490, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_ur-eps-conve
+rted-to.pdf Graphic file (type pdf)
 
-<Images/smallScaleEnvironment/dwarf_ur_300_group.png, id=3491, 433.62pt x 867.2
-4pt>
-File: Images/smallScaleEnvironment/dwarf_ur_300_group.png Graphic file (type pn
-g)
- <use Images/smallScaleEnvironment/dwarf_ur_300_group.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_300_group.png us
-ed on input line 302.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
- [109] [110 <./Images/smallScaleEnvironment/dwarf_ur_300.png> <./Images/smallSc
-aleEnvironment/dwarf_ur_300_group.png>]
-<Images/smallScaleEnvironment/dwarf_sSFR_300.png, id=3515, 433.62pt x 867.24pt>
-File: Images/smallScaleEnvironment/dwarf_sSFR_300.png Graphic file (type png)
-<use Images/smallScaleEnvironment/dwarf_sSFR_300.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_sSFR_300.png used o
-n input line 344.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_ur-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_a
+bsDist_ur-eps-converted-to.pdf used on input line 301.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_ur.eps>
+(epstopdf)                    date: 2017-06-22 12:59:11
+(epstopdf)                    size: 83765 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 16:20:01
+(epstopdf)                    size: 81097 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupAbsDist_ur-eps-converted-to.pdf Images/smallScal
+eEnvironment/1sig_dwarf_I06relations_groupAbsDist_ur.eps>
+(epstopdf)             \includegraphics on input line 302.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/smallScaleEnvironment/dwarf_sSFR_300_group.png, id=3516, 433.62pt x 867
-.24pt>
-File: Images/smallScaleEnvironment/dwarf_sSFR_300_group.png Graphic file (type 
-png)
- <use Images/smallScaleEnvironment/dwarf_sSFR_300_group.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_sSFR_300_group.png 
-used on input line 345.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_ur-eps-conve
+rted-to.pdf, id=3491, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_ur-eps-
+converted-to.pdf Graphic file (type pdf)
 
-<Images/smallScaleEnvironment/dwarf_OH_300.png, id=3526, 433.62pt x 867.24pt>
-File: Images/smallScaleEnvironment/dwarf_OH_300.png Graphic file (type png)
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_ur-eps-c
+onverted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupAbsDist_ur-eps-converted-to.pdf used on input line 302.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_ur.eps>
+(epstopdf)                    date: 2017-06-22 12:42:43
+(epstopdf)                    size: 116084 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 16:20:35
+(epstopdf)                    size: 111126 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_virDist_ur-eps-converted-to.pdf Images/smallScaleEnvi
+ronment/1sig_dwarf_I06relations_virDist_ur.eps>
+(epstopdf)             \includegraphics on input line 303.
+Package epstopdf Info: Output file is already uptodate.
 
-<use Images/smallScaleEnvironment/dwarf_OH_300.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_OH_300.png used on 
-input line 380.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_ur-eps-converted-
+to.pdf, id=3492, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_ur-eps-conve
+rted-to.pdf Graphic file (type pdf)
 
-<Images/smallScaleEnvironment/dwarf_OH_300_group.png, id=3527, 433.62pt x 867.2
-4pt>
-File: Images/smallScaleEnvironment/dwarf_OH_300_group.png Graphic file (type pn
-g)
- <use Images/smallScaleEnvironment/dwarf_OH_300_group.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_OH_300_group.png us
-ed on input line 381.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
- [111] [112 <./Images/smallScaleEnvironment/dwarf_sSFR_300.png> <./Images/small
-ScaleEnvironment/dwarf_sSFR_300_group.png>] [113 <./Images/smallScaleEnvironmen
-t/dwarf_OH_300.png> <./Images/smallScaleEnvironment/dwarf_OH_300_group.png>]
-<Images/smallScaleEnvironment/dwarf_NH_300.png, id=3553, 433.62pt x 867.24pt>
-File: Images/smallScaleEnvironment/dwarf_NH_300.png Graphic file (type png)
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_ur-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_v
+irDist_ur-eps-converted-to.pdf used on input line 303.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_ur.eps>
+(epstopdf)                    date: 2017-06-22 13:08:45
+(epstopdf)                    size: 64150 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 16:20:35
+(epstopdf)                    size: 63151 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupRDist_ur-eps-converted-to.pdf Images/smallScaleE
+nvironment/1sig_dwarf_I06relations_groupRDist_ur.eps>
+(epstopdf)             \includegraphics on input line 304.
+Package epstopdf Info: Output file is already uptodate.
 
-<use Images/smallScaleEnvironment/dwarf_NH_300.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NH_300.png used on 
-input line 420.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_ur-eps-convert
+ed-to.pdf, id=3493, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_ur-eps-co
+nverted-to.pdf Graphic file (type pdf)
 
-<Images/smallScaleEnvironment/dwarf_NH_300_group.png, id=3554, 433.62pt x 867.2
-4pt>
-File: Images/smallScaleEnvironment/dwarf_NH_300_group.png Graphic file (type pn
-g)
- <use Images/smallScaleEnvironment/dwarf_NH_300_group.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NH_300_group.png us
-ed on input line 421.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_ur-eps-con
+verted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupRDist_ur-eps-converted-to.pdf used on input line 304.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+ [109] [110 <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_ur-
+eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupAbsDist_ur-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf
+_I06relations_virDist_ur-eps-converted-to.pdf> <./Images/smallScaleEnvironment/
+1sig_dwarf_I06relations_groupRDist_ur-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_sSFR.eps>
+(epstopdf)                    date: 2017-06-22 12:40:19
+(epstopdf)                    size: 165079 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_sSFR-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:11:47
+(epstopdf)                    size: 165223 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_absDist_sSFR-eps-converted-to.pdf Images/smallScaleEn
+vironment/1sig_dwarf_I06relations_absDist_sSFR.eps>
+(epstopdf)             \includegraphics on input line 353.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/smallScaleEnvironment/dwarf_NO_300.png, id=3558, 433.62pt x 867.24pt>
-File: Images/smallScaleEnvironment/dwarf_NO_300.png Graphic file (type png)
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_sSFR-eps-converte
+d-to.pdf, id=3551, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_sSFR-eps-con
+verted-to.pdf Graphic file (type pdf)
 
-<use Images/smallScaleEnvironment/dwarf_NO_300.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NO_300.png used on 
-input line 458.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_sSFR-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_a
+bsDist_sSFR-eps-converted-to.pdf used on input line 353.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_sSFR.eps>
+(epstopdf)                    date: 2017-06-22 13:01:04
+(epstopdf)                    size: 80882 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_sSFR-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:11:47
+(epstopdf)                    size: 79190 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupAbsDist_sSFR-eps-converted-to.pdf Images/smallSc
+aleEnvironment/1sig_dwarf_I06relations_groupAbsDist_sSFR.eps>
+(epstopdf)             \includegraphics on input line 354.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/smallScaleEnvironment/dwarf_NO_300_group.png, id=3559, 433.62pt x 867.2
-4pt>
-File: Images/smallScaleEnvironment/dwarf_NO_300_group.png Graphic file (type pn
-g)
- <use Images/smallScaleEnvironment/dwarf_NO_300_group.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_NO_300_group.png us
-ed on input line 459.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_sSFR-eps-con
+verted-to.pdf, id=3552, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_sSFR-ep
+s-converted-to.pdf Graphic file (type pdf)
 
-Overfull \hbox (17.71364pt too wide) in paragraph at lines 493--536
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_sSFR-eps
+-converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupAbsDist_sSFR-eps-converted-to.pdf used on input line 354.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_sSFR.eps>
+(epstopdf)                    date: 2017-06-22 12:49:56
+(epstopdf)                    size: 113744 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_sSFR-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:11:47
+(epstopdf)                    size: 108338 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_virDist_sSFR-eps-converted-to.pdf Images/smallScaleEn
+vironment/1sig_dwarf_I06relations_virDist_sSFR.eps>
+(epstopdf)             \includegraphics on input line 355.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_sSFR-eps-converte
+d-to.pdf, id=3553, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_sSFR-eps-con
+verted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_sSFR-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_v
+irDist_sSFR-eps-converted-to.pdf used on input line 355.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_sSFR.eps>
+(epstopdf)                    date: 2017-06-22 13:10:27
+(epstopdf)                    size: 62705 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_sSFR-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:11:47
+(epstopdf)                    size: 61964 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupRDist_sSFR-eps-converted-to.pdf Images/smallScal
+eEnvironment/1sig_dwarf_I06relations_groupRDist_sSFR.eps>
+(epstopdf)             \includegraphics on input line 356.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_sSFR-eps-conve
+rted-to.pdf, id=3554, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_sSFR-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_sSFR-eps-c
+onverted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupRDist_sSFR-eps-converted-to.pdf used on input line 356.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_OH.eps>
+(epstopdf)                    date: 2017-06-22 12:40:31
+(epstopdf)                    size: 173870 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_OH-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:13:52
+(epstopdf)                    size: 184151 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_absDist_OH-eps-converted-to.pdf Images/smallScaleEnvi
+ronment/1sig_dwarf_I06relations_absDist_OH.eps>
+(epstopdf)             \includegraphics on input line 393.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_OH-eps-converted-
+to.pdf, id=3564, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_OH-eps-conve
+rted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_OH-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_a
+bsDist_OH-eps-converted-to.pdf used on input line 393.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_OH.eps>
+(epstopdf)                    date: 2017-06-22 13:02:47
+(epstopdf)                    size: 89754 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_OH-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:13:53
+(epstopdf)                    size: 86291 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupAbsDist_OH-eps-converted-to.pdf Images/smallScal
+eEnvironment/1sig_dwarf_I06relations_groupAbsDist_OH.eps>
+(epstopdf)             \includegraphics on input line 394.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_OH-eps-conve
+rted-to.pdf, id=3565, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_OH-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_OH-eps-c
+onverted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupAbsDist_OH-eps-converted-to.pdf used on input line 394.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_OH.eps>
+(epstopdf)                    date: 2017-06-22 12:51:46
+(epstopdf)                    size: 116883 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_OH-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:13:53
+(epstopdf)                    size: 111506 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_virDist_OH-eps-converted-to.pdf Images/smallScaleEnvi
+ronment/1sig_dwarf_I06relations_virDist_OH.eps>
+(epstopdf)             \includegraphics on input line 395.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_OH-eps-converted-
+to.pdf, id=3566, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_OH-eps-conve
+rted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_OH-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_v
+irDist_OH-eps-converted-to.pdf used on input line 395.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_OH.eps>
+(epstopdf)                    date: 2017-06-22 13:12:00
+(epstopdf)                    size: 66951 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_OH-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:13:53
+(epstopdf)                    size: 65549 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupRDist_OH-eps-converted-to.pdf Images/smallScaleE
+nvironment/1sig_dwarf_I06relations_groupRDist_OH.eps>
+(epstopdf)             \includegraphics on input line 396.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_OH-eps-convert
+ed-to.pdf, id=3567, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_OH-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_OH-eps-con
+verted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupRDist_OH-eps-converted-to.pdf used on input line 396.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_NH.eps>
+(epstopdf)                    date: 2017-06-22 12:40:43
+(epstopdf)                    size: 177379 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_NH-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:15:48
+(epstopdf)                    size: 193863 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_absDist_NH-eps-converted-to.pdf Images/smallScaleEnvi
+ronment/1sig_dwarf_I06relations_absDist_NH.eps>
+(epstopdf)             \includegraphics on input line 437.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NH-eps-converted-
+to.pdf, id=3571, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NH-eps-conve
+rted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NH-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_a
+bsDist_NH-eps-converted-to.pdf used on input line 437.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_NH.eps>
+(epstopdf)                    date: 2017-06-22 13:04:17
+(epstopdf)                    size: 88483 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_NH-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:15:48
+(epstopdf)                    size: 85052 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupAbsDist_NH-eps-converted-to.pdf Images/smallScal
+eEnvironment/1sig_dwarf_I06relations_groupAbsDist_NH.eps>
+(epstopdf)             \includegraphics on input line 438.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NH-eps-conve
+rted-to.pdf, id=3572, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NH-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NH-eps-c
+onverted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupAbsDist_NH-eps-converted-to.pdf used on input line 438.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_NH.eps>
+(epstopdf)                    date: 2017-06-22 12:53:51
+(epstopdf)                    size: 115771 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_NH-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:15:49
+(epstopdf)                    size: 110205 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_virDist_NH-eps-converted-to.pdf Images/smallScaleEnvi
+ronment/1sig_dwarf_I06relations_virDist_NH.eps>
+(epstopdf)             \includegraphics on input line 439.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NH-eps-converted-
+to.pdf, id=3573, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NH-eps-conve
+rted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NH-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_v
+irDist_NH-eps-converted-to.pdf used on input line 439.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_NH.eps>
+(epstopdf)                    date: 2017-06-22 13:13:40
+(epstopdf)                    size: 65097 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_NH-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 17:15:49
+(epstopdf)                    size: 63948 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupRDist_NH-eps-converted-to.pdf Images/smallScaleE
+nvironment/1sig_dwarf_I06relations_groupRDist_NH.eps>
+(epstopdf)             \includegraphics on input line 440.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NH-eps-convert
+ed-to.pdf, id=3574, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NH-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NH-eps-con
+verted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupRDist_NH-eps-converted-to.pdf used on input line 440.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+ [111] [112 <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_sSF
+R-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations
+_groupAbsDist_sSFR-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_d
+warf_I06relations_virDist_sSFR-eps-converted-to.pdf> <./Images/smallScaleEnviro
+nment/1sig_dwarf_I06relations_groupRDist_sSFR-eps-converted-to.pdf>] [113 <./Im
+ages/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_OH-eps-converted-to.
+pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_OH-ep
+s-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_vir
+Dist_OH-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06rel
+ations_groupRDist_OH-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_NO.eps>
+(epstopdf)                    date: 2017-06-22 12:40:54
+(epstopdf)                    size: 177855 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist_NO-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 18:03:06
+(epstopdf)                    size: 185933 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_absDist_NO-eps-converted-to.pdf Images/smallScaleEnvi
+ronment/1sig_dwarf_I06relations_absDist_NO.eps>
+(epstopdf)             \includegraphics on input line 479.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-converted-
+to.pdf, id=3667, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-conve
+rted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_a
+bsDist_NO-eps-converted-to.pdf used on input line 479.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_NO.eps>
+(epstopdf)                    date: 2017-06-22 13:06:08
+(epstopdf)                    size: 89498 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupAbsDist_NO-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 18:03:06
+(epstopdf)                    size: 86211 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupAbsDist_NO-eps-converted-to.pdf Images/smallScal
+eEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO.eps>
+(epstopdf)             \includegraphics on input line 480.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO-eps-conve
+rted-to.pdf, id=3668, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO-eps-
+converted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO-eps-c
+onverted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupAbsDist_NO-eps-converted-to.pdf used on input line 480.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_NO.eps>
+(epstopdf)                    date: 2017-06-22 12:55:52
+(epstopdf)                    size: 118872 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist_NO-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 18:03:06
+(epstopdf)                    size: 112574 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_virDist_NO-eps-converted-to.pdf Images/smallScaleEnvi
+ronment/1sig_dwarf_I06relations_virDist_NO.eps>
+(epstopdf)             \includegraphics on input line 481.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NO-eps-converted-
+to.pdf, id=3669, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NO-eps-conve
+rted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NO-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_v
+irDist_NO-eps-converted-to.pdf used on input line 481.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_NO.eps>
+(epstopdf)                    date: 2017-06-22 13:15:03
+(epstopdf)                    size: 66837 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_groupRDist_NO-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-10 18:03:07
+(epstopdf)                    size: 65263 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_groupRDist_NO-eps-converted-to.pdf Images/smallScaleE
+nvironment/1sig_dwarf_I06relations_groupRDist_NO.eps>
+(epstopdf)             \includegraphics on input line 482.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NO-eps-convert
+ed-to.pdf, id=3670, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NO-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NO-eps-con
+verted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
+roupRDist_NO-eps-converted-to.pdf used on input line 482.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+
+Overfull \hbox (17.71364pt too wide) in paragraph at lines 522--565
  [][] 
  []
 
-[114] [115 <./Images/smallScaleEnvironment/dwarf_NH_300.png> <./Images/smallSca
-leEnvironment/dwarf_NH_300_group.png>] [116 <./Images/smallScaleEnvironment/dwa
-rf_NO_300.png> <./Images/smallScaleEnvironment/dwarf_NO_300_group.png>]
-[117]
-<Images/smallScaleEnvironment/dwarf_ur_150.png, id=3591, 433.62pt x 867.24pt>
+[114] [115 <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NH-e
+ps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_gr
+oupAbsDist_NH-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_
+I06relations_virDist_NH-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1
+sig_dwarf_I06relations_groupRDist_NH-eps-converted-to.pdf>] [116 <./Images/smal
+lScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-converted-to.pdf> <./I
+mages/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO-eps-convert
+ed-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NO-e
+ps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_gr
+oupRDist_NO-eps-converted-to.pdf>] [117]
+<Images/smallScaleEnvironment/dwarf_ur_150.png, id=3770, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_150.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_150.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_150.png used on 
-input line 555.
+input line 584.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/dwarf_ur_600.png, id=3592, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_ur_600.png, id=3771, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_600.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_600.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_600.png used on 
-input line 556.
+input line 585.
 (pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
 
-<Images/smallScaleEnvironment/ALLdwarf_ur_300.png, id=3601, 433.62pt x 867.24pt
+<Images/smallScaleEnvironment/ALLdwarf_ur_300.png, id=3780, 433.62pt x 867.24pt
 >
 File: Images/smallScaleEnvironment/ALLdwarf_ur_300.png Graphic file (type png)
  <use Images/smallScaleEnvironment/ALLdwarf_ur_300.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/ALLdwarf_ur_300.png used 
-on input line 586.
+on input line 615.
 (pdftex.def)             Requested size: 216.81001pt x 433.61894pt.
 
-<Images/smallScaleEnvironment/Mr_distribution.png, id=3608, 867.24pt x 867.24pt
+<Images/smallScaleEnvironment/Mr_distribution.png, id=3787, 867.24pt x 867.24pt
 >
 File: Images/smallScaleEnvironment/Mr_distribution.png Graphic file (type png)
  <use Images/smallScaleEnvironment/Mr_distribution.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/Mr_distribution.png used 
-on input line 612.
+on input line 641.
 (pdftex.def)             Requested size: 433.62003pt x 433.61894pt.
  [118] [119 <./Images/smallScaleEnvironment/dwarf_ur_150.png> <./Images/smallSc
 aleEnvironment/dwarf_ur_600.png>] [120 <./Images/smallScaleEnvironment/ALLdwarf
 _ur_300.png>] [121 <./Images/smallScaleEnvironment/Mr_distribution.png>]
-<Images/smallScaleEnvironment/dwarf_ur_xyz.png, id=3633, 433.62pt x 867.24pt>
+<Images/smallScaleEnvironment/dwarf_ur_xyz.png, id=3813, 433.62pt x 867.24pt>
 File: Images/smallScaleEnvironment/dwarf_ur_xyz.png Graphic file (type png)
 
 <use Images/smallScaleEnvironment/dwarf_ur_xyz.png>
 Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_xyz.png used on 
-input line 649.
+input line 678.
 (pdftex.def)             Requested size: 216.81001pt x 433.61894pt.
  [122] [123 <./Images/smallScaleEnvironment/dwarf_ur_xyz.png>] [124] [125]) [12
 6]
@@ -2706,11 +3118,11 @@ Package epstopdf Info: Source file: <Images/GV/ur_CMD_contour.eps>
 pdf>
 (epstopdf)                    date: 2017-05-23 18:44:22
 (epstopdf)                    size: 60157 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/ur_CMD_contour-e
-ps-converted-to.pdf Images/GV/ur_CMD_contour.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/ur_CMD_contour-ep
+s-converted-to.pdf Images/GV/ur_CMD_contour.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<Images/GV/ur_CMD_contour-eps-converted-to.pdf, id=3699, 578.16pt x 433.62pt>
+<Images/GV/ur_CMD_contour-eps-converted-to.pdf, id=3878, 578.16pt x 433.62pt>
 File: Images/GV/ur_CMD_contour-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/ur_CMD_contour-eps-converted-to.pdf>
@@ -2723,12 +3135,12 @@ Package epstopdf Info: Source file: <Images/GV/ur_hist.eps>
 (epstopdf)             Output file: <Images/GV/ur_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-05-23 18:44:23
 (epstopdf)                    size: 37363 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/ur_hist-eps-conv
-erted-to.pdf Images/GV/ur_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/ur_hist-eps-conve
+rted-to.pdf Images/GV/ur_hist.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/ur_hist-eps-converted-to.pdf, id=3700, 492.84125pt x 376.40625pt>
+<Images/GV/ur_hist-eps-converted-to.pdf, id=3879, 492.84125pt x 376.40625pt>
 File: Images/GV/ur_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/ur_hist-eps-converted-to.pdf>
@@ -2753,12 +3165,12 @@ Package epstopdf Info: Source file: <Images/GV/NUVr_CMD_3pop_scatter.eps>
 ted-to.pdf>
 (epstopdf)                    date: 2017-05-23 18:44:23
 (epstopdf)                    size: 732527 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/NUVr_CMD_3pop_sc
-atter-eps-converted-to.pdf Images/GV/NUVr_CMD_3pop_scatter.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/NUVr_CMD_3pop_sca
+tter-eps-converted-to.pdf Images/GV/NUVr_CMD_3pop_scatter.eps>
 (epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf, id=3786, 578.16pt x 433.
+<Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf, id=3966, 578.16pt x 433.
 62pt>
 File: Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2773,12 +3185,12 @@ Package epstopdf Info: Source file: <Images/GV/NUVr_CMDclassifications.eps>
 erted-to.pdf>
 (epstopdf)                    date: 2017-05-23 18:44:24
 (epstopdf)                    size: 62659 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/NUVr_CMDclassifi
-cations-eps-converted-to.pdf Images/GV/NUVr_CMDclassifications.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/NUVr_CMDclassific
+ations-eps-converted-to.pdf Images/GV/NUVr_CMDclassifications.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf, id=3789, 562.1pt x 421
+<Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf, id=3969, 562.1pt x 421
 .575pt>
 File: Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2796,12 +3208,12 @@ Package epstopdf Info: Source file: <Images/GV/Mstar_hist.eps>
 
 (epstopdf)                    date: 2017-06-05 12:48:12
 (epstopdf)                    size: 75522 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/Mstar_hist-eps-c
-onverted-to.pdf Images/GV/Mstar_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/Mstar_hist-eps-co
+nverted-to.pdf Images/GV/Mstar_hist.eps>
 (epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/Mstar_hist-eps-converted-to.pdf, id=3853, 562.1pt x 421.575pt>
+<Images/GV/Mstar_hist-eps-converted-to.pdf, id=4032, 562.1pt x 421.575pt>
 File: Images/GV/Mstar_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/Mstar_hist-eps-converted-to.pdf>
@@ -2815,12 +3227,12 @@ Package epstopdf Info: Source file: <Images/GV/SFR_hist.eps>
 (epstopdf)             Output file: <Images/GV/SFR_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-05 14:19:42
 (epstopdf)                    size: 80919 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/SFR_hist-eps-con
-verted-to.pdf Images/GV/SFR_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/SFR_hist-eps-conv
+erted-to.pdf Images/GV/SFR_hist.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/SFR_hist-eps-converted-to.pdf, id=3863, 562.1pt x 421.575pt>
+<Images/GV/SFR_hist-eps-converted-to.pdf, id=4042, 562.1pt x 421.575pt>
 File: Images/GV/SFR_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/SFR_hist-eps-converted-to.pdf>
@@ -2833,12 +3245,12 @@ Package epstopdf Info: Source file: <Images/GV/sSFR_hist.eps>
 (epstopdf)             Output file: <Images/GV/sSFR_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-05 14:19:42
 (epstopdf)                    size: 82000 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/sSFR_hist-eps-co
-nverted-to.pdf Images/GV/sSFR_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/sSFR_hist-eps-con
+verted-to.pdf Images/GV/sSFR_hist.eps>
 (epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/sSFR_hist-eps-converted-to.pdf, id=3864, 562.1pt x 421.575pt>
+<Images/GV/sSFR_hist-eps-converted-to.pdf, id=4043, 562.1pt x 421.575pt>
 File: Images/GV/sSFR_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/sSFR_hist-eps-converted-to.pdf>
@@ -2853,12 +3265,12 @@ Package epstopdf Info: Source file: <Images/GV/Z12logOH_I06relations_t3.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2017-06-05 14:19:42
 (epstopdf)                    size: 6794 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/Z12logOH_I06rela
-tions_t3-eps-converted-to.pdf Images/GV/Z12logOH_I06relations_t3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/Z12logOH_I06relat
+ions_t3-eps-converted-to.pdf Images/GV/Z12logOH_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf, id=3884, 562.1pt x 42
+<Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf, id=4063, 562.1pt x 42
 1.575pt>
 File: Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2873,12 +3285,12 @@ Package epstopdf Info: Source file: <Images/GV/N12logNH_I06relations_t3.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2017-06-05 14:19:43
 (epstopdf)                    size: 7554 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/N12logNH_I06rela
-tions_t3-eps-converted-to.pdf Images/GV/N12logNH_I06relations_t3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/N12logNH_I06relat
+ions_t3-eps-converted-to.pdf Images/GV/N12logNH_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf, id=3885, 562.1pt x 42
+<Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf, id=4064, 562.1pt x 42
 1.575pt>
 File: Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2893,12 +3305,12 @@ Package epstopdf Info: Source file: <Images/GV/logNO_I06relations_t3.eps>
 ted-to.pdf>
 (epstopdf)                    date: 2017-06-05 12:48:12
 (epstopdf)                    size: 7116 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/logNO_I06relatio
-ns_t3-eps-converted-to.pdf Images/GV/logNO_I06relations_t3.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/logNO_I06relation
+s_t3-eps-converted-to.pdf Images/GV/logNO_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/logNO_I06relations_t3-eps-converted-to.pdf, id=3886, 562.1pt x 421.5
+<Images/GV/logNO_I06relations_t3-eps-converted-to.pdf, id=4065, 562.1pt x 421.5
 75pt>
 File: Images/GV/logNO_I06relations_t3-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2913,12 +3325,12 @@ Package epstopdf Info: Source file: <Images/GV/voidFrac_CMD.eps>
 f>
 (epstopdf)                    date: 2017-05-23 18:44:24
 (epstopdf)                    size: 9322 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/voidFrac_CMD-eps
--converted-to.pdf Images/GV/voidFrac_CMD.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/voidFrac_CMD-eps-
+converted-to.pdf Images/GV/voidFrac_CMD.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/voidFrac_CMD-eps-converted-to.pdf, id=3889, 562.1pt x 421.575pt>
+<Images/GV/voidFrac_CMD-eps-converted-to.pdf, id=4068, 562.1pt x 421.575pt>
 File: Images/GV/voidFrac_CMD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/voidFrac_CMD-eps-converted-to.pdf>
@@ -2932,12 +3344,12 @@ Package epstopdf Info: Source file: <Images/GV/wallFrac_CMD.eps>
 f>
 (epstopdf)                    date: 2017-05-23 18:44:25
 (epstopdf)                    size: 9318 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/wallFrac_CMD-eps
--converted-to.pdf Images/GV/wallFrac_CMD.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/wallFrac_CMD-eps-
+converted-to.pdf Images/GV/wallFrac_CMD.eps>
 (epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/wallFrac_CMD-eps-converted-to.pdf, id=3890, 562.1pt x 421.575pt>
+<Images/GV/wallFrac_CMD-eps-converted-to.pdf, id=4069, 562.1pt x 421.575pt>
 File: Images/GV/wallFrac_CMD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/wallFrac_CMD-eps-converted-to.pdf>
@@ -2957,14 +3369,14 @@ _dust_hist.eps>
 _dust_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-06 13:57:28
 (epstopdf)                    size: 13434 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/1sig_all_BPT_t3_
-12logOHrelations_dust_hist-eps-converted-to.pdf Images/GV/1sig_all_BPT_t3_12log
-OHrelations_dust_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/1sig_all_BPT_t3_1
+2logOHrelations_dust_hist-eps-converted-to.pdf Images/GV/1sig_all_BPT_t3_12logO
+Hrelations_dust_hist.eps>
 (epstopdf)             \includegraphics on input line 421.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/GV/1sig_all_BPT_t3_12logOHrelations_dust_hist-eps-converted-to.pdf, id=
-3968, 562.1pt x 421.575pt>
+4148, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_12logOHrelations_dust_hist-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -2980,14 +3392,14 @@ _dust_hist.eps>
 _dust_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-06 13:57:29
 (epstopdf)                    size: 13113 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/1sig_all_BPT_t3_
-12logNHrelations_dust_hist-eps-converted-to.pdf Images/GV/1sig_all_BPT_t3_12log
-NHrelations_dust_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/1sig_all_BPT_t3_1
+2logNHrelations_dust_hist-eps-converted-to.pdf Images/GV/1sig_all_BPT_t3_12logN
+Hrelations_dust_hist.eps>
 (epstopdf)             \includegraphics on input line 422.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/GV/1sig_all_BPT_t3_12logNHrelations_dust_hist-eps-converted-to.pdf, id=
-3969, 562.1pt x 421.575pt>
+4149, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_12logNHrelations_dust_hist-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -3003,14 +3415,14 @@ ust_hist.eps>
 ust_hist-eps-converted-to.pdf>
 (epstopdf)                    date: 2017-06-06 13:57:29
 (epstopdf)                    size: 12356 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/GV/1sig_all_BPT_t3_
-logNOrelations_dust_hist-eps-converted-to.pdf Images/GV/1sig_all_BPT_t3_logNOre
-lations_dust_hist.eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/GV/1sig_all_BPT_t3_l
+ogNOrelations_dust_hist-eps-converted-to.pdf Images/GV/1sig_all_BPT_t3_logNOrel
+ations_dust_hist.eps>
 (epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to.pdf, id=39
-70, 562.1pt x 421.575pt>
+<Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to.pdf, id=41
+50, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -3080,12 +3492,12 @@ Package epstopdf Info: Source file: <Images/Appendix/[OIII].eps>
 f>
 (epstopdf)                    date: 2017-06-13 18:39:10
 (epstopdf)                    size: 15305 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Appendix/[OIII]-eps
--converted-to.pdf Images/Appendix/[OIII].eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Appendix/[OIII]-eps-
+converted-to.pdf Images/Appendix/[OIII].eps>
 (epstopdf)             \includegraphics on input line 252.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Appendix/[OIII]-eps-converted-to.pdf, id=4155, 578.16pt x 433.62pt>
+<Images/Appendix/[OIII]-eps-converted-to.pdf, id=4334, 578.16pt x 433.62pt>
 File: Images/Appendix/[OIII]-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/Appendix/[OIII]-eps-converted-to.pdf>
@@ -3100,12 +3512,12 @@ Package epstopdf Info: Source file: <Images/Appendix/[SII].eps>
 >
 (epstopdf)                    date: 2017-06-13 18:39:10
 (epstopdf)                    size: 18008 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/Appendix/[SII]-eps-
-converted-to.pdf Images/Appendix/[SII].eps>
+(epstopdf)             Command: <epstopdf --outfile=Images/Appendix/[SII]-eps-c
+onverted-to.pdf Images/Appendix/[SII].eps>
 (epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Appendix/[SII]-eps-converted-to.pdf, id=4204, 578.16pt x 433.62pt>
+<Images/Appendix/[SII]-eps-converted-to.pdf, id=4383, 578.16pt x 433.62pt>
 File: Images/Appendix/[SII]-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/Appendix/[SII]-eps-converted-to.pdf>
@@ -3159,10 +3571,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  )
 (\end occurred when \iffalse on line 1068 was incomplete) 
 Here is how much of TeX's memory you used:
- 12991 strings out of 492995
- 215507 string characters out of 6132704
- 347903 words of memory out of 5000000
- 15534 multiletter control sequences out of 15000+600000
+ 13041 strings out of 492995
+ 221287 string characters out of 6132704
+ 347902 words of memory out of 5000000
+ 15574 multiletter control sequences out of 15000+600000
  14123 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,16n,94p,1357b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3195,10 +3607,10 @@ ts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 onts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msbm7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1000.pfb>
-Output written on Thesis.pdf (179 pages, 10426313 bytes).
+Output written on Thesis.pdf (179 pages, 11703130 bytes).
 PDF statistics:
- 4526 PDF objects out of 5155 (max. 8388607)
- 3682 compressed objects within 37 object streams
+ 4706 PDF objects out of 5155 (max. 8388607)
+ 3721 compressed objects within 38 object streams
  625 named destinations out of 1000 (max. 500000)
- 1496 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1546 words of extra memory for PDF output out of 10000 (max. 10000000)
 
