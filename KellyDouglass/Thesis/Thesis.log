@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 JUL 2017 18:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 JUL 2017 20:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2556,12 +2556,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [105] [106] [107] [108]
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_ur.eps>
-(epstopdf)                    date: 2017-06-22 12:40:04
-(epstopdf)                    size: 171819 bytes
+(epstopdf)                    date: 2017-07-17 15:50:55
+(epstopdf)                    size: 189097 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_ur-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 16:20:01
-(epstopdf)                    size: 176689 bytes
+(epstopdf)                    date: 2017-07-17 16:24:18
+(epstopdf)                    size: 192508 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_absDist_ur-eps-converted-to.pdf Images/smallScaleEnvi
 ronment/1sig_dwarf_I06relations_absDist_ur.eps>
@@ -2580,12 +2580,12 @@ bsDist_ur-eps-converted-to.pdf used on input line 301.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_ur.eps>
-(epstopdf)                    date: 2017-06-22 12:59:11
-(epstopdf)                    size: 83765 bytes
+(epstopdf)                    date: 2017-07-17 16:08:56
+(epstopdf)                    size: 103521 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_ur-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 16:20:01
-(epstopdf)                    size: 81097 bytes
+(epstopdf)                    date: 2017-07-17 16:24:18
+(epstopdf)                    size: 99506 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupAbsDist_ur-eps-converted-to.pdf Images/smallScal
 eEnvironment/1sig_dwarf_I06relations_groupAbsDist_ur.eps>
@@ -2604,12 +2604,12 @@ roupAbsDist_ur-eps-converted-to.pdf used on input line 302.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_ur.eps>
-(epstopdf)                    date: 2017-06-22 12:42:43
-(epstopdf)                    size: 116084 bytes
+(epstopdf)                    date: 2017-07-17 16:02:44
+(epstopdf)                    size: 145255 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_ur-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 16:20:35
-(epstopdf)                    size: 111126 bytes
+(epstopdf)                    date: 2017-07-17 16:24:18
+(epstopdf)                    size: 138803 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_virDist_ur-eps-converted-to.pdf Images/smallScaleEnvi
 ronment/1sig_dwarf_I06relations_virDist_ur.eps>
@@ -2628,12 +2628,12 @@ irDist_ur-eps-converted-to.pdf used on input line 303.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_ur.eps>
-(epstopdf)                    date: 2017-06-22 13:08:45
-(epstopdf)                    size: 64150 bytes
+(epstopdf)                    date: 2017-07-17 16:15:15
+(epstopdf)                    size: 79971 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_ur-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 16:20:35
-(epstopdf)                    size: 63151 bytes
+(epstopdf)                    date: 2017-07-17 16:24:19
+(epstopdf)                    size: 77753 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupRDist_ur-eps-converted-to.pdf Images/smallScaleE
 nvironment/1sig_dwarf_I06relations_groupRDist_ur.eps>
@@ -2657,12 +2657,12 @@ _I06relations_virDist_ur-eps-converted-to.pdf> <./Images/smallScaleEnvironment/
 1sig_dwarf_I06relations_groupRDist_ur-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_sSFR.eps>
-(epstopdf)                    date: 2017-06-22 12:40:19
-(epstopdf)                    size: 165079 bytes
+(epstopdf)                    date: 2017-07-17 15:53:47
+(epstopdf)                    size: 178480 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_sSFR-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:11:47
-(epstopdf)                    size: 165223 bytes
+(epstopdf)                    date: 2017-07-17 16:24:19
+(epstopdf)                    size: 164894 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_absDist_sSFR-eps-converted-to.pdf Images/smallScaleEn
 vironment/1sig_dwarf_I06relations_absDist_sSFR.eps>
@@ -2681,12 +2681,12 @@ bsDist_sSFR-eps-converted-to.pdf used on input line 353.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_sSFR.eps>
-(epstopdf)                    date: 2017-06-22 13:01:04
-(epstopdf)                    size: 80882 bytes
+(epstopdf)                    date: 2017-07-17 16:10:02
+(epstopdf)                    size: 98485 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_sSFR-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:11:47
-(epstopdf)                    size: 79190 bytes
+(epstopdf)                    date: 2017-07-17 16:24:19
+(epstopdf)                    size: 95559 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupAbsDist_sSFR-eps-converted-to.pdf Images/smallSc
 aleEnvironment/1sig_dwarf_I06relations_groupAbsDist_sSFR.eps>
@@ -2705,12 +2705,12 @@ roupAbsDist_sSFR-eps-converted-to.pdf used on input line 354.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_sSFR.eps>
-(epstopdf)                    date: 2017-06-22 12:49:56
-(epstopdf)                    size: 113744 bytes
+(epstopdf)                    date: 2017-07-17 16:04:10
+(epstopdf)                    size: 140869 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_sSFR-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:11:47
-(epstopdf)                    size: 108338 bytes
+(epstopdf)                    date: 2017-07-17 16:24:19
+(epstopdf)                    size: 154418 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_virDist_sSFR-eps-converted-to.pdf Images/smallScaleEn
 vironment/1sig_dwarf_I06relations_virDist_sSFR.eps>
@@ -2729,12 +2729,12 @@ irDist_sSFR-eps-converted-to.pdf used on input line 355.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_sSFR.eps>
-(epstopdf)                    date: 2017-06-22 13:10:27
-(epstopdf)                    size: 62705 bytes
+(epstopdf)                    date: 2017-07-17 16:16:54
+(epstopdf)                    size: 76555 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_sSFR-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:11:47
-(epstopdf)                    size: 61964 bytes
+(epstopdf)                    date: 2017-07-17 16:24:19
+(epstopdf)                    size: 74481 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupRDist_sSFR-eps-converted-to.pdf Images/smallScal
 eEnvironment/1sig_dwarf_I06relations_groupRDist_sSFR.eps>
@@ -2753,12 +2753,12 @@ roupRDist_sSFR-eps-converted-to.pdf used on input line 356.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_OH.eps>
-(epstopdf)                    date: 2017-06-22 12:40:31
-(epstopdf)                    size: 173870 bytes
+(epstopdf)                    date: 2017-07-17 15:58:35
+(epstopdf)                    size: 195025 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_OH-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:13:52
-(epstopdf)                    size: 184151 bytes
+(epstopdf)                    date: 2017-07-17 16:24:20
+(epstopdf)                    size: 192618 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_absDist_OH-eps-converted-to.pdf Images/smallScaleEnvi
 ronment/1sig_dwarf_I06relations_absDist_OH.eps>
@@ -2777,12 +2777,12 @@ bsDist_OH-eps-converted-to.pdf used on input line 393.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_OH.eps>
-(epstopdf)                    date: 2017-06-22 13:02:47
-(epstopdf)                    size: 89754 bytes
+(epstopdf)                    date: 2017-07-17 16:10:59
+(epstopdf)                    size: 106847 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_OH-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:13:53
-(epstopdf)                    size: 86291 bytes
+(epstopdf)                    date: 2017-07-17 16:24:20
+(epstopdf)                    size: 103153 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupAbsDist_OH-eps-converted-to.pdf Images/smallScal
 eEnvironment/1sig_dwarf_I06relations_groupAbsDist_OH.eps>
@@ -2801,12 +2801,12 @@ roupAbsDist_OH-eps-converted-to.pdf used on input line 394.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_OH.eps>
-(epstopdf)                    date: 2017-06-22 12:51:46
-(epstopdf)                    size: 116883 bytes
+(epstopdf)                    date: 2017-07-17 16:05:14
+(epstopdf)                    size: 146972 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_OH-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:13:53
-(epstopdf)                    size: 111506 bytes
+(epstopdf)                    date: 2017-07-17 16:24:20
+(epstopdf)                    size: 164859 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_virDist_OH-eps-converted-to.pdf Images/smallScaleEnvi
 ronment/1sig_dwarf_I06relations_virDist_OH.eps>
@@ -2825,12 +2825,12 @@ irDist_OH-eps-converted-to.pdf used on input line 395.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_OH.eps>
-(epstopdf)                    date: 2017-06-22 13:12:00
-(epstopdf)                    size: 66951 bytes
+(epstopdf)                    date: 2017-07-17 16:18:37
+(epstopdf)                    size: 84421 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_OH-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:13:53
-(epstopdf)                    size: 65549 bytes
+(epstopdf)                    date: 2017-07-17 16:24:20
+(epstopdf)                    size: 81336 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupRDist_OH-eps-converted-to.pdf Images/smallScaleE
 nvironment/1sig_dwarf_I06relations_groupRDist_OH.eps>
@@ -2849,12 +2849,12 @@ roupRDist_OH-eps-converted-to.pdf used on input line 396.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_NH.eps>
-(epstopdf)                    date: 2017-06-22 12:40:43
-(epstopdf)                    size: 177379 bytes
+(epstopdf)                    date: 2017-07-17 15:59:52
+(epstopdf)                    size: 198464 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_NH-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:15:48
-(epstopdf)                    size: 193863 bytes
+(epstopdf)                    date: 2017-07-17 16:24:21
+(epstopdf)                    size: 201100 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_absDist_NH-eps-converted-to.pdf Images/smallScaleEnvi
 ronment/1sig_dwarf_I06relations_absDist_NH.eps>
@@ -2873,12 +2873,12 @@ bsDist_NH-eps-converted-to.pdf used on input line 437.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_NH.eps>
-(epstopdf)                    date: 2017-06-22 13:04:17
-(epstopdf)                    size: 88483 bytes
+(epstopdf)                    date: 2017-07-17 16:11:53
+(epstopdf)                    size: 108053 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_NH-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:15:48
-(epstopdf)                    size: 85052 bytes
+(epstopdf)                    date: 2017-07-17 16:24:21
+(epstopdf)                    size: 103592 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupAbsDist_NH-eps-converted-to.pdf Images/smallScal
 eEnvironment/1sig_dwarf_I06relations_groupAbsDist_NH.eps>
@@ -2897,12 +2897,12 @@ roupAbsDist_NH-eps-converted-to.pdf used on input line 438.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_NH.eps>
-(epstopdf)                    date: 2017-06-22 12:53:51
-(epstopdf)                    size: 115771 bytes
+(epstopdf)                    date: 2017-07-17 16:06:22
+(epstopdf)                    size: 148519 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_NH-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:15:49
-(epstopdf)                    size: 110205 bytes
+(epstopdf)                    date: 2017-07-17 16:24:21
+(epstopdf)                    size: 141427 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_virDist_NH-eps-converted-to.pdf Images/smallScaleEnvi
 ronment/1sig_dwarf_I06relations_virDist_NH.eps>
@@ -2921,12 +2921,12 @@ irDist_NH-eps-converted-to.pdf used on input line 439.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_NH.eps>
-(epstopdf)                    date: 2017-06-22 13:13:40
-(epstopdf)                    size: 65097 bytes
+(epstopdf)                    date: 2017-07-17 16:20:11
+(epstopdf)                    size: 85040 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_NH-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 17:15:49
-(epstopdf)                    size: 63948 bytes
+(epstopdf)                    date: 2017-07-17 16:24:21
+(epstopdf)                    size: 82075 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupRDist_NH-eps-converted-to.pdf Images/smallScaleE
 nvironment/1sig_dwarf_I06relations_groupRDist_NH.eps>
@@ -2952,164 +2952,481 @@ ages/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_OH-eps-converted-to.
 pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_OH-ep
 s-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_vir
 Dist_OH-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06rel
-ations_groupRDist_OH-eps-converted-to.pdf>]
+ations_groupRDist_OH-eps-converted-to.pdf>] [114 <./Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_absDist_NH-eps-converted-to.pdf> <./Images/smallScale
+Environment/1sig_dwarf_I06relations_groupAbsDist_NH-eps-converted-to.pdf> <./Im
+ages/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NH-eps-converted-to.
+pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NH-eps-
+converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_NO.eps>
-(epstopdf)                    date: 2017-06-22 12:40:54
-(epstopdf)                    size: 177855 bytes
+(epstopdf)                    date: 2017-07-17 16:00:58
+(epstopdf)                    size: 196153 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_absDist_NO-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 18:03:06
-(epstopdf)                    size: 185933 bytes
+(epstopdf)                    date: 2017-07-17 16:24:21
+(epstopdf)                    size: 191948 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_absDist_NO-eps-converted-to.pdf Images/smallScaleEnvi
 ronment/1sig_dwarf_I06relations_absDist_NO.eps>
-(epstopdf)             \includegraphics on input line 479.
+(epstopdf)             \includegraphics on input line 477.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-converted-
-to.pdf, id=3667, 562.1pt x 421.575pt>
+to.pdf, id=3708, 562.1pt x 421.575pt>
 File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
 <use Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-conver
 ted-to.pdf>
 Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_a
-bsDist_NO-eps-converted-to.pdf used on input line 479.
+bsDist_NO-eps-converted-to.pdf used on input line 477.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_NO.eps>
-(epstopdf)                    date: 2017-06-22 13:06:08
-(epstopdf)                    size: 89498 bytes
+(epstopdf)                    date: 2017-07-17 16:12:37
+(epstopdf)                    size: 108556 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupAbsDist_NO-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 18:03:06
-(epstopdf)                    size: 86211 bytes
+(epstopdf)                    date: 2017-07-17 16:24:22
+(epstopdf)                    size: 104347 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupAbsDist_NO-eps-converted-to.pdf Images/smallScal
 eEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO.eps>
-(epstopdf)             \includegraphics on input line 480.
+(epstopdf)             \includegraphics on input line 478.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO-eps-conve
-rted-to.pdf, id=3668, 562.1pt x 421.575pt>
+rted-to.pdf, id=3709, 562.1pt x 421.575pt>
 File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO-eps-
 converted-to.pdf Graphic file (type pdf)
 
 <use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO-eps-c
 onverted-to.pdf>
 Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
-roupAbsDist_NO-eps-converted-to.pdf used on input line 480.
+roupAbsDist_NO-eps-converted-to.pdf used on input line 478.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_NO.eps>
-(epstopdf)                    date: 2017-06-22 12:55:52
-(epstopdf)                    size: 118872 bytes
+(epstopdf)                    date: 2017-07-17 16:07:10
+(epstopdf)                    size: 148314 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_virDist_NO-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 18:03:06
-(epstopdf)                    size: 112574 bytes
+(epstopdf)                    date: 2017-07-17 16:24:22
+(epstopdf)                    size: 142302 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_virDist_NO-eps-converted-to.pdf Images/smallScaleEnvi
 ronment/1sig_dwarf_I06relations_virDist_NO.eps>
-(epstopdf)             \includegraphics on input line 481.
+(epstopdf)             \includegraphics on input line 479.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NO-eps-converted-
-to.pdf, id=3669, 562.1pt x 421.575pt>
+to.pdf, id=3710, 562.1pt x 421.575pt>
 File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NO-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
 <use Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NO-eps-conver
 ted-to.pdf>
 Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_v
-irDist_NO-eps-converted-to.pdf used on input line 481.
+irDist_NO-eps-converted-to.pdf used on input line 479.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_NO.eps>
-(epstopdf)                    date: 2017-06-22 13:15:03
-(epstopdf)                    size: 66837 bytes
+(epstopdf)                    date: 2017-07-17 16:21:52
+(epstopdf)                    size: 86598 bytes
 (epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
 6relations_groupRDist_NO-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-10 18:03:07
-(epstopdf)                    size: 65263 bytes
+(epstopdf)                    date: 2017-07-17 16:24:22
+(epstopdf)                    size: 83771 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
 t/1sig_dwarf_I06relations_groupRDist_NO-eps-converted-to.pdf Images/smallScaleE
 nvironment/1sig_dwarf_I06relations_groupRDist_NO.eps>
-(epstopdf)             \includegraphics on input line 482.
+(epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NO-eps-convert
-ed-to.pdf, id=3670, 562.1pt x 421.575pt>
+ed-to.pdf, id=3711, 562.1pt x 421.575pt>
 File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NO-eps-co
 nverted-to.pdf Graphic file (type pdf)
 
 <use Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupRDist_NO-eps-con
 verted-to.pdf>
 Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_g
-roupRDist_NO-eps-converted-to.pdf used on input line 482.
+roupRDist_NO-eps-converted-to.pdf used on input line 480.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+ [115 <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-co
+nverted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_groupAb
+sDist_NO-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06re
+lations_virDist_NO-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_d
+warf_I06relations_groupRDist_NO-eps-converted-to.pdf>] [116]
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist150_ur.eps>
+(epstopdf)                    date: 2017-07-17 16:34:31
+(epstopdf)                    size: 182229 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist150_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 16:38:28
+(epstopdf)                    size: 189481 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_absDist150_ur-eps-converted-to.pdf Images/smallScaleE
+nvironment/1sig_dwarf_I06relations_absDist150_ur.eps>
+(epstopdf)             \includegraphics on input line 582.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist150_ur-eps-convert
+ed-to.pdf, id=3765, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist150_ur-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist150_ur-eps-con
+verted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_a
+bsDist150_ur-eps-converted-to.pdf used on input line 582.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist600_ur.eps>
+(epstopdf)                    date: 2017-07-17 16:35:25
+(epstopdf)                    size: 191063 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_absDist600_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 16:38:28
+(epstopdf)                    size: 189663 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_absDist600_ur-eps-converted-to.pdf Images/smallScaleE
+nvironment/1sig_dwarf_I06relations_absDist600_ur.eps>
+(epstopdf)             \includegraphics on input line 583.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist600_ur-eps-convert
+ed-to.pdf, id=3766, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist600_ur-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist600_ur-eps-con
+verted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_a
+bsDist600_ur-eps-converted-to.pdf used on input line 583.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist150_ur.eps>
+(epstopdf)                    date: 2017-07-17 16:36:16
+(epstopdf)                    size: 135699 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist150_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 16:38:28
+(epstopdf)                    size: 129562 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_virDist150_ur-eps-converted-to.pdf Images/smallScaleE
+nvironment/1sig_dwarf_I06relations_virDist150_ur.eps>
+(epstopdf)             \includegraphics on input line 584.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist150_ur-eps-convert
+ed-to.pdf, id=3767, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist150_ur-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist150_ur-eps-con
+verted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_v
+irDist150_ur-eps-converted-to.pdf used on input line 584.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist600_ur.eps>
+(epstopdf)                    date: 2017-07-17 16:36:53
+(epstopdf)                    size: 154484 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_virDist600_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 16:38:28
+(epstopdf)                    size: 148044 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_virDist600_ur-eps-converted-to.pdf Images/smallScaleE
+nvironment/1sig_dwarf_I06relations_virDist600_ur.eps>
+(epstopdf)             \includegraphics on input line 585.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist600_ur-eps-convert
+ed-to.pdf, id=3768, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist600_ur-eps-co
+nverted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist600_ur-eps-con
+verted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_v
+irDist600_ur-eps-converted-to.pdf used on input line 585.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+ [117 <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist150_ur-eps
+-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_absD
+ist600_ur-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06r
+elations_virDist150_ur-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1s
+ig_dwarf_I06relations_virDist600_ur-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/dwarf_absDist
+_ur.eps>
+(epstopdf)                    date: 2017-07-17 16:44:11
+(epstopdf)                    size: 532804 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/dwarf_absDist
+_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 16:55:55
+(epstopdf)                    size: 349877 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/dwarf_absDist_ur-eps-converted-to.pdf Images/smallScaleEnvironment/dwarf_absD
+ist_ur.eps>
+(epstopdf)             \includegraphics on input line 617.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/dwarf_absDist_ur-eps-converted-to.pdf, id=3818, 5
+62.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/dwarf_absDist_ur-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use Images/smallScaleEnvironment/dwarf_absDist_ur-eps-converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_absDist_ur-eps-conv
+erted-to.pdf used on input line 617.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/dwarf_groupAb
+sDist_ur.eps>
+(epstopdf)                    date: 2017-07-17 16:50:28
+(epstopdf)                    size: 243979 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/dwarf_groupAb
+sDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 16:55:56
+(epstopdf)                    size: 295225 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/dwarf_groupAbsDist_ur-eps-converted-to.pdf Images/smallScaleEnvironment/dwarf
+_groupAbsDist_ur.eps>
+(epstopdf)             \includegraphics on input line 618.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/dwarf_groupAbsDist_ur-eps-converted-to.pdf, id=38
+19, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/dwarf_groupAbsDist_ur-eps-converted-to.pdf G
+raphic file (type pdf)
+
+<use Images/smallScaleEnvironment/dwarf_groupAbsDist_ur-eps-converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_groupAbsDist_ur-eps
+-converted-to.pdf used on input line 618.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/dwarf_virDist
+_ur.eps>
+(epstopdf)                    date: 2017-07-17 16:48:10
+(epstopdf)                    size: 520138 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/dwarf_virDist
+_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 16:55:56
+(epstopdf)                    size: 410559 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/dwarf_virDist_ur-eps-converted-to.pdf Images/smallScaleEnvironment/dwarf_virD
+ist_ur.eps>
+(epstopdf)             \includegraphics on input line 619.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/dwarf_virDist_ur-eps-converted-to.pdf, id=3820, 5
+62.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/dwarf_virDist_ur-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use Images/smallScaleEnvironment/dwarf_virDist_ur-eps-converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_virDist_ur-eps-conv
+erted-to.pdf used on input line 619.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/dwarf_groupRD
+ist_ur.eps>
+(epstopdf)                    date: 2017-07-17 16:52:09
+(epstopdf)                    size: 134287 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/dwarf_groupRD
+ist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 16:55:56
+(epstopdf)                    size: 128500 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/dwarf_groupRDist_ur-eps-converted-to.pdf Images/smallScaleEnvironment/dwarf_g
+roupRDist_ur.eps>
+(epstopdf)             \includegraphics on input line 620.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/smallScaleEnvironment/dwarf_groupRDist_ur-eps-converted-to.pdf, id=3821
+, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/dwarf_groupRDist_ur-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use Images/smallScaleEnvironment/dwarf_groupRDist_ur-eps-converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_groupRDist_ur-eps-c
+onverted-to.pdf used on input line 620.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 
-Overfull \hbox (17.71364pt too wide) in paragraph at lines 522--565
- [][] 
- []
+[118 <./Images/smallScaleEnvironment/dwarf_absDist_ur-eps-converted-to.pdf> <./
+Images/smallScaleEnvironment/dwarf_groupAbsDist_ur-eps-converted-to.pdf> <./Ima
+ges/smallScaleEnvironment/dwarf_virDist_ur-eps-converted-to.pdf> <./Images/smal
+lScaleEnvironment/dwarf_groupRDist_ur-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_rabsmag_abs_hist.eps>
+(epstopdf)                    date: 2017-07-17 18:49:05
+(epstopdf)                    size: 50643 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_rabsmag_abs_hist-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 19:43:05
+(epstopdf)                    size: 44729 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_rabsmag_abs_hist-eps-converted-to.pdf Images/smallSca
+leEnvironment/1sig_dwarf_I06relations_rabsmag_abs_hist.eps>
+(epstopdf)             \includegraphics on input line 669.
+Package epstopdf Info: Output file is already uptodate.
 
-[114] [115 <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_absDist_NH-e
-ps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_gr
-oupAbsDist_NH-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_
-I06relations_virDist_NH-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1
-sig_dwarf_I06relations_groupRDist_NH-eps-converted-to.pdf>] [116 <./Images/smal
-lScaleEnvironment/1sig_dwarf_I06relations_absDist_NO-eps-converted-to.pdf> <./I
-mages/smallScaleEnvironment/1sig_dwarf_I06relations_groupAbsDist_NO-eps-convert
-ed-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_virDist_NO-e
-ps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_gr
-oupRDist_NO-eps-converted-to.pdf>] [117]
-<Images/smallScaleEnvironment/dwarf_ur_150.png, id=3770, 433.62pt x 867.24pt>
-File: Images/smallScaleEnvironment/dwarf_ur_150.png Graphic file (type png)
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_rabsmag_abs_hist-eps-conv
+erted-to.pdf, id=3876, 472.76625pt x 370.38374pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_rabsmag_abs_hist-eps
+-converted-to.pdf Graphic file (type pdf)
 
-<use Images/smallScaleEnvironment/dwarf_ur_150.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_150.png used on 
-input line 584.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_rabsmag_abs_hist-eps-
+converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_r
+absmag_abs_hist-eps-converted-to.pdf used on input line 669.
+(pdftex.def)             Requested size: 212.47618pt x 166.46202pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_Drabsmag_abs_hist.eps>
+(epstopdf)                    date: 2017-07-17 19:25:28
+(epstopdf)                    size: 56333 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_Drabsmag_abs_hist-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 19:43:05
+(epstopdf)                    size: 50986 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_Drabsmag_abs_hist-eps-converted-to.pdf Images/smallSc
+aleEnvironment/1sig_dwarf_I06relations_Drabsmag_abs_hist.eps>
+(epstopdf)             \includegraphics on input line 670.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/smallScaleEnvironment/dwarf_ur_600.png, id=3771, 433.62pt x 867.24pt>
-File: Images/smallScaleEnvironment/dwarf_ur_600.png Graphic file (type png)
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_Drabsmag_abs_hist-eps-con
+verted-to.pdf, id=3877, 472.76625pt x 370.38374pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_Drabsmag_abs_hist-ep
+s-converted-to.pdf Graphic file (type pdf)
 
-<use Images/smallScaleEnvironment/dwarf_ur_600.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_600.png used on 
-input line 585.
-(pdftex.def)             Requested size: 212.47618pt x 424.95132pt.
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_Drabsmag_abs_hist-eps
+-converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_D
+rabsmag_abs_hist-eps-converted-to.pdf used on input line 670.
+(pdftex.def)             Requested size: 212.47618pt x 166.46202pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_rabsmag_vir_hist.eps>
+(epstopdf)                    date: 2017-07-17 19:06:36
+(epstopdf)                    size: 50016 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_rabsmag_vir_hist-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 19:43:05
+(epstopdf)                    size: 45858 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_rabsmag_vir_hist-eps-converted-to.pdf Images/smallSca
+leEnvironment/1sig_dwarf_I06relations_rabsmag_vir_hist.eps>
+(epstopdf)             \includegraphics on input line 671.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/smallScaleEnvironment/ALLdwarf_ur_300.png, id=3780, 433.62pt x 867.24pt
->
-File: Images/smallScaleEnvironment/ALLdwarf_ur_300.png Graphic file (type png)
- <use Images/smallScaleEnvironment/ALLdwarf_ur_300.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/ALLdwarf_ur_300.png used 
-on input line 615.
-(pdftex.def)             Requested size: 216.81001pt x 433.61894pt.
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_rabsmag_vir_hist-eps-conv
+erted-to.pdf, id=3878, 472.76625pt x 370.38374pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_rabsmag_vir_hist-eps
+-converted-to.pdf Graphic file (type pdf)
 
-<Images/smallScaleEnvironment/Mr_distribution.png, id=3787, 867.24pt x 867.24pt
->
-File: Images/smallScaleEnvironment/Mr_distribution.png Graphic file (type png)
- <use Images/smallScaleEnvironment/Mr_distribution.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/Mr_distribution.png used 
-on input line 641.
-(pdftex.def)             Requested size: 433.62003pt x 433.61894pt.
- [118] [119 <./Images/smallScaleEnvironment/dwarf_ur_150.png> <./Images/smallSc
-aleEnvironment/dwarf_ur_600.png>] [120 <./Images/smallScaleEnvironment/ALLdwarf
-_ur_300.png>] [121 <./Images/smallScaleEnvironment/Mr_distribution.png>]
-<Images/smallScaleEnvironment/dwarf_ur_xyz.png, id=3813, 433.62pt x 867.24pt>
-File: Images/smallScaleEnvironment/dwarf_ur_xyz.png Graphic file (type png)
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_rabsmag_vir_hist-eps-
+converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_r
+absmag_vir_hist-eps-converted-to.pdf used on input line 671.
+(pdftex.def)             Requested size: 212.47618pt x 166.46202pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_Drabsmag_vir_hist.eps>
+(epstopdf)                    date: 2017-07-17 20:01:02
+(epstopdf)                    size: 59172 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_Drabsmag_vir_hist-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 20:01:22
+(epstopdf)                    size: 55054 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_Drabsmag_vir_hist-eps-converted-to.pdf Images/smallSc
+aleEnvironment/1sig_dwarf_I06relations_Drabsmag_vir_hist.eps>
+(epstopdf)             \includegraphics on input line 672.
+Package epstopdf Info: Output file is already uptodate.
 
-<use Images/smallScaleEnvironment/dwarf_ur_xyz.png>
-Package pdftex.def Info: Images/smallScaleEnvironment/dwarf_ur_xyz.png used on 
-input line 678.
-(pdftex.def)             Requested size: 216.81001pt x 433.61894pt.
- [122] [123 <./Images/smallScaleEnvironment/dwarf_ur_xyz.png>] [124] [125]) [12
-6]
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_Drabsmag_vir_hist-eps-con
+verted-to.pdf, id=3879, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_Drabsmag_vir_hist-ep
+s-converted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_Drabsmag_vir_hist-eps
+-converted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_D
+rabsmag_vir_hist-eps-converted-to.pdf used on input line 672.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+ [119] [120 <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_rabsmag_abs
+_hist-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relat
+ions_Drabsmag_abs_hist-eps-converted-to.pdf> <./Images/smallScaleEnvironment/1s
+ig_dwarf_I06relations_rabsmag_vir_hist-eps-converted-to.pdf> <./Images/smallSca
+leEnvironment/1sig_dwarf_I06relations_Drabsmag_vir_hist-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_zAbsDist_ur.eps>
+(epstopdf)                    date: 2017-07-17 20:05:14
+(epstopdf)                    size: 176770 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_zAbsDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-11 15:48:16
+(epstopdf)                    size: 137050 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_zAbsDist_ur-eps-converted-to.pdf Images/smallScaleEnv
+ironment/1sig_dwarf_I06relations_zAbsDist_ur.eps>
+(epstopdf)             \includegraphics on input line 710.
+runsystem(epstopdf --outfile=Images/smallScaleEnvironment/1sig_dwarf_I06relatio
+ns_zAbsDist_ur-eps-converted-to.pdf Images/smallScaleEnvironment/1sig_dwarf_I06
+relations_zAbsDist_ur.eps)...executed.
+
+Package epstopdf Info: Result file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_zAbsDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 20:08:28
+(epstopdf)                    size: 169409 bytes.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_zAbsDist_ur-eps-converted
+-to.pdf, id=3924, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_zAbsDist_ur-eps-conv
+erted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_zAbsDist_ur-eps-conve
+rted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_z
+AbsDist_ur-eps-converted-to.pdf used on input line 710.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+Package epstopdf Info: Source file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_zVirDist_ur.eps>
+(epstopdf)                    date: 2017-07-17 20:07:12
+(epstopdf)                    size: 120004 bytes
+(epstopdf)             Output file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_zVirDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-11 15:48:16
+(epstopdf)                    size: 86941 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/smallScaleEnvironmen
+t/1sig_dwarf_I06relations_zVirDist_ur-eps-converted-to.pdf Images/smallScaleEnv
+ironment/1sig_dwarf_I06relations_zVirDist_ur.eps>
+(epstopdf)             \includegraphics on input line 711.
+runsystem(epstopdf --outfile=Images/smallScaleEnvironment/1sig_dwarf_I06relatio
+ns_zVirDist_ur-eps-converted-to.pdf Images/smallScaleEnvironment/1sig_dwarf_I06
+relations_zVirDist_ur.eps)...executed.
+
+Package epstopdf Info: Result file: <Images/smallScaleEnvironment/1sig_dwarf_I0
+6relations_zVirDist_ur-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-17 20:08:28
+(epstopdf)                    size: 114629 bytes.
+
+<Images/smallScaleEnvironment/1sig_dwarf_I06relations_zVirDist_ur-eps-converted
+-to.pdf, id=3925, 562.1pt x 421.575pt>
+File: Images/smallScaleEnvironment/1sig_dwarf_I06relations_zVirDist_ur-eps-conv
+erted-to.pdf Graphic file (type pdf)
+
+<use Images/smallScaleEnvironment/1sig_dwarf_I06relations_zVirDist_ur-eps-conve
+rted-to.pdf>
+Package pdftex.def Info: Images/smallScaleEnvironment/1sig_dwarf_I06relations_z
+VirDist_ur-eps-converted-to.pdf used on input line 711.
+(pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
+ [121 <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_zAbsDist_ur-eps-c
+onverted-to.pdf> <./Images/smallScaleEnvironment/1sig_dwarf_I06relations_zVirDi
+st_ur-eps-converted-to.pdf>] [122] [123]) [124]
 \openout2 = `Thesis_sections/GV.aux'.
 
- (./Thesis_sections/GV.tex
+
+(./Thesis_sections/GV.tex
 Chapter 5. Green Valley Galaxies
 Package epstopdf Info: Source file: <Images/GV/ur_CMD_contour.eps>
 (epstopdf)                    date: 2016-11-01 15:40:59
@@ -3122,7 +3439,7 @@ pdf>
 s-converted-to.pdf Images/GV/ur_CMD_contour.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<Images/GV/ur_CMD_contour-eps-converted-to.pdf, id=3878, 578.16pt x 433.62pt>
+<Images/GV/ur_CMD_contour-eps-converted-to.pdf, id=4003, 578.16pt x 433.62pt>
 File: Images/GV/ur_CMD_contour-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/ur_CMD_contour-eps-converted-to.pdf>
@@ -3140,7 +3457,7 @@ rted-to.pdf Images/GV/ur_hist.eps>
 (epstopdf)             \includegraphics on input line 20.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/ur_hist-eps-converted-to.pdf, id=3879, 492.84125pt x 376.40625pt>
+<Images/GV/ur_hist-eps-converted-to.pdf, id=4004, 492.84125pt x 376.40625pt>
 File: Images/GV/ur_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/ur_hist-eps-converted-to.pdf>
@@ -3152,12 +3469,12 @@ ine 20.
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 66.
 
-[127
+[125
 
 
 
-] [128 <./Images/GV/ur_CMD_contour-eps-converted-to.pdf> <./Images/GV/ur_hist-e
-ps-converted-to.pdf>] [129]
+] [126 <./Images/GV/ur_CMD_contour-eps-converted-to.pdf> <./Images/GV/ur_hist-e
+ps-converted-to.pdf>] [127]
 Package epstopdf Info: Source file: <Images/GV/NUVr_CMD_3pop_scatter.eps>
 (epstopdf)                    date: 2016-11-01 15:17:34
 (epstopdf)                    size: 507361 bytes
@@ -3170,7 +3487,7 @@ tter-eps-converted-to.pdf Images/GV/NUVr_CMD_3pop_scatter.eps>
 (epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf, id=3966, 578.16pt x 433.
+<Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf, id=4090, 578.16pt x 433.
 62pt>
 File: Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3190,7 +3507,7 @@ ations-eps-converted-to.pdf Images/GV/NUVr_CMDclassifications.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf, id=3969, 562.1pt x 421
+<Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf, id=4093, 562.1pt x 421
 .575pt>
 File: Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -3198,8 +3515,8 @@ File: Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: Images/GV/NUVr_CMDclassifications-eps-converted-to.pdf
  used on input line 187.
 (pdftex.def)             Requested size: 325.21501pt x 243.90898pt.
- [130]
-[131 <./Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf> <./Images/GV/NUVr
+ [128]
+[129 <./Images/GV/NUVr_CMD_3pop_scatter-eps-converted-to.pdf> <./Images/GV/NUVr
 _CMDclassifications-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/GV/Mstar_hist.eps>
 (epstopdf)                    date: 2017-06-05 12:48:12
@@ -3213,14 +3530,14 @@ nverted-to.pdf Images/GV/Mstar_hist.eps>
 (epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/Mstar_hist-eps-converted-to.pdf, id=4032, 562.1pt x 421.575pt>
+<Images/GV/Mstar_hist-eps-converted-to.pdf, id=4157, 562.1pt x 421.575pt>
 File: Images/GV/Mstar_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/Mstar_hist-eps-converted-to.pdf>
 Package pdftex.def Info: Images/GV/Mstar_hist-eps-converted-to.pdf used on inpu
 t line 231.
 (pdftex.def)             Requested size: 325.21501pt x 243.90898pt.
- [132]
+ [130]
 Package epstopdf Info: Source file: <Images/GV/SFR_hist.eps>
 (epstopdf)                    date: 2017-06-05 14:13:50
 (epstopdf)                    size: 86440 bytes
@@ -3232,7 +3549,7 @@ erted-to.pdf Images/GV/SFR_hist.eps>
 (epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/SFR_hist-eps-converted-to.pdf, id=4042, 562.1pt x 421.575pt>
+<Images/GV/SFR_hist-eps-converted-to.pdf, id=4167, 562.1pt x 421.575pt>
 File: Images/GV/SFR_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/SFR_hist-eps-converted-to.pdf>
@@ -3250,14 +3567,14 @@ verted-to.pdf Images/GV/sSFR_hist.eps>
 (epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/sSFR_hist-eps-converted-to.pdf, id=4043, 562.1pt x 421.575pt>
+<Images/GV/sSFR_hist-eps-converted-to.pdf, id=4168, 562.1pt x 421.575pt>
 File: Images/GV/sSFR_hist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/sSFR_hist-eps-converted-to.pdf>
 Package pdftex.def Info: Images/GV/sSFR_hist-eps-converted-to.pdf used on input
  line 265.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
- [133 <./Images/GV/Mstar_hist-eps-converted-to.pdf>]
+ [131 <./Images/GV/Mstar_hist-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/GV/Z12logOH_I06relations_t3.eps>
 (epstopdf)                    date: 2017-06-05 14:16:49
 (epstopdf)                    size: 14818 bytes
@@ -3270,7 +3587,7 @@ ions_t3-eps-converted-to.pdf Images/GV/Z12logOH_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf, id=4063, 562.1pt x 42
+<Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf, id=4188, 562.1pt x 42
 1.575pt>
 File: Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3290,7 +3607,7 @@ ions_t3-eps-converted-to.pdf Images/GV/N12logNH_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf, id=4064, 562.1pt x 42
+<Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf, id=4189, 562.1pt x 42
 1.575pt>
 File: Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3310,7 +3627,7 @@ s_t3-eps-converted-to.pdf Images/GV/logNO_I06relations_t3.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/logNO_I06relations_t3-eps-converted-to.pdf, id=4065, 562.1pt x 421.5
+<Images/GV/logNO_I06relations_t3-eps-converted-to.pdf, id=4190, 562.1pt x 421.5
 75pt>
 File: Images/GV/logNO_I06relations_t3-eps-converted-to.pdf Graphic file (type p
 df)
@@ -3330,7 +3647,7 @@ converted-to.pdf Images/GV/voidFrac_CMD.eps>
 (epstopdf)             \includegraphics on input line 329.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/voidFrac_CMD-eps-converted-to.pdf, id=4068, 562.1pt x 421.575pt>
+<Images/GV/voidFrac_CMD-eps-converted-to.pdf, id=4193, 562.1pt x 421.575pt>
 File: Images/GV/voidFrac_CMD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/voidFrac_CMD-eps-converted-to.pdf>
@@ -3349,18 +3666,18 @@ converted-to.pdf Images/GV/wallFrac_CMD.eps>
 (epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/wallFrac_CMD-eps-converted-to.pdf, id=4069, 562.1pt x 421.575pt>
+<Images/GV/wallFrac_CMD-eps-converted-to.pdf, id=4194, 562.1pt x 421.575pt>
 File: Images/GV/wallFrac_CMD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/GV/wallFrac_CMD-eps-converted-to.pdf>
 Package pdftex.def Info: Images/GV/wallFrac_CMD-eps-converted-to.pdf used on in
 put line 330.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
- [134 <./Images/GV/SFR_hist-eps-converted-to.pdf> <./Images/GV/sSFR_hist-eps-co
-nverted-to.pdf>] [135 <./Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pd
+ [132 <./Images/GV/SFR_hist-eps-converted-to.pdf> <./Images/GV/sSFR_hist-eps-co
+nverted-to.pdf>] [133 <./Images/GV/Z12logOH_I06relations_t3-eps-converted-to.pd
 f> <./Images/GV/N12logNH_I06relations_t3-eps-converted-to.pdf> <./Images/GV/log
 NO_I06relations_t3-eps-converted-to.pdf> <./Images/GV/voidFrac_CMD-eps-converte
-d-to.pdf> <./Images/GV/wallFrac_CMD-eps-converted-to.pdf>] [136]
+d-to.pdf> <./Images/GV/wallFrac_CMD-eps-converted-to.pdf>] [134]
 Package epstopdf Info: Source file: <Images/GV/1sig_all_BPT_t3_12logOHrelations
 _dust_hist.eps>
 (epstopdf)                    date: 2017-06-06 13:56:35
@@ -3376,7 +3693,7 @@ Hrelations_dust_hist.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/GV/1sig_all_BPT_t3_12logOHrelations_dust_hist-eps-converted-to.pdf, id=
-4148, 562.1pt x 421.575pt>
+4272, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_12logOHrelations_dust_hist-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -3399,7 +3716,7 @@ Hrelations_dust_hist.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/GV/1sig_all_BPT_t3_12logNHrelations_dust_hist-eps-converted-to.pdf, id=
-4149, 562.1pt x 421.575pt>
+4273, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_12logNHrelations_dust_hist-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -3421,8 +3738,8 @@ ations_dust_hist.eps>
 (epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to.pdf, id=41
-50, 562.1pt x 421.575pt>
+<Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to.pdf, id=42
+74, 562.1pt x 421.575pt>
 File: Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -3431,10 +3748,10 @@ Package pdftex.def Info: Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps
 -converted-to.pdf used on input line 423.
 (pdftex.def)             Requested size: 212.47618pt x 159.35747pt.
 
-[137] [138 <./Images/GV/1sig_all_BPT_t3_12logOHrelations_dust_hist-eps-converte
+[135] [136 <./Images/GV/1sig_all_BPT_t3_12logOHrelations_dust_hist-eps-converte
 d-to.pdf> <./Images/GV/1sig_all_BPT_t3_12logNHrelations_dust_hist-eps-converted
 -to.pdf> <./Images/GV/1sig_all_BPT_t3_logNOrelations_dust_hist-eps-converted-to
-.pdf>] [139]) [140]
+.pdf>] [137]) [138]
 \openout2 = `Thesis_sections/Conclusion.aux'.
 
  (./Thesis_sections/Conclusion.tex
@@ -3443,11 +3760,11 @@ Chapter 6. Conclusion
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 46.
 
-[141
+[139
 
 
 
-] [142] [143] [144] [145]) [146]
+] [140] [141] [142] [143]) [144]
 \openout2 = `Acknowledgments.aux'.
 
  (./Acknowledgments.tex
@@ -3458,7 +3775,7 @@ Chapter Funding Acknowledgments
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 76.
 
-[147
+[145
 
 
 
@@ -3468,11 +3785,11 @@ Chapter Bibliography
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 165.
 
-[148
+[146
 
 
 
-] [149] [150] [151] [152]) [153]
+] [147] [148] [149] [150]) [151]
 \openout2 = `DirectMethodPhysics.aux'.
 
  (./DirectMethodPhysics.tex
@@ -3481,10 +3798,10 @@ Appendix . Direct Method Physics
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 47.
 
-[154
+[152
 
 
-] [155] [156]
+] [153] [154]
 Package epstopdf Info: Source file: <Images/Appendix/[OIII].eps>
 (epstopdf)                    date: 2017-06-13 18:38:05
 (epstopdf)                    size: 41891 bytes
@@ -3497,14 +3814,14 @@ converted-to.pdf Images/Appendix/[OIII].eps>
 (epstopdf)             \includegraphics on input line 252.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Appendix/[OIII]-eps-converted-to.pdf, id=4334, 578.16pt x 433.62pt>
+<Images/Appendix/[OIII]-eps-converted-to.pdf, id=4459, 578.16pt x 433.62pt>
 File: Images/Appendix/[OIII]-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/Appendix/[OIII]-eps-converted-to.pdf>
 Package pdftex.def Info: Images/Appendix/[OIII]-eps-converted-to.pdf used on in
 put line 252.
 (pdftex.def)             Requested size: 325.21501pt x 243.91064pt.
- [157 <./Images/Appendix/[OIII]-eps-converted-to.pdf>]
+ [155 <./Images/Appendix/[OIII]-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/Appendix/[SII].eps>
 (epstopdf)                    date: 2017-06-13 18:38:56
 (epstopdf)                    size: 51822 bytes
@@ -3517,14 +3834,14 @@ onverted-to.pdf Images/Appendix/[SII].eps>
 (epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/Appendix/[SII]-eps-converted-to.pdf, id=4383, 578.16pt x 433.62pt>
+<Images/Appendix/[SII]-eps-converted-to.pdf, id=4508, 578.16pt x 433.62pt>
 File: Images/Appendix/[SII]-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/Appendix/[SII]-eps-converted-to.pdf>
 Package pdftex.def Info: Images/Appendix/[SII]-eps-converted-to.pdf used on inp
 ut line 284.
 (pdftex.def)             Requested size: 325.21501pt x 243.91064pt.
-) [158 <./Images/Appendix/[SII]-eps-converted-to.pdf>]
+) [156 <./Images/Appendix/[SII]-eps-converted-to.pdf>]
 \openout2 = `Simulations.aux'.
 
  (./Simulations.tex
@@ -3533,11 +3850,11 @@ Appendix A. Simulations
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 52.
 
-[159
+[157
 
 
 
-]) [160] [161]
+]) [158] [159]
 \openout2 = `CV.aux'.
 
  (./CV.tex
@@ -3547,11 +3864,11 @@ Appendix Vita
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 86.
 
-[162
+[160
 
 
 
-] [163
+] [161
 
 
 ]
@@ -3571,10 +3888,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  )
 (\end occurred when \iffalse on line 1068 was incomplete) 
 Here is how much of TeX's memory you used:
- 13041 strings out of 492995
- 221287 string characters out of 6132704
+ 13084 strings out of 492995
+ 225548 string characters out of 6132704
  347902 words of memory out of 5000000
- 15574 multiletter control sequences out of 15000+600000
+ 15610 multiletter control sequences out of 15000+600000
  14123 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,16n,94p,1357b,754s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3607,10 +3924,10 @@ ts/cm/cmtt8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 onts/symbols/msbm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msbm7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1000.pfb>
-Output written on Thesis.pdf (179 pages, 11703130 bytes).
+Output written on Thesis.pdf (177 pages, 13739065 bytes).
 PDF statistics:
- 4706 PDF objects out of 5155 (max. 8388607)
- 3721 compressed objects within 38 object streams
- 625 named destinations out of 1000 (max. 500000)
- 1546 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4830 PDF objects out of 5155 (max. 8388607)
+ 3748 compressed objects within 38 object streams
+ 623 named destinations out of 1000 (max. 500000)
+ 1591 words of extra memory for PDF output out of 10000 (max. 10000000)
 

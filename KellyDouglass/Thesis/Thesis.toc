@@ -90,42 +90,42 @@
 \contentsline {subsubsection}{sSFR}{111}{section*.66}
 \contentsline {subsubsection}{Metallicity}{111}{section*.68}
 \contentsline {subsubsection}{Nitrogen abundance}{114}{section*.70}
-\contentsline {subsubsection}{N/O ratio}{114}{section*.72}
-\contentsline {subsection}{\numberline {5.4.2}Linear fit parameters}{114}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Selection effects}{118}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Including redshift in the distance}{122}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Environmental influence}{124}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Comparison to previous results}{124}{subsection.5.5.1}
-\contentsline {section}{\numberline {5.6}Conclusions}{125}{section.5.6}
-\contentsline {chapter}{\numberline {6}Green Valley Galaxies}{127}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{127}{section.6.1}
-\contentsline {section}{\numberline {6.2}Color Calculations}{128}{section.6.2}
-\contentsline {section}{\numberline {6.3}SDSS Data}{129}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Optical data --- SDSS}{129}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}UV data --- GALEX}{130}{subsection.6.3.2}
-\contentsline {section}{\numberline {6.4}Classifying the CMD}{130}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Properties of the Green Valley Galaxies}{132}{subsection.6.4.1}
-\contentsline {subsubsection}{Stellar mass}{132}{section*.82}
-\contentsline {subsubsection}{Star formation rates}{133}{section*.84}
-\contentsline {subsubsection}{Gas-phase chemical abundances}{134}{section*.86}
-\contentsline {subsubsection}{Large-scale environment}{136}{section*.88}
-\contentsline {section}{\numberline {6.5}GV galaxy properties}{136}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{137}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{139}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Conclusions}{139}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{141}{chapter.7}
-\contentsline {section}{\numberline {7.1}Chemical abundances}{141}{section.7.1}
-\contentsline {section}{\numberline {7.2}Small-scale environment}{143}{section.7.2}
-\contentsline {section}{\numberline {7.3}GV galaxies}{144}{section.7.3}
-\contentsline {section}{\numberline {7.4}Future work}{145}{section.7.4}
-\contentsline {chapter}{Bibliography}{148}{section*.92}
+\contentsline {subsubsection}{N/O ratio}{115}{section*.72}
+\contentsline {subsection}{\numberline {5.4.2}Linear fit parameters}{116}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Selection effects}{117}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Including redshift in the distance}{121}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Environmental influence}{122}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Comparison to previous results}{123}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Conclusions}{124}{section.5.6}
+\contentsline {chapter}{\numberline {6}Green Valley Galaxies}{125}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{125}{section.6.1}
+\contentsline {section}{\numberline {6.2}Color Calculations}{126}{section.6.2}
+\contentsline {section}{\numberline {6.3}SDSS Data}{127}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Optical data --- SDSS}{127}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}UV data --- GALEX}{128}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Classifying the CMD}{128}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Properties of the Green Valley Galaxies}{130}{subsection.6.4.1}
+\contentsline {subsubsection}{Stellar mass}{130}{section*.82}
+\contentsline {subsubsection}{Star formation rates}{131}{section*.84}
+\contentsline {subsubsection}{Gas-phase chemical abundances}{132}{section*.86}
+\contentsline {subsubsection}{Large-scale environment}{134}{section*.88}
+\contentsline {section}{\numberline {6.5}GV galaxy properties}{134}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{135}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{137}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Conclusions}{137}{section.6.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{139}{chapter.7}
+\contentsline {section}{\numberline {7.1}Chemical abundances}{139}{section.7.1}
+\contentsline {section}{\numberline {7.2}Small-scale environment}{141}{section.7.2}
+\contentsline {section}{\numberline {7.3}GV galaxies}{142}{section.7.3}
+\contentsline {section}{\numberline {7.4}Future work}{143}{section.7.4}
+\contentsline {chapter}{Bibliography}{146}{section*.92}
 \cftsetindents {chapter}{0pt}{6.5em} \renewcommand {\cftchappresnum }{\appendixname \nobreakspace {}} \renewcommand {\cftchapaftersnum }{:}
-\contentsline {chapter}{\numberline {A}Direct Method Physics}{154}{appendix.A}
-\contentsline {section}{\numberline {A.1}Forbidden transitions}{155}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Time-dependent perturbation theory}{155}{subsection.A.1.1}
-\contentsline {section}{\numberline {A.2}Estimating the temperature}{156}{section.A.2}
-\contentsline {section}{\numberline {A.3}[{S} II]}{158}{section.A.3}
-\contentsline {chapter}{\numberline {B}Simulations}{159}{appendix.B}
-\contentsline {section}{\numberline {B.1}Dwarf galaxy formation and evolution}{159}{section.B.1}
-\contentsline {section}{\numberline {B.2}Environmental differences}{160}{section.B.2}
-\contentsline {chapter}{Vita}{162}{section*.95}
+\contentsline {chapter}{\numberline {A}Direct Method Physics}{152}{appendix.A}
+\contentsline {section}{\numberline {A.1}Forbidden transitions}{153}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Time-dependent perturbation theory}{153}{subsection.A.1.1}
+\contentsline {section}{\numberline {A.2}Estimating the temperature}{154}{section.A.2}
+\contentsline {section}{\numberline {A.3}[{S} II]}{156}{section.A.3}
+\contentsline {chapter}{\numberline {B}Simulations}{157}{appendix.B}
+\contentsline {section}{\numberline {B.1}Dwarf galaxy formation and evolution}{157}{section.B.1}
+\contentsline {section}{\numberline {B.2}Environmental differences}{158}{section.B.2}
+\contentsline {chapter}{Vita}{160}{section*.95}
