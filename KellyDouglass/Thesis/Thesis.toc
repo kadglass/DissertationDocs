@@ -101,19 +101,19 @@
 \contentsline {section}{\numberline {6.1}Introduction}{126}{section.6.1}
 \contentsline {section}{\numberline {6.2}Color Calculations}{127}{section.6.2}
 \contentsline {section}{\numberline {6.3}SDSS Data}{128}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Optical data --- SDSS}{128}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}UV data --- GALEX}{129}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.1}Optical data: SDSS}{128}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}UV data: GALEX}{129}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Classifying the CMD}{129}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Properties of the Green Valley Galaxies}{131}{subsection.6.4.1}
 \contentsline {subsubsection}{Stellar mass}{131}{section*.82}
 \contentsline {subsubsection}{Star formation rates}{132}{section*.84}
 \contentsline {subsubsection}{Gas-phase chemical abundances}{133}{section*.86}
 \contentsline {subsubsection}{Large-scale environment}{135}{section*.88}
-\contentsline {section}{\numberline {6.5}GV galaxy properties}{135}{section.6.5}
+\contentsline {section}{\numberline {6.5}Understanding GV galaxies}{135}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Gas content indicators}{136}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Evidence of AGN feedback}{138}{subsection.6.5.2}
 \contentsline {section}{\numberline {6.6}Conclusions}{138}{section.6.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{140}{chapter.7}
+\contentsline {chapter}{\numberline {7}Conclusions}{140}{chapter.7}
 \contentsline {section}{\numberline {7.1}Chemical abundances}{140}{section.7.1}
 \contentsline {section}{\numberline {7.2}Small-scale environment}{142}{section.7.2}
 \contentsline {section}{\numberline {7.3}GV galaxies}{143}{section.7.3}
